@@ -1,0 +1,6 @@
+/* transparent background */
+.workspace-leaf-content,
+.theme-dark {
+    background: rgba(0, 0, 0, 0.3) !important; /* or 0.1 for ultra glass */
+    backdrop-filter: blur(8px); /* Optional blur */
+}
