@@ -2,8 +2,11 @@
 
 **Quarternion**: $a + b.\hat{i} + c.\hat{j} + d.\hat{k}$ 
 where
-- $a$ is the real part
-- $b.\hat{i} + c.\hat{j} + d.\hat{k}$ is the imaginary / vector part
+- $a$ is the real component
+- $b.\hat{i} + c.\hat{j} + d.\hat{k}$ is the imaginary / vector component
+
+If you want to know the main practical usage of quarternion as rotation, you can go to this [[Quarternions in Rotation]] page.
+
 
 ## Main Properties 
 Let $\vec{p}$, $\vec{q}$ and $\vec{s}$ be quarternions.
@@ -268,6 +271,8 @@ $$
 $$
 where $\vec{q}$ is a unit quarternion and $\vec{v}$ is a 3D vector
 
+Note that this formula itself is derived from Clifford (geometric) algebra where $\vec{v}\to-\vec{n}.\vec{v}.\vec{n}$ implements reflection through a hyperplane orthogonal to $\vec{n}$.
+
 ### Prove that $\vec{q}.\vec{v}.\vec{q^c}$ is vector quarternion
 Let $\vec{u} = (\vec{q}.\vec{v}.\vec{q^c})$.
 Then, using[[#^conjugate-over-multiplication-of-quarternions | (1): Conjugate over multiplication of quarternions]] 
@@ -345,6 +350,111 @@ Using
 - [[#Dot Product Preservation]]
 - [[#Cross Product Preservation]]
 we can conclude that $\vec{v} \to p.\vec{v}.p^c$ is a rotation.
+
+## Constructing Specific Rotation
+Note that vector component of the quarternion must be parallel to the rotation axis.
+
+As an example, consider a rotation about z-axis.
+Hence,
+$$
+\vec{p} = a + b.\hat{k}
+$$
+Note that since our quarternion is a unit quarternion,
+$$
+|\vec{p}|^2 = a^2 + b^2 = 1
+$$
+Let's analyze what happens to the x-axis ($\hat{i}$) when processed by our quarternion.
+Using [[#Multiplication Table of Quarternions]],
+$$
+\begin{aligned}
+\vec{p}.\hat{i}.\vec{p^c} 
+&= (a + b.\hat{k}).\hat{i}.(a - b.\hat{k}) \\[2ex]
+&= (a.\hat{i} + b.\hat{k}.\hat{i})(a-b.\hat{k}) \\[2ex]
+&= (a.\hat{i} + b.\hat{j})(a - b.\hat{k}) \\[2ex]
+&= a^2.\hat{i} - a.b.\hat{i}.\hat{k} + a.b.\hat{j} 
+- b^2.\hat{j}.\hat{k} \\[2ex]
+&= a^2.\hat{i} + a.b.\hat{j} + a.b.\hat{j} 
+- b^2.\hat{j}.\hat{k} \\[2ex]
+&= (a^2 - b^2).\hat{i} +2. a.b.\hat{j} \\[2ex]
+\end{aligned}
+$$
+
+Note that the 2D rotation on z-axis plane is
+$$
+\cos(\theta).\hat{i} + \sin(\theta).\hat{j}
+$$
+Hence, we can derive that
+$$
+\begin{aligned}
+a^2 - b^2 &= \cos(\theta) \\
+2.a.b &= \sin(\theta)
+\end{aligned}
+$$
+Using [Double Angle Formula](https://en.wikipedia.org/wiki/List_of_trigonometric_identities#Double-angle_formulae), 
+$$
+\begin{aligned}
+&a^2 - b^2 = \cos(\theta) \\[2ex]
+\implies &a^2 - b^2 =  \cos\left( \frac{\theta}{2} \right)^2 -
+\sin\left( \frac{\theta}{2} \right)^2
+\end{aligned}
+$$
+and
+$$
+\begin{aligned}
+&2.a.b = \sin(\theta) \\[2ex]
+
+\implies &2.a.b = 2.\sin\left( \frac{\theta}{2} \right).
+\cos\left( \frac{\theta}{2} \right) \\[2ex]
+
+
+\implies &a.b = \cos\left( \frac{\theta}{2} \right).
+\sin\left( \frac{\theta}{2} \right)
+
+\end{aligned}
+$$
+
+Hence,
+$$
+\begin{aligned}
+a = \cos\left( \frac{\theta}{2} \right) \\[2ex]
+b = \sin\left( \frac{\theta}{2} \right)
+\end{aligned}
+$$
+
+Therefore, our quarternion is
+$$
+\vec{q} = \cos\left( \frac{\theta}{2} \right) + 
+\sin\left( \frac{\theta}{2} \right).\hat{k}
+$$
+
+Now to generalize that formula, notice that we would get same values and formula for all $\hat{i}$, $\hat{j}$, $\hat{k}$, or any arbitrary linear combination of them.
+This is due to the symmetric nature of [[#Multiplication Table of Quarternions]].
+
+Thus, we can simply conclude that our quarternion rotation formula is simply
+$$
+\vec{p} = \cos\left( \frac{\theta}{2} \right) + 
+\sin\left( \frac{\theta}{2} \right).\vec{n}
+$$
+where 
+- $\vec{n}$ is the axis of rotation, and 
+- $\theta$ is the angle of rotation about that axis.
+
+## Quarternion Rotation Formula
+The rotation formula to rotate any vector in 3D space using quarternion is
+$$
+\vec{q}.\vec{v}.\vec{q^c}
+$$
+where 
+- $\vec{v}$ is the 3D vector to be rotated
+- $\vec{q}$ is the rotation quarternion as determined using the formula below
+
+$$
+\vec{q} = \cos\left( \frac{\theta}{2} \right) + 
+\sin\left( \frac{\theta}{2} \right).\vec{n}
+$$
+where 
+- $\vec{n}$ is the axis of rotation, and 
+- $\theta$ is the angle of rotation about that axis.
 
 
 ## Read Also
