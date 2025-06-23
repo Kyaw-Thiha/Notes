@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "766409aaf6935f26",
+            "id": "720cdc30265aa978",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision/Chapter-2/Chapter-2.1.3/Exponential Twist.md",
+                "file": "Computer Vision/Chapter-2/Chapter-2.1.3/Quarternions Math.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exponential Twist"
+              "title": "Quarternions Math"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Vision/Chapter-2/Chapter-2.1.1/2. 2D-Rotation.md",
+                "file": "Computer Vision/Chapter-2/Chapter-2.1.3/Axis-Angle Representation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2. 2D-Rotation"
+              "title": "Backlinks for Axis-Angle Representation"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Vision/Chapter-2/Chapter-2.1.1/2. 2D-Rotation.md",
+                "file": "Computer Vision/Chapter-2/Chapter-2.1.3/Axis-Angle Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2. 2D-Rotation"
+              "title": "Outgoing links from Axis-Angle Representation"
             }
           },
           {
@@ -168,13 +168,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "766409aaf6935f26",
+  "active": "720cdc30265aa978",
   "lastOpenFiles": [
-    "Computer Vision/Chapter-2/Chapter-2.1.3/Tait-Bryan Rotation.md",
-    "Computer Vision/Chapter-2/Chapter-2.1.3/Davenport Rotation.md",
-    "Computer Vision/Chapter-2/Chapter-2.1.3/Euler Rotation.md",
-    "Computer Vision/Chapter-2/Chapter-2.1.3/Exponential Twist.md",
+    "Computer Vision/Chapter-2/Chapter-2.1.3/Quarternions in Rotation.md",
+    "Computer Vision/Chapter-2/Chapter-2.1.3/Quarternions Math.md",
+    "Tech Stuffs/Latex Shortcuts.md",
+    "Computer Vision/Chapter-2/Chapter-2.1.3/Axis-Angle Representation.md",
     "Computer Vision/Chapter-2/Chapter-2.1.3/Gimbal Lock.md",
+    "Computer Vision/Chapter-2/Chapter-2.1.3/Tait-Bryan Rotation.md",
+    "Computer Vision/Chapter-2/Chapter-2.1.3/Euler Rotation.md",
+    "Computer Vision/Chapter-2/Chapter-2.1.3/Davenport Rotation.md",
     "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/Precession.gif",
     "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/Nutation.gif",
     "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/Gyroscope_precession.gif",
@@ -185,7 +188,6 @@
     "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/Aileron_pitch.gif",
     "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/Plane_with_embedded_axes.png",
     "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/Yaw_Axis_Corrected.png",
-    "Tech Stuffs/Latex Shortcuts.md",
     "Computer Vision/Chapter-2/Chapter-2.1.2/2. 3D-Rotation.md",
     "Computer Vision/Chapter-2/Chapter-2.1.3/attachments",
     "Computer Vision/Chapter-2/Chapter-2.1.2/1. 3D-Translation.md",

@@ -43,6 +43,12 @@ R &= Yaw(\psi).Pitch(\theta).Roll(\phi) \\
 \end{aligned}
 $$
 
+Note that [[Gimbal Lock]] occurs at Pitch = $\frac{\pi}{2}$ and Pitch = $-\frac{\pi}{2}$
+
+At Pitch = $\frac{\pi}{2}$, aircraft is pointing upwards.
+At Pitch = $-\frac{\pi}{2}$, aircraft is pointing downwards.
+Thus, yaw motion causes same effect as roll motion.
+
 ## Graphical Representation of YPR
 ![Plane in Yaw-Pitch-Roll](./attachments/Plane_with_embedded_axes.png)
 
@@ -59,6 +65,7 @@ $$
 ## See Also
 - [[Davenport Rotation]]
 - [[Euler Rotation]]
+- [[Gimbal Lock]]
 
 ## Read Also
 - [Wikipedia](https://en.wikipedia.org/wiki/Davenport_chained_rotations#Tait%E2%80%93Bryan_chained_rotations)

@@ -44,6 +44,8 @@ Yaw_{2}(\phi) = R_{z}(\phi) =
 \end{bmatrix}
 $$
 
+Note that [[Gimbal Lock]] occurs at $\theta = 0$ and $\theta = \pi$
+
 ## Yaw-Roll-Yaw (3-1-3)
 Used in 
 - #robotics to control 3D rigid body orientation.
@@ -74,6 +76,8 @@ Yaw_{2}(\phi) = R_{z}(\phi) =
 \end{bmatrix}
 $$
 
+Note that [[Gimbal Lock]] occurs at $\phi = 0$ and $\phi = \pi$
+
 ## Precession-Nutation-Intrinsic Rotation
 Used to represent planetary orientation.
 Typically represented in (3-1-3)
@@ -93,6 +97,7 @@ Normal rotation, but using the local coordinates (ie new coordinate system relat
 ## See Also
 - [[Davenport Rotation]]
 - [[Tait-Bryan Rotation]]
+- [[Gimbal Lock]]
 
 ## Read Also
 - [Wikipedia](https://en.wikipedia.org/wiki/Davenport_chained_rotations#Euler_chained_rotations)
