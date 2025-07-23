@@ -1,3 +1,4 @@
+#cv/transformations  
 ## (2.1.1) 2D Transformations
 
 **Non-Homogeneous**: 
@@ -50,7 +51,44 @@
 ### Euler Angles
 Generally not recommended to use because
 - Result depends on order of rotation (along x or y or z plane)
-- Smaller change in rotation can lead to large change of Euler angle --> Cannot move smoothly along rotation
-- Thus, can lead to 
+- 9 parameters$\implies$ not memory efficient
+- Can suffer from [[Gimbal Lock]]
 
-See this [[2. 3D-Rotation|Page]] to see how to implement Euler angles for 3D rotation
+See this [[2. 3D-Rotation|Page]] to see how to implement Euler angles for 3D rotation, or this [[Davenport Rotation |Page]] for more detailed explanation.
+
+### Axis-Angle Representation
+We can representation a 3D-rotation by $(\vec{e}, \theta)$ where 
+- $\vec{e}$ is the 3D vector of the axis of rotation
+- $\theta$ is the angle of rotation about that axis
+
+This method is generally a good method for representing 3D rotation, by combining with [[Axis-Angle Representation#Rodrigues Formula |Rodrigues Formula]]
+[[Axis-Angle Representation |Read More]]
+
+### Quarternions
+This is a 4D-vector, made of 3 imaginary values, and 1 real values: $a + b.\hat{i} + c.\hat{j} + d.\hat{k}$
+
+Although they can be quite hard to understand, they are better suited for representing continuous 3D rotation values such as for [[Quarternions in Rotation#Slerp |Slerp]].
+
+You can read more here:
+- [[Quarternions in Rotation]]
+- [[Quarternions Math]]
+
+### Conclusion
+- Axis-Angle representation is minimal and easy to understand.
+- Quarternions are better of keeping track of smoothly moving camera and interpolation
+
+## (2.1.4) 3D to 2D Projection
+
+- [[Orthographic Projection]]
+- [[Scaled Orthographic Projection]]
+- [[Para-Perspective Projection]]
+- [[Perspective Projection]]
+
+The most commonly used projection is perspective.
+
+Scaled orthography can be used as approximate for long focal length lenses, and objects with shallow depth relative to distance.
+
+Para-Perspective can be used as an approximate between scaled orthography & perspective, mainly for computational efficiency purpose.
+
+### Camera Intrinsics
+

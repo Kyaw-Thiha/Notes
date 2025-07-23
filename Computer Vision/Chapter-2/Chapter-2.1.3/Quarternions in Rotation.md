@@ -1,7 +1,7 @@
 #math #cv/transformations/3d/rotation/quarternion
 # Quarternions in Rotation
 
-Quarternions are 4D vectors $(a, b, c, d)$, that comprises of the scalar component $a$ and vector/imaginary component $\vec{u} = (b, c, d)$.
+Quarternions are 4D vectors $(a, b, c, d)$, that comprises of the scalar component $a$ and vector/imaginary component $\vec{u} = (a, b, c)$.
 Compared to [[Davenport Rotation | Euler Rotations]], quarternions have several benefits including
 - Not suffering from [[Gimbal Lock]]
 - Lower storage space compared to matrices of Euler Rotations(4 parameters instead of 9 parameters)
@@ -64,11 +64,91 @@ where
 ## Relation to Rodrigues' Formula
 Recall that [[Axis-Angle Representation#Rodrigues Formula |Rodrigues Formula]] is 
 $$
-
+R(\hat{n}, \theta) = 
+\text{I} + 
+\sin(\theta).[\hat{n}]_{x} +
+(1-\cos(\theta))[\hat{n}]^2_{x}
+$$
+and a quarternion can be represented as
+$$
+\vec{q} = (\vec{v}, w) 
+= \left( \sin\left( \frac{\theta}{2} \right).\hat{n}, 
+\cos\left( \frac{\theta}{2} \right) \right)
+$$
+Substituting it into Rodrigues Formula,
+$$
+\begin{aligned}
+R(\hat{n}, \theta) 
+&= \text{I} + 
+\sin(\theta).[\hat{n}]_{x} +
+(1-\cos(\theta))[\hat{n}]^2_{x} \\[2ex]
+&= I + 2w[\vec{v}]_{\text{x}} + 2.[\vec{v}]^2_{\text{x}}
+\end{aligned}
 $$
 
+## Benefit over Axis-Angle
+The above equation, highlight the main benefit of quarternion over axis-angle representation:  
+
+$$
+\text{no trig func in evaluation} \implies
+\text{computationally efficient}
+$$
+
+Rotating using axis-angle requires ~30 computations, with repetitive trigonometric functions.
+
+On the other hand, quarternions only requires ~15-20 computations, with trigonometric functions only required for initial conversion.
+
+Thus, quarternions are better for continuous 3D rotation values.
+
+## Slerp
+Slerp (Spherical Linear Interpolation) is a method to **smoothly** interpolate between 2 orientation or rotations.
+
+```python
+import numpy as np
+
+def normalize(q):
+    return q / np.linalg.norm(q)
+
+def slerp_manual(q0, q1, t):
+    q0 = normalize(q0)
+    q1 = normalize(q1)
+
+    dot = np.dot(q0, q1)
+
+    # If the dot product is negative, 
+    # negate one quaternion to take the shorter path
+    if dot < 0.0:
+        q1 = -q1
+        dot = -dot
+
+    DOT_THRESHOLD = 0.9995
+    if dot > DOT_THRESHOLD:
+		# to ensure numerical stability (when sin(θ) ≈ 0)
+		# perform LERP (linear interpolation) as fallback
+        result = q0 + t * (q1 - q0)
+        return normalize(result)
+
+	# If sin(θ) is below threshold
+    theta_0 = np.arccos(dot)
+    theta = theta_0 * t
+
+    q2 = normalize(q1 - q0 * dot)
+    return q0 * np.cos(theta) + q2 * np.sin(theta)
+
+# Example
+q0 = np.array([0, 0, 0, 1])
+q1 = np.array([0.7071, 0, 0, 0.7071])
+t = 0.5
+
+result = slerp_manual(q0, q1, t)
+print(result)
+```
 
 ## Math behind Quarternions
 If you want to learn more about all the properties, and their proofs, as well as the proof of [[Quarternions Math#Proving Quarternion's Relation to Rotation | why quarternion can be used to represent 3D rotations]] , you can read [[Quarternions Math |here]]
 
+## Read More
+- [Blog Post this Page is written from](https://lisyarus.github.io/blog/posts/introduction-to-quaternions.html)
+- [Short Video by 3Blue1Brown](https://youtu.be/zjMuIxRvygQ?si=d1w75o6XHkczPmGj)
+- [Long Video by 3Blue1Brown (Visualization)](https://youtu.be/d4EgbgTm0Bg?si=RJHW44zfiVgh5JQH)
 

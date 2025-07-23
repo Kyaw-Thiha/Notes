@@ -1,4 +1,5 @@
 #math #cv/transformations/3d/rotation/quarternion
+# Quarternions
 
 **Quarternion**: $a + b.\hat{i} + c.\hat{j} + d.\hat{k}$ 
 where
@@ -7,6 +8,7 @@ where
 
 If you want to know the main practical usage of quarternion as rotation, you can go to this [[Quarternions in Rotation]] page.
 
+> IMPORTANT: note that in computer vision context, and scipy package, quarternion is denoted as (x, y, z, w), where w is the real component
 
 ## Main Properties 
 Let $\vec{p}$, $\vec{q}$ and $\vec{s}$ be quarternions.
@@ -459,3 +461,5 @@ where
 
 ## Read Also
 - [Blog Post this Page is written from](https://lisyarus.github.io/blog/posts/introduction-to-quaternions.html)
+- [Short Video by 3Blue1Brown](https://youtu.be/zjMuIxRvygQ?si=d1w75o6XHkczPmGj)
+- [Long Video by 3Blue1Brown (Visualization)](https://youtu.be/d4EgbgTm0Bg?si=RJHW44zfiVgh5JQH)

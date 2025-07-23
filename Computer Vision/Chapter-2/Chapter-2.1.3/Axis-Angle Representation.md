@@ -1,9 +1,12 @@
 # Exponential Twist (Axis/Angle)
 #math #cv/transformations/3d/rotation/axis-angle #rodrigues_formula 
 
+![Axis-Angle Representation Diagram](./attachments/Axis_Angle_Representation.svg)
+
 Representing 3D rigid body rotation with
 - Axis of Rotation (unit vector $u \in \mathbb{R}^3$)
 - Angle $\theta \in \mathbb{R}^3$  
+
 
 ## Formula
 $$
@@ -22,9 +25,9 @@ R(\hat{n}, \theta) =
 \sin(\theta).[\hat{n}]_{x} +
 (1-\cos(\theta))[\hat{n}]^2_{x}
 $$
-where $[u]_{x}$ is the skew-symmetric matrix
+where $[n]_{x}$ is the skew-symmetric matrix
 $$
-[u]_{x} = 
+[n]_{x} = 
 \begin{bmatrix}
 0 & -u_{z} & u_{y} \\
 u_{z} & 0 & -u_{x} \\
