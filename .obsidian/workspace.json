@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "36be4cfb706138aa",
+        "id": "7df6ecbd9c589eac",
         "type": "tabs",
         "children": [
           {
-            "id": "c0ca55b7df334bfa",
+            "id": "2b5a1211b51c3d92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM/Encoder/Encoder-Only Model.md",
-                "mode": "preview",
+                "file": "Self-Learning.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Encoder-Only Model"
+              "title": "Self-Learning"
             }
           }
         ]
@@ -168,38 +168,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7bedb07dd39dcbcc",
+  "active": "2b5a1211b51c3d92",
   "lastOpenFiles": [
-    "LLM/Encoder/Encoder-Only Model(Code).md",
+    "Tech Stuffs/Notes.md",
+    "Self-Learning.md",
+    "Tech Stuffs/Latex Shortcuts.md",
+    "LLM/LLM Inference/KV Cache.md",
+    "Research.md",
+    "LLM/Components/Self-Attention.md",
+    "LLM/Encoder/Encoder.md",
+    "LLM/LLM Inference/KV Cache (Code).md",
     "LLM/Encoder/Encoder-Only Model.md",
-    "LLM/Encoder/Encoder(Code).md",
+    "Encoder-Decoder Attention.md",
+    "LLM/LLM Inference/Inference Process.md",
+    "LLM/LLM Inference/Sampling Strategies.md",
+    "LLM/LLM Inference/attachments/beam_search.png",
+    "LLM/LLM Inference/attachments/token_selection.png",
+    "LLM/LLM Inference/attachments",
+    "LLM/LLM Inference",
+    "LLM/Decoder-Encoder/Decoder-Encoder Model.md",
+    "Computer Vision/Chapter-2/Chapter-2.1.3/Gimbal Lock.md",
+    "Computer Vision/Chapter-2/Chapter-2.1.3/Quarternions in Rotation.md",
+    "Computer Vision/Chapter-2/Chapter-2.1.3/Quarternions Math.md",
     "LLM/Decoder/Decoder-Only Model.md",
+    "LLM/Decoder-Encoder",
+    "LLM/Encoder/Encoder-Only Model(Code).md",
+    "LLM/Encoder/Encoder(Code).md",
     "LLM/Decoder/Decoder.md",
     "LLM/Decoder/Decoder-Only Model(Code).md",
     "Computer Vision/Chapter-2/Chapter-2.1.1/1. 2D-Translation.md",
     "Computer Vision/Chapter-2/Chapter-2.1.md",
     "LLM/Components/Feed-Forward Neural Network.md",
     "LLM/Decoder/Decoder(Code).md",
-    "LLM/Encoder/Encoder.md",
     "LLM/Encoder",
     "LLM Course/Decoder/Decoder (1).md",
-    "LLM/Components/Layer Normalization.md",
-    "LLM/Components/Attention Mask.md",
-    "LLM/Components/Positional Encoding (Short).md",
     "LLM/Decoder",
-    "LLM/Components/Positional Encoding.md",
-    "LLM/Components/Understanding Projections in Self-Attention (Q, K, V).md",
-    "LLM/1. Transformer Models.md",
-    "LLM/Components/Self-Attention.md",
-    "Decoder-Only Models (GPT).md",
-    "Computer Vision/Chapter-2/Chapter-2.1.4/Orthographic Projection.md",
     "LLM/Components",
     "LLM",
-    "Tech Stuffs/Installing Anki (Lower Yarn Version).md",
-    "Tech Stuffs/Installing Yarn with Corepack.md",
-    "Computer Vision/Chapter-2/Chapter-2.1.4/Perspective Projection.md",
-    "Computer Vision/Chapter-2/Chapter-2.1.4/Para-Perspective Projection.md",
-    "Computer Vision/Chapter-2/Chapter-2.1.4/Scaled Orthographic Projection.md",
     "Computer Vision/Chapter-2/Chapter-2.1.4",
     "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/Axis_Angle_Representation.svg",
     "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/Precession.gif",
@@ -209,12 +214,7 @@
     "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/500px-Praezession.svg.png",
     "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/Aileron_yaw.gif",
     "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/Aileron_roll.gif",
-    "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/Aileron_pitch.gif",
-    "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/Plane_with_embedded_axes.png",
     "Computer Vision/Chapter-2/Chapter-2.1.3/attachments",
-    "Computer Vision/Chapter-2/Chapter-2.1.3",
-    "Tech Stuffs",
-    "Templates",
-    "Computer Vision/Chapter-2/Chapter-2.1.2"
+    "Computer Vision/Chapter-2/Chapter-2.1.3"
   ]
 }

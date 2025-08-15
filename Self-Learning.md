@@ -1,0 +1,8 @@
+- Aerodynamics
+- Zephyr
+- Electronics
+- Sensors & Acutators - IMU/gyro, barometer, GPS modules; pyro channels; TVC servos or airbrakes.
+- Control System- https://fbswiki.org/wiki/index.php/Main_Page
+- Radio 
+- Systems Engineering & Test Plans- https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf
+- Numerical Methods - https://e6.ijs.si/~roman/files/tmp/M.Heath-SComputing/scientific-computing-michael-t-heath.pdf
