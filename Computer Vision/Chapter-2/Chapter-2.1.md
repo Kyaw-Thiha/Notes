@@ -90,5 +90,18 @@ Scaled orthography can be used as approximate for long focal length lenses, and 
 
 Para-Perspective can be used as an approximate between scaled orthography & perspective, mainly for computational efficiency purpose.
 
-### Camera Intrinsics
+### Camera Model
+A camera can be represented in computer vision using a camera matrix K, made of camera intrinsics & camera extrinsics.
 
+Read more at
+- [[Camera Matrix]]
+- [[Camera Intrinsics]]
+- [[Camera Extrinsics]]
+- [[Focal Length]]
+- [[Mapping from one camera to another]]
+
+### Depth Representation
+When projecting from 3D world coordinates to 2D camera coordinates, we have to take into account of how to project the depth.
+There are 2 main ways to achieve this
+- [[Inverse Depth]]
+- [[Projective Depth]]
