@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "7df6ecbd9c589eac",
+        "id": "3aa8325ab68f5247",
         "type": "tabs",
         "children": [
           {
-            "id": "2b5a1211b51c3d92",
+            "id": "fb41fe3dd5a35c3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM/Inference Optimizations/Caching.md",
+                "file": "LLM/Training/Learning Curves.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Caching"
-            }
-          },
-          {
-            "id": "0e861c3b55ca66a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLM/Hugging Face/Tokenization.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tokenization"
+              "title": "Learning Curves"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLM/Hugging Face/Tokenization.md",
+                "file": "LLM/Training/Learning Curves.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Tokenization"
+              "title": "Backlinks for Learning Curves"
             }
           },
           {
@@ -183,18 +168,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e861c3b55ca66a2",
+  "active": "fb41fe3dd5a35c3d",
   "lastOpenFiles": [
+    "LLM/Training/Interpreting Learning Curves.md",
+    "LLM/Training/attachments/learning_curve_diverging.png",
+    "LLM/Training/attachments/learning_curve_high_variance.png",
+    "LLM/Training/attachments/learning_curve_leakage.png",
+    "LLM/Training/attachments/curve_high_variance.png",
+    "LLM/Training/attachments/curve_diverging.png",
+    "LLM/Training/attachments/curve_data_leakage.png",
+    "LLM/Inference Optimizations/Caching.md",
+    "LLM/Training/attachments/learning_curve_ideal.png",
+    "LLM/Training/Full Training Loop.md",
+    "LLM/Training/attachments/learning_curve_erratic_validation.png",
+    "LLM/Training/attachments/learning_curve_erratic.png",
+    "LLM/Training/attachments/learning_curve_overfitting.png",
+    "LLM/Training/Learning Curves.md",
+    "LLM/Hugging Face/WandB.md",
+    "LLM/Hugging Face/Trainer API (Fine-Tuning).md",
+    "LLM/Training/attachments",
+    "LLM/Hugging Face/Accelerate API.md",
+    "LLM/Training",
+    "LLM/Hugging Face/Tokenization.md",
     "LLM/Hugging Face/Pipeline & Automodal.md",
     "LLM/Hugging Face/Automodal.md",
     "LLM/Hugging Face/Pipeline.md",
-    "LLM/Hugging Face/Tokenization.md",
     "LLM/Hugging Face/Deployment Frameworks.md",
     "LLM/Hugging Face/Inference Optimization.md",
     "LLM/Inference Optimizations/Batch Inference.md",
     "LLM/Inference Optimizations/Quantization.md",
     "LLM/Decoder/Decoder-Only Model.md",
-    "LLM/Inference Optimizations/Caching.md",
     "LLM/Inference Optimizations/Hardware Optimization (TensorRt).md",
     "LLM/Inference Optimizations/Hardware Optimization (General).md",
     "LLM/Inference Optimizations/Hardware Optimization (ONNX).md",
@@ -206,30 +209,11 @@
     "LLM/LLM Inference/KV Cache.md",
     "LLM/Hugging Face",
     "LLM/1. Transformer Models.md",
-    "Self-Learning.md",
-    "Tech Stuffs/Notes.md",
-    "Tech Stuffs/Latex Shortcuts.md",
-    "Research.md",
-    "LLM/Components/Self-Attention.md",
-    "LLM/Encoder/Encoder.md",
-    "LLM/LLM Inference/KV Cache (Code).md",
-    "LLM/LLM Inference/attachments/beam_search.png",
-    "LLM/LLM Inference/attachments/token_selection.png",
     "LLM/LLM Inference/attachments",
     "LLM/LLM Inference",
     "LLM/Decoder-Encoder",
     "LLM/Encoder",
     "LLM/Decoder",
-    "LLM/Components",
-    "LLM",
-    "Computer Vision/Chapter-2/Chapter-2.1.4",
-    "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/Axis_Angle_Representation.svg",
-    "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/Precession.gif",
-    "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/Nutation.gif",
-    "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/Gyroscope_precession.gif",
-    "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/Precession-Nutation-Rotation.png",
-    "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/500px-Praezession.svg.png",
-    "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/Aileron_yaw.gif",
-    "Computer Vision/Chapter-2/Chapter-2.1.3/attachments/Aileron_roll.gif"
+    "LLM/Components"
   ]
 }
