@@ -1,4 +1,5 @@
 # 🧮 Mathematical Explanation of Layer Normalization
+ #llm/transformers/decoders #llm/transformers/encoders 
 
 **Layer Normalization** is a technique used to stabilize and accelerate training by normalizing inputs across the **features** of each data point (token). 
 Unlike **batch normalization**, which normalizes across the batch dimension, layer normalization operates **independently per sample**, making it well-suited for sequence models like Transformers.

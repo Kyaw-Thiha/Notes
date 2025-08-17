@@ -1,4 +1,5 @@
 # 🤖 Decoder-Only Models in Transformers
+ #llm/transformers/decoders 
 
 Decoder-only models are a streamlined version of the original Transformer architecture. They **discard the encoder stack** and focus purely on generating sequences in an **autoregressive** fashion.
 
