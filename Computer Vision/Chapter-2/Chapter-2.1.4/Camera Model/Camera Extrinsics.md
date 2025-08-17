@@ -110,3 +110,7 @@ The extrinsic matrix tells us how to transform between these frames.
   P = K [R|t]
   $$
 - Together, intrinsics and extrinsics enable projecting **3D world points → 2D image pixels**.
+
+## See Also
+- [[Camera Matrix]]
+- [[Camera Intrinsics]]

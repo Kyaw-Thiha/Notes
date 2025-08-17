@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3aa8325ab68f5247",
+        "id": "0020fb175677eefa",
         "type": "tabs",
         "children": [
           {
-            "id": "fb41fe3dd5a35c3d",
+            "id": "3dad7b54b98b25f6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/Camera Extrinsics.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Camera Extrinsics"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -168,12 +165,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb41fe3dd5a35c3d",
+  "active": "3dad7b54b98b25f6",
   "lastOpenFiles": [
+    "LLM/Decoder/Decoder-Only Model.md",
+    "LLM/Components/Layer Normalization.md",
+    "Computer Vision/Chapter-2/Chapter-2.1.5/Non-Central Projections.md",
+    "Computer Vision/Chapter-2/Chapter-2.1.md",
+    "Computer Vision/Chapter-2/Chapter-2.1.5/Fisheye Distortion.md",
+    "Computer Vision/Chapter-2/Chapter-2.1.5/Tangential Distortion.md",
+    "Computer Vision/Chapter-2/Chapter-2.1.5/Radial Distortion.md",
+    "Computer Vision/Chapter-2/Chapter-2.1.5/Spline Distortion.md",
+    "Computer Vision/Chapter-2/Chapter-2.1.5/attachments/radial-fisheye-distortion.png",
+    "Computer Vision/Chapter-2/Chapter-2.1.5/attachments/Screenshot 2025-08-16 at 20-51-38 (Chapter-2) Computer Vision Algorithms and Applications 2nd Edition - Szeliski.pdf.png",
+    "Computer Vision/Chapter-2/Chapter-2.1.5/attachments",
+    "Computer Vision/Chapter-2/Chapter-2.1.4/Depth Representation/Understanding Projective Depth.md",
+    "Computer Vision/Chapter-2/Chapter-2.1.5",
+    "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/Focal Length.md",
     "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/Camera Intrinsics.md",
+    "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/Camera Matrix.md",
+    "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/Camera Extrinsics.md",
     "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/attachments/camera-extrinsics.png",
     "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/attachments/Screenshot 2025-08-16 at 18-22-45 (Chapter-2) Computer Vision Algorithms and Applications 2nd Edition - Szeliski.pdf.png",
-    "Computer Vision/Chapter-2/Chapter-2.1.md",
     "Computer Vision/Chapter-2/Chapter-2.1.4/Depth Representation/Projective Depth.md",
     "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/Object Centered Projection.md",
     "Computer Vision/Chapter-2/Chapter-2.1.4/Projections/Para-Perspective Projection.md",
@@ -185,35 +197,21 @@
     "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/Normalized Device Coordinates.md",
     "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/attachments/camera-mapping.png",
     "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/attachments/Screenshot 2025-08-16 at 17-44-00 (Chapter-2) Computer Vision Algorithms and Applications 2nd Edition - Szeliski.pdf.png",
-    "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/Camera Extrinsics.md",
-    "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/Camera Matrix.md",
-    "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/Focal Length.md",
     "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/attachments/focal-length.png",
     "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/attachments/Screenshot 2025-08-16 at 17-36-24 (Chapter-2) Computer Vision Algorithms and Applications 2nd Edition - Szeliski.pdf.png",
     "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/attachments",
     "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/attachments/camera-intrinsics.png",
     "Computer Vision/Chapter-2/Chapter-2.1.4/attachments/Screenshot 2025-08-16 at 17-34-19 (Chapter-2) Computer Vision Algorithms and Applications 2nd Edition - Szeliski.pdf.png",
     "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model",
-    "Computer Vision/Chapter-2/Chapter-2.1.4/Depth Representation/Understanding Projective Depth.md",
     "Computer Vision/Chapter-2/Chapter-2.1.4/Depth Representation",
     "Computer Vision/Chapter-2/Chapter-2.1.4/Depth Representation/Inverse Depth.md",
     "Computer Vision/Chapter-2/Chapter-2.1.4/Depth Representation/Computing Depth Along Camera Axis.md",
-    "Computer Vision/Chapter-2/Chapter-2.1.4/Depth Representation/attachments/projective-inverse-depth.png",
-    "Computer Vision/Chapter-2/Chapter-2.1.4/attachments/Screenshot 2025-08-16 at 16-37-39 (Chapter-2) Computer Vision Algorithms and Applications 2nd Edition - Szeliski.pdf.png",
     "Computer Vision/Chapter-2/Chapter-2.1.4/Depth Representation/attachments",
     "LLM/Training/Learning Curves.md",
     "LLM/Training/Interpreting Learning Curves.md",
     "LLM/Inference Optimizations/Caching.md",
-    "LLM/Training/Full Training Loop.md",
-    "LLM/Hugging Face/WandB.md",
-    "LLM/Hugging Face/Trainer API (Fine-Tuning).md",
     "LLM/Training/attachments",
-    "LLM/Hugging Face/Accelerate API.md",
     "LLM/Training",
-    "LLM/Hugging Face/Tokenization.md",
-    "LLM/Hugging Face/Pipeline & Automodal.md",
-    "LLM/Inference Optimizations",
-    "LLM/Hugging Face",
-    "LLM/LLM Inference/attachments"
+    "LLM/Inference Optimizations"
   ]
 }

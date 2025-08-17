@@ -83,6 +83,10 @@ $$
 
 These interpretations are important for stereo vision and structure-from-motion.
 
+Read more at
+- [[Inverse Depth]]
+- [[Projective Depth]]
+
 ---
 
 ## 5. Key Points

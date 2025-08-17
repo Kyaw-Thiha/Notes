@@ -94,7 +94,7 @@ $$
 $$
 K =
 \begin{bmatrix}
-fs & c_x \\
+fs & 0 & c_x \\
 0 & af & c_y \\
 0 & 0 & 1
 \end{bmatrix}
@@ -145,3 +145,8 @@ Thus, only **one unknown remains: the focal length $f$.**
   $(f_x, f_y, c_x, c_y, s)$.  
 - In practice, simplifications (square pixels, centered principal point, zero skew) reduce calibration to a **single focal length**.  
 - Intrinsics must be estimated (camera calibration), since they cannot be measured directly from image data alone.
+
+## See Also
+- [[Camera Matrix]]
+- [[Camera Extrinsics]]
+- [[Focal Length]]
