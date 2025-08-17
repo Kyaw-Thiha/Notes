@@ -105,3 +105,15 @@ When projecting from 3D world coordinates to 2D camera coordinates, we have to t
 There are 2 main ways to achieve this
 - [[Inverse Depth]]
 - [[Projective Depth]]
+
+## (2.1.5) Lens Distortion
+Many wide-angle lenses have noticeable radial distortion which can manifest itself as visible curvature in the projection of straight lines on an image.
+Thus, we need to take into account of these distortion and 'fix' them when modelling our camera.
+
+The common distortions are 
+- [[Radial Distortion]]
+- [[Tangential Distortion]]
+- [[Fisheye Distortion]]
+- [[Spline Distortion]]
+- [[Non-Central Projections]]
+
