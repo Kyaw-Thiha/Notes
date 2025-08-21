@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Transport Quantities/Radiance.md",
+                "file": "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Lighting Models.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Radiance"
+              "title": "Lighting Models"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -171,28 +172,28 @@
   },
   "active": "638c54b4fdd56bfc",
   "lastOpenFiles": [
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Transport Quantities/Light Transport Quantities.md",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter 2.2.md",
-    "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Lighting Models (Visual).md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter 2.2.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Lighting Models.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Ambient Light.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Sky Models.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/HDR Environment Map.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Environment Map.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Spotlight.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Point Light Source.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Directional Light.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Area Light.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Transport Quantities/Light Transport Quantities.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Transport Quantities/Radiant Intensity.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Transport Quantities/Radiance Flux.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Transport Quantities/Exitance.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Transport Quantities/Irradiance.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Transport Quantities/Radiance.md",
+    "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.md",
     "Self-Learning.md",
     "Sky Models.md",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Area Light.md",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Directional Light.md",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Environment Map.md",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/HDR Environment Map.md",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Point Light Source.md",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Spotlight.md",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Transport Quantities/Radiance.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Transport Quantities/Exitance.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Transport Quantities",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Transport Quantities/Radiance Flux.md",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Transport Quantities/Irradiance.md",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Transport Quantities/Radiant Intensity.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1",
     "RL Project/Questions.md",
     "Computer Vision/Chapter-2/Chapter-2.2",

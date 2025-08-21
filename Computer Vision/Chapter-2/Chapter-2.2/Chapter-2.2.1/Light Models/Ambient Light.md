@@ -67,3 +67,7 @@
 - Ambient light = **uniform, directionless illumination approximation**.  
 - Historically important for simple CV/graphics models.  
 - Still useful as a **baseline or fallback assumption**, but physically-based methods now dominate.  
+
+---
+## See Also
+- [[Lighting Models]]

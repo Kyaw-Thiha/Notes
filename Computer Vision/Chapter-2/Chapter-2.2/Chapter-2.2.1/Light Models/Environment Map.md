@@ -82,3 +82,7 @@
 - Environment map = **global lighting description** (radiance as a function of direction).  
 - Bridges **captured real-world illumination** and **physically based rendering**.  
 - Essential for realistic **relighting, material capture, and IBL in CV/graphics**.  
+
+---
+## See Also
+- [[Lighting Models]]

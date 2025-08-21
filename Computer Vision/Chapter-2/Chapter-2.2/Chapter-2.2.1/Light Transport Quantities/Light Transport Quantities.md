@@ -76,3 +76,4 @@ Together, these form the **language of light transport in CV and graphics**.
 - [[Exitance]]
 - [[Radiant Intensity]]
 - [[Radiance Flux]]
+- [[Chapter 2.2]]

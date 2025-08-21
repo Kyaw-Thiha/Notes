@@ -9,7 +9,7 @@
 ---
 
 ## Main Properties
-- **Units**: $ \text{W} \cdot \text{m}^{-2} $  
+- **Units**: $\text{W} \cdot \text{m}^{-2}$  
 - **Aggregate measure**: Unlike radiance (directional), exitance sums over all outgoing directions.  
 - **Surface-based**: Defined at a point or over an area of a surface.  
 
@@ -82,3 +82,7 @@ $$
 - Exitance = **“how much light leaves a surface per unit area.”**  
 - Complements irradiance (incoming).  
 - Essential for shading models and energy conservation in rendering equations.  
+
+---
+## See Also
+- [[Light Transport Quantities]]

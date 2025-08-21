@@ -73,3 +73,7 @@
 - HDR environment maps = **physically accurate lighting representation**.  
 - Crucial for **realism in IBL, relighting, and CV material studies**.  
 - Unlike LDR maps, they maintain correct **intensity ratios** between light sources.  
+
+---
+## See Also
+- [[Lighting Models]]

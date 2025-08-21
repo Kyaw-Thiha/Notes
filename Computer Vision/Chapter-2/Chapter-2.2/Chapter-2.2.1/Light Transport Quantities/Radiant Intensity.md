@@ -83,3 +83,7 @@ $$
 - Radiant intensity = **“directional brightness of a source.”**  
 - Converts between **radiance (at surfaces)** and **flux (total power)**.  
 - Important for **modeling point light sources** in computer vision and graphics.  
+
+---
+## See Also
+- [[Light Transport Quantities]]

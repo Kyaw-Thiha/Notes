@@ -9,7 +9,7 @@
 ---
 
 ## Main Properties
-- **Units**: $ \text{W} \cdot \text{m}^{-2} $  
+- **Units**: $\text{W} \cdot \text{m}^{-2}$  
 - **Direction-agnostic**: Aggregates incoming radiance regardless of direction.  
 - **Surface-based**: Defined at a point on a surface, influenced by orientation (normal).  
 
@@ -75,3 +75,7 @@ $$
 - Irradiance = **“How much light lands on a surface?”**  
 - Derived from radiance via cosine-weighted integration.  
 - Central to image formation, shading, and illumination models.  
+
+---
+## See Also
+- [[Light Transport Quantities]]

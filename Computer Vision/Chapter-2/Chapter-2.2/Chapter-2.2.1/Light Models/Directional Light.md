@@ -73,3 +73,5 @@ Irradiance = L · cosθ (constant across scene)
 - Fundamental in **outdoor CV**, **diffuse shading models**, and **simplified rendering setups**.  
 
 ---
+## See Also
+- [[Lighting Models]]

@@ -82,6 +82,7 @@ Multiple rays from different parts of light
 
 ---
 ## See Also
+- [[Lighting Models]]
 - [[Radiant Intensity]]
 - [[Radiance]]
 - [[Irradiance]]

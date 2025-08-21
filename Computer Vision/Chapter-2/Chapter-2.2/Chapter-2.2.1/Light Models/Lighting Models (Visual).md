@@ -134,3 +134,8 @@ Radiance distribution depends on sun position + turbidity.
 - **Local emitters**: [[Point Light Source]], [[Area Light]], [[Spotlight]].  
 - **Distant/global emitters**: [[Directional Light]], [[Environment Map]], [[HDR Environment Map]], [[Sky Models]].  
 - **Simplified approximation**: [[Ambient Light]].  
+
+---
+## See Also
+- [[Lighting Models]]
+- [[Chapter 2.2]]

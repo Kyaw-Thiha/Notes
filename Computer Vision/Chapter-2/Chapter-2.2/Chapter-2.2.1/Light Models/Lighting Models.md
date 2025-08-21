@@ -98,3 +98,18 @@ Each section links to a more detailed note.
 - **Distant lights (Directional, Sky, Environment maps)** → essential for outdoor scenes and global illumination.  
 - **Ambient light** → useful as a simple approximation but not physically accurate.  
 - **HDR maps** → required for realism and physically-based CV/graphics applications.  
+
+[[Lighting Models (Visual)|Visual Summary]]
+
+---
+## See Also
+- [[Point Light Source]]
+- [[Area Light]]
+- [[Directional Light]]
+- [[Spotlight]]
+- [[Environment Map]]
+- [[HDR Environment Map]]
+- [[Sky Models]]
+- [[Ambient Light]]
+- [[Lighting Models (Visual)]]
+- [[Chapter 2.2]]

@@ -97,3 +97,7 @@ L(ω) varies with direction ω depending on sun position and turbidity.
 - Provide more realism than ambient/directional lights for outdoor scenes.  
 - Common models: **Preetham, Hosek-Wilkie, CIE standard skies**.  
 - Essential in **outdoor CV tasks** and **physically-based rendering**.  
+
+---
+## See Also
+- [[Lighting Models]]

@@ -84,6 +84,7 @@ $$
 
 ---
 ## See Also
+- [[Lighting Models]]
 - [[Radiant Intensity]]
 - [[Radiance]]
 - [[Irradiance]]

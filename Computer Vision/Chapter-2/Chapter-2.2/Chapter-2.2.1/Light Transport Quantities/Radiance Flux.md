@@ -9,7 +9,7 @@
 ---
 
 ## Main Properties
-- **Units**: $ \text{W} $ (watts).  
+- **Units**: $\text{W}$ (watts).  
 - **Represents total power**: Integrates over space, area, or solid angle depending on context.  
 - **Broadest measure**: Other light transport quantities (radiance, irradiance, intensity) are derivatives of flux.  
 
@@ -83,3 +83,7 @@ $$
 - Radiant Flux = **“total light power.”**  
 - Other light transport measures are derived from it by normalizing per area or per solid angle.  
 - Crucial in **CV calibration**, **illumination modeling**, and **energy-based rendering equations**.  
+
+---
+## See Also
+- [[Light Transport Quantities]]

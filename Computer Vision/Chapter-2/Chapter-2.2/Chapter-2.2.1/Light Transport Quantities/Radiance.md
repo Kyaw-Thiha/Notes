@@ -94,3 +94,7 @@ $$
 - Radiance is the **fundamental quantity of light transport** in CV.  
 - Links **physics of light** with **camera imaging**.  
 - Central to rendering equation, inverse rendering, and illumination models.  
+
+---
+## See Also
+- [[Light Transport Quantities]]

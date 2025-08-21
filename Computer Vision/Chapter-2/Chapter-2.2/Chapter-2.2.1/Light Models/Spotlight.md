@@ -78,3 +78,7 @@
 - Spotlight = **point light with a cone of influence**.  
 - Adds **position, direction, cutoff, falloff** to the point light model.  
 - Widely used in **controlled CV experiments**, **robotics lighting setups**, and **synthetic rendering**.  
+
+---
+## See Also
+- [[Lighting Models]]
