@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Lighting Models.md",
+                "file": "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Reflectance & Shading.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lighting Models"
+              "title": "Reflectance & Shading"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -172,9 +171,26 @@
   },
   "active": "638c54b4fdd56bfc",
   "lastOpenFiles": [
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Global Illumination.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Reflectance & Shading.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Di-chromatic Reflection Model.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Phong Shading Model.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/phong_model.png",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/Screenshot 2025-08-23 at 09-08-43 (Chapter-2) Computer Vision Algorithms and Applications 2nd Edition - Szeliski.pdf.png",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/BRDF.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Diffuse Reflection.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Lambert's Cosine Law.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Specular Reflection.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/diffuse_specular.png",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/brdf.png",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/specular.png",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/Screenshot 2025-08-23 at 09-00-43 (Chapter-2) Computer Vision Algorithms and Applications 2nd Edition - Szeliski.pdf.png",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/Screenshot 2025-08-23 at 08-59-16 (Chapter-2) Computer Vision Algorithms and Applications 2nd Edition - Szeliski.pdf.png",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Lighting Models.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Lighting Models (Visual).md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter 2.2.md",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Lighting Models.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Ambient Light.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Sky Models.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/HDR Environment Map.md",
@@ -190,33 +206,16 @@
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Transport Quantities/Irradiance.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Transport Quantities/Radiance.md",
     "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.md",
-    "Self-Learning.md",
-    "Sky Models.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Transport Quantities",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1",
-    "RL Project/Questions.md",
     "Computer Vision/Chapter-2/Chapter-2.2",
     "Computer Vision/Chapter-2/Chapter-2.1",
     "Computer Vision/Chapter-2/Chapter-2.2.1",
-    "RL Project/Survey/Usage of HRL in Different Fields.md",
-    "RL Project/Architecture/Bottom-Up Curriculum Learning.md",
-    "RL Project/Outline.md",
-    "RL Project/Survey/Compute & Scalability.md",
-    "RL Project/Survey/Benchmark Environment & Tools.md",
     "RL Project/Survey",
     "RL Project/Architecture",
-    "RL Project/Archive",
-    "RL Project/Background Research",
     "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.5/attachments/radial-fisheye-distortion.png",
     "Computer Vision/Chapter-2/Chapter-2.1.5/attachments/Screenshot 2025-08-16 at 20-51-38 (Chapter-2) Computer Vision Algorithms and Applications 2nd Edition - Szeliski.pdf.png",
-    "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.4/Camera Model/attachments/camera-extrinsics.png",
-    "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/attachments/Screenshot 2025-08-16 at 18-22-45 (Chapter-2) Computer Vision Algorithms and Applications 2nd Edition - Szeliski.pdf.png",
-    "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.4/Camera Model/attachments/camera-mapping.png",
-    "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/attachments/Screenshot 2025-08-16 at 17-44-00 (Chapter-2) Computer Vision Algorithms and Applications 2nd Edition - Szeliski.pdf.png",
-    "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.4/Camera Model/attachments/focal-length.png",
-    "Computer Vision/Chapter-2/Chapter-2.1.4/Camera Model/attachments/Screenshot 2025-08-16 at 17-36-24 (Chapter-2) Computer Vision Algorithms and Applications 2nd Edition - Szeliski.pdf.png",
-    "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.4/Camera Model/attachments/camera-intrinsics.png",
-    "Computer Vision/Chapter-2/Chapter-2.1.4/attachments/Screenshot 2025-08-16 at 17-34-19 (Chapter-2) Computer Vision Algorithms and Applications 2nd Edition - Szeliski.pdf.png"
+    "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.4/Camera Model/attachments/camera-extrinsics.png"
   ]
 }
