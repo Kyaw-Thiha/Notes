@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Reflectance & Shading.md",
+                "file": "Computer Vision/Chapter-2/Chapter-2.2/Chapter 2.2.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reflectance & Shading"
+              "title": "Chapter 2.2"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -171,8 +172,10 @@
   },
   "active": "638c54b4fdd56bfc",
   "lastOpenFiles": [
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Global Illumination.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Reflectance & Shading.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter 2.2.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Specular Reflection.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Global Illumination.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Di-chromatic Reflection Model.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Phong Shading Model.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/phong_model.png",
@@ -180,7 +183,6 @@
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/BRDF.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Diffuse Reflection.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Lambert's Cosine Law.md",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Specular Reflection.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/diffuse_specular.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/brdf.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/specular.png",
@@ -190,7 +192,6 @@
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Lighting Models.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Lighting Models (Visual).md",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter 2.2.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Ambient Light.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Sky Models.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/HDR Environment Map.md",

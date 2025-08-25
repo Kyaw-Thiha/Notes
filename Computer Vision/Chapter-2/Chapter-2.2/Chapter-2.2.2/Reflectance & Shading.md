@@ -44,7 +44,7 @@ Together, these concepts form the foundation of realistic rendering and computer
 - Two classic methods:  
   - **Ray tracing / Path tracing**: Follows individual light rays (good for specular).  
   - **Radiosity**: Solves energy transfer between diffuse patches.  
-- See: [[Global Illumination (Ray Tracing and Radiosity)]]
+- See: [[Global Illumination]]
 
 ---
 
@@ -57,7 +57,7 @@ Together, these concepts form the foundation of realistic rendering and computer
 ---
 
 ### Shading in Practice
-- **Flat shading**: Single normal per polygon → faceted look.  
+- **Flat shading**: Single normal per polygon → faceted look.
 - **Gouraud shading**: Interpolates vertex intensities → smoother surfaces.  
 - **Phong shading (interpolation)**: Interpolates normals, computes shading per pixel.  
 
@@ -84,3 +84,4 @@ Together, these concepts form the foundation of realistic rendering and computer
 - [[Diffuse Reflection]]  
 - [[Specular Reflection]]  
 - [[Lambert's Cosine Law]]  
+- [[Chapter 2.2]]
