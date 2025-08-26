@@ -90,7 +90,7 @@ Components:
 ## Limitations
 - Empirical, not physically accurate.  
 - Does not conserve energy in all cases.  
-- Replaced by microfacet-based models such as [[Cook–Torrance Model]].  
+- Replaced by microfacet-based models such as [[Specular Reflection#2. Torrance–Sparrow Microfacet Model (1967)|Torrance-Sparrow Microfacet Model]].  
 
 ---
 ## Links
@@ -99,3 +99,5 @@ Components:
 - [[Lambert's Cosine Law]]  
 - [[BRDF]]  
 - [[Lighting Models]]  
+- [[Radiance]]
+- [[Reflectance & Shading]]

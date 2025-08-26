@@ -83,7 +83,7 @@ Incident light (vi)       Specular reflection (si)
             \  |      /
              \ |     /
               \|    /
-          -----+----/---- Surface
+          -----+---/---- Surface
                |
         View direction (vr)
 
@@ -101,5 +101,7 @@ Specular highlight intensity ∝ alignment of vr with si
 
 ## Links
 - [[BRDF]]  
+- [[Phong Shading Model]]
 - [[Diffuse Reflection]]  
+- [[Reflectance & Shading]]
 - [[Lighting Models]]  

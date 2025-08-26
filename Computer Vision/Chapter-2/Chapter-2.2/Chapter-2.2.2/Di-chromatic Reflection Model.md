@@ -81,3 +81,4 @@ Observed color = Specular + Diffuse
 - [[Diffuse Reflection]]  
 - [[Phong Shading Model]]  
 - [[BRDF]]  
+- [[Reflectance & Shading]]

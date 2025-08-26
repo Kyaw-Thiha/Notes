@@ -66,4 +66,5 @@ Cosine falloff: Intensity ∝ cos(θi)
 - [[BRDF]]  
 - [[Specular Reflection]]  
 - [[Lambert's Cosine Law]]  
+- [[Reflectance & Shading]]
 - [[Lighting Models]]  

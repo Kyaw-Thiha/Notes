@@ -81,4 +81,6 @@ Apparent intensity ∝ cos(θi)
 - [[Diffuse Reflection]]  
 - [[BRDF]]  
 - [[Specular Reflection]]  
+- [[Reflectance & Shading]]
 - [[Lighting Models]]  
+- [[Radiant Intensity]]

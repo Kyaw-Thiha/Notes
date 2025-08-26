@@ -35,7 +35,7 @@ These are the **idealized ways of representing light sources** in CV/graphics.
 Reflectance & shading describe how surfaces **interact with incoming light** and how this interaction determines the **appearance of brightness and color** in images.  
 - **BRDF (Bidirectional Reflectance Distribution Function)** — fundamental function linking incoming and outgoing light directions at a surface.  
 - **Phong Shading Model** — empirical model combining ambient, diffuse, and specular reflection.  
-- **Di-chromatic Reflection Model** — separates interface (specular) and body (diffuse) reflection for material analysis.  
+- **Di-chromatic Reflection Model** — separates interface(specular) and body(diffuse) reflection for material analysis. 
 - **Global Illumination** — accounts for multiple light bounces (indirect + direct light).  
 
 [[Reflectance & Shading|Read More]]

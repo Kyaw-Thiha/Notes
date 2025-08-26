@@ -84,3 +84,4 @@ where
 - [[Phong Shading Model]]  
 - [[Diffuse Reflection]]  
 - [[Specular Reflection]]  
+- [[Reflectance & Shading]]

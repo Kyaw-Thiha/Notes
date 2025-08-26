@@ -13,8 +13,14 @@ $$
 where  
 
 - $(\theta_i, \phi_i)$ : Incident light direction (angles)  
+  - $\theta_i$: **incident zenith angle** (tilt away from surface normal, $0$ = straight above, $90^\circ$ = grazing).  
+  - $\phi_i$: **incident azimuth angle** (rotation around the surface normal, like a compass direction in the tangent plane).  
+
 - $(\theta_r, \phi_r)$ : Reflected light direction (angles)  
-- $\lambda$ : Wavelength of light  
+  - $\theta_r$: **reflected zenith angle** (tilt of outgoing direction relative to normal).  
+  - $\phi_r$: **reflected azimuth angle** (rotation of outgoing direction around the normal).  
+
+- $\lambda$ : Wavelength of light. 
 
 ---
 
@@ -104,3 +110,4 @@ Reflected Light (vr)
 - [[Specular Reflection]]  
 - [[Lambert's Cosine Law]]  
 - [[Lighting Models]]  
+- [[Reflectance & Shading]]
