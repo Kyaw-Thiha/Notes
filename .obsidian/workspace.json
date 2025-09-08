@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2e2f30e9434f3071",
+            "id": "2be908dea8912728",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Let's Solve it/Ablation Study.md",
+                "file": "Numerical Methods/Chapter-1/Chapter-1.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ablation Study"
+              "title": "Chapter-1"
             }
           }
         ]
@@ -169,11 +169,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2e2f30e9434f3071",
+  "active": "2be908dea8912728",
   "lastOpenFiles": [
+    "Numerical Methods/Chapter-1/Floating Points.md",
+    "Numerical Methods/Chapter-1/Chapter-1.md",
+    "Numerical Methods/Chapter-1",
+    "Let's Solve it/Ablation Study.md",
+    "Numerical Methods",
     "Let's Solve it/Preprocessing.md",
     "Let's Solve it/Augmentations.md",
-    "Let's Solve it/Ablation Study.md",
     "Let's Solve it",
     "Tech Stuffs/Nvim Ipython Shortcuts.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter 2.2.md",
@@ -201,8 +205,6 @@
     "Tech Stuffs/Installing ROS-2 (Container).md",
     "Tech Stuffs/Installing ROS-2 (on machine).md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Specular Reflection.md",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Lambert's Cosine Law.md",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Phong Shading Model.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/phong_model.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/Screenshot 2025-08-23 at 09-08-43 (Chapter-2) Computer Vision Algorithms and Applications 2nd Edition - Szeliski.pdf.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/diffuse_specular.png",
@@ -214,8 +216,6 @@
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Transport Quantities",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1",
-    "Computer Vision/Chapter-2/Chapter-2.2",
-    "Computer Vision/Chapter-2/Chapter-2.1"
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1"
   ]
 }
