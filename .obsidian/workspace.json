@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numerical Methods/Chapter-2/Chapter-2.md",
-                "mode": "source",
+                "file": "Research Papers/YOLOv10/YOLO Architecture/YOLO Family Architecture.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter-2"
+              "title": "YOLO Family Architecture"
             }
           }
         ]
@@ -172,8 +172,20 @@
   },
   "active": "2be908dea8912728",
   "lastOpenFiles": [
-    "Numerical Methods/Chapter-1/Chapter-1.md",
+    "Research Papers/YOLOv10/YOLO Architecture/YOLO Head.md",
+    "Research Papers/YOLOv10/YOLO Architecture/YOLO Backbone.md",
+    "Research Papers/YOLOv10/YOLO Architecture/YOLO Backbone (Detailed).md",
+    "Research Papers/YOLOv10/YOLO Architecture/YOLO Neck (Detailed).md",
+    "Research Papers/YOLOv10/YOLO Architecture/YOLO Neck.md",
+    "Research Papers/YOLOv10/YOLO Architecture",
+    "Research Papers/YOLOv10/YOLO Architecture/YOLO Family Architecture.md",
+    "Research Papers/YOLOv10/YOLOv10.md",
+    "Research Papers/YOLOv10/Non-Maximum Suppression.md",
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/Chromatic Aberration.md",
+    "Research Papers/YOLOv10",
     "Numerical Methods/Chapter-2/Chapter-2.md",
+    "Research Papers",
+    "Numerical Methods/Chapter-1/Chapter-1.md",
     "Numerical Methods/Chapter-2",
     "Numerical Methods/Chapter-1/Floating Points.md",
     "Numerical Methods/Chapter-1",
@@ -186,7 +198,6 @@
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter 2.2.md",
     "Onboarding Project.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/Optics.md",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/Chromatic Aberration.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Reflectance & Shading.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/Vignetting.md",
     "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.md",
@@ -194,19 +205,11 @@
     "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.4/Camera Model/Camera Extrinsics.md",
     "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.5/Distortion Models.md",
     "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.5/Fisheye Distortion.md",
-    "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.4/Camera Model/Normalized Device Coordinates.md",
-    "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.4/Camera Model/Object Centered Projection.md",
-    "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.4/Camera Model/Camera Matrix.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/attachments/vignetting.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/attachments/chromatic_aberration.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/attachments/optics.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/attachments",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models/Point Light Source.md",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Diffuse Reflection.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3",
-    "Tech Stuffs/Ros-2 Nvim.md",
-    "Tech Stuffs/Installing ROS-2 (Container).md",
-    "Tech Stuffs/Installing ROS-2 (on machine).md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/phong_model.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/Screenshot 2025-08-23 at 09-08-43 (Chapter-2) Computer Vision Algorithms and Applications 2nd Edition - Szeliski.pdf.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/diffuse_specular.png",
@@ -214,9 +217,6 @@
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/specular.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/Screenshot 2025-08-23 at 09-00-43 (Chapter-2) Computer Vision Algorithms and Applications 2nd Edition - Szeliski.pdf.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/Screenshot 2025-08-23 at 08-59-16 (Chapter-2) Computer Vision Algorithms and Applications 2nd Edition - Szeliski.pdf.png",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Models",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.1/Light Transport Quantities"
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments"
   ]
 }
