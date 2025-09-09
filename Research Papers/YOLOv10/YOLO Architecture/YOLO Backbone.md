@@ -1,7 +1,7 @@
 # YOLO Backbone (Simple Guide)
 #cv/object-detection #yolo/backbone
 
-**One sentence:** The **backbone** is YOLO’s *feature extractor*. It converts the input image into a few **feature maps at different sizes** (small/medium/large) that the [[YOLO Neck]] mixes and the [[YOLO Head]] uses to predict boxes/classes.
+ The **backbone** is YOLO’s *feature extractor*. It converts the input image into a few **feature maps at different sizes** (small/medium/large) that the [[YOLO Neck]] mixes and the [[YOLO Head]] uses to predict boxes/classes.
 
 ---
 

@@ -114,7 +114,7 @@ $(6.0 / 2.0) \times 10^{5-2} = 3.0 \times 10^3$
 
 ## Cancellation
 When computing a small value by subtracting large quantities, rounding error can dominate the result.
-This is called `catastrophic cancellation`.
+This is called `catastrophic cancellation` or `subtractive cancellation`.
 
 For example, let $\epsilon < \epsilon_{\text{mach}}$ a small positive number.
 Then, $(1+\epsilon) - (1-\epsilon) = 1 - 1 = 0$.

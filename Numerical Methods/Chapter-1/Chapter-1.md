@@ -33,6 +33,9 @@ Truncation error tends to dominate in problems of derivatives, integrals, and no
 Sensitivity: How much the output change for a change in input.
 $\text{Cond} = \frac{|\Delta\text{Solution}|}{|\Delta \text{Input Data}|} = \frac{|f(\hat{x})-f(x)/f(x)|}{|(\hat{x}-x)/x|}$
 
+- **Conditional** refers to functions
+- **Stability** refers to algorithms
+
 ## Backward Analysis
 - Forward Error: $f(\hat{x}) - f(x)$
 - Backward Error: $\hat{x} - x$
