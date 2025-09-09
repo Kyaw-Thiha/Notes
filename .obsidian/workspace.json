@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM/Components/Self-Attention.md",
+                "file": "Research Papers/YOLOv10/YOLOv10 Efficiency.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Self-Attention"
+              "title": "YOLOv10 Efficiency"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -171,6 +172,10 @@
   },
   "active": "2be908dea8912728",
   "lastOpenFiles": [
+    "Research Papers/YOLOv10/YOLOv10.md",
+    "Research Papers/YOLOv10/YOLOv10 Efficiency.md",
+    "Research Papers/YOLOv10/Dual Head Assignment.md",
+    "LLM/Components/Self-Attention.md",
     "Numerical Methods/Chapter-2/Chapter-2.md",
     "Research Papers/YOLOv10/YOLO Architecture/YOLO Family Architecture.md",
     "Numerical Methods/Chapter-1/Chapter-1.md",
@@ -181,7 +186,6 @@
     "Research Papers/YOLOv10/YOLO Architecture/YOLO Backbone (Detailed).md",
     "Research Papers/YOLOv10/YOLO Architecture/YOLO Neck (Detailed).md",
     "Research Papers/YOLOv10/YOLO Architecture",
-    "Research Papers/YOLOv10/YOLOv10.md",
     "Research Papers/YOLOv10/Non-Maximum Suppression.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/Chromatic Aberration.md",
     "Research Papers/YOLOv10",
@@ -201,9 +205,6 @@
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/Vignetting.md",
     "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.md",
     "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.4/Camera Model/Camera Calibration.md",
-    "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.4/Camera Model/Camera Extrinsics.md",
-    "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.5/Distortion Models.md",
-    "Computer Vision/Chapter-2/Chapter-2.1/Chapter-2.1.5/Fisheye Distortion.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/attachments/vignetting.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/attachments/chromatic_aberration.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/attachments/optics.png",
