@@ -1,5 +1,5 @@
 # YOLOv10 Efficiency
-#yolo/v10 
+#yolo/v10/efficiency 
 
 Yolov10 improves the efficiency of the model architecture through 3 methods:
 - [[#Lightweight Classification Head]]
@@ -22,103 +22,70 @@ To make it more lightweight
 
 Total Cost: $C_{in} \times 3 \times 3 + C_{in}.C_{out}$
 
-### Standard 3x3 Convolution
-Every output channel looks at all input channels, each with its own 3×3 kernel, then sums them.
 ```
-Input (3 channels)      3×3 Conv Filter Bank        Output (2 channels)
- ┌─────────┐             ┌─────────────┐            ┌─────────┐
- │ chan1   │─┐           │ filter for  │── sum ────►│ out1    │
- ├─────────┤ ├─► all ──► │   out1      │            ├─────────┤
- │ chan2   │─┤   mixed   ├─────────────┤            │ out2    │
- ├─────────┤ ┘           │ filter for  │── sum ────►└─────────┘
- │ chan3   │────────────►│   out2      │
- └─────────┘             └─────────────┘
-```
-
-### Depthwise Separable 3x3 Convolution
-**Step A: Depthwise (per-channel 3×3)**  
-Each channel filtered independently — no mixing yet.
-**Step B: Pointwise (1×1 mixing)**  
-Now a 1×1 conv linearly combines the depthwise outputs to produce new channels.
-```
-Step A: Depthwise 3×3 (per-channel, no mixing)
-
- Input channels     After depthwise conv
- ┌─────────┐        ┌─────────┐
- │ chan1   │─3×3───►│ chan1'  │
- ├─────────┤        ├─────────┤
- │ chan2   │─3×3───►│ chan2'  │
- ├─────────┤        ├─────────┤
- │ chan3   │─3×3───►│ chan3'  │
- └─────────┘        └─────────┘
+Prev. YOLO Head (e.g. YOLOv8)
+------------------------------
+   [ Input Features ]
+          |
+     +----+----+
+     |         |
+ [ Classification Head ]             [ Regression Head ]
+   1×1 Conv (dense, channel mix)       1×1 Conv (dense)
+   3×3 Conv (dense, spatial + chan)    3×3 Conv (dense)
+   1×1 Conv (dense, channel mix)       1×1 Conv (dense)
+   FLOPs ~5.95G, Params ~1.51M         FLOPs ~2.34G, Params ~0.64M
+          |                                   |
+   [ Class Scores ]                     [ Box Offsets ]
 
 
-Step B: Pointwise 1×1 (mix channels)
-
- Depthwise out      1×1 conv mix      Final out
- ┌─────────┐        ┌─────────┐       ┌─────────┐
- │ chan1'  │─┐      │         │ ────► │ out1    │
- ├─────────┤ ├─────►│  1×1    │ ────► ├─────────┤
- │ chan2'  │─┤      │  mixing │       │ out2    │
- ├─────────┤ ┘      │         │       └─────────┘
- │ chan3'  │───────►│         │
- └─────────┘        └─────────┘
-
+YOLOv10 Lightweight Head
+------------------------
+   [ Input Features ]
+          |
+     +----+----+
+     |         |
+ [ Classification Head ]             [ Regression Head ]
+   3×3 DW Conv (spatial only)          1×1 Conv (dense)
+   3×3 DW Conv (spatial only)          3×3 Conv (dense)
+   1×1 PW Conv (channel mix)           1×1 Conv (dense)
+   (depthwise separable stack)         (kept strong, dense convs)
+   Low FLOPs / Params                  Higher FLOPs / Params
+          |                                   |
+   [ Class Scores ]                     [ Box Offsets ]
 ```
 
-Essentially, pointwise linear mixing is more efficient than 'hidden' mixing inside standard convolution, with relatively small hit on performance.
-
-## Spatial-Channel Decoupled Downsampling
-Previous YOLO models often use $3 \times 3$ convolution with stride of 2.
-This carries out the downsampling process by
-- Halving spatial resolution: $H \times W \to \frac{H}{2} \times \frac{W}{2}$
-- Doubling channels: $C \to 2C$
-
-
-### Standard Conv 3x3 with Stride-2
+## Decoupled Downsampling
 ```
-Input Feature Map (H × W × C)
+Prev. YOLO Downsampling (Standard)
+----------------------------------
+   [ Input: H × W × C ]
+            |
+     3×3 Conv, stride=2 (dense)
+       - halves spatial size (H/2 × W/2)
+       - doubles channels (2C)
+       - spatial + channel mixed together
+       Cost: O( (9/2) · HWC² ), Params: O(18C²)
+            |
+   [ Output: H/2 × W/2 × 2C ]
 
- ┌───────────────┐
- │               │
- │   [3×3 conv]  │   stride=2, output channels=2C
- │   mixes ALL   │───►  Output Feature Map (H/2 × W/2 × 2C)
- │   channels    │
- │   + downsamp  │
- └───────────────┘
 
-Cost ~ O(18 C²) params, O((9/2) HWC²) FLOPs
+YOLOv10 Decoupled Downsampling
+------------------------------
+   [ Input: H × W × C ]
+            |
+   1×1 PW Conv (dense, channel mix)
+       - adjust channels C → 2C
+       - cheap (no spatial context)
+            |
+   3×3 DW Conv, stride=2 (depthwise)
+       - downsample H×W → H/2 × W/2
+       - spatial only, per-channel
+       - very cheap compared to dense 3×3
+       Cost: O(2HWC² + (9/2)HWC), Params: O(2C² + 18C)
+            |
+   [ Output: H/2 × W/2 × 2C ]
+
 ```
-Mixes channels & downsamples spatially in one heavy op.
-Cost: $C_{in} \times C_{out} \times 3 \times 3 = C \times 2C \times 9 = 18.C^2$
-
-### Decoupled Downsampling
-Step-A: pointwise 1×1 (channel mixing)
-```
-Input Feature Map (H × W × C)
-        │
-        ▼
- ┌───────────────┐
- │   1×1 conv    │   (cheap channel mixing)
- │   C → 2C      │───►  Intermediate (H × W × 2C)
- └───────────────┘
-```
-Cost: $C \times 2C = 2C^2$
-
-
-Step-B: depthwise 3×3 with stride=2 (spatial downsampling)
-```
-Intermediate (H × W × 2C)
-        │
-        ▼
- ┌───────────────┐
- │ Depthwise 3×3 │   (one filter per channel, stride=2)
- │   stride=2    │───►  Output Feature Map (H/2 × W/2 × 2C)
- └───────────────┘
-```
-Cost: $2C \times 9 = 18C$
-
-Total Cost: $2C^2 + 18C$
 
 ## Rank-Guided Block Design
 1. Rank blocks inside the model in order of performance
@@ -163,7 +130,7 @@ Cost of `3x3 Depthwise Conv`: $\text{FLOPs} \approx C_{mid} \times 3 \times 3$
 Total cost of `CIB`: $C_{in} \times 3 \times 3 + C_{in} \times C_{out} + C_{out} \times 3 \times 3 = C^2 + 18C$
 
 
-### CIB vs bottleneck block
+### CIB vs bottleneck code
 ```python
 import torch
 import torch.nn as nn
@@ -236,3 +203,13 @@ if __name__ == "__main__":
     print("YoloBottleneck out:", bottleneck(x).shape)
     print("CIB out:", cib(x).shape)
 ```
+
+## Note about understanding channels
+- Channels at the start and end of the model is `3 for RGB`  and `1 for greyscale`.
+- Inside the network, it is equal to `H x W x no. of neurons in the layer`. 
+  `HxW` maybe downsampled to `H/2 x W/2`.
+
+## See Also
+- [[YOLOv10]]
+- [[YOLOv10 Accuracy]]
+- [[Dual Label Assignment]]

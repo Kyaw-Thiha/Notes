@@ -1,4 +1,4 @@
-## Dual Head Assignment
+## Dual Label Assignment
 #research #yolo/v10 
 In previous YOLO models, they are trained on one-to-many head (one ground truth to many bounding boxes), and during inference, post-processed using [[Non-Maximum Suppression|NMS]].
 
@@ -53,3 +53,9 @@ To measure the difference between the one-to-one & one-to-many head's scores, th
 The loss used is binary cross-entropy (BCE).
 So, how it works is the prediction-aware score decides which ground-truth region to learn (top-1 for one-to-one and top-n for one-to-many).
 Then, the same loss function (BCE) is used for both heads to learn those region(s).
+
+## See Also
+- [[YOLOv10]]
+- [[YOLOv10 Efficiency]]
+- [[YOLOv10 Accuracy]]
+- [[Non-Maximum Suppression]]

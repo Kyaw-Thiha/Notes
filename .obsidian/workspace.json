@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research Papers/YOLOv10/YOLOv10 Efficiency.md",
+                "file": "Research Papers/YOLOv10/YOLOv10 Accuracy.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "YOLOv10 Efficiency"
+              "title": "YOLOv10 Accuracy"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -172,13 +171,16 @@
   },
   "active": "2be908dea8912728",
   "lastOpenFiles": [
+    "Research Papers/YOLOv10/YOLOv10.md",
+    "Research Papers/YOLOv10/Non-Maximum Suppression.md",
+    "Research Papers/YOLOv10/Dual Label Assignment.md",
+    "Research Papers/YOLOv10/YOLOv10 Accuracy.md",
+    "Research Papers/YOLOv10/YOLOv10 Efficiency.md",
+    "Research Papers/YOLOv10/attachments/partial-self-attention.png",
     "Research Papers/YOLOv10/attachments/Pasted image 20250909102251.png",
     "Research Papers/YOLOv10/attachments/compact-inverted-block.png",
-    "Research Papers/YOLOv10/YOLOv10 Efficiency.md",
     "Research Papers/YOLOv10/attachments",
     "Tech Stuffs/Latex Shortcuts.md",
-    "Research Papers/YOLOv10/YOLOv10.md",
-    "Research Papers/YOLOv10/Dual Head Assignment.md",
     "LLM/Components/Self-Attention.md",
     "Numerical Methods/Chapter-2/Chapter-2.md",
     "Research Papers/YOLOv10/YOLO Architecture/YOLO Family Architecture.md",
@@ -190,7 +192,6 @@
     "Research Papers/YOLOv10/YOLO Architecture/YOLO Backbone (Detailed).md",
     "Research Papers/YOLOv10/YOLO Architecture/YOLO Neck (Detailed).md",
     "Research Papers/YOLOv10/YOLO Architecture",
-    "Research Papers/YOLOv10/Non-Maximum Suppression.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/Chromatic Aberration.md",
     "Research Papers/YOLOv10",
     "Research Papers",
@@ -206,7 +207,6 @@
     "Onboarding Project.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/Optics.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/Reflectance & Shading.md",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/Vignetting.md",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/attachments/vignetting.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/attachments/chromatic_aberration.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/attachments/optics.png",
@@ -215,7 +215,6 @@
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/phong_model.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/Screenshot 2025-08-23 at 09-08-43 (Chapter-2) Computer Vision Algorithms and Applications 2nd Edition - Szeliski.pdf.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/diffuse_specular.png",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/brdf.png",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/specular.png"
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.2/attachments/brdf.png"
   ]
 }
