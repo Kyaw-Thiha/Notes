@@ -23,3 +23,9 @@ Compared to YOLOv8,
   Decoupling spatial reduction & channel increase operations make the downsampling process more efficient.
 - **Rank-Guided Block Design**
   Rank the blocks inside model based on performance, and keep replacing the lowest scoring blocks with 'cheaper' blocks till performance degradation is observed.
+
+[[YOLOv10 Efficiency|Read More]]
+
+## Improving Accuracy
+
+
