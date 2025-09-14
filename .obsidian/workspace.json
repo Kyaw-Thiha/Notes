@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classical ML/Notes.md",
-                "mode": "source",
+                "file": "Numerical Methods/Chapter-2/Solving Linear Systems.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notes"
+              "title": "Solving Linear Systems"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLM/Training/Learning Curves.md",
+                "file": "Research Papers/DETR/DETR.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Learning Curves"
+              "title": "Backlinks for DETR"
             }
           },
           {
@@ -171,8 +171,15 @@
   },
   "active": "a7c123edd82be092",
   "lastOpenFiles": [
-    "Classical ML/Parametric vs Non-Parametric Models.md",
+    "Numerical Methods/Chapter-2/Permutation Matrix.md",
+    "Numerical Methods/Chapter-2/Gaussian Elimination.md",
+    "Numerical Methods/Chapter-2/Solving Linear Systems.md",
+    "Numerical Methods/Chapter-1/Chapter-1.md",
+    "Research Papers/DETR/DETR.md",
+    "Research Papers/YOLOv10/YOLOv10.md",
     "Classical ML/Notes.md",
+    "Research Papers/DETR",
+    "Classical ML/Parametric vs Non-Parametric Models.md",
     "Classical ML/K-Fold Cross Validation.md",
     "Classical ML/Cross Validation.md",
     "Classical ML/K-Means.md",
@@ -194,7 +201,6 @@
     "Research Papers/YOLOv10/Non-Maximum Suppression.md",
     "Research Papers/YOLOv10/YOLOv10 Accuracy.md",
     "Classical ML",
-    "Research Papers/YOLOv10/YOLOv10.md",
     "Research Papers/YOLOv10/Dual Label Assignment.md",
     "Research Papers/YOLOv10/YOLOv10 Efficiency.md",
     "Research Papers/YOLOv10/attachments/partial-self-attention.png",
@@ -202,18 +208,12 @@
     "Research Papers/YOLOv10/attachments/compact-inverted-block.png",
     "Research Papers/YOLOv10/attachments",
     "Tech Stuffs/Latex Shortcuts.md",
-    "LLM/Components/Self-Attention.md",
-    "Numerical Methods/Chapter-2/Chapter-2.md",
-    "Research Papers/YOLOv10/YOLO Architecture/YOLO Family Architecture.md",
-    "Numerical Methods/Chapter-1/Chapter-1.md",
-    "Research Papers/YOLOv10/YOLO Architecture/YOLO Head.md",
     "Research Papers/YOLOv10/YOLO Architecture",
     "Research Papers/YOLOv10",
     "Research Papers",
     "Numerical Methods/Chapter-2",
     "Numerical Methods/Chapter-1",
     "Numerical Methods",
-    "Let's Solve it",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/attachments/vignetting.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/attachments/chromatic_aberration.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/attachments/optics.png"

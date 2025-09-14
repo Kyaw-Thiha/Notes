@@ -23,16 +23,15 @@ This is also known as Gaussian elimination method.
 
 Suppose we are solving for $A.x = b$.
 
-1. First, we should first try to denote $A = L.U$
-where
-- $L$ is the strictly lower triangle
-- $U$ is the upper triangle
+1. First, we carry out forward elimination to denote $A = L.U$ where
+   - $L$ is the strictly lower triangle
+   - $U$ is the upper triangle
 
-2. Secondly substituting $A=L.U$, we get
-- $L.U.x = b$
+1. Secondly, substitute $A=L.U$ to get
+   - $L.U.x = b$
 
-3. Thirdly, since they are now triangle matrix, we can easily solve them in two steps:
-- Forward Elimination: $L.d = b$
+2. Thirdly, since they are now triangle matrix, we can easily solve them in two steps:
+- Forward Substitution: $L.d = b$
 $$
 \begin{bmatrix}
 1 & 0 & 0 \\
@@ -79,6 +78,9 @@ $$
   Since matrix $L$ is strictly lower triangular, it is always invertible.
 - When matrix $A$ is singular, we cannot do backward substitution. 
   This is because matrix $U$ is uninvertible if and only if matrix $A$ is uninvertible.
+- To ensure numerical stability, we might need [[Gaussian Elimination#Pivot|pivoting]].
+
+[[Gaussian Elimination|Read More]]
 
 ## Solving with Iterative Method
 Suppose we are solving for $A.x = b$.
@@ -116,4 +118,4 @@ where
 We repeat this till $X^{k+1}-X^k < \text{threshold}$ 
 
 ## Direct vs Iterative
-Direct takes $O(n^3)$ while direct takes $O(n)$
+Direct takes $O(n^3)$ while iterative takes $O(n)$
