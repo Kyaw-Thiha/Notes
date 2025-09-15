@@ -82,6 +82,26 @@ $$
 
 [[Gaussian Elimination|Read More]]
 
+## Implementing Gaussian Elimination
+There are different variants of practical implementing gaussian elimination inside code.
+- [[Dolittle Algorithm]]
+- [[Crout Algorithm]]
+
+## Complexity
+- **LU Factorization**: $\frac{1}{3}n^3$ FLOPs
+- **Forward** + **Backward Substitution**: $n^2$ FLOPs
+This means that as matrix size $n$ grows, LU factorization dominates the term.
+
+Also it is noted that explict matrix conversion cost $n^3$; thrice as much compared to direct solving.
+Moreover, inversion also introduce extra rounding error.
+
+## Solving Modified Problems
+- If $A$ doesn’t change, reuse $LU$ for new $b$. 
+- If $A$ changes by a rank-one update, you can update the solution using Sherman–Morrison formula.
+  [[Sherman-Morrison Formula|Read More]]
+- If $A$ changes by small rank-$k$ update, we can update the solution using Woodbury formula.
+  [[Woodbury Formula|Read More]]
+
 ## Solving with Iterative Method
 Suppose we are solving for $A.x = b$.
 
@@ -117,5 +137,5 @@ where
 
 We repeat this till $X^{k+1}-X^k < \text{threshold}$ 
 
-## Direct vs Iterative
+### Direct vs Iterative
 Direct takes $O(n^3)$ while iterative takes $O(n)$
