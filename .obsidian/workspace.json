@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numerical Methods/Chapter-2/Solving Linear Systems.md",
-                "mode": "source",
+                "file": "Research Papers/DETR/DETR.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Solving Linear Systems"
+              "title": "DETR"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#cv/light/radiometric/radiant-flux",
+                "query": "tag:#cv/object-detection",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -172,8 +171,18 @@
   },
   "active": "a7c123edd82be092",
   "lastOpenFiles": [
-    "Numerical Methods/Chapter-2/Woodbury Formula.md",
+    "Research Papers/DETR/Hungarian Loss.md",
+    "Research Papers/DETR/DETR.md",
+    "Research Papers/DETR/Matching Cost.md",
+    "Research Papers/DETR/Bipartite Matching.md",
+    "Research Papers/DETR/Hungarian Algorithm.md",
+    "Research Papers/YOLOv10/YOLOv10.md",
+    "Research Papers/DETR/Set Prediction/Region Proposals.md",
+    "Research Papers/DETR/Set Prediction/Window Centers.md",
+    "Research Papers/DETR/Set Prediction/Anchors.md",
     "Numerical Methods/Chapter-2/Solving Linear Systems.md",
+    "Research Papers/DETR/Set Prediction",
+    "Numerical Methods/Chapter-2/Woodbury Formula.md",
     "Numerical Methods/Chapter-2/Sherman-Morrison Formula.md",
     "Numerical Methods/Chapter-2/Gaussian Elimination.md",
     "Numerical Methods/Chapter-2/Dolittle Algorithm.md",
@@ -181,8 +190,6 @@
     "Numerical Methods/Chapter-2/Untitled",
     "Numerical Methods/Chapter-2/Permutation Matrix.md",
     "Numerical Methods/Chapter-1/Chapter-1.md",
-    "Research Papers/DETR/DETR.md",
-    "Research Papers/YOLOv10/YOLOv10.md",
     "Classical ML/Notes.md",
     "Research Papers/DETR",
     "Classical ML/Parametric vs Non-Parametric Models.md",
@@ -195,16 +202,9 @@
     "Classical ML/attachments/after-scaling.png",
     "Classical ML/attachments/no-scaling.png",
     "LLM/Components/Attention Mask.md",
-    "LLM/Components/Positional Encoding (Short).md",
-    "LLM/Decoder/Decoder.md",
-    "LLM/Components/Positional Encoding.md",
     "Classical ML/attachments/k-nn_underfit.png",
     "Classical ML/attachments/k-nn_overfit.png",
     "Classical ML/attachments",
-    "Classical ML/Loss Function.md",
-    "Classical ML/Error Metrics.md",
-    "Classical ML/Weighed K-NN.md",
-    "Research Papers/YOLOv10/Non-Maximum Suppression.md",
     "Classical ML",
     "Research Papers/YOLOv10/attachments/partial-self-attention.png",
     "Research Papers/YOLOv10/attachments/Pasted image 20250909102251.png",
@@ -214,7 +214,6 @@
     "Research Papers/YOLOv10",
     "Research Papers",
     "Numerical Methods/Chapter-2",
-    "Numerical Methods/Chapter-1",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/attachments/vignetting.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/attachments/chromatic_aberration.png",
     "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/attachments/optics.png"

@@ -1,5 +1,5 @@
 # YOLOv10: Real-Time End-to-End Object Detection
-#research #cv/object-detection #yolo/v10
+#research #cv/object-detection/yolo/v10
 
 Link: https://arxiv.org/abs/2405.14458
 
