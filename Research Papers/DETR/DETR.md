@@ -29,12 +29,14 @@ These the loss of these matched pairs are computed through [[Hungarian Loss]], w
 Three main components
 - CNN backbone
 - Encoder-Decoder Transformer
-- Feed-Forward Neural Networks to get predictions
+- FFN Prediction Heads
 
-
+[[DETR Architecture|Read More]]
 
 ---
 ## See Also
+- [[DETR Architecture]]
+- [[Bipartite Matching]]
 - [[Matching Cost]]
 - [[Hungarian Algorithm]]
 - [[Hungarian Loss]]
