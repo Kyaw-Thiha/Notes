@@ -43,3 +43,10 @@ $$
 $$
 \text{Input } 32 \times 32 + \text{Stride 2} \to \text{Output } 16 \times 16
 $$
+
+## Filter Size
+In `Convolution Layer`, there is usually more than 1 filter passing through it.
+Each filter can be thought of as learning different representations of the image.
+
+So, each filter output their own feature maps which are stacked on top of each other to form the output of the `Convolution Layer`.
+
