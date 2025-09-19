@@ -1,3 +1,5 @@
+# Standard Scalar
+
 When fitting a multi-dimensional $x$ vector to a model, the larger values of data in one dimension could dominate the result. 
 
 So, we scale the data to normalize it.

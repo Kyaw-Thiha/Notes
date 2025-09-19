@@ -1,3 +1,5 @@
+# R2 Score
+
 Trivial Baseline: Global Mean
 $R^2$ measures how well the model perform against the trivial baseline.
 
