@@ -22,7 +22,7 @@ $$
 y = \frac{1}{k}.\sum_{i \in N_{k}(x)} y_{i}
 $$
 ## Binary Classification
-For class labels ${-1, 1}$
+For class labels $\{-1, 1\}$
 $$
 y_{\text{new}} = \operatorname{sgn} \!\left( \sum_{i \in N_k(x)} y_i \right)
 $$
@@ -108,4 +108,17 @@ For larger values of k, RMSE for both training and testing increase.
 Note that training RMSE becomes higher than that of testing RMSE.
 ![[k-nn_underfit.png]]
 
+## Heuristic Choice of K
+$$
+K < \sqrt{ N }
+$$
+where $N$ is the number of data points
 
+## Problems with KNN
+- **Large amount of data**
+  Need to compute distances between all of the dataset
+- **Curse of Dimensionality**
+  In high-dimensional space, points can be far apart.
+  If closest point is as far as average point, it has low prediction power.
+  [[Curse of Dimensionality|Read More]]
+  ![Curse of Dimensionality](https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/images/c2/cursefigure.png)
