@@ -1,77 +1,90 @@
 # Linear Regression
-Suppose that we are trying to fit a `line-of-best fit` over multi-dimension inputs.
-Then, we will have $n$ number of gradients + 1 bias to fit.
 
+Suppose that we are trying to fit **multiple** `line-of-best fits` across different `output features`.
+This means that each `line-of-best fit` are multi-dimensional across different `input features`.
+
+Then, we can represent $\tilde{W}$ as a $(N+1) \times K$ matrix.
 $$
 \begin{align}
-f(x) &= w^T.x + b \\
-f(x) &= \sum^D_{j=1}w_{j} .x_{j} + b
+\tilde{W} &=  
+\begin{bmatrix}
+| & \dots & | \\
+\tilde{w}_{1} & \dots & \tilde{w}_{K}  \\
+| & \dots & | \\
+\end{bmatrix}
+
+\\[6pt]
+
+&= \begin{bmatrix}
+| & \dots & | \\
+w_{1} & \dots & w_{K}  \\
+| & \dots & | \\
+b_{1} & \dots & b_{K} \\
+\end{bmatrix}
 \end{align}
 $$
 
-For convenience, we concatenate `b` onto `w` and augment `x`.
+Hence, we are essentially solving the multi-dimensional linear equation of
 $$
-\tilde{w} =
-\begin{bmatrix}
-w_1 \\
-\vdots \\
-w_D \\
-b
-\end{bmatrix}
-, \
-\tilde{x} =
-\begin{bmatrix}
-x_1 \\
-\vdots \\
-x_D \\
-1
-\end{bmatrix}
+\tilde{y} = \tilde{W}^T.\tilde{x}
 $$
 
-This way, the `line-of-best fit` can be written as 
+## Objective Function
+The `objective function` is just to minimize the `squared residual error` over all training samples & output dimensions.
+
 $$
-f(x) = \tilde{w}^T.\tilde{x}
+E(\tilde{W}) = \sum^N_{i=1} \sum^K_{j=1} (y_{i, j} - \tilde{w}_{j}^T.\tilde{x}_{i})^2
 $$
 
-Hence, the mean squared error can be represented as 
-$$
-E(\tilde{w}) = \sum^N_{i=1}(y_{i} - \tilde{w}^T.\tilde{x}_{i})^2
-$$
-Representing the equation using matrices,
-$$
-E(\tilde{w}) = ||y - \tilde{X}.\tilde{w}||^2
-$$
-where
-$$
-y =
-\begin{bmatrix}
-y_1 \\
-\vdots \\
-y_{N} 
-\end{bmatrix}
-, \
-\tilde{X} =
-\begin{bmatrix}
-X_{1}^T & 1 \\
-\vdots \\
-X_{N}^T & 1
-\end{bmatrix}
-$$
-The equation $E(\tilde{w}) = ||y - \tilde{X}.\tilde{w}||^2$ is called a `linear least squares problem`.
-We can rewrite it as
-$$
-\begin{align}
-E(w) &= (y - \tilde{X} \,\tilde{w})^{T} (y - \tilde{X}\,\tilde{w}) \\[6pt]
-&= \tilde{w}^{T} \tilde{X}^{T} \tilde{X}\,\tilde{w}
-- 2 y^{T} \tilde{X}\,\tilde{w}
-+ y^{T}y
-\end{align}
-$$
-Using [[Normal Equation Derivation]], we can get
-$$
-\tilde{w}^* = (\tilde{X}^T.\tilde{X})^{-1}.\tilde{X}^T.y
-$$
-This is the equation that can be solved since we already know the values of `X` and `y`.
+Note that $(y_{i, j} - \tilde{w}_{j}^T.\tilde{x}_{i})^2$ is [[Multi-Dim Input Linear Regression]] per `output feature`.
 
-Note that the matrix $\tilde{X}^+ =  (\tilde{X}^T.\tilde{X})^{-1}.\tilde{X}^T$ is called a `pseudoinverse`.
-So, we can rewrite it as $\tilde{w}^* = \tilde{X}^+.y$ and solve it.
+So, we stack all $y_{i,j}$, $\tilde{x}_{i}$ and $\tilde{w}^T_{j}$ together.
+$$
+Y = 
+\begin{bmatrix}
+y_{i,1} \\
+\vdots  \\
+y_{i, K}
+\end{bmatrix} , 
+\
+\tilde{X} = 
+\begin{bmatrix}
+x_{i,1} \\
+\vdots  \\
+x_{i, K}
+\end{bmatrix} , 
+\
+\tilde{W} = 
+\begin{bmatrix}
+w_{i,1} \\
+\vdots  \\
+w_{i, K}
+\end{bmatrix}  
+$$
+And we get
+$$
+E(\tilde{W}) = || Y - \tilde{X}.\tilde{W} ||^2_{F}
+$$
+or
+$$
+E(\tilde{W}) = \sum^K_{j=1}|| y_{j} - \tilde{X}.\tilde{w_{j}} ||^2_{F}
+$$
+if we want to represent per `output dimension`.
+
+## Solving
+Just as we did with [[1D Linear Regression]] and [[Multi-Dim Input Linear Regression]], we can solve 
+$$
+\tilde{W}^* = \tilde{X}^+.\tilde{y}
+$$
+where $\tilde{X}^+$ is the `pseudoinverse`
+
+This is equivalent to
+$$
+\sum^K_{j=1} \tilde{w}^x_{j} = \sum^K_{j=1} \tilde{X}^T.\tilde{y}_{j}
+$$
+if we want to represent per `output dimension`.
+
+---
+## See Also
+- [[1D Linear Regression]]
+- [[Multi-Dim Input Linear Regression]]

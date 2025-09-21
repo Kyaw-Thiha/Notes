@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numerical Methods/Chapter-1/Floating Points to Binary.md",
+                "file": "Classical ML/Linear Regression/Linear Regression.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Floating Points to Binary"
+              "title": "Linear Regression"
             }
           }
         ]
@@ -172,8 +172,11 @@
   },
   "active": "50deaf2fb7181953",
   "lastOpenFiles": [
-    "Numerical Methods/Chapter-1/Floating Points.md",
+    "Classical ML/Linear Regression/Multi-Dim Input Linear Regression.md",
+    "Classical ML/Linear Regression/1D Linear Regression.md",
+    "Classical ML/Linear Regression/Linear Regression.md",
     "Numerical Methods/Chapter-1/Floating Points to Binary.md",
+    "Numerical Methods/Chapter-1/Floating Points.md",
     "Classical ML/K-NN and Friends/K-Means.md",
     "Classical ML/K-NN and Friends/K-NN.md",
     "Classical ML/Notes.md",
@@ -185,10 +188,8 @@
     "Classical ML/Distance Measure.md",
     "Classical ML/Metrics/Error Metrics.md",
     "Classical ML/Classification.md",
-    "Classical ML/Linear Regression/Linear Regression.md",
     "Research Papers/PointNet",
     "Classical ML/Linear Regression/Normal Equation Derivation.md",
-    "Classical ML/Linear Regression/1D Linear Regression.md",
     "Classical ML/Parametric vs Non-Parametric Models.md",
     "Classical ML/Linear Regression",
     "Classical ML/Metrics/Loss Function.md",
@@ -202,7 +203,6 @@
     "Computer Vision/CNN/Convolution Layer.md",
     "Computer Vision/AutoEncoders/Conditional Variational AutoEncoders.md",
     "Computer Vision/AutoEncoders/Variational AutoEncoders.md",
-    "Computer Vision/AutoEncoders/AutoEncoders.md",
     "Computer Vision/AutoEncoders",
     "Theory of Computation/Lectures",
     "Theory of Computation",
