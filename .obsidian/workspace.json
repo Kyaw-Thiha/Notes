@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classical ML/Notes.md",
-                "mode": "source",
+                "file": "Numerical Methods/Chapter-1/Floating Points to Binary.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notes"
+              "title": "Floating Points to Binary"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -171,6 +172,8 @@
   },
   "active": "50deaf2fb7181953",
   "lastOpenFiles": [
+    "Numerical Methods/Chapter-1/Floating Points.md",
+    "Numerical Methods/Chapter-1/Floating Points to Binary.md",
     "Classical ML/K-NN and Friends/K-Means.md",
     "Classical ML/K-NN and Friends/K-NN.md",
     "Classical ML/Notes.md",
@@ -201,9 +204,7 @@
     "Computer Vision/AutoEncoders/Variational AutoEncoders.md",
     "Computer Vision/AutoEncoders/AutoEncoders.md",
     "Computer Vision/AutoEncoders",
-    "Theory of Computation/Lectures/Week-3a.md",
     "Theory of Computation/Lectures",
-    "Research Papers/DETR/DETR.md",
     "Theory of Computation",
     "Computer Vision/CNN/attachments/Pooling Strategies.png",
     "Computer Vision/CNN/attachments",
