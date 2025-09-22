@@ -23,6 +23,18 @@ A good way to understand is to think of it as 3 different components:
 
 If it is still hard to understand, think of examples in the base-2 system.
 
+- $0 \leq |\text{Mantissa}| < 1$
+- Exponent is $-M \leq l \leq M$ where $M = (a a \dots a)$ where $a = b-1$
+
+- Largest floating point representation
+- Smallest floating point representation
+
+$R_{b}(t, s)$ is a set of all FP#s (base $b$) with absolute value inside these ranges.
+Overflow & underflow occur whenever a nonzero FP#s with absolute value outside of these ranges need to be stored.
+
+Note that $R_{b}(t,s)$ is finite while $R$ is infinite.
+A real number $x = \pm (d_{k} \ d_{k-1} \dots \ d_{0} \ . \ d_{-1} \ d_{-2} \dots)$ where the second $\dots$ can be infinite number of non-zero, non-cycling digits.
+
 ## Normalization
 These are rules to essentially ensure every numbers are represented uniquely in the given floating point system.
 
@@ -119,3 +131,24 @@ This is called `catastrophic cancellation` or `subtractive cancellation`.
 For example, let $\epsilon < \epsilon_{\text{mach}}$ a small positive number.
 Then, $(1+\epsilon) - (1-\epsilon) = 1 - 1 = 0$.
 However, the true value should have been $2\epsilon$.
+
+## Round-Off Error
+The difference betwen $x \in R$ and $Fl(x) \in R_{f}(t, s)$ usually measure relative to $x$.
+
+$$
+\frac{x - Fl(x)}{x} = \delta 
+$$
+$$
+(\text{or})
+$$
+$$
+Fl(x) = x(1-\delta)
+$$
+where $\delta$ is the `Relative Round-Off (RRO)`
+
+## Error Bounding
+$\delta$ can be bound indepedently of $x$.
+- $\delta < b^{1-t}$ for `chopped` normalized FPs
+- $\delta < \frac{1}{2}b^{1-t}$ for `rounded` normalized FPs
+
+where $b$ is the $\text{base}$ and $t$ is the $\text{precision}$ (no. of digits in mantissa)
