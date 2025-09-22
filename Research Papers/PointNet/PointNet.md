@@ -78,3 +78,9 @@ For `Point Segmentation`, we need both local & global features.
 `PointNet` achieve this by concatenating global features with local features $N \times (1024 + 64)$, before passing it through `feature extraction MLP` and `segmentation head MLP`.
 
 Since the input concatentated feature is aware of both local & global, the output from the `MLP` is also representative of local & global.
+
+### Why separate backbone and head
+So, you can pre-train `backbone` (feature extraction `MLP`) + `classification head` first.
+We use `classification head` since its easier to classify.
+
+Then, you can either **freeze** or **fine-tune** (with lower LR) the `backbone` when you train `backbone + detection/segmentation head`
