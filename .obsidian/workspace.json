@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classical ML/Linear Regression/Linear Regression.md",
+                "file": "Research Papers/PointNet/PointNet.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linear Regression"
+              "title": "PointNet"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#cv/object-detection",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,11 +172,17 @@
   },
   "active": "50deaf2fb7181953",
   "lastOpenFiles": [
+    "Computer Vision/CNN/Convolution Layer.md",
+    "Computer Vision/CNN/Pooling.md",
+    "Research Papers/PointNet/PointNet.md",
+    "Research Papers/PointNet/T-Net.md",
+    "Numerical Methods/Chapter-1/Floating Points.md",
+    "Research Papers/YOLOv10/YOLOv10.md",
+    "Research Papers/DETR/DETR.md",
+    "Classical ML/Linear Regression/Linear Regression.md",
     "Classical ML/Linear Regression/Multi-Dim Input Linear Regression.md",
     "Classical ML/Linear Regression/1D Linear Regression.md",
-    "Classical ML/Linear Regression/Linear Regression.md",
     "Numerical Methods/Chapter-1/Floating Points to Binary.md",
-    "Numerical Methods/Chapter-1/Floating Points.md",
     "Classical ML/K-NN and Friends/K-Means.md",
     "Classical ML/K-NN and Friends/K-NN.md",
     "Classical ML/Notes.md",
@@ -196,13 +202,7 @@
     "Classical ML/Validation/K-Fold Cross Validation.md",
     "Classical ML/Validation",
     "Classical ML/K-NN and Friends",
-    "Classical ML/Metrics/R2 Score.md",
-    "Classical ML/Standard Scalar.md",
     "Classical ML/Metrics",
-    "Computer Vision/AutoEncoders/Convolutional CVAE.md",
-    "Computer Vision/CNN/Convolution Layer.md",
-    "Computer Vision/AutoEncoders/Conditional Variational AutoEncoders.md",
-    "Computer Vision/AutoEncoders/Variational AutoEncoders.md",
     "Computer Vision/AutoEncoders",
     "Theory of Computation/Lectures",
     "Theory of Computation",
