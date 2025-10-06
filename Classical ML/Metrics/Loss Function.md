@@ -16,3 +16,20 @@ $$
 $$
 E(\theta) = \sum_{i=1}^N L(y_{i}, \hat{y}_{i})
 $$
+## Optimizing Objective Function
+$$
+E(W, b) = \sum^N_{i=1} (\hat{y}_{i} - y_{i})^2
+$$
+$$
+\frac{\partial E}{\partial b}  
+= \frac{\partial}{\partial b} \sum^N_{i=1} (wx_{i} + b - y_{i})^2 \\ 
+$$
+$$
+\begin{align}
+\frac{\partial E}{\partial b}  &= 0 \\
+2. \sum^N_{i=1} (wx_{i} + b - y_{i}) &= 0 \\
+\sum^N_{i=1} (wx_{i} - y_{i}) + \sum^N_{i=1}b &= 0 \\
+w.\sum^N_{i=1} x_{i} - \sum^N_{i=1} y_{i} + Nb &= 0
+\end{align}
+$$
+

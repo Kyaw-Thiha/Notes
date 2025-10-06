@@ -122,3 +122,8 @@ where $N$ is the number of data points
   If closest point is as far as average point, it has low prediction power.
   [[Curse of Dimensionality|Read More]]
   ![Curse of Dimensionality](https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/images/c2/cursefigure.png)
+
+---
+## Weakness
+`K-NN` is essentially an interpolation method.
+This means that `K-NN` cannot be used properly to predict extrapolated data

@@ -4,7 +4,7 @@
 **Non-Parametric model**: No. of parameters change based on dataset size
 
 ## Parametric Models
-- Linear Regression
+- [[Linear Regression]]
 - Logistic Regression
 - Naive Bayes
 
