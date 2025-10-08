@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research Papers/Robotics/ALVINN (1998)/ALVINN 1998.md",
+                "file": "Classical ML/Linear Regression/Linear Regression.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ALVINN 1998"
+              "title": "Linear Regression"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -172,10 +171,13 @@
   },
   "active": "04363d15f984e499",
   "lastOpenFiles": [
+    "Classical ML/Linear Regression/1D Linear Regression.md",
+    "Research Papers/Robotics/DAgger (2011)/DAgger (2011).md",
+    "Research Papers/Robotics/ALVINN (1998)/ALVINN 1998.md",
+    "Research Papers/Robotics/DAgger (2011)",
     "Research Papers/Robotics/ALVINN (1998)/attachments/Pasted image 20251006164759.png",
     "Research Papers/Robotics/ALVINN (1998)/attachments",
     "Research Papers/YOLOv10/YOLOv10.md",
-    "Research Papers/Robotics/ALVINN (1998)/ALVINN 1998.md",
     "Research Papers/MISR Literature Review/MISR Literature Review.md",
     "Research Papers/Robotics/ALVINN (1998)",
     "Research Papers/Robotics",
@@ -205,10 +207,8 @@
     "Classical ML/Linear Regression/Normal Equation Derivation.md",
     "Classical ML/Metrics/Loss Function.md",
     "Classical ML/Parametric vs Non-Parametric Models.md",
-    "Classical ML/K-NN and Friends/K-NN.md",
     "Research Papers/PointNet++",
     "Research Papers/PointNet",
-    "Classical ML/Linear Regression",
     "Computer Vision/CNN/attachments/Pooling Strategies.png",
     "Classical ML/attachments/after-scaling.png",
     "Classical ML/attachments/no-scaling.png",
@@ -217,7 +217,6 @@
     "Research Papers/YOLOv10/attachments/partial-self-attention.png",
     "Research Papers/YOLOv10/attachments/Pasted image 20250909102251.png",
     "Research Papers/YOLOv10/attachments/compact-inverted-block.png",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/attachments/vignetting.png",
-    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/attachments/chromatic_aberration.png"
+    "Computer Vision/Chapter-2/Chapter-2.2/Chapter-2.2.3/attachments/vignetting.png"
   ]
 }
