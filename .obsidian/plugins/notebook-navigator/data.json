@@ -1,0 +1,276 @@
+{
+  "startView": "files",
+  "showTooltips": true,
+  "homepage": null,
+  "mobileHomepage": null,
+  "useMobileHomepage": false,
+  "autoRevealActiveFile": true,
+  "autoRevealIgnoreRightSidebar": true,
+  "autoSelectFirstFileOnFocusChange": false,
+  "fileVisibility": "documents",
+  "excludedFolders": [],
+  "excludedFiles": [],
+  "dateFormat": "MMM d, yyyy",
+  "timeFormat": "h:mm a",
+  "navigationBanner": null,
+  "showShortcuts": true,
+  "showRecentNotes": true,
+  "recentNotesCount": 3,
+  "autoExpandFoldersTags": false,
+  "collapseBehavior": "all",
+  "smartCollapse": true,
+  "showIcons": true,
+  "colorIconOnly": true,
+  "showNoteCount": true,
+  "navIndent": 16,
+  "navItemHeight": 28,
+  "navItemHeightScaleText": true,
+  "showHiddenItems": false,
+  "showRootFolder": true,
+  "inheritFolderColors": true,
+  "enableFolderNotes": true,
+  "folderNoteType": "markdown",
+  "folderNoteName": "",
+  "folderNoteProperties": [],
+  "hideFolderNoteInList": true,
+  "showTags": true,
+  "showTagsAboveFolders": false,
+  "showFavoriteTagsFolder": true,
+  "showAllTagsFolder": true,
+  "showUntagged": false,
+  "showUntaggedInFavorites": false,
+  "favoriteTags": [],
+  "hiddenTags": [],
+  "defaultFolderSort": "title-asc",
+  "listPaneTitle": "header",
+  "multiSelectModifier": "cmdCtrl",
+  "includeDescendantNotes": true,
+  "groupByDate": true,
+  "optimizeNoteHeight": true,
+  "showQuickActions": true,
+  "quickActionRevealInFolder": true,
+  "quickActionPinNote": true,
+  "quickActionOpenInNewTab": true,
+  "useFrontmatterMetadata": false,
+  "frontmatterIconField": "icon",
+  "frontmatterColorField": "color",
+  "frontmatterNameField": "",
+  "frontmatterCreatedField": "",
+  "frontmatterModifiedField": "",
+  "frontmatterDateFormat": "",
+  "saveMetadataToFrontmatter": false,
+  "fileNameRows": 1,
+  "showFileDate": false,
+  "showFileTags": true,
+  "showFileTagAncestors": true,
+  "colorFileTags": true,
+  "showFileTagsInSlimMode": false,
+  "showParentFolderNames": false,
+  "showFilePreview": false,
+  "skipHeadingsInPreview": true,
+  "skipCodeBlocksInPreview": true,
+  "previewProperties": [],
+  "previewRows": 2,
+  "showFeatureImage": false,
+  "featureImageProperties": [
+    "thumbnail",
+    "featureResized",
+    "feature"
+  ],
+  "useEmbeddedImageFallback": true,
+  "externalIconProviders": {},
+  "searchProvider": "internal",
+  "keyboardShortcuts": {
+    "pane:move-up": [
+      {
+        "key": "ArrowUp",
+        "modifiers": []
+      }
+    ],
+    "pane:move-down": [
+      {
+        "key": "ArrowDown",
+        "modifiers": []
+      }
+    ],
+    "pane:page-up": [
+      {
+        "key": "PageUp",
+        "modifiers": []
+      }
+    ],
+    "pane:page-down": [
+      {
+        "key": "PageDown",
+        "modifiers": []
+      }
+    ],
+    "pane:home": [
+      {
+        "key": "Home",
+        "modifiers": []
+      }
+    ],
+    "pane:end": [
+      {
+        "key": "End",
+        "modifiers": []
+      }
+    ],
+    "navigation:collapse-or-parent": [
+      {
+        "key": "ArrowLeft",
+        "modifiers": []
+      }
+    ],
+    "navigation:expand-or-focus-list": [
+      {
+        "key": "ArrowRight",
+        "modifiers": []
+      }
+    ],
+    "navigation:focus-list": [
+      {
+        "key": "Tab",
+        "modifiers": []
+      }
+    ],
+    "pane:delete-selected": [
+      {
+        "key": "Delete",
+        "modifiers": []
+      },
+      {
+        "key": "Backspace",
+        "modifiers": []
+      }
+    ],
+    "list:focus-navigation": [
+      {
+        "key": "ArrowLeft",
+        "modifiers": []
+      },
+      {
+        "key": "Tab",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "list:focus-editor": [
+      {
+        "key": "ArrowRight",
+        "modifiers": []
+      },
+      {
+        "key": "Tab",
+        "modifiers": []
+      }
+    ],
+    "list:select-all": [
+      {
+        "key": "A",
+        "modifiers": [
+          "Mod"
+        ]
+      }
+    ],
+    "list:extend-selection-up": [
+      {
+        "key": "ArrowUp",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "list:extend-selection-down": [
+      {
+        "key": "ArrowDown",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "list:range-to-start": [
+      {
+        "key": "Home",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "list:range-to-end": [
+      {
+        "key": "End",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "search:focus-list": [
+      {
+        "key": "Tab",
+        "modifiers": []
+      },
+      {
+        "key": "Enter",
+        "modifiers": []
+      }
+    ],
+    "search:focus-navigation": [
+      {
+        "key": "Tab",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "search:close": [
+      {
+        "key": "Escape",
+        "modifiers": []
+      }
+    ]
+  },
+  "shortcuts": [],
+  "checkForUpdatesOnStart": true,
+  "confirmBeforeDelete": true,
+  "searchActive": true,
+  "customVaultName": "",
+  "pinnedNotes": {},
+  "fileIcons": {},
+  "fileColors": {},
+  "folderIcons": {
+    "Computer Vision": "lucide-camera",
+    "Reinforcement Learning": "lucide-bot",
+    "Research Papers": "lucide-newspaper",
+    "Classical ML": "lucide-washing-machine",
+    "LLM": "lucide-languages",
+    "Numerical Methods": "lucide-arrow-up-10",
+    "Theory of Computation": "lucide-book-open-text"
+  },
+  "folderColors": {
+    "Reinforcement Learning": "#d946ef",
+    "Research Papers": "#6366f1",
+    "/": "#10b981",
+    "Classical ML": "#14b8a6",
+    "Computer Vision": "#06b6d4",
+    "LLM": "#eab308",
+    "Numerical Methods": "#6366f1",
+    "Theory of Computation": "#6b7280"
+  },
+  "folderBackgroundColors": {},
+  "folderSortOverrides": {},
+  "folderAppearances": {},
+  "tagIcons": {},
+  "tagColors": {},
+  "tagBackgroundColors": {},
+  "tagSortOverrides": {},
+  "tagAppearances": {},
+  "recentColors": [],
+  "lastShownVersion": "",
+  "latestKnownRelease": "1.5.3",
+  "lastAnnouncedRelease": "",
+  "lastReleaseCheckAt": 1760010980365,
+  "rootFolderOrder": []
+}
