@@ -1,5 +1,5 @@
 # Deep Q-Learning (DQN)
-#rl/algorithms/dqn
+#rl/algorithms/dqn 
 
 Note that computing the `Q-Table` directly for an environment with big value of `State Space` & `Action Space` is inefficient.
 
