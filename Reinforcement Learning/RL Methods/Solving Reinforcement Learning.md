@@ -1,4 +1,6 @@
 # Solving Reinforcement Learning
+#rl/policy #rl/value
+
 ## Policy-Based Methods
 The `policy` $\pi$ is the function that tells what `action` to takes, given the `state` the agent is in.
 
@@ -33,6 +35,10 @@ $$
 
 ![[Value-Based Learning.png]]
 
+This mean we are not training a `policy funciton`.
+Instead, the `policy` is a just a predefined function (like Greedy Policy).
+This `policy` function uses the values given by `value function`, to select its actions.
+
 ### Examples
 - Q-Learning
 - SARSA
@@ -54,3 +60,12 @@ This allow the critic to reduce variance in the actor's policy gradient estimate
 - DDPG
 - TD3
 - SAC
+
+## The link between Value & Policy Function
+
+In `policy-based training`, the optimal policy $\pi^*$ is found by training the policy directly.
+In `value-based training`, finding optimal value function $Q^*$ leads to having an optimal policy.
+$$
+\pi^*(s) = argmax_{a} Q^*(s, a)
+$$
+
