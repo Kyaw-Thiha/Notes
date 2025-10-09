@@ -46,3 +46,5 @@ For example, $(0^* 1^*)^* \equiv (0 + 1)^*$
 - Annihilator for Concatenation: $(\emptyset R) = \emptyset$ and $(R \emptyset) = \emptyset$
 - Idempotence of Kleene Star: $R^{*^*} \equiv R^*$
 
+
+$(0 +1)^*(000)(0 +1)^*(111)(0 + 1)^* + (0 +1)^*(111)(0 +1)^*(000)(0 + 1)^*$
