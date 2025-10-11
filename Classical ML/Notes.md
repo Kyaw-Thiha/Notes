@@ -29,3 +29,12 @@ Condtition Number
 energy function do not normalize over data point count.
 
 gradiant descent notes
+
+bayes variation
+bayes rule
+estimation
+
+we use log because
+- prob has small num
+- has nice derivative
+- 
