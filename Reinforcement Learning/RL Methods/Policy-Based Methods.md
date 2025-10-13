@@ -18,4 +18,5 @@ To directly optmize the parameter $\theta$, we can use [[Policy Gradient Methods
 
 ## See Also
 - [[Value-Based Methods]]
+- [[Actor-Critic Methods]]
 - [[Policy Gradient Methods]]

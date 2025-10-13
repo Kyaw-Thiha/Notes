@@ -25,6 +25,8 @@ $$
 - TRPO (Trusted Region Policy Optimization)
 - DDPG, SAC (for continuous)
 
+[[Policy-Based Methods|Read More]]
+
 ---
 ## Value-Based Methods
 Instead of learning a policy function, we learn a `value function` that maps a state to expected value of being at that space.
@@ -44,6 +46,8 @@ This `policy` function uses the values given by `value function`, to select its 
 - SARSA
 - Deep Q-Network (DQN)
 
+[[Value-Based Methods|Read More]]
+
 ---
 ## Actor-Critic Methods
 `Actor-Critic` methods combine learning both [[#Policy-Based Methods]] and [[#Value-Based Methods]].
@@ -60,6 +64,8 @@ This allow the critic to reduce variance in the actor's policy gradient estimate
 - DDPG
 - TD3
 - SAC
+
+[[Actor-Critic Methods|Read More]]
 
 ## The link between Value & Policy Function
 
