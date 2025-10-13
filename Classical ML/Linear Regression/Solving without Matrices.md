@@ -1,4 +1,5 @@
 # Solving without Matrices 
+#ml/classic-models/linear-regression/solving/no-matrices #math
 This is the general [[Loss Function#Cost Function|objective function]].
 $$
 E(W, b) = \sum^N_{i=1} (\hat{y}_{i} - y_{i})^2

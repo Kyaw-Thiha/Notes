@@ -1,4 +1,5 @@
 # Multi-Dim Input Linear Regression
+#ml/classic-models/linear-regression/multi-dim-input
 Suppose that we are trying to fit a `line-of-best fit` over multi-dimension inputs.
 Then, we will have $n$ number of gradients + 1 bias to fit.
 

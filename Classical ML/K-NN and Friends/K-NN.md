@@ -1,4 +1,5 @@
 # K-NN
+#ml/classic-models/k-nn
 
 ![KNN](https://towardsdatascience.com/wp-content/uploads/2021/11/13SwcOCUyVdGauhHrHvOaLA.png)
 

@@ -1,4 +1,6 @@
 # Weighted K-NN
+#ml/classic-models/k-nn/weighted
+
 ![Weighted KNN](https://scikit-learn.org/stable/_images/sphx_glr_plot_classification_001.png)
 
 [[K-NN]] with weighing factor to give more influence to closer points.

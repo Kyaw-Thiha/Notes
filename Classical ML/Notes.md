@@ -18,9 +18,6 @@ $\vec{x}^T.A.\vec{x} \geq 0$ where $\vec{x} \neq \vec{0}$
 which guarantees that we don't end up in saddle point
 
 
-Notes for linear basis function regression
-Polynomial is good for global
-radial basis is good for local
 
 Conditioning & Regularization
 Condtition Number
@@ -34,7 +31,3 @@ bayes variation
 bayes rule
 estimation
 
-we use log because
-- prob has small num
-- has nice derivative
-- 

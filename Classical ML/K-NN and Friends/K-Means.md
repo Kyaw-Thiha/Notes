@@ -1,4 +1,5 @@
 # K-Means
+#ml/classic-models/k-means
 This is a clustering method that make clusters based on k-nearest neighbours.
 
 ![K-Means](https://media.geeksforgeeks.org/wp-content/uploads/20190812011831/Screenshot-2019-08-12-at-1.09.42-AM.png)
@@ -35,6 +36,11 @@ Then, we sum up all these distances from each clusters.
 $$
 E(L, \{c_{j}\}^K_{j=1}) = \sum_{i=1}^{n} \sum_{j=1}^{k} l_{ij} \, \| x_i - c_j \|^2
 $$
+
+where
+- $x_{i}$ is the data point at $i$
+- $c_{j}$ is the cluster point at $j$
+- $l_{ij}$ is the cluster assignment `indicator function`
 
 $L = argmin_{L} \ E(L, \{c_{j}\}^K_{j=1})$ 
 To try to minimize the objective function, for each point, we measure its distance to all the centers, and assign it to the closest cente.

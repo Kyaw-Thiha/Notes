@@ -1,4 +1,6 @@
 ## Loss Function
+#ml/metrics/loss
+
 Loss function means the error of the predicted value.
 Distance between the predicted value and the true value.
 

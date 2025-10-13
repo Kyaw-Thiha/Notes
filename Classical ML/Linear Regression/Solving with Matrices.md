@@ -1,4 +1,5 @@
 # Solving with Matrices
+#ml/classic-models/linear-regression/solving/matrices #math
 Using augmented matrices $\tilde{x} = \begin{pmatrix}1 \\ \vec{x}\end{pmatrix}$ and $\tilde{w} = \begin{pmatrix}b \\ \vec{w}\end{pmatrix}$,
 $$
 \tilde{X} = 

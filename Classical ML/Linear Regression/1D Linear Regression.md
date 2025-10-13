@@ -1,4 +1,5 @@
 # 1D Linear Regression
+#ml/classic-models/linear-regression/1-dim-input
 This is the most trivial case of linear regression.
 It can be best understood as trying to get a line-of-best fit.
 

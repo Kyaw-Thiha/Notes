@@ -1,4 +1,5 @@
 # Linear Regression
+#ml/classic-models/linear-regression
 
 Suppose that we are trying to fit **multiple** `line-of-best fits` across different `output features`.
 This means that each `line-of-best fit` are multi-dimensional across different `input features`.

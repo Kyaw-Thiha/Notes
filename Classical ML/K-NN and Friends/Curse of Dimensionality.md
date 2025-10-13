@@ -1,4 +1,6 @@
 # Curse of Dimensionality
+#ml/curse-of-dimensionality
+
 At very high dimensions, data points are further apart.
 This can caues high performance problem for ML algorithms that use distances like [[K-NN]].
 
