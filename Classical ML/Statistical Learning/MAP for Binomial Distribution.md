@@ -1,4 +1,4 @@
-# Binomial Distribution Estimation
+# MAP for Binomial Distribution
 We flip a coin 𝑁 times, and we got 𝐾 heads. 
 Assume coin flips are independent and the probability of the coin to land on a head is 𝜃 and we believe all values of 𝜃 are equally likely a priori, what would be $\hat{\theta}_{MAP}$?
 
@@ -27,9 +27,9 @@ Getting the `MAP`,
 $$
 \begin{align}
 \hat{\theta}_{MAP}
-&= argmin_{\theta} [-\log(P(D|\theta).P(\theta))] \\[6pt]
-&= argmin_{\theta} [-\log(\theta^K(1 - \theta)^{N-K})] \\[6pt]
-&= argmin_{\theta} [-K.\log(\theta) - (N-K).\log(1 - \theta)]
+&= argmin_{\theta} [-\ln(P(D|\theta).P(\theta))] \\[6pt]
+&= argmin_{\theta} [-\ln(\theta^K(1 - \theta)^{N-K})] \\[6pt]
+&= argmin_{\theta} [-K.\ln(\theta) - (N-K).\ln(1 - \theta)]
 \end{align}
 $$
 

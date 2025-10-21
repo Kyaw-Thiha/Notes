@@ -5,7 +5,6 @@ $\hat{y} = \hat{f}(x)$
 $\hat{y}^* = \hat{f}^*(x^*)$
 
 
-Radial basis func
 
 1. Get data
 2. Select model + hypthesis space
@@ -23,11 +22,26 @@ Conditioning & Regularization
 Condtition Number
 
 
-energy function do not normalize over data point count.
-
-gradiant descent notes
-
 bayes variation
 bayes rule
-estimation
 
+Choosing which model 
+Try different feature engineering.
+A good model would have low variance (not overfit), and low bias (not underfitting)
+
+Expected target value
+
+Expected test error
+
+Expected test error decomposition
+
+Bias & Variance Dart Board
+
+derive expected test error decomposition using KNN and link K with variance & bias
+
+Why not linear regression in classification
+
+Decision tree
+
+Entropy
+Bernoulli Entropy Example

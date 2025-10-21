@@ -89,3 +89,5 @@ if we want to represent per `output dimension`.
 ## See Also
 - [[1D Linear Regression]]
 - [[Multi-Dim Input Linear Regression]]
+- [[Solving with Matrices]]
+- [[Solving without Matrices]]

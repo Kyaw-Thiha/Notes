@@ -21,8 +21,11 @@ If the `prior` is very uninformative, we can consider it as uniformly distribute
 Hence, $P(\theta)$ is constant.
 Thus, $P(\theta|D) \propto P(D|\theta).P(\theta)$ which means `MLE` can be considered as special case of `MAP`.
 
-Also, note that `MAP` tends to overfit more.
+Also, note that `MLE` tends to overfit more.
 
 To calculate these, we use the [[Log Likelihood]].
 
-
+## See Also
+- [[MAP for Binomial Distribution]]
+- [[MLE for Gaussian Distribution]]
+- [[MAP for Non-Linear Regression]]
