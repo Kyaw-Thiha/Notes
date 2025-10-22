@@ -82,3 +82,4 @@ $$
 ## See Also
 - [[AutoEncoders]]
 - [[Conditional Variational AutoEncoders]]
+- [[Math Behind VAE]]
