@@ -83,7 +83,7 @@ $$
 
 - \(p = 1\) → **Manhattan distance** (L1 norm, city-block).  
 - \(p = 2\) → **Euclidean distance** (most common).  
-- \(p \to \infty\) → **Chebyshev distance**:  
+- $(p \to \infty)$ → **Chebyshev distance**:  
   $$
   d_\infty(x,y) = \max_j |x_j - y_j|
   $$

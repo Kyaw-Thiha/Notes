@@ -16,27 +16,6 @@ semi-postive matrix
 $\vec{x}^T.A.\vec{x} \geq 0$ where $\vec{x} \neq \vec{0}$
 which guarantees that we don't end up in saddle point
 
-
-
-Conditioning & Regularization
-Condtition Number
-
-
-bayes variation
-bayes rule
-
-Choosing which model 
-Try different feature engineering.
-A good model would have low variance (not overfit), and low bias (not underfitting)
-
-Expected target value
-
-Expected test error
-
-Expected test error decomposition
-
-Bias & Variance Dart Board
-
 derive expected test error decomposition using KNN and link K with variance & bias
 
 Why not linear regression in classification
@@ -45,3 +24,6 @@ Decision tree
 
 Entropy
 Bernoulli Entropy Example
+
+Information Theory + Information Bottleneck
+Whats y bar?

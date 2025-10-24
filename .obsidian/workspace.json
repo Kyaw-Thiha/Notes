@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision/AutoEncoders/Variational AutoEncoders.md",
+                "file": "Classical ML/Information Theory/Entropy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variational AutoEncoders"
+              "title": "Entropy"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -105,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research Papers/DETR/DETR.md",
+                "file": "Classical ML/Bias and Variance Decomposition/Expected Test Error.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DETR"
+              "title": "Backlinks for Expected Test Error"
             }
           },
           {
@@ -183,33 +182,41 @@
   },
   "active": "d02c32d00e9d91ec",
   "lastOpenFiles": [
-    "Computer Vision/AutoEncoders/Math Behind VAE.md",
-    "Classical ML/Gradient Descent/Gradient Descent.md",
-    "Classical ML/Statistical Learning/Bayesian Estimation.md",
-    "Classical ML/Regularization/Conditioning.md",
-    "Classical ML/Regularization/Regularization.md",
-    "Classical ML/Statistical Learning/Estimation.md",
-    "Classical ML/Regularization",
-    "Classical ML/Statistical Learning/MAP for Non-Linear Regression.md",
-    "Classical ML/Statistical Learning/MLE for Gaussian Distribution.md",
+    "Classical ML/Linear Regression/Why not Linear Classification.md",
+    "Classical ML/Information Theory/Entropy.md",
+    "Classical ML/Information Theory",
+    "Classical ML/Untitled.md",
+    "Classical ML/Classification.md",
     "Classical ML/Notes.md",
-    "Classical ML/Mock Exam Answers.md",
-    "Numerical Methods/Chapter-2/Round-Off Error Analysis.md",
-    "Numerical Methods/Chapter-2/Complexity of Gaussian Elimination.md",
-    "Numerical Methods/Chapter-2/Solving Linear Systems.md",
-    "Classical ML/Parametric vs Non-Parametric Models.md",
-    "Classical ML/Statistical Learning/MAP for Binomial Distribution.md",
-    "Classical ML/K-NN and Friends/K-NN.md",
-    "Classical ML/Standard Scalar.md",
-    "Classical ML/Validation/Cross Validation.md",
-    "Classical ML/Validation/K-Fold Cross Validation.md",
+    "Classical ML/Bias-Variance Decomposition/Bias-Variance Decomposition.md",
+    "Classical ML/Bias-Variance Decomposition/attachments/Bias-Variance Plot.png",
+    "Classical ML/Bias-Variance Decomposition/Expected Test Error.md",
+    "Classical ML/Bias-Variance Decomposition/attachments/Bias-Variance Dart Board.png",
+    "Classical ML/Bias-Variance Decomposition/Expected Test Error Decomposition.md",
+    "Classical ML/Bias-Variance Decomposition/Expected Test Error Given Dataset D.md",
+    "Classical ML/Bias-Variance Decomposition/Expected Target Value.md",
+    "Classical ML/Bias-Variance Decomposition/attachments/Expected Target Value.png",
+    "Classical ML/Bias-Variance Decomposition/attachments/Expected Test Error.png",
+    "Classical ML/Bias and Variance Decomposition/attachments/Pasted image 20251024083924.png",
+    "Classical ML/Bias-Variance Decomposition/attachments",
+    "Classical ML/Bias-Variance Decomposition",
     "Classical ML/Validation/Leave One Out Cross Validation.md",
-    "Classical ML/Linear Regression/Linear Regression Probabilistic Model.md",
+    "Classical ML/Validation/K-Fold Cross Validation.md",
+    "Classical ML/Validation/Cross Validation.md",
+    "Classical ML/Non-Linear Regression/RBF Regression.md",
+    "Classical ML/Non-Linear Regression/Polynomial Regression.md",
+    "Classical ML/Linear Regression/Solving with Matrices.md",
+    "Classical ML/Non-Linear Regression/Non-Linear Regression.md",
     "Classical ML/Linear Regression/Linear Regression.md",
     "Classical ML/K-NN and Friends/Weighed K-NN.md",
     "Classical ML/K-NN and Friends/Voronoi Diagram.md",
-    "Classical ML/K-NN and Friends/Curse of Dimensionality.md",
-    "Classical ML/Linear Regression/1D Linear Regression.md",
+    "Classical ML/K-NN and Friends/K-NN.md",
+    "Classical ML/Metrics/Loss Function.md",
+    "Classical ML/Mock Exam Answers.md",
+    "Classical ML/Parametric vs Non-Parametric Models.md",
+    "Classical ML/Self-Learning.md",
+    "Computer Vision/AutoEncoders/Variational AutoEncoders.md",
+    "Classical ML/Regularization",
     "Theory of Computation/Pumping Lemma",
     "Classical ML/Gradient Descent",
     "Classical ML/Non-Linear Regression/attachments/RBF Regression.png",
@@ -221,14 +228,6 @@
     "Classical ML/Effect/attachments/Regularization.png",
     "Classical ML/Effect/attachments",
     "Classical ML/Effect",
-    "Classical ML/Statistical Learning",
-    "Reinforcement Learning/RL Algorithms/attachments/DQN.png",
-    "Reinforcement Learning/RL Algorithms/attachments",
-    "Reinforcement Learning/RL Methods/attachments/Pasted image 20251008194219.png",
-    "Reinforcement Learning/RL Methods/attachments/Epsilon Greedy Strategy.png",
-    "Theory of Computation/DFSA",
-    "Reinforcement Learning/Target Estimators/attachments/TD Lambda.png",
-    "Reinforcement Learning/Target Estimators/attachments/Temporal Difference.png",
     "Classical ML/Untitled.canvas"
   ]
 }
