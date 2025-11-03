@@ -18,7 +18,8 @@ E_{X, Y, D} [ \ L(\hat{y}_{D}(x), \ y) \ ]
 $$
 where
 - $\hat{y}_{D}(x)$ is predicted value for dataset $D$
-- $y$ is the [[Expected Target Value]]
+- $y$ is the ground truth
+- $E[y(x)]$ is the [[Expected Target Value]]
 
 ---
 
@@ -76,20 +77,22 @@ $$
 
 &= E_{X, Y}[ ( (\bar{\hat{y}}(x) - \bar{y}(x)) + (\bar{y}(x) - y) ) ^2] \\[6pt] 
 
-&= E_{X, Y}[(\bar{\hat{y}} - \bar{y}(x))^2] + E_{X, Y}[(\bar{y}(x) - y))^2] + 2 E_{X, Y}[ \ (\bar{\hat{y}}(x) - \hat{y}(x))(\hat{y}(x) - y) \ ] \\[6pt] 
+&= E_{X, Y}[(\bar{\hat{y}} - \bar{y}(x))^2] + E_{X, Y}[(\bar{y}(x) - y))^2] + 2 E_{X, Y}[ \ (\bar{\hat{y}}(x) - \bar{y}(x))(\bar{y}(x) - y) \ ] \\[6pt] 
 
 &= \underbrace{E_{X}[(\bar{\hat{y}} - \bar{y}(x))^2]}_{\text{Bias}^2}
 + \underbrace{E_{X, Y}[(\bar{y}(x) - y))^2]}_{\text{Noise}}
 + 2 E_{X, Y}[ \ (\bar{\hat{y}}(x)  
-- \hat{y}(x))(\hat{y}(x) - y) \ ] \\[6pt] 
+- \bar{y}(x))(\bar{y}(x) - y) \ ] \\[6pt] 
 \end{align}
 $$
+where $\bar{y}$ is the [[Expected Target Value]]
+
 
 We can further prove that the `third term` from this decomposition $E_{X, Y}[(\bar{\hat{y}}(x) - \hat{y}(x))(\hat{y}(x) - y)]$ equals $0$.
 
 $$
 \begin{align}
-&E_{X, Y}[(\bar{\hat{y}} - \hat{y}(x))(\hat{y}(x) - y)] \\[6pt]
+&E_{X, Y}[(\bar{\hat{y}} - \bar{y}(x))(\bar{y}(x) - y)] \\[6pt]
 
 &= E_{X}[ \ (\bar{\hat{y}} - \bar{y}(x)) \ E_{Y|X}[(\bar{y}(x) - y)] \ ] \\[6pt] 
 

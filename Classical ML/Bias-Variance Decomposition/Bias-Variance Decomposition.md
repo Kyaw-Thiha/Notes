@@ -14,8 +14,10 @@ $$
 `Expected Test Error` comes from 3 different sources
 - `Bias` 
   High bias $\implies$ `underfitting`
+  Show how well model fits to the dataset.
 - `Variance`
   High variance $\implies$ `overfitting`
+  Show how drastic the model change for a change in dataset.
 - `Noise`
   Irreducible unpredictability of data
 
