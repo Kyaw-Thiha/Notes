@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numerical Methods/Chapter-2/Relative Residual/Relative Residual Example-1.md",
+                "file": "Theory of Computation/PDA/Example-5.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Relative Residual Example-1"
+              "title": "Example-5"
             }
           }
         ]
@@ -182,14 +182,22 @@
   },
   "active": "11020c2cbd5d8a5f",
   "lastOpenFiles": [
-    "Theory of Computation/PDA/Example-1.md",
-    "Theory of Computation/PDA/attachments/PDA-Example-1.png",
-    "Theory of Computation/PDA/Example-2.md",
+    "Theory of Computation/PDA/attachments/PDA Example-5.png",
+    "Theory of Computation/PDA/Example-5.md",
+    "Theory of Computation/PDA/Pushdown Automata (PDA).md",
     "Theory of Computation/PDA/PDA Acceptance.md",
+    "Theory of Computation/PDA/Example-4.md",
+    "Theory of Computation/PDA/Example-3.md",
+    "Theory of Computation/PDA/Example-2.md",
+    "Theory of Computation/PDA/attachments/Untitled.md",
+    "Theory of Computation/PDA/attachments/PDA Example-3.png",
+    "Theory of Computation/PDA/attachments/PDA Example-4.png",
+    "Theory of Computation/PDA/attachments/PDA Example-1.png",
+    "Theory of Computation/PDA/attachments/PDA Example-2.png",
+    "Numerical Methods/Chapter-2/Relative Residual/Relative Residual Example-1.md",
+    "Theory of Computation/PDA/Example-1.md",
     "Theory of Computation/PDA/attachments/PDA Example.png",
     "Theory of Computation/PDA/attachments",
-    "Theory of Computation/PDA/Pushdown Automata (PDA).md",
-    "Numerical Methods/Chapter-2/Relative Residual/Relative Residual Example-1.md",
     "Theory of Computation/PDA",
     "Numerical Methods/Chapter-2/Relative Residual/Relative Residual Example-2.md",
     "Numerical Methods/Chapter-2/Complexity of Gaussian Elimination.md",
@@ -213,20 +221,12 @@
     "Numerical Methods/Chapter-2/Round-Off Error Analysis.md",
     "Numerical Methods/Chapter-2/Round-Off Error.md",
     "Numerical Methods/Chapter-3/Rate of Convergence Theorem.md",
-    "Numerical Methods/Chapter-3/Rate of Convergence.md",
     "Numerical Methods/Chapter-3/attachments/Rate of Convergence.png",
     "Numerical Methods/Chapter-3/attachments",
-    "Numerical Methods/Chapter-3/Fixed Point Methods (FPM).md",
-    "Numerical Methods/Chapter-3/Fixed Point Iteration (FPI).md",
-    "Numerical Methods/Chapter-1/Calculating Error Upper Bound.md",
     "Numerical Methods/Chapter-3",
     "Numerical Methods/Chapter-2/LU Factorization",
     "Numerical Methods/Chapter-2/Modified Problem Formula",
     "Numerical Methods/Chapter-2/Algorithms",
-    "Classical ML/Bias-Variance Decomposition/attachments/Bias-Variance Plot.png",
-    "Classical ML/Bias-Variance Decomposition/attachments/Bias-Variance Dart Board.png",
-    "Classical ML/Bias-Variance Decomposition/attachments/Expected Target Value.png",
-    "Classical ML/Bias-Variance Decomposition/attachments/Expected Test Error.png",
     "Classical ML/Untitled.canvas"
   ]
 }
