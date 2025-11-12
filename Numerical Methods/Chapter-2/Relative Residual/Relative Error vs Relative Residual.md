@@ -6,15 +6,15 @@ We have
 
 $$
 \begin{aligned}
-A\hat{x} - b &= r \\
+A\hat{x} - b &= - r \\
 - \quad A x - b &= 0 \\
 \hline
-A(x - \hat{x}) &= -r \iff (x - \hat{x}) = A^{-1} r
+A(x - \hat{x}) &= r \iff (x - \hat{x}) = A^{-1} r
 \end{aligned}
 $$
 
 Then, we get
-1. $||x - \hat{x}|| = ||A^{-1}r|| \leq ||A^{-1}r$
+1. $||x - \hat{x}|| = ||A^{-1}r|| \leq ||A^{-1}|| \ ||r||$
 2. $\begin{align}b &= Ax \\ ||b|| &= ||Ax|| \\ ||A|| \ ||b|| &\leq ||x|| \end{align}$
 
 Combining 1 and 2, 
@@ -45,5 +45,10 @@ A small `relative residual` is a reliable indicator of a small relative error.
 Conditioning is a continuous spectrum.
 How large is "very large" depends on the context.
 
+## Examples
+- [[Relative Residual Example-1]]
+- [[Relative Residual Example-2]]
 
+## See Also
+- [[Geometric Interpretation]]
 
