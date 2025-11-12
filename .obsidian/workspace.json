@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "11020c2cbd5d8a5f",
+            "id": "6d41c9a350686f2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Theory of Computation/PDA/Example-5.md",
+                "file": "Classical ML/Ensemble/Stacking.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Example-5"
+              "title": "Stacking"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -180,53 +181,53 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "11020c2cbd5d8a5f",
+  "active": "6d41c9a350686f2d",
   "lastOpenFiles": [
-    "Theory of Computation/PDA/attachments/PDA Example-5.png",
-    "Theory of Computation/PDA/Example-5.md",
-    "Theory of Computation/PDA/Pushdown Automata (PDA).md",
+    "Classical ML/Ensemble/Ensemble Model.md",
+    "Classical ML/Ensemble/Stacking.md",
+    "Classical ML/Ensemble/attachments/Pasted image 20251111222733.png",
+    "Classical ML/Ensemble/attachments",
+    "Classical ML/Ensemble/Boosting.md",
+    "Classical ML/Ensemble/Bagging.md",
+    "Classical ML/Ensemble/Boosting/Gradient Boosting.md",
+    "Classical ML/Ensemble/Boosting/SAMME.md",
+    "Classical ML/Ensemble/Boosting/AdaBoost R2.md",
+    "Classical ML/Ensemble/Boosting/AdaBoost.md",
+    "Classical ML/Ensemble/Boosting",
+    "Professors List.md",
+    "Classical ML/Ensemble",
     "Theory of Computation/PDA/PDA Acceptance.md",
+    "Theory of Computation/PDA/Example-5.md",
+    "Theory of Computation/PDA/PostPre Example-1.md",
+    "Theory of Computation/PDA/Pushdown Automata (PDA).md",
+    "Theory of Computation/PDA/PostPre Example-2.md",
     "Theory of Computation/PDA/Example-4.md",
-    "Theory of Computation/PDA/Example-3.md",
     "Theory of Computation/PDA/Example-2.md",
-    "Theory of Computation/PDA/attachments/Untitled.md",
+    "Theory of Computation/PDA/Example-3.md",
+    "Theory of Computation/PDA/Example-1.md",
+    "Theory of Computation/PDA/Example.md",
+    "Classical ML/Bias-Variance Decomposition/Expected Test Error Decomposition.md",
+    "Classical ML/Bias-Variance Decomposition/Expected Target Value.md",
+    "Classical ML/Bias-Variance Decomposition/Bias-Variance Decomposition.md",
+    "Classical ML/Notes.md",
+    "Classical ML/Bias-Variance Decomposition/Expected Test Error.md",
+    "Classical ML/Classification.md",
+    "Theory of Computation/PDA/attachments/PostProcess.png",
+    "Theory of Computation/PDA/attachments/Preprocess.png",
+    "Software Design",
+    "Numerical Methods/Chapter-2/Matrix Norms",
+    "Theory of Computation/PDA/attachments/PDA Example-5.png",
     "Theory of Computation/PDA/attachments/PDA Example-3.png",
     "Theory of Computation/PDA/attachments/PDA Example-4.png",
     "Theory of Computation/PDA/attachments/PDA Example-1.png",
     "Theory of Computation/PDA/attachments/PDA Example-2.png",
-    "Numerical Methods/Chapter-2/Relative Residual/Relative Residual Example-1.md",
-    "Theory of Computation/PDA/Example-1.md",
     "Theory of Computation/PDA/attachments/PDA Example.png",
     "Theory of Computation/PDA/attachments",
     "Theory of Computation/PDA",
-    "Numerical Methods/Chapter-2/Relative Residual/Relative Residual Example-2.md",
-    "Numerical Methods/Chapter-2/Complexity of Gaussian Elimination.md",
-    "Numerical Methods/Chapter-2/Relative Residual/Infinity Norm.md",
-    "Untitled.md",
-    "Numerical Methods/Chapter-2/Relative Residual/Relative Error vs Relative Residual.md",
-    "Numerical Methods/Chapter-2/Iterative Refinement/Iterative Refinement Algorithm.md",
-    "To-Learn.md",
-    "Professors List.md",
-    "Numerical Methods/Chapter-2/Relative Residual/Geometric Interpretation.md",
     "Numerical Methods/Chapter-2/Iterative Refinement",
     "Numerical Methods/Chapter-2/Relative Residual/attachments/Poor-Conditioned Example.png",
-    "Numerical Methods/Chapter-2/Relative Residual/attachments/Well-Conditioned Example.png",
-    "Numerical Methods/Chapter-2/Relative Residual/attachments/Pasted image 20251103163253.png",
     "Numerical Methods/Chapter-2/Relative Residual/attachments",
-    "Numerical Methods/Chapter-3/Newton's Method.md",
-    "Numerical Methods/Chapter-3/Non-Linear Methods.md",
-    "Numerical Methods/Chapter-3/Fixed Point Theorem (FPT).md",
     "Numerical Methods/Chapter-2/Relative Residual",
-    "Numerical Methods/Chapter-2/Permutation Matrix.md",
-    "Numerical Methods/Chapter-2/Round-Off Error Analysis.md",
-    "Numerical Methods/Chapter-2/Round-Off Error.md",
-    "Numerical Methods/Chapter-3/Rate of Convergence Theorem.md",
-    "Numerical Methods/Chapter-3/attachments/Rate of Convergence.png",
-    "Numerical Methods/Chapter-3/attachments",
-    "Numerical Methods/Chapter-3",
-    "Numerical Methods/Chapter-2/LU Factorization",
-    "Numerical Methods/Chapter-2/Modified Problem Formula",
-    "Numerical Methods/Chapter-2/Algorithms",
     "Classical ML/Untitled.canvas"
   ]
 }
