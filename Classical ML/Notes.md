@@ -33,6 +33,37 @@ Linear Discriminative Analysis (LDA)
 
 Information Theory + Information Bottleneck
 
+Class-Conditional Model
+Naive BAyes
+Naive Bayes gaussian-conditional model
+
+
+
+Diagonal is meant to jes help with computation, and thus becomes naive bayes
+It is the assumption that covariance is shared & independant that ensures linear decision boundary
+
+
+Without the naive bayes assumption
+for 3 features, we have to estimate $2^3=8$ parameters.
+But, we jes need to estimate $8-1=7$ since we can subtract last one from 1
+
+$$
+P(F_{1}, F_{2}, \dots, F_{D} | C_{i})
+$$
+where $d_{i}$ is the number of possiblities for $F_{i}$; for binary, $d_{i} = 2$.
+For each class $C_{i}$, we need to estimate $\Pi^D_{i=1} d_{i} - 1$
+Hence, for all $K$ classes, we need $(\Pi^D_{i=1} d_{i} - 1)K$ + $(K-1)$
+
+
+
+
+
+
+
+
+
+
+
 XYZ-Hypothesis
 At least $X$% of $Y$ will be $Z$
 wher X is percent of target population
@@ -86,4 +117,5 @@ FounderNexus
 
 XYZ Hypothesis
 Fatal Flaw Analysis
+
 
