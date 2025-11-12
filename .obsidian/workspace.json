@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classical ML/Information Theory/Information Gain.md",
-                "mode": "preview",
+                "file": "Classical ML/Models/Decision Trees/Random Forest.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Information Gain"
+              "title": "Random Forest"
             }
           }
         ]
@@ -73,22 +73,12 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "4be912673214a9f2",
-            "type": "leaf",
-            "state": {
-              "type": "notebook-navigator",
-              "state": {},
-              "icon": "notebook",
-              "title": "Notebook Navigator"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 222.5
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -176,14 +166,13 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "notebook-navigator:Notebook Navigator": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "6d41c9a350686f2d",
   "lastOpenFiles": [
-    "Classical ML/Models/Decision Trees/Decision Tree.md",
     "Classical ML/Models/Decision Trees/Greedy Algorithm.md",
+    "Classical ML/Models/Decision Trees/Decision Tree.md",
     "Classical ML/Information Theory/Information Gain.md",
     "Classical ML/Information Theory/Entropy.md",
     "Classical ML/Information Theory/Entropy for Binomial Distribution.md",
