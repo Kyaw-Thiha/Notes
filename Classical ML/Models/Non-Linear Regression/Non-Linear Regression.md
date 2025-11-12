@@ -1,5 +1,5 @@
 # Non-Linear Regression
-#ml/classic-models/non-linear-regression
+#ml/models/classic/non-linear-regression
 
 For data with non-linear relation, we can use `Non-Linear Regression`.
 

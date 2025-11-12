@@ -1,5 +1,5 @@
 # RBF Regression
-#ml/classic-models/non-linear-regression/rbf
+#ml/models/classic/non-linear-regression/rbf
 
 `RBF Regression` is a type of [[Non-Linear Regression]] that uses `Radial Basis Functions` to fit the data.
 

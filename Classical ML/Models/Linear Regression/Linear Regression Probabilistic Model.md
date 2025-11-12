@@ -1,4 +1,5 @@
 # Linear Regression Probabilistic Model
+#ml/models/classic/linear-regression/probabilistic
 
 Assume 
 $$

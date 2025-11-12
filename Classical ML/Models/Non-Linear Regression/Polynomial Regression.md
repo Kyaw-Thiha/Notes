@@ -1,5 +1,5 @@
 # Polynomial Regression
-#ml/classic-models/non-linear-regression/polynomial
+#ml/models/classic/non-linear-regression/polynomial
 
 `Polynomial Regression` is a form of [[Non-Linear Regression]] that use polynomials to fit the data.
 
