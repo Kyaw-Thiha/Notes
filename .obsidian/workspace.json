@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classical ML/Ensemble/Stacking.md",
+                "file": "Classical ML/Information Theory/Information Gain.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stacking"
+              "title": "Information Gain"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -183,35 +182,38 @@
   },
   "active": "6d41c9a350686f2d",
   "lastOpenFiles": [
-    "Classical ML/Ensemble/Ensemble Model.md",
+    "Classical ML/Models/Decision Trees/Decision Tree.md",
+    "Classical ML/Models/Decision Trees/Greedy Algorithm.md",
+    "Classical ML/Information Theory/Information Gain.md",
+    "Classical ML/Information Theory/Entropy.md",
+    "Classical ML/Information Theory/Entropy for Binomial Distribution.md",
+    "Classical ML/Models/K-NN and Friends/K-NN.md",
+    "Classical ML/Classification.md",
+    "Classical ML/Notes.md",
+    "Classical ML/Mock Exam Answers.md",
+    "To-Learn.md",
+    "Submission.md",
+    "Classical ML/Models/Decision Trees/Random Forest.md",
+    "Classical ML/Models/Non-Linear Regression/RBF Regression.md",
+    "Classical ML/Models/Non-Linear Regression/Polynomial Regression.md",
+    "Classical ML/Models/Non-Linear Regression/Non-Linear Regression.md",
+    "Classical ML/Models/Linear Regression/Why not Linear Classification.md",
+    "Classical ML/Models/Linear Regression/Solving without Matrices.md",
+    "Classical ML/Models/Linear Regression/Solving with Matrices.md",
+    "Classical ML/Models/Linear Regression/Normal Equation Derivation.md",
+    "Classical ML/Models/Linear Regression/Multi-Dim Input Linear Regression.md",
+    "Classical ML/Models/Linear Regression/Linear Regression Probabilistic Model.md",
+    "Classical ML/Models/Linear Regression/1D Linear Regression.md",
+    "Classical ML/Models/Linear Regression/Linear Regression.md",
+    "Classical ML/Ensemble/Bagging.md",
     "Classical ML/Ensemble/Stacking.md",
+    "Classical ML/Models/Decision Trees",
+    "Classical ML/Models",
+    "Classical ML/Ensemble/Ensemble Model.md",
     "Classical ML/Ensemble/attachments/Pasted image 20251111222733.png",
     "Classical ML/Ensemble/attachments",
-    "Classical ML/Ensemble/Boosting.md",
-    "Classical ML/Ensemble/Bagging.md",
-    "Classical ML/Ensemble/Boosting/Gradient Boosting.md",
-    "Classical ML/Ensemble/Boosting/SAMME.md",
-    "Classical ML/Ensemble/Boosting/AdaBoost R2.md",
-    "Classical ML/Ensemble/Boosting/AdaBoost.md",
     "Classical ML/Ensemble/Boosting",
-    "Professors List.md",
     "Classical ML/Ensemble",
-    "Theory of Computation/PDA/PDA Acceptance.md",
-    "Theory of Computation/PDA/Example-5.md",
-    "Theory of Computation/PDA/PostPre Example-1.md",
-    "Theory of Computation/PDA/Pushdown Automata (PDA).md",
-    "Theory of Computation/PDA/PostPre Example-2.md",
-    "Theory of Computation/PDA/Example-4.md",
-    "Theory of Computation/PDA/Example-2.md",
-    "Theory of Computation/PDA/Example-3.md",
-    "Theory of Computation/PDA/Example-1.md",
-    "Theory of Computation/PDA/Example.md",
-    "Classical ML/Bias-Variance Decomposition/Expected Test Error Decomposition.md",
-    "Classical ML/Bias-Variance Decomposition/Expected Target Value.md",
-    "Classical ML/Bias-Variance Decomposition/Bias-Variance Decomposition.md",
-    "Classical ML/Notes.md",
-    "Classical ML/Bias-Variance Decomposition/Expected Test Error.md",
-    "Classical ML/Classification.md",
     "Theory of Computation/PDA/attachments/PostProcess.png",
     "Theory of Computation/PDA/attachments/Preprocess.png",
     "Software Design",
@@ -226,8 +228,6 @@
     "Theory of Computation/PDA",
     "Numerical Methods/Chapter-2/Iterative Refinement",
     "Numerical Methods/Chapter-2/Relative Residual/attachments/Poor-Conditioned Example.png",
-    "Numerical Methods/Chapter-2/Relative Residual/attachments",
-    "Numerical Methods/Chapter-2/Relative Residual",
     "Classical ML/Untitled.canvas"
   ]
 }

@@ -2,6 +2,8 @@
   "baseFontSize": 20,
   "nativeMenus": false,
   "cssTheme": "Typewriter",
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "center-mermaid"
+  ],
   "showRibbon": false
 }
