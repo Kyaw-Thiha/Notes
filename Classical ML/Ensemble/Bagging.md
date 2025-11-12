@@ -8,12 +8,12 @@ This is an [[Ensemble Model]] designed to `reduce variance` and `prevent overfit
 ---
 ## Technique
 
-`Bootstrap`
+### `Bootstrap`
 Randomly draw $N$ samples with replacements from the dataset. 
 This mean some data will be duplicated, while others are not chosen.
 Repeat this sampling for $k$ times to train $k$ models.
 
-`Aggregating`
+### `Aggregating`
 Train each of the $k$ model using the bootstrapped model (in parallel).
 Then, do `majority voting`, or taking the `mean`.
 

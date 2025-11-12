@@ -1,4 +1,5 @@
 # Entropy for Binomial Distribution
+#ml/information-theory/entropy/binomial-distribution  
 
 Let $Y \sim Binomial$ such that $P(y = C_{0}) = P$ and $P(y = C_{1}) = 1 - p$
 
