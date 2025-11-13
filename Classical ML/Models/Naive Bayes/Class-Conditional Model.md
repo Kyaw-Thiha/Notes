@@ -18,3 +18,4 @@ where $x^*$ is the unseen data we want to classify
 - [[Naive Bayes]]
 - [[Binary Classification CCM]]
 - [[Bayes Classifier]]
+- [[Logistic Regression]]

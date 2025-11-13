@@ -118,3 +118,4 @@ Then,
 ## See Also
 - [[Gaussian CCM]]
 - [[Class-Conditional Model]]
+- [[Logistic Regression]]
