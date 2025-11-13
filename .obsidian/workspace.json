@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "72dee8c92265bf2f",
+        "id": "fe714a1a7eae33fe",
         "type": "tabs",
         "children": [
           {
-            "id": "6d41c9a350686f2d",
+            "id": "1195f38027a36b1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classical ML/Models/Decision Trees/Random Forest.md",
+                "file": "Classical ML/Models/Class-Conditional Model/Naive Bayes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Random Forest"
+              "title": "Naive Bayes"
             }
           }
         ]
@@ -169,54 +169,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6d41c9a350686f2d",
+  "active": "1195f38027a36b1c",
   "lastOpenFiles": [
+    "Classical ML/Models/Class-Conditional Model/Gaussian CCM.md",
+    "Classical ML/Models/Class-Conditional Model/Naive Bayes.md",
+    "Classical ML/Models/Naive Bayes",
+    "Classical ML/Models/Class-Conditional Model/Untitled.md",
+    "Classical ML/Models/Class-Conditional Model/Untitled",
+    "Classical ML/Models/Class-Conditional Model/Binary Classification CCM.md",
+    "Classical ML/Models/Class-Conditional Model/Bayes Classifier.md",
+    "Classical ML/Models/Class-Conditional Model/Class-Conditional Model.md",
+    "Classical ML/Classification.md",
+    "Classical ML/Models/Class-Conditional Model",
+    "Theory of Computation/Pro/Propositional Logic.md",
+    "Theory of Computation/Pro/attachments/Truth Table Example-1.png",
+    "Theory of Computation/Pro/attachments",
+    "Classical ML/Information Theory/Information Gain.md",
+    "Future Courses.md",
+    "Classical ML/Models/Decision Trees/Random Forest.md",
+    "Theory of Computation/Pro",
     "Classical ML/Models/Decision Trees/Greedy Algorithm.md",
     "Classical ML/Models/Decision Trees/Decision Tree.md",
-    "Classical ML/Information Theory/Information Gain.md",
     "Classical ML/Information Theory/Entropy.md",
     "Classical ML/Information Theory/Entropy for Binomial Distribution.md",
     "Classical ML/Models/K-NN and Friends/K-NN.md",
-    "Classical ML/Classification.md",
     "Classical ML/Notes.md",
     "Classical ML/Mock Exam Answers.md",
     "To-Learn.md",
     "Submission.md",
-    "Classical ML/Models/Decision Trees/Random Forest.md",
     "Classical ML/Models/Non-Linear Regression/RBF Regression.md",
     "Classical ML/Models/Non-Linear Regression/Polynomial Regression.md",
     "Classical ML/Models/Non-Linear Regression/Non-Linear Regression.md",
     "Classical ML/Models/Linear Regression/Why not Linear Classification.md",
     "Classical ML/Models/Linear Regression/Solving without Matrices.md",
     "Classical ML/Models/Linear Regression/Solving with Matrices.md",
-    "Classical ML/Models/Linear Regression/Normal Equation Derivation.md",
-    "Classical ML/Models/Linear Regression/Multi-Dim Input Linear Regression.md",
-    "Classical ML/Models/Linear Regression/Linear Regression Probabilistic Model.md",
-    "Classical ML/Models/Linear Regression/1D Linear Regression.md",
-    "Classical ML/Models/Linear Regression/Linear Regression.md",
-    "Classical ML/Ensemble/Bagging.md",
-    "Classical ML/Ensemble/Stacking.md",
     "Classical ML/Models/Decision Trees",
     "Classical ML/Models",
-    "Classical ML/Ensemble/Ensemble Model.md",
     "Classical ML/Ensemble/attachments/Pasted image 20251111222733.png",
     "Classical ML/Ensemble/attachments",
     "Classical ML/Ensemble/Boosting",
     "Classical ML/Ensemble",
     "Theory of Computation/PDA/attachments/PostProcess.png",
     "Theory of Computation/PDA/attachments/Preprocess.png",
-    "Software Design",
-    "Numerical Methods/Chapter-2/Matrix Norms",
     "Theory of Computation/PDA/attachments/PDA Example-5.png",
     "Theory of Computation/PDA/attachments/PDA Example-3.png",
     "Theory of Computation/PDA/attachments/PDA Example-4.png",
     "Theory of Computation/PDA/attachments/PDA Example-1.png",
     "Theory of Computation/PDA/attachments/PDA Example-2.png",
-    "Theory of Computation/PDA/attachments/PDA Example.png",
-    "Theory of Computation/PDA/attachments",
-    "Theory of Computation/PDA",
-    "Numerical Methods/Chapter-2/Iterative Refinement",
-    "Numerical Methods/Chapter-2/Relative Residual/attachments/Poor-Conditioned Example.png",
     "Classical ML/Untitled.canvas"
   ]
 }
