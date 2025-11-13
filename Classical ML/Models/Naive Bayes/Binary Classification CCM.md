@@ -63,3 +63,6 @@ $$
 The `decision boundary` is $a(x) = 0$
 
 ---
+## See Also
+- [[Class-Conditional Model]]
+- [[Gaussian CCM]]

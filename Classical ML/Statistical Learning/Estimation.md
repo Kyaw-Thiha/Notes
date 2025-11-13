@@ -2,7 +2,7 @@
 
 We can use `Estimation` methods to find the best model parameters (point estimate)
 
-`MAP (Maximum A Posteriori)`
+### `MAP (Maximum A Posteriori)`
 $$
 \begin{align}
 \hat{\delta}_{MAP}  
@@ -11,7 +11,7 @@ $$
 \end{align}
 $$
 
-`MLE (Maximum Likelihood)`
+### `MLE (Maximum Likelihood)`
 $$
 \hat{\theta}_{ML} = argmax_{\theta} (P(D|\theta) )
 $$

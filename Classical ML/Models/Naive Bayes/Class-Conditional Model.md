@@ -11,3 +11,10 @@ $$
 p(y|x^*) = \frac{p(x^*|y) \ p(y)}{p(x)}
 $$
 where $x^*$ is the unseen data we want to classify
+
+---
+## See Also
+- [[Gaussian CCM]]
+- [[Naive Bayes]]
+- [[Binary Classification CCM]]
+- [[Bayes Classifier]]
