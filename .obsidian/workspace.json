@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tech Stuffs/Conda.md",
+                "file": "Theory of Computation/Pro/First-Order Language.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Conda"
+              "title": "First-Order Language"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 222.5,
+    "collapsed": true
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -171,8 +172,22 @@
   },
   "active": "3fbb95034f6d4155",
   "lastOpenFiles": [
-    "Classical ML/Monte-Carlo/Monte Carlo Methods.md",
+    "Theory of Computation/Pro/Predicate Logic.md",
+    "Theory of Computation/Pro/Propositional Logic.md",
+    "Theory of Computation/Pro/First-Order Language.md",
+    "Theory of Computation/Pro/attachments/Parse Tree.png",
+    "Numerical Methods/Chapter-3/Methods/Bisection Method.md",
+    "Numerical Methods/Chapter-3/Methods/Newton's Method.md",
+    "Theory of Computation/Pro/Connectiveness.md",
+    "Numerical Methods/Chapter-3/Methods/Secant Method.md",
+    "Numerical Methods/Chapter-3/Fixed Point Theorem (FPT).md",
+    "Numerical Methods/Chapter-3/Fixed Point Methods (FPM).md",
+    "Numerical Methods/Chapter-3/Rate of Convergence.md",
+    "Numerical Methods/Chapter-3/Rate of Convergence Theorem.md",
+    "Numerical Methods/Chapter-3/Fixed Point Iteration (FPI).md",
+    "Numerical Methods/Chapter-3/Methods",
     "Tech Stuffs/Conda.md",
+    "Classical ML/Monte-Carlo/Monte Carlo Methods.md",
     "Computer Vision/AutoEncoders/Math Behind VAE.md",
     "Research Papers/CVAE Variants/1. Learning Structured Output Representation using Deep Conditional Generative Models.md",
     "Classical ML/Monte-Carlo",
@@ -184,21 +199,9 @@
     "Tech Stuffs/Nvim Ipython Shortcuts.md",
     "Software Design/Object Oriented Programming.md",
     "Software Design/Java.md",
-    "Numerical Methods/Chapter-3/Fixed Point Theorem (FPT).md",
-    "Numerical Methods/Chapter-3/Fixed Point Methods (FPM).md",
     "Numerical Methods/Chapter-3/Proof of Convergence.md",
-    "Numerical Methods/Chapter-3/Newton's Method.md",
     "Numerical Methods/Chapter-3/Non-Linear Methods.md",
-    "Numerical Methods/Chapter-3/Rate of Convergence Theorem.md",
-    "Numerical Methods/Chapter-3/Rate of Convergence.md",
-    "Numerical Methods/Chapter-3/Fixed Point Iteration (FPI).md",
     "Tech Stuffs/Convert ipynb to pdf.md",
-    "Classical ML/Bias-Variance Decomposition/Bias-Variance Decomposition.md",
-    "Numerical Methods/Chapter-2/Iterative Refinement/Example-1.md",
-    "Numerical Methods/Chapter-2/Iterative Refinement/Iterative Refinement Algorithm.md",
-    "Classical ML/Models/Logistic Regression/Logistic Regression.md",
-    "Classical ML/Information Theory/Information Gain.md",
-    "Classical ML/Information Theory/Entropy.md",
     "Classical ML/Models/Logistic Regression",
     "Classical ML/Models/Naive Bayes",
     "Classical ML/Models/Class-Conditional Model/Untitled",
@@ -207,7 +210,6 @@
     "Theory of Computation/Pro/attachments",
     "Theory of Computation/Pro",
     "Classical ML/Models/Decision Trees",
-    "Classical ML/Models",
     "Classical ML/Ensemble/attachments/Pasted image 20251111222733.png",
     "Theory of Computation/PDA/attachments/PostProcess.png",
     "Theory of Computation/PDA/attachments/Preprocess.png",
