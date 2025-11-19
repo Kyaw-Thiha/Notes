@@ -6,6 +6,9 @@ For the [[Fixed Point Iteration (FPI)]] $x_{k+1} = g(x_{k})$,
 if $g'(\hat{x}),\ g''(\hat{x}),\ \dots ,\ g^{p-1}(\hat{x}) = 0$ but $g^p(\hat{x}) \neq 0$, 
 then we have `p-th order convergence`
 
+This is also known as `Root Convergence Theorem (RCT)`.
+
+---
 `Proof`
 $$
 \begin{align}

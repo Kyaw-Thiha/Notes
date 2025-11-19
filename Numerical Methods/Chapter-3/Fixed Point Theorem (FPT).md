@@ -3,10 +3,13 @@
 
 `Theorem`
 If there is an interval $[a, b]$ s.t.
-1. $g(x) \in [a, b], \forall x \in [a, b]$
-2. $|| g'(x) || \leq L < 1, \forall x \in [a, b]$
+1. $g(x)$ is continuous on $[a, b]$
+2. $g(x) \in [a, b], \forall x \in [a, b]$
+3. $|| g'(x) || \leq L < 1, \forall x \in [a, b]$
 
 then $g(x)$ has a unique fixed point in $[a, b]$
+
+This is also known as `Functional Convergence Theorem (FCT)`.
 
 ---
 `Proof`

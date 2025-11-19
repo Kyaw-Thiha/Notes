@@ -1,5 +1,5 @@
 # Newton's Method
-#numerical-methods/non-linear/newton 
+#numerical-methods/non-linear/methods/newton 
 
 `Formula`
 $$
@@ -7,6 +7,9 @@ x_{k+1} = x_{k} - \frac{F(x)}{F'(x)}
 $$
 This is the [[Fixed Point Methods (FPM)#Second Form|Second Form]] with $h(x) = \frac{1}{F'(x)}$
 
+![Newton's Method](https://i.ytimg.com/vi/jXI6Sd6JIug/maxresdefault.jpg)
+
+---
 `Proof`
 Suppose that $F(\tilde{x}) = 0$ and $F'(\tilde{x}) \neq 0$
 $$
@@ -21,6 +24,7 @@ g'(x) &= 1 - \left( \frac{F'(x) . F'(x) - F(x) . F''(x) } {(F'(x))^2} \right) \\
 $$
 By the [[Rate of Convergence Theorem]], `Newton's Method`  has at least quadratic convergence for any function $F$.
 
+---
 `Geometric Interpretation`
 We want to solve $F(x) = 0$ at an initial guess $X_{k}$ 
 Which is an approximate model to $F(x)$ by a linear polynomial $p(x)$ that satisfies the conditions
@@ -43,6 +47,6 @@ p_{k}(x_{k+1}) = 0
 \end{align}
 $$
 
-
-`Note` 
+---
+`Convergence Guarantee` 
 `Newton's Method` doesn't always converge.
