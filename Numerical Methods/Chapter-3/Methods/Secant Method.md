@@ -55,3 +55,9 @@ Hence, the `secant method` is effectively faster than [[Newton's Method]].
 The secant method does NOT always converge.
 
 It does not follow the [[Fixed Point Theorem (FPT)]] requirement of $|g'(x)| < 1$
+
+---
+## See Also
+- [[Newton's Method]]
+- [[Bisection Method]]
+- [[Hybrid Method]]

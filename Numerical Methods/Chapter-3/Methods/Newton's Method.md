@@ -50,3 +50,9 @@ $$
 ---
 `Convergence Guarantee` 
 `Newton's Method` doesn't always converge.
+
+---
+## See Also
+- [[Secant Method]]
+- [[Bisection Method]]
+- [[Hybrid Method]]
