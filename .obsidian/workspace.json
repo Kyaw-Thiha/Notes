@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numerical Methods/3. Non-Linear Methods/System of Non-Linear Equation.md",
+                "file": "Numerical Methods/4. ApproximationInterpolation/Polynomial Interpolation.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "System of Non-Linear Equation"
+              "title": "Polynomial Interpolation"
             }
           }
         ]
@@ -169,11 +169,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7bedb07dd39dcbcc",
+  "active": "3fbb95034f6d4155",
   "lastOpenFiles": [
+    "Numerical Methods/4. ApproximationInterpolation/Vandermonde Theorem.md",
+    "Numerical Methods/4. ApproximationInterpolation/Polynomial Interpolation.md",
+    "Numerical Methods/4. ApproximationInterpolation/Approximation Methods.md",
+    "Numerical Methods/4. ApproximationInterpolation/Approximation and Interpolation.md",
+    "Numerical Methods/3. Non-Linear Methods/System of Non-Linear Equation.md",
     "Numerical Methods/4. ApproximationInterpolation",
     "Numerical Methods/3. Non-Linear Methods/Methods/Secant Method.md",
-    "Numerical Methods/3. Non-Linear Methods/System of Non-Linear Equation.md",
     "Numerical Methods/3. Non-Linear Methods/Methods/Newton's Method.md",
     "Numerical Methods/3. Non-Linear Methods/Methods/Hybrid Method.md",
     "Numerical Methods/3. Non-Linear Methods/Methods/Bisection Method.md",
@@ -198,9 +202,6 @@
     "Software Design/SOLID.md",
     "Research Papers/CVAE Variants",
     "Tech Stuffs/Bluetooth.md",
-    "Tech Stuffs/Latex Shortcuts.md",
-    "Tech Stuffs/Nvim Ipython Shortcuts.md",
-    "Software Design/Object Oriented Programming.md",
     "Classical ML/Models/Logistic Regression",
     "Classical ML/Models/Naive Bayes",
     "Classical ML/Models/Class-Conditional Model/Untitled",
@@ -208,7 +209,6 @@
     "Theory of Computation/Pro/attachments/Truth Table Example-1.png",
     "Theory of Computation/Pro/attachments",
     "Theory of Computation/Pro",
-    "Classical ML/Models/Decision Trees",
     "Classical ML/Ensemble/attachments/Pasted image 20251111222733.png",
     "Theory of Computation/PDA/attachments/PostProcess.png",
     "Theory of Computation/PDA/attachments/Preprocess.png",
