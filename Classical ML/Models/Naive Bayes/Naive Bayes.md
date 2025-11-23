@@ -63,10 +63,10 @@ $$
 &= \frac{P(F_{1:D} | c=j) \ .P(c=j)}{P(F_{1:D})}
 & \text{ by Bayes Rule} \\[6pt] \\
 
-&= \frac{\Pi^D_{i=1} \ P(F_{1} | c=j) \ .P(c=j)}{P(F_{1:D})}
+&= \frac{\Pi^D_{i=1} \ P(F_{i} | c=j) \ .P(c=j)}{P(F_{1:D})}
 & \text{ by Conditional Independance} \\[6pt] \\
 
-&= \frac{\Pi^D_{i=1} \ P(F_{1} | c=j) \ .P(c=j)}{\sum^C_{k=1} P(F_{1:D}, c=k)}
+&= \frac{\Pi^D_{i=1} \ P(F_{i} | c=j) \ .P(c=j)}{\sum^C_{k=1} P(F_{1:D}, c=k)}
 & \text{ by Marginalizing Rule} \\[6pt] \\
 \end{align}
 $$

@@ -17,7 +17,7 @@ $$
 \end{align}
 $$
 
-To minimize, we can convert it into negative like
+To minimize, we can convert it into `Negative Log Likelihood`
 $$ 
 \hat{\theta}_{MAP} = argmax_{\theta} [- \log(P(D|\theta)) - \log(P(\theta)) ] \\[6pt]
 $$

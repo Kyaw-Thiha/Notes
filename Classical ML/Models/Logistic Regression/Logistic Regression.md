@@ -73,6 +73,49 @@ $$
 - Recall that in [[Gaussian CCM]], `decision boundary` is linear when $\Sigma_{1} = \Sigma_{2}$.
 
 ---
+## No. of Parameters
+Let dimension of input data be $D$.
+
+[[Gaussian CCM]]
+$D$ parameters for `mean` and $\frac{D(D+1)}{2}$ parameters for the covariance matrix.
+Total: $D + \frac{D(D+1)}{2}$
+
+[[Naive Bayes]]
+$D$ parameters for `mean` and $D$ parameters for `diagonal covariance matrix`.
+Total: $2D$
+
+[[Logistic Regression]]
+Only needs to learn $D+1$ parameters.
+
+---
+## Learning Logistic Regression
+We can learn the optimal parameters of `Logistic Regression` by using numerical methods like [[Gradient Descent]].
+
+[[Learning Logistic Regression|Read More about learning Logistic Regression]]
+
+---
+## Regularized Logistic Regression
+We can regularize `Logistic Regression` against overfitting by penalizing large values of $w$.
+$$
+\tilde{E}(w) = E(w) + \lambda w^Tw
+$$
+
+This means when differentiating, we get
+$$
+\begin{align}
+\nabla \tilde{E}(w)
+&= \nabla E(w) + \nabla (\lambda w^Tw) \\[6pt]
+&= -\sum^N_{i=1} (y_{i} - g(w^T x_{i})) \ x_{i} + 2\lambda w
+\end{align}
+$$
+
+---
+## Sigmoid vs Soft-Max
+For `Binary Classification` tasks, we use [[Sigmoid Function]].
+For `Multi-Class Classification` tasks, we use [[Softmax Function]].
+
+---
 ## See Also
 - [[Class-Conditional Model]]
 - [[Sigmoid Function]]
+- [[Learning Logistic Regression]]
