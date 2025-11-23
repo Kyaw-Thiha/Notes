@@ -48,7 +48,7 @@ L(\theta, \phi; x)
 \end{align}
 $$
 
-Recall that `KL Divergence` is
+Recall that [[KL Divergence]] is
 $$
 KL(q_{\phi}(z|x) \ || \ p(x)) 
 = E_{q_{\phi}} [\log q_{\phi}(z | x)] - E_{q_{\phi}} [\log p(z)] 
