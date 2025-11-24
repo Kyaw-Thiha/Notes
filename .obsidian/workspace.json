@@ -187,8 +187,10 @@
   "active": "10257d2eaaa24c52",
   "lastOpenFiles": [
     "Classical ML/Models/Neural Network/Neural Network.md",
-    "Classical ML/Models/Neural Network/Backpropagation.md",
     "Classical ML/Models/Neural Network/Vectorizing Neural Network.md",
+    "Classical ML/Models/Neural Network/Backpropagation.md",
+    "Classical ML/Metrics/Loss Function.md",
+    "Classical ML/Models/Neural Network/attachments/Backpropagation.png",
     "Professors List.md",
     "To-Learn.md",
     "Submission.md",
@@ -214,7 +216,6 @@
     "Classical ML/Information Theory/Information Gain.md",
     "Classical ML/Models/Naive Bayes/Binary Classification CCM.md",
     "Classical ML/Models/Naive Bayes/Bayes Classifier.md",
-    "Classical ML/Models/Naive Bayes/Naive Bayes.md",
     "Classical ML/Models/Neural Network",
     "Numerical Methods/4. ApproximationInterpolation",
     "Theory of Computation/Pro/attachments/Parse Tree.png",
@@ -231,7 +232,6 @@
     "Theory of Computation/PDA/attachments/Preprocess.png",
     "Theory of Computation/PDA/attachments/PDA Example-5.png",
     "Theory of Computation/PDA/attachments/PDA Example-3.png",
-    "Theory of Computation/PDA/attachments/PDA Example-4.png",
     "Classical ML/Untitled.canvas"
   ]
 }

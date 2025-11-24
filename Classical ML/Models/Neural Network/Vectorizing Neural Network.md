@@ -4,7 +4,7 @@
 `Problem Setting`
 Consider the following neural network.
 
-![[Neural Network.png]]
+![[Neural Network.png|500]]
 
 ---
 `Input Layer`
@@ -73,7 +73,7 @@ $$
 
 It can be helpful to denote `pre-activation state` for better understanding [[Backpropagation]].
 
-![[Neural-Network-2.png]]
+![[Neural-Network-2.png|500]]
 
 `Input layer` and `hidden states` will be vectorized as above.
 
