@@ -28,15 +28,43 @@
               "type": "markdown",
               "state": {
                 "file": "Classical ML/Models/Neural Network/Backpropagation.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Backpropagation"
             }
+          },
+          {
+            "id": "57af9f564ce3ade6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Numerical Methods/4. ApproximationInterpolation/Lagrange Matrix.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lagrange Matrix"
+            }
+          },
+          {
+            "id": "e858a832c77ec776",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Numerical Methods/4. ApproximationInterpolation/Newton Basis.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Newton Basis"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -184,54 +212,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "10257d2eaaa24c52",
+  "active": "e858a832c77ec776",
   "lastOpenFiles": [
-    "Classical ML/Models/Neural Network/Neural Network.md",
-    "Classical ML/Models/Neural Network/Vectorizing Neural Network.md",
-    "Classical ML/Models/Neural Network/Backpropagation.md",
-    "Classical ML/Metrics/Loss Function.md",
-    "Classical ML/Models/Neural Network/attachments/Backpropagation.png",
-    "Professors List.md",
+    "Numerical Methods/4. ApproximationInterpolation/Error in Polynomial.md",
+    "Numerical Methods/4. ApproximationInterpolation/Newton Basis.md",
+    "Numerical Methods/4. ApproximationInterpolation/Polynomial Interpolation.md",
+    "Numerical Methods/4. ApproximationInterpolation/attachments/Newton Polynomial-2.png",
+    "Numerical Methods/4. ApproximationInterpolation/Lagrange Matrix.md",
+    "Numerical Methods/4. ApproximationInterpolation/attachments/Newton Polynomial.png",
+    "Numerical Methods/4. ApproximationInterpolation/attachments",
+    "Numerical Methods/4. ApproximationInterpolation/Vandermonde Theorem.md",
+    "Interviews/Interview Notes.md",
+    "Research Papers/YOLOv10/Non-Maximum Suppression.md",
+    "Interviews",
+    "Numerical Methods/4. ApproximationInterpolation/Approximation and Interpolation.md",
     "To-Learn.md",
-    "Submission.md",
+    "Classical ML/Models/Neural Network/Backpropagation.md",
+    "Classical ML/Models/Neural Network/Backpropagation Example.md",
+    "Numerical Methods/3. Non-Linear Methods/Rate of Convergence.md",
+    "Numerical Methods/3. Non-Linear Methods/Rate of Convergence Theorem.md",
+    "Numerical Methods/3. Non-Linear Methods/Fixed Point Theorem (FPT).md",
+    "Professors List.md",
+    "Numerical Methods/3. Non-Linear Methods/Methods/Newton's Method.md",
+    "Numerical Methods/3. Non-Linear Methods/Non-Linear Methods.md",
+    "Numerical Methods/4. ApproximationInterpolation/Approximation Methods.md",
+    "Theory of Computation/Pro/Proving Completeness.md",
+    "Theory of Computation/Pro/Connectives.md",
+    "Theory of Computation/Pro/Connectiveness.md",
+    "Winter Break.md",
+    "Classical ML/Models/Neural Network/Neural Network.md",
+    "Classical ML/Models/PCA/Dimensionality Reduction.md",
+    "Classical ML/Models/PCA/PCA Algorithm.md",
+    "Classical ML/Models/K-NN and Friends/K-Means.md",
+    "Classical ML/Models/PCA",
+    "Classical ML/Models/Neural Network/attachments/Backpropagation-2.png",
+    "Classical ML/Models/Neural Network/Activation Functions",
+    "Classical ML/Models/Neural Network/attachments/Backpropagation.png",
     "Classical ML/Models/Neural Network/attachments/Neural-Network-2.png",
-    "Classical ML/Models/Linear Regression/Multi-Dim Input Linear Regression.md",
-    "Classical ML/Models/Linear Regression/Normal Equation Derivation.md",
-    "Classical ML/Models/Linear Regression/Linear Regression Probabilistic Model.md",
-    "Classical ML/Models/Linear Regression/Linear Regression.md",
     "Classical ML/Models/Neural Network/attachments/Neural Network.png",
     "Classical ML/Models/Neural Network/attachments",
-    "Classical ML/Models/Logistic Regression/Learning Logistic Regression.md",
-    "Classical ML/Models/Logistic Regression/Logistic Regression.md",
-    "Classical ML/Models/Logistic Regression/Softmax Function.md",
-    "Classical ML/Models/Logistic Regression/Sigmoid Function.md",
-    "Classical ML/Statistical Learning/Log Likelihood.md",
-    "Classical ML/Information Theory/Cross-Entropy.md",
-    "Classical ML/Information Theory/KL Divergence.md",
-    "Computer Vision/AutoEncoders/Math Behind VAE.md",
-    "Computer Vision/AutoEncoders/AutoEncoders.md",
-    "Computer Vision/AutoEncoders/Conditional Variational AutoEncoders.md",
-    "Classical ML/Information Theory/Entropy.md",
-    "Classical ML/Information Theory/Entropy for Binomial Distribution.md",
-    "Classical ML/Information Theory/Information Gain.md",
-    "Classical ML/Models/Naive Bayes/Binary Classification CCM.md",
-    "Classical ML/Models/Naive Bayes/Bayes Classifier.md",
     "Classical ML/Models/Neural Network",
     "Numerical Methods/4. ApproximationInterpolation",
     "Theory of Computation/Pro/attachments/Parse Tree.png",
     "Numerical Methods/3. Non-Linear Methods/Methods",
     "Classical ML/Monte-Carlo",
     "Research Papers/CVAE Variants",
-    "Classical ML/Models/Logistic Regression",
-    "Classical ML/Models/Naive Bayes",
-    "Classical ML/Models/Class-Conditional Model/Untitled",
-    "Classical ML/Models/Naive Bayes",
     "Theory of Computation/Pro/attachments/Truth Table Example-1.png",
     "Classical ML/Ensemble/attachments/Pasted image 20251111222733.png",
     "Theory of Computation/PDA/attachments/PostProcess.png",
-    "Theory of Computation/PDA/attachments/Preprocess.png",
-    "Theory of Computation/PDA/attachments/PDA Example-5.png",
-    "Theory of Computation/PDA/attachments/PDA Example-3.png",
     "Classical ML/Untitled.canvas"
   ]
 }

@@ -18,7 +18,7 @@ The theory of `Perceptron` was invented by [Frank Rosenblatt](https://en.wikiped
 It wasn't able to represent the `XOR` gates, which led to the first AI Winter.
 
 `Backpropagation`
-In 1980s, `Backprogation` algorithm was invented by [Hinton et. al](https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf) which allowed any binary function to be reprsented by stacking layers of perceptrons.
+In 1980s, [[Backpropagation]] algorithm was invented by [Hinton et. al](https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf) which allowed any binary function to be reprsented by stacking layers of perceptrons.
 
 ---
 ## Universal Approximation Theorem
