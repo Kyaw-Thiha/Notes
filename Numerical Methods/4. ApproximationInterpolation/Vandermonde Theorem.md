@@ -1,4 +1,5 @@
 # Vandermonde Theorem
+#numerical-methods/interpolation/vendermonde 
 
 `Vandermonde Theorem`, also known as `Method of Undetermined Coefficients`, guarantees the existence and uniqueness of the interpolating polynomial.
 

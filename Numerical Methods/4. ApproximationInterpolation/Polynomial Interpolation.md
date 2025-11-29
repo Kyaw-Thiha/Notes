@@ -1,5 +1,6 @@
 # Polynomial Interpolation
 #numerical-methods/interpolation/polynomial 
+
 `Polynomial Interpolation` is finding a polynomial $p(x)$ $s.t.$ 
 $$
 p(x_{i}) = F(x_{i}), \ i=0,1,2,\dots
