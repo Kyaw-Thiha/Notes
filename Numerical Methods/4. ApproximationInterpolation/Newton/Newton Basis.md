@@ -138,3 +138,4 @@ $$
 ## See Also
 - [[Polynomial Interpolation]]
 - [[Lagrange Matrix]]
+- [[Newton Example]]
