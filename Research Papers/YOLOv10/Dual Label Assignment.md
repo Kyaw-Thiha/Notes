@@ -1,6 +1,6 @@
 ## Dual Label Assignment
 #research #yolo/v10 
-In previous YOLO models, they are trained on one-to-many head (one ground truth to many bounding boxes), and during inference, post-processed using [[Non-Maximum Suppression|NMS]].
+In previous YOLO models, they are trained on one-to-many head (one ground truth to many bounding boxes), and during inference, post-processed using [[Non-Maximum Suppression (NMS)|NMS]].
 
 One-to-many head helps improve accuracy.
 But the problem is the increased time during inference.
@@ -9,7 +9,7 @@ To solve that, YOLOv8 used 2 heads during training: one-to-one and one-to-many h
 
 It then ensure the 2 heads are making same predictions  by training on [[#Prediction-Aware Score]].
 
-Then during inference, only the one-to-one head is used, essentially allowing the model to bypass [[Non-Maximum Suppression|NMS]] post-processing, while also not requiring to use Hungarian matching.
+Then during inference, only the one-to-one head is used, essentially allowing the model to bypass [[Non-Maximum Suppression (NMS)|NMS]] post-processing, while also not requiring to use Hungarian matching.
 
 ## Prediction-Aware Score
 $$
@@ -58,4 +58,4 @@ Then, the same loss function (BCE) is used for both heads to learn those region(
 - [[YOLOv10]]
 - [[YOLOv10 Efficiency]]
 - [[YOLOv10 Accuracy]]
-- [[Non-Maximum Suppression]]
+- [[Non-Maximum Suppression (NMS)]]

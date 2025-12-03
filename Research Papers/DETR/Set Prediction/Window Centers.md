@@ -42,5 +42,5 @@ Although it sounds similar, it is fundamentally different to sliding window meth
 `Window Center`: Use 1 CNN pass over an image, and treat every feature map pixel as possible center.
 
 ## See Also
-- [[Anchors]]
+- [[Research Papers/DETR/Set Prediction/Anchors]]
 - [[Region Proposals]]

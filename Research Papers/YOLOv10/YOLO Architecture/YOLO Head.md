@@ -71,7 +71,7 @@
 ## Post-processing
 - Convert head outputs to **absolute boxes** in image space.
 - Apply **confidence filtering** (objectness × class score).
-- Run [[Non-Maximum Suppression|NMS]] (or Soft-NMS/DIoU-NMS) to remove duplicates.
+- Run [[Non-Maximum Suppression (NMS)|NMS]] (or Soft-NMS/DIoU-NMS) to remove duplicates.
 - Return final detections: $(x_1,y_1,x_2,y_2,\text{score},\text{class})$.
 
 ---
@@ -126,4 +126,4 @@ class YOLOHead(nn.Module):
 - [[YOLO Family Architecture]] — big picture of Backbone ↔ Neck ↔ Head  
 - [[YOLO Backbone|YOLO Backbone]] — multi-scale features  
 - [[YOLO Neck|YOLO Neck]] — blends features across scales  
-- [[Non-Maximum Suppression]] — removes duplicate boxes
+- [[Non-Maximum Suppression (NMS)]] — removes duplicate boxes

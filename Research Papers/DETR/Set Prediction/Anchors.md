@@ -12,7 +12,7 @@ The model predicts offsets and class labels to adjust these anchors into final b
    - A class label
    - Offsets
 3. Apply offset to anchors to form final bounding box predictions.
-4. Apply [[Non-Maximum Suppression|NMS]]
+4. Apply [[Non-Maximum Suppression (NMS)|NMS]]
 
 ## Related Models
 `Faster R-CNN` (2015)

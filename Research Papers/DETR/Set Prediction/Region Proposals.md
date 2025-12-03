@@ -28,5 +28,5 @@ A two-stage detection method where the model first proposes a large set of candi
 - RPN is trainable so, proposals are learned instead of handcrafted.
 
 ## See Also
-- [[Anchors]]
+- [[Research Papers/DETR/Set Prediction/Anchors]]
 - [[Window Centers]]

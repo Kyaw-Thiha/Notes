@@ -8,9 +8,9 @@ Link: https://arxiv.org/abs/2005.12872
 ![Architecture](https://viso.ai/wp-content/uploads/2024/02/DETR-Architecture.jpg)
 
 
-Most prior models use [[Region Proposals]], [[Window Centers]] and [[Anchors]] to predict objects and learn from them.
+Most prior models use [[Region Proposals]], [[Window Centers]] and [[Research Papers/DETR/Set Prediction/Anchors]] to predict objects and learn from them.
 
-All of these methods require additional handcrafted preprocessing layer like [[Non-Maximum Suppression|NMS]] which add computational cost during inference.
+All of these methods require additional handcrafted preprocessing layer like [[Non-Maximum Suppression (NMS)|NMS]] which add computational cost during inference.
 
 To solve this, there has been prior models that also use [[Bipartite Matching]] but they also require additional handcrafted components.
 Recurrent Neural Networks (RNNs) have also been considered, but they are autoregressive, and hasn't been tested on large datasets.

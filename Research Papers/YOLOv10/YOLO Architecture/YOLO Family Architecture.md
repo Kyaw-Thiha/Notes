@@ -82,5 +82,5 @@ detections = nms_or_nms_free(preds)
 - [[YOLO Backbone]] — how features are extracted  
 - [[YOLO Neck]] — how features are fused  
 - [[YOLO Head]] — how predictions are made  
-- [[Non-Maximum Suppression]] — classic duplicate removal
+- [[Non-Maximum Suppression (NMS)]] — classic duplicate removal
 - Reference: https://viso.ai/computer-vision/yolo-explained/

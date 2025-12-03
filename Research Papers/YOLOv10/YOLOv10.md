@@ -4,7 +4,7 @@
 Link: https://arxiv.org/abs/2405.14458
 
 Compared to YOLOv8,
-- It replaces [[Non-Maximum Suppression|NMS]] with end-to-end object detection through **dual label assignment**.
+- It replaces [[Non-Maximum Suppression (NMS)|NMS]] with end-to-end object detection through **dual label assignment**.
 - It improves efficiency by using 
   - **lightweight classification head** 
   - **spatial channel decoupled downsampling**  
@@ -17,7 +17,7 @@ Compared to YOLOv8,
 ## Dual Label Assignment
 - YOLOv10 use one-to-many & one-to-one heads during training, by aligning them through [[Dual Label Assignment#Prediction-Aware Score|prediction aware score]].
 - Then during inference, only the one-to-one head is used.
-- This allows the model to no longer require [[Non-Maximum Suppression|NMS]] during inference.
+- This allows the model to no longer require [[Non-Maximum Suppression (NMS)|NMS]] during inference.
 
 [[Dual Label Assignment|Read More]]
 
