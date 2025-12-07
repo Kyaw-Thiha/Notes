@@ -16,4 +16,5 @@ $$
 $$
 
 `Cumulative Explained variance ratio` $\rho$ help us choose $top-k$ `eigenvalues`.
+
 ![Cumulative Explained Variance Ratio|400](https://saturncloud.io/images/blog/variance_ratio_plot.webp)
