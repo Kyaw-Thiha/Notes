@@ -83,16 +83,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numerical Methods/4. ApproximationInterpolation/Newton/Newton Example.md",
+                "file": "Classical ML/Models/PCA/Math Behind PCA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Math Behind PCA"
+            }
+          },
+          {
+            "id": "60a69a759317eae9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Classical ML/Models/PCA/Explained Variance Ratio.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Newton Example"
+              "title": "Explained Variance Ratio"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -240,10 +254,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "836472a4390196cd",
+  "active": "60a69a759317eae9",
   "lastOpenFiles": [
-    "Numerical Methods/4. ApproximationInterpolation/Newton/Newton Basis.md",
+    "Classical ML/Models/PCA/Math Behind PCA.md",
+    "Classical ML/Models/PCA/Explained Variance Ratio.md",
+    "Classical ML/Models/PCA/PCA Algorithm.md",
+    "Classical ML/Models/PCA/Lagrange Multipliers.md",
+    "To-Learn.md",
+    "Transformer/Transformer.md",
+    "Transformer",
+    "Classical ML/Models/PCA/Example/Perturbed Reconstruction Error.md",
+    "Classical ML/Models/PCA/Example/Reconstruction Error.md",
+    "Classical ML/Models/PCA/Example/PCA Example.md",
+    "Classical ML/Models/PCA/Dimensionality Reduction.md",
+    "Classical ML/Models/PCA/Example/Rotating Coordinate System.md",
+    "Classical ML/Models/PCA/Example/Centering Coordinate System.md",
+    "Classical ML/Models/PCA/Example/Finding the Orthogonal Matrix.md",
+    "Classical ML/Models/PCA/Example/Eigenstructure of Symmetric Matrices.md",
+    "Classical ML/Models/PCA/Example/Dimension Reduction.md",
+    "Classical ML/Models/PCA/Example/Example.md",
+    "Professors List.md",
+    "Denoising Models.md",
+    "Future Courses.md",
+    "Classical ML/Models/PCA/Example/attachments/PCA Pythagorean.png",
+    "Classical ML/Models/PCA/Example/attachments/PCA (Centering).png",
+    "Classical ML/Models/PCA/Example/attachments/PCA Perturbed.png",
+    "Classical ML/Models/PCA/Example/attachments",
+    "Classical ML/Models/PCA/Example",
+    "Classical ML/Models/PCA/Example/attachments/PCA (Rotation).png",
+    "Classical ML/Models/PCA/attachments",
+    "Let's Solve it/Preprocessing.md",
+    "Let's Solve it/Augmentations.md",
     "Numerical Methods/4. ApproximationInterpolation/Newton/Newton Example.md",
+    "Numerical Methods/4. ApproximationInterpolation/Newton/Newton Basis.md",
     "Numerical Methods/4. ApproximationInterpolation/Newton/attachments/Newton Polynomial-2.png",
     "Numerical Methods/4. ApproximationInterpolation/Newton/attachments/Newton Polynomial.png",
     "Numerical Methods/4. ApproximationInterpolation/Newton/attachments/Newton Example.png",
@@ -251,42 +294,14 @@
     "Numerical Methods/4. ApproximationInterpolation/Vandermonde/Vandermonde Theorem.md",
     "Numerical Methods/4. ApproximationInterpolation/Lagrange/Lagrange Example.md",
     "Numerical Methods/4. ApproximationInterpolation/Lagrange/Lagrange Matrix.md",
-    "Numerical Methods/4. ApproximationInterpolation/Vandermonde/Vandermonde Example.md",
-    "Numerical Methods/4. ApproximationInterpolation/Polynomial Interpolation.md",
     "Numerical Methods/4. ApproximationInterpolation/Lagrange",
     "Numerical Methods/4. ApproximationInterpolation/Newton",
     "Numerical Methods/4. ApproximationInterpolation/Vandermonde",
-    "Interviews/NRC Winter 2026/Interview Notes.md",
-    "Tech Stuffs/Bluetooth.md",
     "Interviews/NRC Winter 2026",
-    "Interviews/NRC Winter 2026/Interview Set-B.md",
-    "Interviews/NRC Winter 2026/Interview Set-C.md",
-    "Interviews/NRC Winter 2026/Interview Set-A.md",
-    "Interviews/NRC Winter 2026/Inteview Set.md",
-    "Computer Vision/Object Tracking/Object Tracking.md",
-    "Computer Vision/Object Tracking/Metrics/MOTA.md",
-    "Computer Vision/Object Tracking/Metrics/IDF1.md",
-    "Computer Vision/Object Tracking/Metrics/HOTA.md",
-    "Computer Vision/Object Tracking/Metrics/MOTP.md",
-    "Research Papers/DETR/Hungarian Algorithm.md",
     "Computer Vision/Object Tracking/Metrics",
-    "Computer Vision/Object Tracking/Kalman Filter/Kalman Filter.md",
-    "Computer Vision/Object Tracking/Kalman Filter",
-    "Computer Vision/Object Tracking/Data Association.md",
-    "Computer Vision/Object Tracking/Algorithms/DEEP SORT.md",
-    "Computer Vision/Object Tracking/Algorithms/SORT Algorithm.md",
-    "Computer Vision/Object Tracking/Algorithms",
-    "Computer Vision/Object Tracking",
-    "Computer Vision/Object Detection/Feature Pyramid Network (FPN).md",
-    "Computer Vision/Object Detection/Interpolation Methods.md",
-    "Computer Vision/Object Detection/Metrics",
     "Classical ML/Models/Neural Network/attachments/Backpropagation-2.png",
     "Classical ML/Models/Neural Network/attachments/Backpropagation.png",
     "Classical ML/Models/Neural Network/attachments/Neural-Network-2.png",
-    "Classical ML/Models/Neural Network/attachments/Neural Network.png",
-    "Theory of Computation/Pro/attachments/Parse Tree.png",
-    "Theory of Computation/Pro/attachments/Truth Table Example-1.png",
-    "Classical ML/Ensemble/attachments/Pasted image 20251111222733.png",
     "Classical ML/Untitled.canvas"
   ]
 }
