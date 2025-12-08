@@ -2,7 +2,7 @@
 #ml/classic-models/k-means
 This is a clustering method that make clusters based on k-nearest neighbours.
 
-![K-Means](https://media.geeksforgeeks.org/wp-content/uploads/20190812011831/Screenshot-2019-08-12-at-1.09.42-AM.png)
+![K-Means|400](https://media.geeksforgeeks.org/wp-content/uploads/20190812011831/Screenshot-2019-08-12-at-1.09.42-AM.png)
 
 ## Steps
 
@@ -13,6 +13,7 @@ This is a clustering method that make clusters based on k-nearest neighbours.
 5. For each cluster, the centroid is updated to the new mean.
 6. Repeat the steps-3 to 5 till the centroids stop moving (convergence).
 
+---
 ## Cluster Assignment Matrix (Binary)
 The cluster assignment matrix can be represented as $L \in \{0, 1\}^{N \times K}$ 
 $$
@@ -45,6 +46,9 @@ where
 $L = argmin_{L} \ E(L, \{c_{j}\}^K_{j=1})$ 
 To try to minimize the objective function, for each point, we measure its distance to all the centers, and assign it to the closest cente.
 
+[[Math behind K-Means|Read More]]
+
+---
 ## Choosing Center
 The choice of initial centroids have huge performance effect on the algoritms.
 Can also end up in local minimum.
@@ -56,6 +60,8 @@ So, here are a few variants of centroids choosing
 - **K-Means++**
 
 ### K-Means++
+![K-Means++|500](https://miro.medium.com/v2/1*JoSI7oFZXqKG8HNti0asvg.gif)
+
 1. Chooose 1 data-point at random
 2. Compute distances
 3. Pick next center with probability proportional to distance squared
@@ -63,43 +69,54 @@ So, here are a few variants of centroids choosing
 4. Repeat steps-2 and 3 till $k$ centers are chosen
 5. Carry out normal K-means
 
+---
 ## K-Means Convergence Problem
-The objective function of `K-Means` has local minimum.
+In `K-Means`, we alternate between 2 different optimization problems - one for updating the centroids, and another for assigning points to them.
+Since each optimization problem reduces the objective function, and objective function's lower bound is $0$, the algorihm is guaranteed to converge.
+
+However, the objective function of `K-Means` has local minimums.
 So, we need to ensure a good initialization of center points.
 
+---
 ## Choosing the value of K
-Compute the `Withing-Cluster Sum of Squares (WCSS)`, which is basically the objective function, over different values of k.
+
+`Elbow Method`
+Compute the `Within-Cluster Sum of Squares (WCSS)`, which is basically the objective function, over different values of k.
 
 Note that we calculate this after `convergence`.
 
-![Elbow Method](https://miro.medium.com/v2/resize:fit:1340/1*BKKH21zsY1vAomA7FxQGHg.png)
+![Elbow Method|500](https://miro.medium.com/v2/resize:fit:1340/1*BKKH21zsY1vAomA7FxQGHg.png)
+
+`Penalized Likelihood`
+This is form of a `Bayesian Model Selection` 
+
+We allow $K$ to grow as large as wanted.
+Then, we add penalty term to the [[#Objective Function]] in order to penalizes the no. of clusters.
+
+`Latent Dirichlet Analysis (LDA)`
+Using a `generative probabilistic model` to discover hidden topics(cluster centers) inside a document.
+
+![LDA|500](https://cdn.analyticsvidhya.com/wp-content/uploads/2021/06/Graphical-model-of-latent-Dirichlet-allocation-LDA.webp)
 
 
-## Proof of Objective Function
-`WTS: ` $c_{j} = argmin_{c_{j}}E(L, c_{j})$
-`Objective Function`
-$$
-\begin{align}
-E(L, c_{j})  
-&= \sum^N_{i=1} l_{i,j}.||y_{i} - c_{i}||^2  \\
-&= \sum^N_{i=1} l_{i,j}.(y_{i} - c_{j})^T . (y_{i} - c_{i}) \\
-&= \sum^N_{i=1} l_{i,j}.(y_{i}^T.y_{i} - 2.y_{i}^T.c_{j} + c_{j}^T.c_{j}) \\
-\end{align}
-$$
-`Minimizing Objective Function`
-$$
-\begin{align}
-\frac{\partial E}{\partial c_{j}} &= 0 \\[4pt] 
+---
+## K-Means Variants
 
-\sum^N_{i=1}.l_{i, j}.(-2y_{i} + 2c_{j}) &= 0 \\[4pt] 
+`K-Metoids`
+Instead of using the `mean` to represent the cluster, use the point closest to mean to represent the cluster.
 
-\sum^N_{i=1}.l_{i, j}.y_{i} &= \sum^N_{i=1}.l_{i, j}.c_{j}  \\
-\\[4pt]
+`Hierarchical K-Means`
+Build cluster centers in hierarchical fashion for efficient querying.
+[[Hierarchical K-Means|Read More]]
 
-\sum^N_{i=1}.l_{i, j}.y_{i} &= .c_{j}.\sum^N_{i=1}.l_{i, j}  \\
-\\[4pt]
+`Mixture Model`
+Represent the cluster by `probability distribution` of data.
+Allow each point to represent `multiple probability distribution`.
+[[Mixture Model|Read More]]
 
-c_{j} &= \frac{\sum^N_{i=1}.l_{i, j}.y_{i}}{\sum^N_{i=1}.l_{i, j}}
-\end{align}
-$$
+---
+## See Also
 
+- [[Math behind K-Means]]
+- [[Curse of Dimensionality]]
+- [[Voronoi Diagram]]
