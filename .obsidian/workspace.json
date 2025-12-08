@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classical ML/Models/PCA/Explained Variance Ratio.md",
+                "file": "Classical ML/Models/EM Algorithm/Gaussian Mixture Model.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Explained Variance Ratio"
+              "title": "Gaussian Mixture Model"
             }
           }
         ],
@@ -138,7 +138,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ml/models/classic/logistic-regression",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -256,8 +256,20 @@
   },
   "active": "60a69a759317eae9",
   "lastOpenFiles": [
-    "Classical ML/Models/PCA/Dimensionality Reduction.md",
+    "Classical ML/Models/EM Algorithm/EM Algorithm.md",
+    "Classical ML/Models/EM Algorithm/Gaussian Mixture Model.md",
+    "Classical ML/Models/EM Algorithm/Maths Behind EM Algorithm.md",
+    "Classical ML/Models/EM Algorithm/Mixture Model.md",
+    "Classical ML/Models/EM Algorithm/Maths Behind GMM.md",
+    "Classical ML/Models/K-NN and Friends/K-Means.md",
+    "Classical ML/Models/K-NN and Friends/Weighed K-NN.md",
+    "Classical ML/Models/K-NN and Friends/Hierarchical K-Means.md",
+    "Classical ML/Models/K-NN and Friends/Voronoi Diagram.md",
+    "Classical ML/Models/K-NN and Friends/K-NN.md",
+    "Classical ML/Models/K-NN and Friends/Curse of Dimensionality.md",
+    "Classical ML/Models/K-NN and Friends/Math behind K-Means.md",
     "Classical ML/Models/PCA/Explained Variance Ratio.md",
+    "Classical ML/Models/PCA/Dimensionality Reduction.md",
     "Classical ML/Models/EM Algorithm",
     "Classical ML/Models/PCA/Math Behind PCA.md",
     "Classical ML/Models/PCA/PCA Algorithm.md",
@@ -272,11 +284,6 @@
     "Classical ML/Models/PCA/Example/Centering Coordinate System.md",
     "Classical ML/Models/PCA/Example/Finding the Orthogonal Matrix.md",
     "Classical ML/Models/PCA/Example/Eigenstructure of Symmetric Matrices.md",
-    "Classical ML/Models/PCA/Example/Dimension Reduction.md",
-    "Classical ML/Models/PCA/Example/Example.md",
-    "Professors List.md",
-    "Denoising Models.md",
-    "Future Courses.md",
     "Classical ML/Models/PCA/Example/attachments/PCA Pythagorean.png",
     "Classical ML/Models/PCA/Example/attachments/PCA (Centering).png",
     "Classical ML/Models/PCA/Example/attachments/PCA Perturbed.png",
@@ -284,16 +291,10 @@
     "Classical ML/Models/PCA/Example",
     "Classical ML/Models/PCA/Example/attachments/PCA (Rotation).png",
     "Classical ML/Models/PCA/attachments",
-    "Let's Solve it/Preprocessing.md",
-    "Let's Solve it/Augmentations.md",
-    "Numerical Methods/4. ApproximationInterpolation/Newton/Newton Example.md",
-    "Numerical Methods/4. ApproximationInterpolation/Newton/Newton Basis.md",
     "Numerical Methods/4. ApproximationInterpolation/Newton/attachments/Newton Polynomial-2.png",
     "Numerical Methods/4. ApproximationInterpolation/Newton/attachments/Newton Polynomial.png",
     "Numerical Methods/4. ApproximationInterpolation/Newton/attachments/Newton Example.png",
     "Numerical Methods/4. ApproximationInterpolation/Newton/attachments",
-    "Numerical Methods/4. ApproximationInterpolation/Vandermonde/Vandermonde Theorem.md",
-    "Numerical Methods/4. ApproximationInterpolation/Lagrange/Lagrange Example.md",
     "Numerical Methods/4. ApproximationInterpolation/Lagrange",
     "Numerical Methods/4. ApproximationInterpolation/Newton",
     "Numerical Methods/4. ApproximationInterpolation/Vandermonde",
