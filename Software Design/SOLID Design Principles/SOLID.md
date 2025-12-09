@@ -1,7 +1,7 @@
 # SOLID
 
 ## 1. Single Responsibility Principle (SRP)
-A class should have only 1 reason to change.q
+A class should have only 1 reason to change.
 
 ## 2. Open/Closed principle (OCP)
 This is a bad design since we cannot use different date formats.
