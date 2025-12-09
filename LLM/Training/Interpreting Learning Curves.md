@@ -5,7 +5,7 @@
 ---
 
 ## 1. Ideal Learning Curve
-![Ideal Learning Curve](./attachments/learning_curve_ideal.png)
+![Ideal Learning Curve](learning_curve_ideal.png)
 
 - **Training loss**: decreases smoothly.  
 - **Validation loss**: decreases, then plateaus at a low value.  
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Underfitting
-![Underfitting Learning Curve](./attachments/learning_curve_underfitting.png)
+![Underfitting Learning Curve](learning_curve_underfitting.png)
 
 - **Training loss**: stays high, decreases very slowly or not at all.  
 - **Validation loss**: remains high, similar to training loss.  
@@ -37,7 +37,7 @@
 ---
 
 ## 3. Overfitting
-![Overfitting Learning Curve](./attachments/learning_curve_overfitting.png)
+![Overfitting Learning Curve](learning_curve_overfitting.png)
 
 - **Training loss**: continues to decrease steadily.  
 - **Validation loss**: decreases initially, then rises after some point.  
@@ -59,10 +59,10 @@
 
 ## 4. Erratic Curves (Noisy Training)
 ### 4a. Erratic Validation Only
-![Erratic Validation Learning Curve](./attachments/learning_curve_erratic_validation.png)
+![Erratic Validation Learning Curve](learning_curve_erratic_validation.png)
 
 ### 4b. Both Erratic
-![Erratic Learning Curve](./attachments/learning_curve_erratic.png)
+![Erratic Learning Curve](learning_curve_erratic.png)
 
 - **Loss curves** fluctuate heavily (zig-zag pattern).  
 - Both training and validation losses are unstable.  
@@ -83,7 +83,7 @@
 ---
 
 ## 5. High Variance with Plateaus
-![High Variance with Plateau Learning Curve](./attachments/learning_curve_high_variance.png)
+![High Variance with Plateau Learning Curve](learning_curve_high_variance.png)
 
 - Training loss decreases, but **validation loss oscillates** or plateaus early.  
 - Accuracy metrics may stagnate.  
@@ -98,7 +98,7 @@
 ---
 
 ## 6. Diverging Loss
-![Diverging Learning Curve](./attachments/learning_curve_diverging.png)
+![Diverging Learning Curve](learning_curve_diverging.png)
 
 - **Training loss** increases instead of decreasing.  
 - Validation loss also increases or becomes NaN.  
@@ -118,7 +118,7 @@
 ---
 
 ## 7. Data Leakage (Suspiciously Perfect Curves)
-![Data Leakage Learning Curve](./attachments/learning_curve_leakage.png)
+![Data Leakage Learning Curve](learning_curve_leakage.png)
 - **Training loss**: decreases smoothly to very low.  
 - **Validation loss**: also decreases unusually well, sometimes even below training loss.  
 
