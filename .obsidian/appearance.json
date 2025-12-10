@@ -3,7 +3,8 @@
   "nativeMenus": false,
   "cssTheme": "Typewriter",
   "enabledCssSnippets": [
-    "center-mermaid"
+    "center-mermaid",
+    "small-code"
   ],
   "showRibbon": false
 }

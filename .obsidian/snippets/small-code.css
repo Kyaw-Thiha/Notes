@@ -1,0 +1,19 @@
+/* Reduce font size of fenced code blocks */
+.markdown-preview-view pre code {
+  font-size: 0.85em;  /* adjust smaller or larger as you like */
+}
+
+/* Optional: match the pre container too */
+.markdown-preview-view pre {
+  font-size: 0.85em;
+}
+
+/* Reduce font size of fenced code blocks in EDITOR mode (CodeMirror) */
+.cm-editor .cm-content .HyperMD-codeblock {
+  font-size: 0.85em !important;   /* match preview size */
+}
+
+/* Optional: shrink line numbers inside code blocks if enabled */
+.cm-editor .cm-gutterElement {
+  font-size: 0.85em !important;
+}

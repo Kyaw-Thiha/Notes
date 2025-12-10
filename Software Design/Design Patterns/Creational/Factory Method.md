@@ -164,3 +164,4 @@ int main() {
 ---
 ## See Also
 - [[Important Design Patterns]]
+- [[Abstract Factory]]
