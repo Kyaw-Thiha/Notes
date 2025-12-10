@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Design/Design Patterns/Behavioral/Template.md",
+                "file": "Software Design/Design Patterns/Design Patterns.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Template"
+              "title": "Design Patterns"
             }
           }
         ],
@@ -163,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5,
-    "collapsed": true
+    "width": 222.5
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -257,8 +256,13 @@
   },
   "active": "60a69a759317eae9",
   "lastOpenFiles": [
+    "Software Design/Design Patterns/Dependency Injection.md",
+    "Software Design/Design Patterns/Design Patterns.md",
+    "Software Design/Design Patterns/Behavioral/Visitor.md",
     "Software Design/Design Patterns/Behavioral/State.md",
-    "Software Design/Design Patterns/Behavioral/Template.md",
+    "Software Design/Design Patterns/Behavioral/Template Method.md",
+    "Software Design/Design Patterns/Creational/Abstract Factory.md",
+    "Software Design/Design Patterns/Important Design Patterns.md",
     "Software Design/Design Patterns/Behavioral/Memento.md",
     "Software Design/Design Patterns/Behavioral/Mediator.md",
     "Software Design/Design Patterns/Behavioral/Iterator.md",
@@ -269,20 +273,15 @@
     "Software Design/Design Patterns/Structural/Flyweight.md",
     "Software Design/Design Patterns/Creational/Object Pool.md",
     "Software Design/Design Patterns/Creational/Builder.md",
-    "Software Design/Design Patterns/Creational/Abstract Factory.md",
     "Software Design/Design Patterns/Structural/Bridge.md",
     "Software Design/Design Patterns/Structural/Adapter.md",
     "Software Design/Design Patterns/Structural/Composite.md",
     "Software Design/Design Patterns/Structural/Decorator.md",
     "Software Design/Design Patterns/Creational/Prototype.md",
     "Software Design/Design Patterns/Creational/Factory Method.md",
-    "Software Design/Design Patterns/Important Design Patterns.md",
     "Software Design/SOLID Design Principles/Interface Segregation Principle.md",
     "Software Design/Unit Testing.md",
     "Software Design/Software Development Cycle.md",
-    "Software Design/Object Oriented Programming.md",
-    "Software Design/Java.md",
-    "Software Design/Design Patterns/Behavioral/Strategy.md",
     "Software Design/Design Patterns/Behavioral",
     "Software Design/Design Patterns/Structural",
     "Software Design/Design Patterns/Creational",

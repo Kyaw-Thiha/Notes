@@ -1,4 +1,4 @@
-# Template
+# Template Method
 
 > [!summary] Main Idea
 > Used when we want to create skeleton of an algorithm, whose parts can be overriden by subclasses.
