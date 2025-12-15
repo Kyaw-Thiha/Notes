@@ -18,6 +18,12 @@ The most common basis is the `monomial basis`, which is $\{ x^i, \quad i=0,1,2,\
 If a function $F$ is continuous on an interval $[a, b]$, then for any $\epsilon > 0, \exists p(\epsilon) \ s.t. \ ||F - p(\epsilon) < \epsilon||$.
 In other words, for any continuous function on a closed interval $[a, b]$, there exists some polynomial that is as close to it as it can be.
 
+Alternatively,
+$$
+\lim_{ n \to \infty } \left( \sup_{a\leq x\leq b} 
+|f(x) - P_{n}(x)| \right) = 0
+$$
+
 ---
 ## Basis
 

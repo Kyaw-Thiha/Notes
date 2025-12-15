@@ -16,12 +16,15 @@ $$
 where
 $$
 \begin{align}
-\epsilon &\in span\{ x_{0}, \dots,\ x_{n},\ x \}  
+\epsilon &\in span\{ \underbrace{x_{0}, \dots,\ x_{n}}_{\text{all data points}} , \ \underbrace{x}_{\text{evaluating point}} \}  
+
 \\[6pt]
 &= [min\{ x_{0}, \dots,\ x_{n},\ x \},  
 max\{ x_{0}, \dots,\ x_{n}, \ x \}]  
 \end{align}
 $$
+
+As the degrees of `polynomial` $y$ increases, magnitude of `error` $E(x)$ decreases.
 
 ---
 ## See Also

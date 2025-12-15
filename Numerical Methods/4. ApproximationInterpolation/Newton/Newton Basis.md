@@ -55,6 +55,8 @@ $$
 
 `E.g.`: $Y[x_{2}, \ x_{1}, \ x_{0}] = \frac{Y[x_{2}, \ x_{1}] - Y[x_{1}, \ x_{0}]}{x_{2} - x_{0}}$
 
+[[Newton Basis Proof|Read more about the proof here]]
+
 ---
 
 `Newton Polynomial`
@@ -116,6 +118,8 @@ Y[x_{k}, \dots, x_{0}]
 = \frac{y^{(k)}(x_{0})}{k!}
 $$
 
+[[Newton Derivatives Example|See Example Here]]
+
 ---
 `Example`
 
@@ -139,3 +143,5 @@ $$
 - [[Polynomial Interpolation]]
 - [[Lagrange Matrix]]
 - [[Newton Example]]
+- [[Newton Derivatives Example]]
+- [[Newton Basis Proof]]
