@@ -6,7 +6,7 @@ $$
 p(x_{i}) = F(x_{i}), \ i=0,1,2,\dots
 $$
 
-![Polynomial Interpolation](https://www.mscroggs.co.uk/img/full/runge-chebyshev.gif)
+![Polynomial Interpolation|400](https://www.mscroggs.co.uk/img/full/runge-chebyshev.gif)
 
 ---
 `Basis`
@@ -28,11 +28,67 @@ $$
 ## Basis
 
 `1. Monomial Basis (Vandermonde Theorem)`
-This is the matrix view of `Polynomial Interpolation`, that uses `monomial basis`.
+First, represent the interpolating polynomial in the standard monomial basis
+$$
+p(x) = a_{0} + a_{1}x + \dots + a_{n} x^n
+$$
+Then, determine their coefficients by solving a linear system.
 
-For any sets $\{ x_{i}, \ i=0,1,2,\dots \}$ and $\{ y_{i}, \ i=0,1,2,\dots \}$, 
-for all distinct $y_{i}$, $\exists$ a unique polynomial $P(x) \in P_{n}$ $s.t.$ $P(x_{i}) = y_{i}, \ i=0,1,2,\dots$
+We can solve this linear system by forming a `Vandermonde Matrix`
+$$
+V_{ij} = x_{i}^j
+$$
+If all $x_{i}$ are distinct, then $\det(V) \neq 0$.
+So, the system has a unique solution.
 
 [[Vandermonde Theorem|Read More]]
+[[Vandermonde Example|See Example]]
+
+$$
+
+$$
 
 `2. Lagrange Basis`
+We attempt to construct a basis of polynomials that are $1$ at one node, and $0$ at all others.
+
+We can define the basis function as
+$$
+l_{i}(x) 
+= \prod_{j\neq i} \frac{x - x_{j}}{x_{i} - x_{j}}
+\quad \text{ where } l_{i}(x_{j}) = \delta_{ij}
+$$
+Then, we can get the `interpolant` as
+$$
+p(x) = \sum^n_{i=0} y_{i} \ l_{i}(x)
+$$
+
+[[Lagrange Matrix|Read More]]
+[[Lagrange Example|See Example]]
+
+$$
+
+$$
+
+`3. Newton Basis`
+The main idea is to build the interpolating polynomial incrementally, adding one data at a time.
+$$
+p(x) = a_{0} + a_{1}(x-x_{0}) 
++ a_{2}(x-x_{0})(x-x_{1}) + \dots
+$$
+where the coefficients $a_{i}$ are divided differences
+$$
+a_{k} = f[x_{0}, \ x_{1}, \ \dots, \ x_{k}]
+$$
+
+[[Newton Basis|Read More]]
+[[Newton Example|See Example]]
+
+---
+## See Also
+- [[Vandermonde Theorem]]
+- [[Lagrange Matrix]]
+- [[Newton Basis]]
+- [[Runge's Phenomenon]]
+- [[Error in Polynomial]]
+- [[Piecewise Interpolation]]
+

@@ -24,8 +24,13 @@ max\{ x_{0}, \dots,\ x_{n}, \ x \}]
 \end{align}
 $$
 
-As the degrees of `polynomial` $y$ increases, magnitude of `error` $E(x)$ decreases.
+As the degrees of `polynomial` $y$ increases, magnitude of `error` $E(x)$ decreases if
+- $y^{(n+1)}$ is bounded
+- interpolation nodes are well chosen
+
+See [[Runge's Phenomenon]] for scenario in which that fails.
 
 ---
 ## See Also
 - [[Polynomial Interpolation]]
+- [[Runge's Phenomenon]]

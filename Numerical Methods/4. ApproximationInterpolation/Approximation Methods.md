@@ -44,6 +44,9 @@ We can also use other norms like
 
 If you want to approximate a function around a given point and you have access to the derivatives of the function, then you may want to use `Taylor Expansion`.
 
-If you want to approximate a function on an interval where you can access some function values but not the derivatives, you can use `Polynomial Interpolation`.
+If you want to approximate a function on an interval where you can access some function values but not the derivatives, you can use [[Polynomial Interpolation]].
 
 ---
+## See Also
+- [[Polynomial Interpolation]]
+- [[Approximation and Interpolation]]
