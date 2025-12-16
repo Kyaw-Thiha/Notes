@@ -1,0 +1,40 @@
+name: Sync Notes to Quartz
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Notes
+        uses: actions/checkout@v4
+
+      - name: Checkout quartz-notes
+        uses: actions/checkout@v4
+        with:
+          repository: Kyaw-Thiha/quartz-notes
+          path: quartz
+          token: ${{ secrets.QUARTZ_PUSH_TOKEN }}
+
+      - name: Replace Quartz content with Notes
+        run: |
+          rm -rf quartz/content
+          mkdir -p quartz/content
+          rsync -av --delete ./ quartz/content/ \
+            --exclude ".git" \
+            --exclude ".github" \
+            --exclude ".obsidian" \
+            --exclude "quartz" \
+            --exclude "node_modules"
+
+      - name: Commit & push
+        working-directory: quartz
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Sync content from Notes" || exit 0
+          git push
