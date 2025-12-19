@@ -111,16 +111,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Winter Break.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Winter Break"
+            }
+          },
+          {
+            "id": "07fed9b3f619de20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Winter Break.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Winter Break"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -177,7 +191,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 222.5,
+    "collapsed": true
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -268,32 +283,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4190c7ac2396ea67",
+  "active": "07fed9b3f619de20",
   "lastOpenFiles": [
-    "Numerical Methods/3. Non-Linear Methods/Fixed Point Iteration (FPI).md",
-    "index.md",
-    "Numerical Methods/3. Non-Linear Methods/Fixed Point Methods (FPM).md",
-    "Numerical Methods/3. Non-Linear Methods/Non-Linear Methods.md",
-    "Numerical Methods/3. Non-Linear Methods/Rate of Convergence.md",
-    "Numerical Methods/3. Non-Linear Methods/Rate of Convergence Theorem.md",
-    "Numerical Methods/3. Non-Linear Methods/System of Non-Linear Equation.md",
-    "Numerical Methods/4. ApproximationInterpolation/Polynomial Interpolation.md",
-    "Numerical Methods/4. ApproximationInterpolation/Approximation Methods.md",
-    "Numerical Methods/4. ApproximationInterpolation/Approximation and Interpolation.md",
-    "Numerical Methods/4. ApproximationInterpolation/Error in Polynomial.md",
-    "Numerical Methods/4. ApproximationInterpolation/Vandermonde/Vandermonde Example.md",
-    "Numerical Methods/4. ApproximationInterpolation/Vandermonde/Vandermonde Theorem.md",
-    "Numerical Methods/4. ApproximationInterpolation/Lagrange/Lagrange Matrix.md",
-    "Interviews/Nick Rhinehart Meeting 2025/Interview Notes.md",
-    "Tech Stuffs/Bluetooth.md",
-    "Interviews/NRC Winter 2026/Interview Notes.md",
-    "Interviews/Nick Rhinehart Meeting 2025/Questions.md",
-    "Numerical Methods/5. Numerical Integration/Interpolatory Quadrature.md",
-    "Numerical Methods/5. Numerical Integration/Error in Interpolatory Quadrature.md",
-    "Numerical Methods/5. Numerical Integration/Existance of Interpolating Quadratures Rule.md",
-    "Numerical Methods/5. Numerical Integration/Rules/Simpson's Rule.md",
-    "Numerical Methods/5. Numerical Integration/Rules/Trapezoidal Rule.md",
-    "Numerical Methods/5. Numerical Integration/Rules/Midpoint Rule.md",
+    "Computer Vision/Object Tracking/Object Tracking.md",
+    "Winter Break.md",
+    "NRC Literature Review.md",
+    "Classical ML/Models/Naive Bayes/Naive Bayes.md",
+    "Classical ML/Models/Neural Network/Backpropagation.md",
+    "Classical ML/Models/PCA/PCA Algorithm.md",
+    "Classical ML/Models/PCA/Lagrange Multipliers.md",
+    "Classical ML/Models/PCA/Explained Variance Ratio.md",
+    "Classical ML/Models/K-NN and Friends/K-Means.md",
+    "Classical ML/Information Theory/Information Gain.md",
+    "Classical ML/Bias-Variance Decomposition/Expected Test Error.md",
+    "Classical ML/Bias-Variance Decomposition/Expected Target Value.md",
+    "Classical ML/Bias-Variance Decomposition/Bias-Variance Decomposition.md",
+    "Classical ML/Monte-Carlo/Monte Carlo Methods.md",
+    "Classical ML/Models/Decision Trees/Decision Tree.md",
+    "Classical ML/Models/K-NN and Friends/Math behind K-Means.md",
+    "Classical ML/Models/K-NN and Friends/Curse of Dimensionality.md",
+    "Classical ML/Models/Linear Regression/Solving with Matrices.md",
+    "Classical ML/Models/Linear Regression/Solving without Matrices.md",
+    "Classical ML/Models/K-NN and Friends/Hierarchical K-Means.md",
+    "Classical ML/Models/EM Algorithm/EM Algorithm.md",
+    "Classical ML/Models/Non-Linear Regression/Non-Linear Regression.md",
+    "Classical ML/Models/Decision Trees/Random Forest.md",
+    "Classical ML/Gradient Descent/Gradient Descent.md",
+    "Classical ML/Models/Logistic Regression/Learning Logistic Regression.md",
+    "Classical ML/Models/Logistic Regression/Logistic Regression.md",
     "Numerical Methods/5. Numerical Integration/Rules/attachments/Simpson Rule Interpolatory.png",
     "Numerical Methods/5. Numerical Integration/Rules/attachments/Trapezoidal Rule Interpolatory.png",
     "Numerical Methods/5. Numerical Integration/Rules/attachments/Pasted image 20251215123413.png",
@@ -302,9 +319,7 @@
     "Numerical Methods/5. Numerical Integration/Rules/attachments/Midpoint Rule Interpolatory.png",
     "Numerical Methods/5. Numerical Integration/Rules/attachments",
     "Numerical Methods/5. Numerical Integration/Rules",
-    "Numerical Methods/4. ApproximationInterpolation/Piecewise Interpolation.md",
     "Numerical Methods/5. Numerical Integration",
-    "Numerical Methods/4. ApproximationInterpolation/Runge's Phenomenon.md",
     "Numerical Methods/4. ApproximationInterpolation/attachments/piecewise-cubic-spline-interpolation.png",
     "Numerical Methods/4. ApproximationInterpolation/attachments",
     "Numerical Methods/4. ApproximationInterpolation/Newton/attachments/Newton Polynomial-2.png",

@@ -53,7 +53,6 @@ L_{1} (P_{1}A)
 \end{align}
 $$
 
-``
 `Step-2`
 Now we set the permutation matrix $P_{2} = \begin{bmatrix}1 & 0 & 0 \\ 0 & 0 & 1 \\ 0 & 1 & 0 \end{bmatrix}$ to switch $2nd$ and $3rd$ rows.
 

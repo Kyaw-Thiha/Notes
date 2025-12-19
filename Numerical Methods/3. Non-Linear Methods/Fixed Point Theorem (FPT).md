@@ -22,8 +22,8 @@ Furthermore by `Mean Value Theorem (MVT)`,
 $$
 \begin{align}
 x_{k+1} - x_{k}
-&= g(x_{k}) - g(x_{k+1}) \\[6pt]
-&= g'(n_{k}) (x_{k} - x_{k+1})
+&= g(x_{k}) - g(x_{k-1}) \\[6pt]
+&= g'(n_{k}) (x_{k} - x_{k-1})
 \end{align}
 $$
 where $n_{k} \in [x_{k-1}, x_{k}] \subset [a,b]$

@@ -35,6 +35,7 @@ Overflow & underflow occur whenever a nonzero FP#s with absolute value outside o
 Note that $R_{b}(t,s)$ is finite while $R$ is infinite.
 A real number $x = \pm (d_{k} \ d_{k-1} \dots \ d_{0} \ . \ d_{-1} \ d_{-2} \dots)$ where the second $\dots$ can be infinite number of non-zero, non-cycling digits.
 
+---
 ## Normalization
 These are rules to essentially ensure every numbers are represented uniquely in the given floating point system.
 
@@ -46,6 +47,7 @@ Alternatively,
 - Ensure $d_{0}$ is always zero and $d_{1} \neq 0$
 - This will lead to $\beta^{-1} \leq m < 1$ (its $\beta^{-1}$ since $min(d_{0} + d_{1}) = 0 + \beta^{-1}$ while its 1 since $d_{0} = 0$)
 
+---
 ## Properties
 No. of numbers represented: $2(\beta-1).\beta^{t-1}.(U-L+1) + 1$
 - $2$ is for $\pm$ 
@@ -59,6 +61,7 @@ Underflow is smallest positive floating no. while overflow is largest positive f
 - $\text{Underflow Level} = \text{UFL} = \beta^L$
 - $\text{Overflow Level} = \text{OFL} = \beta^{U+1}.(1-\beta^{-1})$
 
+---
 ## Rounding
 $fl(x)$ = approximation of real number $x$ 
 
@@ -67,6 +70,7 @@ $fl(x)$ = approximation of real number $x$
 
 Decimal-to-binary and binary-to-decimal conversions can be source of error.
 
+---
 ## Machine Precision
 Also called machine epsilon, it represents the maximum possible relative error from floating-point representation.
 $$
@@ -76,6 +80,7 @@ $$
 - When using chopping method, $\epsilon_{\text{mach}} = \beta^{1-t}$
 - When using rounding to nearest, $\epsilon_{\text{mach}} = \frac{1}{2}.\beta^{1-t}$
 
+---
 ## Subnormals
 If we want to represent $0< \text{num} \leq 1$, we can do so by denormalising the floating point.
 Note that this has no effect on the machine epsilon tho.
@@ -84,6 +89,7 @@ Note that this has no effect on the machine epsilon tho.
 - $Inf$: Infinity, such as when dividing by 0.
 - $NaN$: Not a number, such as indeterminate operations like $\frac{Inf}{Inf}$ 
 
+---
 ## Floating-Point Arithmetic
 - For **Sum** and **Subtraction**: the exponents must match before the mantissa can directly be added/subtacted.
 - For **Multiplication**: exponents are summed and mantissa multiplied
@@ -91,6 +97,8 @@ Note that this has no effect on the machine epsilon tho.
 
 **Underflow**: When result gets too small, it can be rounded off to zero.
 **Overflow**: When result (mantissa in sum/subtract) gets too big, it will lead to error.
+
+---
 ### Examples (Base-10, precision simplified)
 #### 1. Sum
 $x_1 = 1.23 \times 10^2$  
@@ -124,6 +132,7 @@ $x_2 = 2.0 \times 10^2$
 Divide mantissas, subtract exponents:  
 $(6.0 / 2.0) \times 10^{5-2} = 3.0 \times 10^3$  
 
+---
 ## Cancellation
 When computing a small value by subtracting large quantities, rounding error can dominate the result.
 This is called `catastrophic cancellation` or `subtractive cancellation`.
@@ -132,6 +141,7 @@ For example, let $\epsilon < \epsilon_{\text{mach}}$ a small positive number.
 Then, $(1+\epsilon) - (1-\epsilon) = 1 - 1 = 0$.
 However, the true value should have been $2\epsilon$.
 
+---
 ## Round-Off Error
 The difference betwen $x \in R$ and $Fl(x) \in R_{f}(t, s)$ usually measure relative to $x$.
 
@@ -146,9 +156,12 @@ Fl(x) = x(1-\delta)
 $$
 where $\delta$ is the `Relative Round-Off (RRO)`
 
+---
 ## Error Bounding
 $\delta$ can be bound indepedently of $x$.
 - $\delta < b^{1-t}$ for `chopped` normalized FPs
 - $\delta < \frac{1}{2}b^{1-t}$ for `rounded` normalized FPs
 
 where $b$ is the $\text{base}$ and $t$ is the $\text{precision}$ (no. of digits in mantissa)
+
+---

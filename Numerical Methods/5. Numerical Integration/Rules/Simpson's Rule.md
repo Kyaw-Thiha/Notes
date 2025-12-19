@@ -15,7 +15,7 @@ $$
 \begin{align}
 I(F)  
 &\approx S(F) = I(p_{2}) \\[6pt]
-&= \frac{b-a}{b}  
+&= \frac{b-a}{6}  
 \left( F(a) + 4F\left( \frac{a+b}{2} \right)  
 + F(b) \right)
 \end{align}
@@ -24,7 +24,7 @@ $$
 In standard form,
 $$
 \begin{align}
-&A_{0} = \frac{b-a}{b}  
+&A_{0} = \frac{b-a}{6}  
 & &A_{1} = \frac{2}{3} (b-a)
 & &A_{2} = \frac{b-a}{4} \\[6pt]
 
