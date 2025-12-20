@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Winter Break.md",
+                "file": "Computer Vision/CNN/Convolution Layer.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Winter Break"
+              "title": "Convolution Layer"
             }
           }
         ],
@@ -191,8 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5,
-    "collapsed": true
+    "width": 222.5
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -283,10 +282,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "07fed9b3f619de20",
+  "active": "7bedb07dd39dcbcc",
   "lastOpenFiles": [
-    "Computer Vision/Object Tracking/Object Tracking.md",
+    "UofT",
+    "Computer Vision/CNN/Convolutional Neural Network (CNN).md",
+    "Computer Vision/CNN/Convolution Layer.md",
+    "Computer Vision/CNN/Skip Connection.md",
+    "Computer Vision/CNN/Pooling.md",
     "Winter Break.md",
+    "Computer Vision/Object Tracking/Object Tracking.md",
     "NRC Literature Review.md",
     "Classical ML/Models/Naive Bayes/Naive Bayes.md",
     "Classical ML/Models/Neural Network/Backpropagation.md",
@@ -306,30 +310,25 @@
     "Classical ML/Models/Linear Regression/Solving without Matrices.md",
     "Classical ML/Models/K-NN and Friends/Hierarchical K-Means.md",
     "Classical ML/Models/EM Algorithm/EM Algorithm.md",
-    "Classical ML/Models/Non-Linear Regression/Non-Linear Regression.md",
-    "Classical ML/Models/Decision Trees/Random Forest.md",
-    "Classical ML/Gradient Descent/Gradient Descent.md",
-    "Classical ML/Models/Logistic Regression/Learning Logistic Regression.md",
-    "Classical ML/Models/Logistic Regression/Logistic Regression.md",
-    "Numerical Methods/5. Numerical Integration/Rules/attachments/Simpson Rule Interpolatory.png",
-    "Numerical Methods/5. Numerical Integration/Rules/attachments/Trapezoidal Rule Interpolatory.png",
+    "UofT/Numerical Methods/5. Numerical Integration/Rules/attachments/Simpson Rule Interpolatory.png",
+    "UofT/Numerical Methods/5. Numerical Integration/Rules/attachments/Trapezoidal Rule Interpolatory.png",
     "Numerical Methods/5. Numerical Integration/Rules/attachments/Pasted image 20251215123413.png",
     "Numerical Methods/5. Numerical Integration/Rules/attachments/Pasted image 20251215123416.png",
-    "Numerical Methods/5. Numerical Integration/Rules/attachments/Midpoint Rule Interpolatory Precision.png",
-    "Numerical Methods/5. Numerical Integration/Rules/attachments/Midpoint Rule Interpolatory.png",
-    "Numerical Methods/5. Numerical Integration/Rules/attachments",
-    "Numerical Methods/5. Numerical Integration/Rules",
-    "Numerical Methods/5. Numerical Integration",
-    "Numerical Methods/4. ApproximationInterpolation/attachments/piecewise-cubic-spline-interpolation.png",
-    "Numerical Methods/4. ApproximationInterpolation/attachments",
-    "Numerical Methods/4. ApproximationInterpolation/Newton/attachments/Newton Polynomial-2.png",
-    "Numerical Methods/4. ApproximationInterpolation/Newton/attachments/Newton Derivative Example.png",
-    "Numerical Methods/4. ApproximationInterpolation/Newton/attachments/Newton Example.png",
+    "UofT/Numerical Methods/5. Numerical Integration/Rules/attachments/Midpoint Rule Interpolatory Precision.png",
+    "UofT/Numerical Methods/5. Numerical Integration/Rules/attachments/Midpoint Rule Interpolatory.png",
+    "UofT/Numerical Methods/5. Numerical Integration/Rules/attachments",
+    "UofT/Numerical Methods/5. Numerical Integration/Rules",
+    "UofT/Numerical Methods/5. Numerical Integration",
+    "UofT/Numerical Methods/4. ApproximationInterpolation/attachments/piecewise-cubic-spline-interpolation.png",
+    "UofT/Numerical Methods/4. ApproximationInterpolation/attachments",
+    "UofT/Numerical Methods/4. ApproximationInterpolation/Newton/attachments/Newton Polynomial-2.png",
+    "UofT/Numerical Methods/4. ApproximationInterpolation/Newton/attachments/Newton Derivative Example.png",
+    "UofT/Numerical Methods/4. ApproximationInterpolation/Newton/attachments/Newton Example.png",
     "Interviews/Nick Rhinehart Meeting 2025",
-    "Software Design/Design Patterns/Behavioral",
-    "Software Design/Design Patterns/Structural",
-    "Software Design/Design Patterns/Creational",
-    "Software Design/Design Patterns",
+    "UofT/Software Design/Design Patterns/Behavioral",
+    "UofT/Software Design/Design Patterns/Structural",
+    "UofT/Software Design/Design Patterns/Creational",
+    "UofT/Software Design/Design Patterns",
     "Software Design/SOLID Design Principles/Untitled.canvas",
     "Software Design/SOLID Design Principles/SOLID.base",
     "Software Design/Untitled.canvas",

@@ -2,7 +2,7 @@
 
 `Piecewise Interpolation` is splitting the domain into small intervals, and [[Polynomial Interpolation|interpolating with low-degree polynomials]] on each interval.
 
-![Piecewise Interpolation](./attachments/piecewise-cubic-spline-interpolation.png)
+![Piecewise Interpolation](piecewise-cubic-spline-interpolation.png)
 
 ---
 `Piecewise Interpolation`
