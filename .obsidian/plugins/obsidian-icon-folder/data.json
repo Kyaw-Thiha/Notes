@@ -6,6 +6,7 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBot",
       "LiCamera",
       "LiComputer",
       "LiBookOpenText",
@@ -44,5 +45,9 @@
   "Computer Vision": {
     "iconName": "LiCamera",
     "iconColor": "#f4ecb8"
+  },
+  "Robotics": {
+    "iconName": "LiBot",
+    "iconColor": "#f7c59c"
   }
 }

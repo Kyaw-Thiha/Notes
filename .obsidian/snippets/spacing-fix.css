@@ -1,0 +1,11 @@
+/* Reading view: reduce paragraph margin-bottom ONLY when followed by a list block */
+.markdown-rendered .el-p:has(+ .el-ul) p,
+.markdown-rendered .el-p:has(+ .el-ol) p {
+  margin-bottom: 0.35em !important;
+}
+
+/* Remove top margin of lists inside Obsidian list blocks (Reading view only) */
+.markdown-rendered .el-ul > ul,
+.markdown-rendered .el-ol > ol {
+  margin-top: 0 !important;
+}
