@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Robotics/Controller/Controller.md",
+                "file": "Robotics/Localization/Localization.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Controller"
+              "title": "Localization"
             }
           }
         ],
@@ -282,12 +282,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7bedb07dd39dcbcc",
+  "active": "e772b4fe1a1cffd6",
   "lastOpenFiles": [
-    "Robotics/Controller/Controller.md",
-    "Robotics/Untitled.canvas",
-    "Robotics/Controller/MPC Controller.md",
+    "Robotics/Localization/Monte-Carlo Localization.md",
+    "Robotics/Localization/Localization.md",
+    "Robotics/Localization/Histogram Localization.md",
+    "Robotics/Localization/GPS.md",
     "Winter Break.md",
+    "Robotics/Untitled.canvas",
+    "Robotics/Localization",
+    "Robotics/Controller/Controller.md",
+    "Robotics/Controller/MPC Controller.md",
     "Robotics/Controller/Maths behind MPC Controller.md",
     "Robotics/Controller/LQR Controller.md",
     "Robotics/Controller/PID Controller.md",
@@ -316,12 +321,9 @@
     "Robotics/Fault Tolerance/attachments",
     "Robotics/Fault Tolerance",
     "To-Learn.md",
-    "Denoising Models.md",
     "Robotics",
     "GameDev/Resources",
-    "Transformer/Transformer.md",
     "GameDev",
-    "Computer Vision/CNN/Convolution Layer.md",
     "UofT",
     "UofT/Numerical Methods/5. Numerical Integration/Rules/attachments/Simpson Rule Interpolatory.png",
     "UofT/Numerical Methods/5. Numerical Integration/Rules/attachments/Trapezoidal Rule Interpolatory.png",
@@ -329,7 +331,6 @@
     "Numerical Methods/5. Numerical Integration/Rules/attachments/Pasted image 20251215123416.png",
     "UofT/Numerical Methods/5. Numerical Integration/Rules/attachments/Midpoint Rule Interpolatory Precision.png",
     "UofT/Numerical Methods/5. Numerical Integration/Rules/attachments",
-    "UofT/Numerical Methods/5. Numerical Integration/Rules",
     "Software Design/SOLID Design Principles/Untitled.canvas",
     "Software Design/Untitled.canvas",
     "Classical ML/Untitled.canvas"
