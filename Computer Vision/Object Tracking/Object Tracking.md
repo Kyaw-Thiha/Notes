@@ -3,7 +3,8 @@
 
 `Object Tracking` is a computer vision technique that track different object across a set of video frames.
 
-![Object Tracking](https://learnopencv.com/wp-content/uploads/2022/06/Multiple-Object-Tracking-using-DeepSORT.gif)
+![Object Tracking|500](https://learnopencv.com/wp-content/uploads/2022/06/Multiple-Object-Tracking-using-DeepSORT.gif)
+
 Essentially, we are carrying out `object detection`, assigning trackID, and updating them over time.
 
 ---
@@ -43,10 +44,14 @@ Using `Kalman Filter` to estimate where each tracked object will likely move by 
 
 ---
 ## Evaluation Metrics
+`Object Tracking` can be evaluated using
 - [[HOTA]]
 - [[IDF1]]
 - [[MOTP]]
 - [[MOTA]]
 
+[[Object Tracking Evaluation|Read More]]
+
+---
 ## See Also
 - [Very Good Literature Review](https://arxiv.org/abs/2506.13457)
