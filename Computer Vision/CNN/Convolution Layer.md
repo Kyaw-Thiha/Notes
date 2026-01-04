@@ -50,3 +50,6 @@ Each filter can be thought of as learning different representations of the image
 
 So, each filter output their own feature maps which are stacked on top of each other to form the output of the `Convolution Layer`.
 
+---
+## Read More
+- [[Convolutional Neural Network (CNN)]]
