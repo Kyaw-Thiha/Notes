@@ -111,7 +111,9 @@ $$
 &= \tilde{X}^T.\vec{y} \\
 \tilde{w}
 &= (\tilde{X}^T.\tilde{X})^{-1}.\tilde{X}^T.\vec{y} \\
+\tilde{w}
+&= \tilde{X}^+.\vec{y} \\
 \end{align}
 $$
 
-where $(\tilde{X}^T.\tilde{X})^{-1}.\tilde{X}^T$ is the `pseudo-inverse`.
+where $\tilde{X}^+ = (\tilde{X}^T.\tilde{X})^{-1}.\tilde{X}^T$ is the [[Moore-Penrose Pseudoinverse]].
