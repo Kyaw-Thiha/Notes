@@ -1,4 +1,6 @@
 # SORT 
+#cv/object-tracking/algorithm/sort 
+
 `Simple online and real-time tracking` is the pioneer of `tracking-by-detection`.
 
 ![SORT Algorithm|500](https://www.researchgate.net/publication/358134782/figure/fig2/AS:11431281350550980@1743777217913/Overview-of-the-object-tracking-SORT-algorithm.tif)
@@ -95,7 +97,7 @@ $$
 	- A set of $\text{unassociated detections}$
 
 ---
-`4. Track Handling Logic`
+#### `4. Track Handling Logic`
 Track creation and deletion should follow objects that are entering, leaving, and returning to the scene over time.
 
 - All `un-associated detections` are considered as potential new tracks with new identities
@@ -178,3 +180,4 @@ end for
 - [Main Reference Paper](https://arxiv.org/abs/2506.13457)
 - [[DEEP SORT]]
 - [[Object Tracking]]
+- [[Kalman Filter]]

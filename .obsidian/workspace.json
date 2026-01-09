@@ -103,12 +103,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Robotics/State Estimation/Kalman Filter/Kalman Filter.md",
+                "file": "Computer Vision/Object Tracking/Algorithms/DEEP SORT.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kalman Filter"
+              "title": "DEEP SORT"
             }
           }
         ],
@@ -169,7 +169,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 222.5,
+    "collapsed": true
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -262,34 +263,34 @@
   },
   "active": "4190c7ac2396ea67",
   "lastOpenFiles": [
+    "Computer Vision/Object Tracking/Algorithms/SORT.md",
+    "Computer Vision/Object Tracking/Algorithms/DEEP SORT.md",
+    "Computer Vision/Object Tracking/Limitation of Mahalanobis Distance in Object Tracking.md",
+    "Computer Vision/Object Tracking/Maths behind Object Tracking.md",
+    "Computer Vision/Object Tracking/Object Tracking.md",
+    "NRC/Work Notes.md",
+    "NRC/NRC Literature Review.md",
+    "NRC/Sensor Fusion NRC.md",
+    "Computer Vision/Object Detection/Models/Object Detection Models.md",
     "Robotics/State Estimation/Kalman Filter/Kalman Filter (Linear).md",
     "Robotics/State Estimation/Kalman Filter/Kalman Filter.md",
-    "Computer Vision/Object Tracking/Algorithms/DEEP SORT.md",
     "Winter Break.md",
     "Classical ML/Models/PCA/Math Behind PCA.md",
     "Computer Vision/Object Tracking/Metrics/IDF1.md",
     "Computer Vision/Object Detection/Anchors.md",
     "Classical ML/Models/Neural Network/Backpropagation.md",
     "Classical ML/Models/Logistic Regression/Logistic Regression.md",
-    "NRC/Sensor Fusion NRC.md",
     "Robotics/State Estimation/Localization/GPS.md",
-    "NRC/Work Notes.md",
     "Pattern Recognition/Statistical Learning.md",
     "Pattern Recognition/Polynomial Fitting.md",
     "Pattern Recognition/Pattern Recognition.md",
     "Classical ML/Models/Linear Regression/1D Linear Regression.md",
     "NRC",
     "Professors List.md",
-    "NRC/NRC Literature Review.md",
     "Pattern Recognition/Einsum.md",
     "Classical ML/Maths/Single Value Decomposition (SVD).md",
     "Pattern Recognition/Linear Algebra Review.md",
-    "Classical ML/Models/Linear Regression/Solving with Matrices.md",
-    "Classical ML/Models/Linear Regression/Multi-Dim Input Linear Regression.md",
-    "Classical ML/Models/Linear Regression/Moore-Penrose Pseudoinverse.md",
     "Pattern Recognition",
-    "To-Learn.md",
-    "Computer Vision/Object Tracking/Algorithms/SORT.md",
     "Computer Vision/Instance Segmentation",
     "Computer Vision/Object Detection/Models",
     "Computer Vision/Object Tracking/Untitled",
