@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBookImage",
       "LiGamepad2",
       "LiBot",
       "LiCamera",
-      "LiComputer",
-      "LiBookOpenText"
+      "LiComputer"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -53,5 +53,9 @@
   "Reinforcement Learning": {
     "iconName": "LiGamepad2",
     "iconColor": "#e7d8fd"
+  },
+  "Pattern Recognition": {
+    "iconName": "LiBookImage",
+    "iconColor": "#c1fbda"
   }
 }
