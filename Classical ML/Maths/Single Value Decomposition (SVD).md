@@ -109,5 +109,6 @@ $$
 $$
 ---
 ## See Also
+- [MIT Lecture on SVD](https://youtu.be/mBcLRGuAFUk?si=OWNy_LmuY1izENNC)
 - [[PCA Algorithm]]
 - [[Moore-Penrose Pseudoinverse]]
