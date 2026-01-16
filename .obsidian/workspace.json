@@ -131,12 +131,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision/Radar/Radar.md",
+                "file": "Pattern Recognition/Week-1b/Agnostic PAC Learning.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Radar"
+              "title": "Agnostic PAC Learning"
             }
           }
         ],
@@ -291,11 +291,17 @@
   },
   "active": "0b3227e51e4ab0e8",
   "lastOpenFiles": [
-    "Computer Vision/Radar/Radar Waveforms/Radar Waveform Types.md",
+    "Loss Fun ction.md",
+    "Pattern Recognition/Week-1b/Agnostic PAC Learning.md",
+    "Classical ML/Metrics/Loss Function.md",
+    "Pattern Recognition/Week-1b/Risk Function.md",
+    "Pattern Recognition/Week-1b/Empirical Risk Minimization (ERM).md",
+    "Pattern Recognition/Week-1b/Empirical Risk.md",
+    "NRC/Radar-Camera Sensor Fusion.md",
     "Computer Vision/Radar/Radar.md",
+    "Computer Vision/Radar/Radar Waveforms/Radar Waveform Types.md",
     "Computer Vision/Radar/Radar Waveforms/FMCW.md",
     "Computer Vision/Radar/Radar Waveforms/PMCW.md",
-    "NRC/Radar-Camera Sensor Fusion.md",
     "NRC/Sensor Fusion NRC.md",
     "Computer Vision/Radar/Wave Phase.md",
     "Computer Vision/Radar/Radar Sensing Mechanism.md",
@@ -306,7 +312,6 @@
     "Pattern Recognition/Week-2a/Maximum A Posteriori (MAP).md",
     "Pattern Recognition/Week-2a/Maximum Likelihood Estimation (MLE).md",
     "Pattern Recognition/Week-2a/Bayesian Probability.md",
-    "Pattern Recognition/Week-1b/Agnostic PAC Learning.md",
     "Classical ML/Statistical Learning/Bayes Rule in ML.md",
     "Classical ML/Statistical Learning/Bayes Rule.md",
     "Computer Vision/Radar",
@@ -314,13 +319,8 @@
     "Pattern Recognition/Week-1a/Linear Algebra Review.md",
     "Pattern Recognition/Week-1a/Polynomial Fitting.md",
     "Pattern Recognition/Week-1a/Statistical Learning.md",
-    "Pattern Recognition/Week-2a/Week-2.md",
     "Pattern Recognition/Week-1a",
-    "Pattern Recognition/Week-2a/Negative Log Likelihood.md",
-    "Pattern Recognition/Week-2a/Bernoulli Distribution.md",
-    "Pattern Recognition/Week-2a/Beta Distribution.md",
     "Pattern Recognition/Week-2a",
-    "NRC/Work Notes.md",
     "UofT/Intro to Computer Science",
     "Pattern Recognition/Week-1b",
     "NRC",

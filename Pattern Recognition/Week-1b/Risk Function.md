@@ -44,3 +44,35 @@ $$
 > Measure how much probability mass the distribution $\mathcal{D}$ assigns to that set
 
 ---
+## Generalized Loss Function
+A [[Loss Function]] can be defined as
+$$
+\mathcal{l} 
+= \mathcal{H} \times \mathcal{X}
+\times \mathcal{Y}
+\to \mathbb{R}_{+}
+$$
+For sake of compactness, let $\mathcal{Z} = \mathcal{X} \times \mathcal{Y}$. 
+Then,
+$$
+\mathcal{l} 
+= \mathcal{H} \times \mathcal{Z}
+\to \mathbb{R}_{+}
+$$
+Using this, we can re-define the [[Risk Function|True Risk Function]] as
+$$
+L_{\mathcal{D}}(h)
+\triangleq \mathbb{E}_{z \sim \mathcal{D}} 
+[\mathcal{l}(h, z)]
+$$
+Likewise, the [[Empirical Risk Minimization (ERM)|Empirical Risk]] can be re-defined as
+$$
+L_{S}(h)
+\triangleq \frac{1}{m}
+\sum^m_{i=1} \mathcal{l}(h, z_{i})
+$$
+
+---
+## See Also
+- [[Empirical Risk]]
+- [[Empirical Risk Minimization (ERM)]]

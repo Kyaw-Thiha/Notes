@@ -10,7 +10,7 @@ In other words,
 ---
 ## Inductive Bias
 
-Recall from [[Empirical Risk Minimization]] that it can lead to hypothesis that can overfit.
+Recall from [[Empirical Risk Minimization (ERM)]] that it can lead to hypothesis that can overfit.
 
 To prevent that, we can restrict the hypothesis space $\mathcal{H}$ using `inductive bias` (assumptions).
 
@@ -41,7 +41,7 @@ $$
 ---
 ## Quantifying Uncertainty
 
-The true loss of the [[Empirical Risk Minimization|empirical risk minimizer]] $L_{\mathcal{D}, f}$ will depend on the samples $S$.
+The true loss of the [[Empirical Risk Minimization (ERM)|empirical risk minimizer]] $L_{\mathcal{D}, f}$ will depend on the samples $S$.
 Since $S$ is randomly generated, the true loss will be a random variable.
 
 $\therefore$ We cannot be $100\%$ confident that $h_{S} = h^*$.
@@ -224,5 +224,5 @@ $$
 
 ---
 ## See Also
-- [[Empirical Risk Minimization]]
+- [[Empirical Risk Minimization (ERM)]]
 - [[Risk Function]]
