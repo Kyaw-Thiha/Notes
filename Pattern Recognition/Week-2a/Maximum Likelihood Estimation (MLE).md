@@ -1,4 +1,5 @@
 ### Maximum Likelihood Estimation (MLE)
+#ml/statistical-learning/mle
 The `maximum likelihood estimator` optimizes the likelihood function in order to find the parameters:
 $$
 \theta^* = \arg \max_{\theta \in \Theta} \ 

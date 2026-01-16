@@ -1,4 +1,5 @@
 ## Bayesian Probability
+#ml/statistical-learning/bayesian-probability
 Let dataset $\mathcal{D} = ((x_{1}, y_{1}), \ \dots, \ (x_{N}, y_{N}))$.
 Suppose we want to find $\hat{y} = h(x; \theta)$.
 What more do we need than prediction error?

@@ -1,4 +1,6 @@
 # Conjugate Priors
+#ml/statistical-learning/map/conjugate-priors
+
 A `conjugate prior` is a probability distribution of a specific form such that
 > When it is multiplied by the likelihood function, the `posterior` will have the same form as the `prior`
 

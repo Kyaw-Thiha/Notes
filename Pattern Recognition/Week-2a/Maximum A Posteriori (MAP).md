@@ -1,4 +1,5 @@
 ### Maximum A Posteriori (MAP) Estimation
+#ml/statistical-learning/map
 Here the `objective` is to find the $\theta^*$ that maximizes the posterior distribution.
 By expressing a prior belief on $\theta$, we can constrain the algorithm.
 This helps avoid `overfitting.`
