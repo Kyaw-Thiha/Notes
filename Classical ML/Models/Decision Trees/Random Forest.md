@@ -1,6 +1,6 @@
 # Random Forest
 #ml/models/classic/decision-tree/random-forest
-This is a [[Decision Tree]] that uses [[Bagging]] and additional feature selection stochasticity to create `Decision Boundaries`, without overfitting.
+This is a [[Classical ML/Models/Decision Trees/Decision Tree]] that uses [[Bagging]] and additional feature selection stochasticity to create `Decision Boundaries`, without overfitting.
 
 ![Random Forest](https://media.geeksforgeeks.org/wp-content/uploads/20250627112439534287/Random-forest-algorithm.webp)
 
@@ -20,7 +20,7 @@ $$
 ---
 ## Why bootstrap?
 
-This allows us to treat each individual [[Decision Tree]] as biased, high-variance estimator producing a sample mean.
+This allows us to treat each individual [[Classical ML/Models/Decision Trees/Decision Tree]] as biased, high-variance estimator producing a sample mean.
 By `Law of Large Number`, increasing the number of `DTs` reduces the `sample mean variance`.
 
 ## Why subset of feature?
@@ -35,5 +35,5 @@ This essentially means that small changes in `training set` will have small impa
 
 ---
 ## See Also
-- [[Decision Tree]]
+- [[Classical ML/Models/Decision Trees/Decision Tree]]
 - [[Bagging]]

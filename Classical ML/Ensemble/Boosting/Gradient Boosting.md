@@ -54,5 +54,5 @@ where
 ---
 
 ## See Also
-- [[AdaBoost]]
+- [[Classical ML/Ensemble/Boosting/AdaBoost]]
 - [[Ensemble Model]]

@@ -1,7 +1,7 @@
 # AdaBoost R2 
 #ml/ensemble/boosting/adaboost/R2
 
-`AdaBoost R2` is the [[AdaBoost]] variant for `regression tasks`.
+`AdaBoost R2` is the [[Classical ML/Ensemble/Boosting/AdaBoost]] variant for `regression tasks`.
 
 ## Algorithm 
 
@@ -27,5 +27,5 @@ The final model predicts by `weighted median` of the outputs.
 Note that we use `median` since it is robust to outliers.
 
 ## See Also
-- [[AdaBoost]]
+- [[Classical ML/Ensemble/Boosting/AdaBoost]]
 - [[SAMME]]

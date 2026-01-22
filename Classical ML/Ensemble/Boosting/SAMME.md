@@ -1,7 +1,7 @@
 # SAMME 
 #ml/ensemble/boosting/adaboost/SAMME
 
-`SAMME` is the multi-class variant of [[AdaBoost]].
+`SAMME` is the multi-class variant of [[Classical ML/Ensemble/Boosting/AdaBoost]].
 
 ## Algorithm 
 
@@ -17,5 +17,5 @@ F(x) = argmax_{k} \sum_{t} \alpha_{k} \ I[h_{k}(x) = k]
 $$
 ---
 ## See Also
-- [[AdaBoost]]
+- [[Classical ML/Ensemble/Boosting/AdaBoost]]
 - [[AdaBoost R2]]

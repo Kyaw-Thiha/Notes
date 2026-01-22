@@ -18,7 +18,7 @@ Fourth, we fit new model on this weighted dataset.
 The final `prediction` is a weighted sum (or vote) of all the models, with later models having more weight.
 
 ## Variants
-- [[AdaBoost]]
+- [[Classical ML/Ensemble/Boosting/AdaBoost]]
 - [[Gradient Boosting]]
 
 ---
@@ -31,5 +31,5 @@ The final `prediction` is a weighted sum (or vote) of all the models, with later
 ## See Also
 - [[Ensemble Model]]
 - [[Bagging]]
-- [[AdaBoost]]
+- [[Classical ML/Ensemble/Boosting/AdaBoost]]
 - [[Gradient Boosting]]

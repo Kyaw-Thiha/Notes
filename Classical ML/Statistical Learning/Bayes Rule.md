@@ -47,3 +47,6 @@ p(k \mid \theta) = \frac{p(k)\, p(\theta \mid k)}{p(\theta)}
 \end{aligned}
 $$
 
+---
+## See Also
+- [[Bayes Rule in ML]]

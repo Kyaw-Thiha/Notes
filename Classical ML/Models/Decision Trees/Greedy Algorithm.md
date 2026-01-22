@@ -20,5 +20,5 @@ where stopping criteria can be
 
 ---
 ## See Also
-- [[Decision Tree]]
+- [[Classical ML/Models/Decision Trees/Decision Tree]]
 - [[Information Gain]]
