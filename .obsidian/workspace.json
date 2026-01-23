@@ -131,12 +131,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NRC/Visualization Update.md",
+                "file": "Classical ML/Models/Linear Regression/1D Linear Regression.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Visualization Update"
+              "title": "1D Linear Regression"
             }
           }
         ],
@@ -290,8 +290,15 @@
   },
   "active": "0b3227e51e4ab0e8",
   "lastOpenFiles": [
-    "NRC/Data Layer Update.md",
     "NRC/Visualization Update.md",
+    "Robotics/Controller/PID Controller.md",
+    "Robotics/Controller/Bang-Bang Controller.md",
+    "Pattern Recognition/Week-1b/Empirical Risk Minimization (ERM).md",
+    "Pattern Recognition/Week-3b/Classes of Linear Predictors.md",
+    "NRC/Radar-Camera Sensor Fusion.md",
+    "Pattern Recognition/Week-3b",
+    "NRC/Radar Fusion NRC.md",
+    "NRC/Data Layer Update.md",
     "NRC/NRC Literature Review.md",
     "Pattern Recognition/Week-3a/Learning Decision Stumps.md",
     "Pattern Recognition/Week-3a/Decision Stump.md",
@@ -300,8 +307,6 @@
     "Professors List.md",
     "Pattern Recognition/Week-3a/Weak Learner.md",
     "Classical ML/Ensemble/Boosting/AdaBoost.md",
-    "NRC/Radar-Camera Sensor Fusion.md",
-    "NRC/Radar Fusion NRC.md",
     "Classical ML/Information Theory/Entropy.md",
     "Pattern Recognition/Week-3a",
     "UofT/Intro to Computer Science/TA Notes.md",
@@ -310,13 +315,9 @@
     "UofT/Software Design/Design Patterns/Dependency Injection.md",
     "UTAT.md",
     "Winter Break.md",
-    "Robotics/Controller/Bang-Bang Controller.md",
     "UofT/Intro to Computer Science/What makes a great math explanation?.md",
     "Classical ML/Models/Naive Bayes/Naive Bayes.md",
     "Classical ML/Models/Naive Bayes/Gaussian CCM.md",
-    "Classical ML/Models/Naive Bayes/Binary Classification CCM.md",
-    "Classical ML/Models/Naive Bayes/Class-Conditional Model.md",
-    "Classical ML/Models/Naive Bayes/Bayes Classifier.md",
     "Computer Vision/Radar/Radar Waveforms",
     "Computer Vision/Radar",
     "Pattern Recognition/Week-1a",
@@ -325,7 +326,6 @@
     "Pattern Recognition/Week-1b",
     "NRC",
     "Pattern Recognition",
-    "Computer Vision/Instance Segmentation",
     "Computer Vision/CNN/attachments/Pooling Strategies.png",
     "Robotics/Untitled.canvas",
     "Robotics/Fault Tolerance/attachments/ToleranceNaive.png",

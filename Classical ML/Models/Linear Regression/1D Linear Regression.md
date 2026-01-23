@@ -11,11 +11,11 @@ It can be best understood as trying to get a line-of-best fit.
 - Suppose we have a set of $(x_{i}, y_{i})$ data points.
 - Then, let the error $e_{i} = y_{i} - (w.x_{i} + b)$ be the vertical distance between ground-truth & predicted value.
 - The sum of the squared errors is used to fit the data
-  $$
+$$
 E(w, b) = \sum^N_{i=1}e_{i}^2 = \sum^N_{i=1}(y_{i} - (w.x_{i} + b))^2
 $$
 - To minimize the squared error, we find the critical point (minimum)
-  $$
+$$
 \begin{align}
 \frac{\partial E}{\partial b} 
 &=  0 \\[8pt]
@@ -40,7 +40,7 @@ $$
 	It can be thought of that the `line-of-best-fit` pass through all $(\hat{x}, \hat{y})$.
 
 - Now, we substitute the $(\hat{x}_{i}, \hat{y}_{i})$, but use them for 'centering' the data points $(x_{i}, y_{i})$ to get the `energy function`.
-  $$
+$$
 \begin{align}
 E(w, b) &= \sum^N_{i=0}(y_{i} - (w.x_{i} + b^*))^2 \\
 E(w, b) &= \sum^N_{i=0}[y_{i} - (w.x_{i} + (\hat{y} - w.\hat{x}))]^2 \\
