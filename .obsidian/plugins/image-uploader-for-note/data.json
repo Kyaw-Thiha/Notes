@@ -1,0 +1,15 @@
+{
+  "s3": {
+    "endpoint": "https://bfee415890c51474c3b1298cc9705052.r2.cloudflarestorage.com/",
+    "accKeyId": "9828035dee2b87d5a7712ae97122673d",
+    "secretAccKey": "6addfe06662dbea97a41df17eca113e0abe4fbed72faae42bf1816b71e36c25c",
+    "bucket": "obsidian-notes",
+    "keyTemplate": "{{path}}/{{name}}",
+    "region": "auto",
+    "forcePathStyle": true,
+    "publicUrl": "https://notes-media.kthiha.com/"
+  },
+  "customUploaderClass": "",
+  "uploadExt": "png jpg jpeg gif webp",
+  "useSystemTrash": false
+}

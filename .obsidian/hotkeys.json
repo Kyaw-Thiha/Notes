@@ -47,5 +47,14 @@
       ],
       "key": "ArrowLeft"
     }
+  ],
+  "image-uploader-for-note:upload-image-for-active-file": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "O"
+    }
   ]
 }
