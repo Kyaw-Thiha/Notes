@@ -145,12 +145,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interviews/Peripheral Summer 2026/Interview Notes.md",
+                "file": "Research Papers/SwimTransformer/SwimTransformer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interview Notes"
+              "title": "SwimTransformer"
             }
           }
         ],
@@ -304,6 +304,8 @@
   },
   "active": "4886a5fc415a9ce8",
   "lastOpenFiles": [
+    "Pattern Recognition/Week-3b/Linear Predictor.md",
+    "Interviews/Peripheral Summer 2026/Interview Notes.md",
     "Interviews/Peripheral Summer 2026/Peripheral Project.md",
     "Professors List.md",
     "UofT/Intro to Computer Science/Creating Exercises.md",
@@ -336,8 +338,6 @@
     "NRC/Radar Fusion NRC.md",
     "Pattern Recognition/Week-3a/Learning Decision Stumps.md",
     "Pattern Recognition/Week-3a/Decision Stump.md",
-    "Pattern Recognition/Week-3a/Maths behind AdaBoost.md",
-    "Pattern Recognition/Week-3b/Linear Predictor.md",
     "Pattern Recognition/Week-4b",
     "Research Papers/DCN (2017)",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",
