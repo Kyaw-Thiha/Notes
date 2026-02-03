@@ -1,3 +1,5 @@
+# Polynomial Fitting
+
 Define a `function estimator`
 
 $$
