@@ -35,3 +35,17 @@ L_{d}
 = \{ \ x \mapsto \langle w,x \rangle + b: \quad 
 w\in \mathbb{R}^d, \ b \in \mathbb{R} \ \}
 $$
+Adding in a non-linear `activation`/`transfer` function, we get
+$$
+\begin{align}
+&\mathcal{H}_{\varphi, d}
+= \varphi \circ L_{d} \\[6pt]
+\implies &h_{\varphi, d}
+= \varphi(h_{w,b}(x))
+\end{align}
+$$
+
+---
+## See Also
+- [[Linear Regression]]
+- [[Linear Algebra Review]]

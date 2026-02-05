@@ -1,7 +1,7 @@
 
 ## Books
 [Pattern Recognition & Machine Learning (Chris Bishop)](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf&ved=2ahUKEwjD4_iH8veRAxWkDjQIHUdYOo8QFnoECCEQAQ&usg=AOvVaw0H0pLJQrNHsTN5lRxwibHL)
-
+[Course Link: SYDE 675](https://uwflow.com/course/syde675)
 Understanding Machine Learning by Goodfellow
 
 ---

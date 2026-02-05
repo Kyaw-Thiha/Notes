@@ -29,3 +29,23 @@ where
 in which $\alpha$ and $\beta$ defined by the `MaP estimator`
 
 ---
+## MLE Solution
+In order to get the `MLE solution`, our [[Log Likelihood|Negative Log Likelihood]] function becomes
+$$
+-\log p(S \mid \mathbf{w}, \beta)
+= \frac{\beta}{2} \sum^m_{i=1} 
+(y_{i} - \langle \mathbf{w}, \mathbf{x}_{i} \rangle)^2
+- \frac{m}{2} \log \beta
++ \frac{m}{2} \log 2\pi
+$$
+
+which can be solved by standard Maximum Likelihood technique.
+
+NOte that when we optimize $w.r.t$ $\mathbf{w}$,
+1. Only the first term matters
+2. Since $\beta > 0$, it will not effect which $w$ is optimal
+3. Solving the negative log likelihood is equivalent to solving the [[Empirical Risk Minimization (ERM)]]
+
+---
+## MAP Solution
+To get a `MAP Solution`, place a 

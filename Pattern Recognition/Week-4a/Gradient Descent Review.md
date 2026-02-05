@@ -13,7 +13,7 @@ By negation, this maximises the `decrease` in [[Empirical Risk]].
 
 ---
 ## Gradients of Arbitrary Loss Functions
-To get the `gradient` of the `loss function`, we can carry out [[Gradient Descent|gradient descent]].
+To get the `gradient` of the [[Loss Function|loss function]], we can carry out [[Gradient Descent|gradient descent]].
 
 $$
 \begin{align}
@@ -30,4 +30,15 @@ $$
 \end{align}
 $$
 
+To minimize the `loss function`, we find a new $w^{(t+1)}$ by taking some small step $\eta > 0$ opposite the direction of maximum increase.
 
+$$
+w^{(t+1)}
+= w^{(t)} - \eta \nabla_{\mathbf{w}}
+\ l(h, (x_{i}, y_{i}))
+$$
+This is done for every data points $x_{i}$.
+
+Note that this also works for $\varphi(x)$.
+
+---
