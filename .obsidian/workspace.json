@@ -39,94 +39,18 @@
             "id": "57af9f564ce3ade6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "e858a832c77ec776",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision/Object Detection/Anchors.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Anchors"
-            }
-          },
-          {
-            "id": "ab5db9ed141a4bac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Vision/Object Tracking/Metrics/IDF1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IDF1"
-            }
-          },
-          {
-            "id": "836472a4390196cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Classical ML/Models/PCA/Math Behind PCA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Math Behind PCA"
-            }
-          },
-          {
-            "id": "60a69a759317eae9",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "4190c7ac2396ea67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Winter Break.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Winter Break"
-            }
-          },
-          {
-            "id": "cbeaeb6d41f67f1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pattern Recognition/Week-5a/Sequence Model-Based Global Optimization (SMBO).md",
+                "file": "Pattern Recognition/Week-4b/Feature Co-Dependence.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sequence Model-Based Global Optimization (SMBO)"
+              "title": "Feature Co-Dependence"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -199,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Design/Design Patterns/Behavioral/Template.md",
+                "file": "Computer Vision/AutoEncoders/Archi Notes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Template"
+              "title": "Backlinks for Archi Notes"
             }
           },
           {
@@ -274,44 +198,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cbeaeb6d41f67f1a",
+  "active": "57af9f564ce3ade6",
   "lastOpenFiles": [
-    "Pattern Recognition/Week-5a/No Free Lunch (NFL) Theorem.md",
-    "Pattern Recognition/Week-5a/Sequence Model-Based Global Optimization (SMBO).md",
-    "Pattern Recognition/Week-5a/Avoiding NFL.md",
-    "Pattern Recognition/Week-5a/Bias-Variance.md",
-    "Pattern Recognition/Week-5a/Bayesian Approach to Bias-Variance Tradeoff.md",
-    "Professors List.md",
-    "Research Papers/DETR/DETR.md",
-    "Research Papers/DETR/DETR Architecture.md",
-    "Research Papers/RRPN/RRPN.md",
-    "NRC/Data Layer Update.md",
-    "Research Papers/RRPN",
-    "NRC/Notes/NRC Feb 1st Week.md",
-    "Pattern Recognition/Pattern Recognition.md",
-    "Pattern Recognition/Needed Notes.md",
-    "Pattern Recognition/Week-4a/Bayesian Linear Regression.md",
-    "Pattern Recognition/Week-5a",
-    "Pattern Recognition/Week-4a/Polynomial Regression Review.md",
-    "Pattern Recognition/Week-4a/Untitled.md",
-    "Pattern Recognition/Week-4a/Logistic Regression Review.md",
-    "Pattern Recognition/Week-4a/Gradient Descent Review.md",
-    "Pattern Recognition/Week-4a/Linear Regression Review.md",
     "Pattern Recognition/Week-4a/Feature Transformations.md",
+    "Pattern Recognition/Week-4a/Bayesian Linear Regression.md",
     "Pattern Recognition/Week-3b/Perceptron Convergence Theorem.md",
     "Pattern Recognition/Week-3b/Perceptron.md",
+    "Pattern Recognition/Week-3a/AdaBoost Exponential Convergence.md",
     "Pattern Recognition/Week-3b/Halfspace.md",
-    "Denoising Models.md",
-    "Pattern Recognition/Week-3b/Linear Predictor.md",
+    "Pattern Recognition/Week-6a/Regularized Loss Minimization.md",
+    "NRC/Notes/NRC Feb 1st Week.md",
+    "Pattern Recognition/Week-6a",
+    "Research Papers/SwimTransformer/SwimTransformer.md",
+    "Computer Vision/Object Detection/Anchors.md",
+    "Computer Vision/Object Tracking/Metrics/IDF1.md",
+    "Classical ML/Models/PCA/Math Behind PCA.md",
+    "Computer Vision/AutoEncoders/Posterior Collapse of CVAE.md",
+    "UofT/Intro to Computer Science/Creating Exercises.md",
+    "UofT/Intro to Computer Science/Random.md",
     "Research Ideas.md",
+    "Summer Research.md",
+    "Winter Break.md",
+    "Professors List.md",
+    "Computer Vision/AutoEncoders/New Archi.md",
+    "Pattern Recognition/Week-3a/AdaBoost Error Bound.md",
+    "Computer Vision/AutoEncoders/Archi Notes.md",
+    "Computer Vision/AutoEncoders/AutoEncoders.md",
+    "Computer Vision/AutoEncoders/Variational AutoEncoders (VAE).md",
+    "Computer Vision/AutoEncoders/Scale-VAE.md",
+    "Computer Vision/AutoEncoders/Maths Behind VAE.md",
+    "Pattern Recognition/Week-5b",
+    "Research Papers/RRPN",
+    "Pattern Recognition/Week-5a",
     "NRC/Notes",
     "Research Papers/CR3DT (2024)",
     "Research Papers/CenterPoint",
     "Research Papers/Lift, Splat, Shoot",
     "Research Papers/SwimTransformer",
     "Research Papers/ResNet",
-    "Research Papers/BEVDet",
-    "Computer Vision/Radar Tracking/Fusion Models",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet (2021).webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",

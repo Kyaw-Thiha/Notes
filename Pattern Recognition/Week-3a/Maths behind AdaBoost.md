@@ -33,4 +33,5 @@ The output is based on a `weighted sum` of all `weak hypothesis`.
 ---
 ## See Also
 - [[AdaBoost]]
+- [[AdaBoost Exponential Convergence]]
 - [[Weak Learner]]

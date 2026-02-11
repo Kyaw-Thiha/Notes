@@ -41,11 +41,47 @@ $$
 
 which can be solved by standard Maximum Likelihood technique.
 
-NOte that when we optimize $w.r.t$ $\mathbf{w}$,
+Note that when we optimize $w.r.t$ $\mathbf{w}$,
 1. Only the first term matters
 2. Since $\beta > 0$, it will not effect which $w$ is optimal
 3. Solving the negative log likelihood is equivalent to solving the [[Empirical Risk Minimization (ERM)]]
 
 ---
 ## MAP Solution
-To get a `MAP Solution`, place a 
+To get a `MAP Solution`, place a prior distribution over our weights $\mathbf{w} \in \mathbb{R}^d$, conditioned by a hyperparameter $\alpha$.
+
+$$
+\begin{align}
+&p(\mathbf{w} \mid \alpha) \\[6pt]
+&= \mathcal{N}(\mathbf{w} \mid 0,  
+\alpha^{-1} I) \\[6pt]
+&= \left( \frac{\alpha}{2\pi} \right)^{(d+1)/2}
+\exp \left\{  -\frac{\alpha}{2} \mathbf{w}^T \mathbf{w}  \right\}
+\end{align}
+$$
+
+Hence, the posterior can be rewritten as
+$$
+p(\mathbf{w} \mid x, y, \alpha, \beta)
+\quad \propto \quad
+p(\mathbf{y} \mid x, w, \beta) 
+\ p(\mathbf{w} \mid \alpha)
+$$
+
+This makes the objective function to be
+$$
+\begin{align}
+&-\log p(S \mid \mathbf{w}, \beta)
+\ p(\mathbf{w} \mid \alpha) \\[6pt]
+&= \frac{\beta}{2} \sum^m_{i=1}
+(y_{i} - \langle w, x_{i} \rangle)^2
+- \frac{m}{2} \log \beta
++ \frac{m}{2} \log 2\pi  \\
+&+ \frac{\alpha}{2} w^Tw
+- \frac{d+1}{2} \ \log (\frac{\alpha}{2\pi})
+\end{align}
+$$
+
+which can be solved by standard MAP technique.
+
+---
