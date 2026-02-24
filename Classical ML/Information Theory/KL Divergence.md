@@ -46,4 +46,4 @@ since $H(Q, P) \neq H(P, Q)$.
 
 - [[Cross-Entropy]]
 - [[Entropy]]
-- [[Math Behind VAE]]
+- [[Maths Behind VAE]]

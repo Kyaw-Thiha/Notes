@@ -50,12 +50,12 @@
     "iconName": "LiBot",
     "iconColor": "#f7c59c"
   },
-  "Reinforcement Learning": {
-    "iconName": "LiGamepad2",
-    "iconColor": "#e7d8fd"
-  },
   "Pattern Recognition": {
     "iconName": "LiBookImage",
     "iconColor": "#c1fbda"
+  },
+  "Reinforcement Learning-Old": {
+    "iconName": "LiGamepad2",
+    "iconColor": "#e7d8fd"
   }
 }
