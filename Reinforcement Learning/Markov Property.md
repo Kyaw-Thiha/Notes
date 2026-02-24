@@ -1,2 +1,0 @@
-# Markov Property
-#math #rl
