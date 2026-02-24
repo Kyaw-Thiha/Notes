@@ -81,5 +81,5 @@ $$
 ---
 ## See Also
 - [[AutoEncoders]]
-- [[Conditional Variational AutoEncoders]]
-- [[Math Behind VAE]]
+- [[Conditional Variational AutoEncoders (CVAE)]]
+- [[Maths Behind VAE]]

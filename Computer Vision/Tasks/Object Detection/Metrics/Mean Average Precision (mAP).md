@@ -17,7 +17,7 @@ $$
 $$
 \text{Recall} = \frac{TP}{TP + FN}
 $$
-[[Computer Vision/Object Detection/Metrics/Confusion Matrix|Read More]]
+[[Computer Vision/Tasks/Object Detection/Metrics/Confusion Matrix|Read More]]
 
 ---
 `IoU`
@@ -66,6 +66,6 @@ $$
 
 ---
 ## See Also
-- [[Computer Vision/Object Detection/Metrics/Confusion Matrix|Confusion Matrix]]
+- [[Computer Vision/Tasks/Object Detection/Metrics/Confusion Matrix|Confusion Matrix]]
 - [[Intersection over Union (IoU)]]
 - [[Precision-Recall Curve]]

@@ -23,5 +23,5 @@ The predictions in `low-resolution feature map` (earlier) represents predictions
 The predictions in `high-resolution feature map` (later) represents predictions of small scale objects.
 
 ---
-- [[Computer Vision/Object Detection/Anchors|Anchors]]
+- [[Computer Vision/Tasks/Object Detection/Anchors|Anchors]]
 - [[Interpolation Methods]]

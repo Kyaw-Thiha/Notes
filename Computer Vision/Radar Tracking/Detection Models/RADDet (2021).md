@@ -4,7 +4,7 @@
 This paper proposes three things:
 - [[Radar]] dataset in `Range-Azimuth-Doppler` format
 - Instance-wise `auto-annotation` method to build the dataset
-- `One-stage` [[Computer Vision/Object Detection/Anchors|anchor-based]] detector that generates both
+- `One-stage` [[Computer Vision/Tasks/Object Detection/Anchors|anchor-based]] detector that generates both
 	- 3D bounding boxes on `RAD` domain
 	- 2D bounding boxes on `Cartesian` domain
   

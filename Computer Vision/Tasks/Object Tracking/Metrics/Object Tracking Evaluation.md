@@ -35,9 +35,9 @@ It is commonly solved using [[Hungarian Algorithm]].
 ---
 ## Evaluation Metrics
 The evaluation metrics are
-- [[MOTA]] is an earlier metrics that measure the [[Computer Vision/Object Detection/Metrics/Confusion Matrix|accuracy]].
-- [[MOTP]] is an earlier metrics that measure the [[Computer Vision/Object Detection/Metrics/Confusion Matrix|precision]].
-- [[IDF1]] measures the [[Computer Vision/Object Detection/Metrics/Confusion Matrix|F1 Score]] at a tracking level
+- [[MOTA]] is an earlier metrics that measure the [[Computer Vision/Tasks/Object Detection/Metrics/Confusion Matrix|accuracy]].
+- [[MOTP]] is an earlier metrics that measure the [[Computer Vision/Tasks/Object Detection/Metrics/Confusion Matrix|precision]].
+- [[IDF1]] measures the [[Computer Vision/Tasks/Object Detection/Metrics/Confusion Matrix|F1 Score]] at a tracking level
 - [[HOTA]] jointly consider detection, association and localizaiton.
 
 ---

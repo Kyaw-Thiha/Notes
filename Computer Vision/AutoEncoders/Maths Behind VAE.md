@@ -1,6 +1,6 @@
-# Math Behind VAE
+# Maths Behind VAE
 
-The [[Variational AutoEncoders]] aim to learn the `marginal likelihood` of the data 
+The [[Variational AutoEncoders (VAE)]] aim to learn the `marginal likelihood` of the data 
 
 $$
 max_{\phi, \theta} \ E_{q \phi (z|x)} \  [\log p_{\theta} (x|z)]

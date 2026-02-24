@@ -1,5 +1,5 @@
 # Object Tracking
-#cv/object-tracking
+#cv/tasks/object-tracking
 
 `Object Tracking` is a computer vision technique that track different object across a set of video frames.
 

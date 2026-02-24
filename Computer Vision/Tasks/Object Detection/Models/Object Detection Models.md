@@ -1,6 +1,6 @@
 # Object Detection Models
 #cv/object-detection/models 
-
+These are different models used for [[Object Detection]].
 
 ![Object Detection|400](https://areeblog.com/wp-content/uploads/2025/05/1446e76-f181-6047-4e73-8d8ba3c6a50e_object_detection_1.webp)
 
@@ -30,7 +30,7 @@ Its main algorithm was
 Its main innovations were
 - Sharing convolutional features across proposals.
   Helps improves efficiency.
-- Introducing [[Computer Vision/Object Detection/Anchors|Anchors]].
+- Introducing [[Computer Vision/Tasks/Object Detection/Anchors|Anchors]].
   These are predefined bounding boxes of various sizes and aspect ratios to serve as reference point for object localization.
   Helps improves accuracy.
 
@@ -66,7 +66,7 @@ $$
 
 `YOLOv2 (2017)`
 - Introduces bag of tricks to improve accuracy $(\text{Small Object Detection})$ and speed
-- Introduces [[Computer Vision/Object Detection/Anchors|Anchors]] to improve localization accuracy
+- Introduces [[Computer Vision/Tasks/Object Detection/Anchors|Anchors]] to improve localization accuracy
 
 `YOLOv3 (2018)`
 Enhances multi-scale predictions using [[Feature Pyramid Network (FPN)]], further improving robustness for small object detection.
@@ -89,7 +89,7 @@ It consists of four main components:
 ![Query-Based Object Detector|500](https://moonlight-paper-snapshot.s3.ap-northeast-2.amazonaws.com/arxiv/dynamic-object-queries-for-transformer-based-incremental-object-detection-1.png)
 
 `DETR (2020)`
-`Detection Transformer` eliminates the need for [[Computer Vision/Object Detection/Anchors|Hand-Crafted Anchors]] and post-processing steps like [[Non-Maximum Suppression (NMS)|NMS]].
+`Detection Transformer` eliminates the need for [[Computer Vision/Tasks/Object Detection/Anchors|Hand-Crafted Anchors]] and post-processing steps like [[Non-Maximum Suppression (NMS)|NMS]].
 - Training process using [[Bipartite Matching]] to assign ground-truth objects to predictions.
 - [[Hungarian Algorithm]] ensures unique `one-to-one` assignment.
 - Lack of duplicate predictions avoid the need of [[Non-Maximum Suppression (NMS)|NMS]].

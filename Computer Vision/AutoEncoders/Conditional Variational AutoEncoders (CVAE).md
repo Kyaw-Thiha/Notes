@@ -2,7 +2,7 @@
 
 ![CVAE](https://www.researchgate.net/publication/365190062/figure/fig2/AS:11431281095388874@1667878234857/Structure-of-the-conditional-variational-autoencoder-CVAE.png)
 
-In vanilla [[Variational AutoEncoders|VAE]], we do not have control over the output.
+In vanilla [[Variational AutoEncoders (VAE)|VAE]], we do not have control over the output.
 - Encoder: $q(z | x)$
 - Decoder: $p(x|z)$
 
@@ -17,5 +17,5 @@ Hence, the `CVAE` is learning how a specific label looks like.
 
 ## See Also
 - [[AutoEncoders]]
-- [[Variational AutoEncoders]]
+- [[Variational AutoEncoders (VAE)]]
 
