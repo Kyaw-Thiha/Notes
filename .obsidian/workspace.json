@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reinforcement Learning/Chapter-2/Bellman Equation for Optimal Quality Functions.md",
-                "mode": "source",
+                "file": "Reinforcement Learning/Chapter-2/Greedy Policy.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bellman Equation for Optimal Quality Functions"
+              "title": "Greedy Policy"
             }
           }
         ],
@@ -121,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5,
-    "collapsed": true
+    "width": 222.5
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -215,9 +214,10 @@
   },
   "active": "b849f952edf5ca41",
   "lastOpenFiles": [
-    "Reinforcement Learning/Chapter-2/Bellman Equation for Optimal Value Functions.md",
-    "Reinforcement Learning/Chapter-2/Bellman Equation for Optimal Quality Functions.md",
     "Reinforcement Learning/Links.md",
+    "Reinforcement Learning/Chapter-2/Greedy Policy.md",
+    "Reinforcement Learning/Chapter-2/Bellman Equation for Optimal Quality Functions.md",
+    "Reinforcement Learning/Chapter-2/Bellman Equation for Optimal Value Functions.md",
     "Reinforcement Learning/Chapter-2/Bellman Equation for Quality Function.md",
     "Reinforcement Learning/Chapter-2/Bellman Equation for Value Function.md",
     "Reinforcement Learning/Chapter-1/Intro to RL (Chapter-1).md",
@@ -244,7 +244,6 @@
     "NRC/Spherical Fusion/Modular mid-fusion detection + principled fusion at the tracking stage.md",
     "NRC/Spherical Fusion/BEV Information Loss.md",
     "NRC/Spherical Fusion/RCS Filter for Spherical Tracking.md",
-    "Pattern Recognition/Week-7a/Support Vector Machine (SVM).md",
     "Pattern Recognition/Week-7a",
     "Reinforcement Learning/Chapter-1/Rewards",
     "Reinforcement Learning/Markov Decision Process/Untitled",
