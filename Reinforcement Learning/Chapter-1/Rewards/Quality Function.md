@@ -6,7 +6,7 @@
 
 ---
 ## Definition
-Let $(R_{t}; \ t\geq 1)$ be the sequence of `rewards` 
+Let $(R_{t}; \ t\geq 1)$ be the sequence of [[Reward|rewards]].
 when process is started from a `state-action pair` $(S_{1}, \ A_{1})$
 drawn from a positive probability distribution over $\mathcal{X} \times \mathcal{A}$ 
 and follows the policy $\pi$ for $t\geq 2$.
@@ -33,4 +33,7 @@ V^{\pi}(s)
 \end{align}
 $$
 
-
+---
+## See Also
+- [[Value Function]]
+- [[Reward]]
