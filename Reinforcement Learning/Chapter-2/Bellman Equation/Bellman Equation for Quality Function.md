@@ -30,3 +30,5 @@ $$
 - [[Quality Function]]
 - [[Value Function]]
 - [[Bellman Equation for Value Function]]
+- [[Bellman Equation for Optimal Quality Functions]]
+- [[Greedy Policy]]
