@@ -34,6 +34,16 @@ V^{\pi}(s)
 $$
 
 ---
+## Norm of Value Function
+For $Q \in \mathcal{B}(\mathcal{S} \times \mathcal{A})$, its [[Infinity Norm|supremum norm]] is
+$$
+||Q||_{\infty}
+= \sup_{(s,a) \ \in \  \mathcal{S} \times \mathcal{A}} |Q(s, a)|
+$$
+This is the maximum value of the quality function $Q$ over the state-action space.
+
+---
 ## See Also
 - [[Value Function]]
+- [[Bellman Equation for Quality Function]]
 - [[Reward]]

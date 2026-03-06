@@ -140,6 +140,17 @@ Throughout this page, we are assuming that [[Markov Policy]] is `stationary`.
 But note that it can also be `non-stationary` $\bar{\pi} = (\pi_{1}, \ \dots, \ \pi_{T})$.
 
 ---
+## Norm of Value Function
+For $V \in \mathcal{B}(\mathcal{S})$, its [[Infinity Norm|supremum norm]] is
+$$
+||V||_{\infty}
+= \sup_{s \in \mathcal{S}} |V(s)|
+$$
+This is the maximum value of the value function $V$ over the state space.
+
+---
 ## See Also
 - [[Reward]]
+- [[Quality Function]]
 - [[Markov Policy]]
+- [[Bellman Equation for Value Function]]
