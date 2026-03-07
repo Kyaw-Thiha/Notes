@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reinforcement Learning/Chapter-2/Consequences of Monotonicity and Contraction/Error Bounds of Bellman Equaation.md",
+                "file": "Reinforcement Learning/Chapter-3/Policy Improvement Theorem.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Error Bounds of Bellman Equaation"
+              "title": "Policy Improvement Theorem"
             }
           }
         ],
@@ -214,12 +214,18 @@
   },
   "active": "b849f952edf5ca41",
   "lastOpenFiles": [
-    "Reinforcement Learning/Links.md",
-    "Reinforcement Learning/Chapter-2/Consequences of Monotonicity and Contraction/Error Bounds of Bellman Equaation.md",
+    "Reinforcement Learning/Chapter-3/Convergence of Policy Iteration Algorithm.md",
     "Reinforcement Learning/Chapter-3/Policy Iteration.md",
+    "Reinforcement Learning/Chapter-3/Policy Improvement Theorem.md",
+    "IIP Notes.md",
+    "index.md",
+    "Research Ideas.md",
+    "Winter Break.md",
+    "Reinforcement Learning/Chapter-2/Consequences of Monotonicity and Contraction/Fixed Point of T* is Optimal Value Function.md",
+    "Reinforcement Learning/Chapter-2/Consequences of Monotonicity and Contraction/Error Bounds of Bellman Equaation.md",
+    "Reinforcement Learning/Links.md",
     "Reinforcement Learning/Chapter-3/Value Iteration.md",
     "Reinforcement Learning/Chapter-2/Consequences of Monotonicity and Contraction/Greedy Policy of Optimal Value Function is Optimal Policy.md",
-    "Reinforcement Learning/Chapter-2/Consequences of Monotonicity and Contraction/Fixed Point of T* is Optimal Value Function.md",
     "Reinforcement Learning/Chapter-2/Bellman Operator/Bellman Optimality Operator.md",
     "Classical ML/Models/Linear Regression/Moore-Penrose Pseudoinverse.md",
     "Reinforcement Learning/Chapter-2/Consequences of Monotonicity and Contraction/Uniqueness of Fixed Point.md",
@@ -234,12 +240,6 @@
     "NRC/Spherical Fusion/RCS Filter for Spherical Tracking.md",
     "NRC/Spherical Fusion/Modular mid-fusion detection + principled fusion at the tracking stage.md",
     "NRC/Data Layer Update.md",
-    "NRC/Work Notes.md",
-    "NRC/Visualization Update.md",
-    "NRC/Radar-Camera Sensor Fusion.md",
-    "NRC/Radar Fusion NRC.md",
-    "Reinforcement Learning/Chapter-2/Bellman Operator/Contraction of Bellman Operator.md",
-    "Reinforcement Learning/Chapter-3/Different Approaches to find policy.md",
     "Reinforcement Learning/Chapter-2/Consequences of Monotonicity and Contraction",
     "Reinforcement Learning/Linear Algebra",
     "Reinforcement Learning/Chapter-3",
