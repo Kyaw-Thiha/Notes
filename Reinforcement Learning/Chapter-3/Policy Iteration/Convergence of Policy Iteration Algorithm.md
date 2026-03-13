@@ -58,6 +58,64 @@ V^{\pi_{k+1}} = V^{*}
 $$
 
 **Proof-2**: $V^{\pi_{k}} = V^{*} \implies V^{\pi_{k+1}} = V^{\pi_{k}}$
-If $V^{\pi_{k}} = V^{*}$, 
+If $V^{\pi_{k}} = V^{*}$, then $\pi_{k}$ is an optimal policy.
+The [[Greedy Policy|greedy policy]] of $V^{\pi_{k}} = V^{*}$, which is $\pi_{k + 1}$, is still an optimal policy hence $V^{\pi_{k+1}} = V^{*} = V^{\pi_{k}}$.
 
 ---
+**Claim-2**: $\lim_{ k \to \infty }|| V^{\pi_{k}} - V^{*}|| = 0$
+To prove the convergence, recall from [[Policy Improvement Theorem]] that
+$$
+Q^{\pi_{k+1}} \geq T^{*}Q^{\pi_{k}} \geq Q^{\pi_{k}}
+$$
+
+By induction, we can prove that
+$$
+Q^{\pi_{k+1}} 
+\geq T^{*}Q^{\pi_{k}}
+\geq T^{*} \ (T^{*}Q^{\pi_{k}})
+\geq \dots
+\geq (T^{*})^{k} \ Q^{\pi_{0}}
+$$
+
+By definition of [[Markov Policy|optimal policy]], we have $Q^{\pi} \leq Q^{*}$ for any $\pi$.
+This includes all $\pi_{k}$ generated during the [[Policy Iteration]].
+So, $Q^{k+1}$ is sandwiched between $Q^{*}$ and $(T^{*})^{k} \ Q^{\pi_{0}}$.
+$$
+Q^{*} \geq Q^{\pi_{k+1}} \geq (T^{*})^{k} Q^{\pi_{0}}
+$$
+This entails that $||Q^{\pi_{k+1}} - Q^{*}||_{\infty} \leq ||(T^{*})^{k} \ Q^{\pi_{0}} - Q^{*}||_{\infty}$.
+So we shall show that the RHS $||(T^{*})^{k} \ Q^{\pi_{0}} - Q^{*}||_{\infty}$ converges to $0$.
+
+By [[Contraction of Bellman Operator|contraction property]] of [[Bellman Optimality Operator]], we have
+$$
+\lim_{ k \to \infty } ||(T^{*})^{k} \ Q^{\pi_{0}} 
+- Q^{*}||_{\infty} = 0
+$$
+Therefore,
+$$
+\lim_{ k \to \infty } || Q^{\pi_{k}} 
+- Q^{*}||_{\infty} = 0
+$$
+This implies convergence of $V^{\pi_{k}}$ too, as wanted.
+
+---
+**Claim-3**: Finite Convergence
+If the number of policies is finite, the number of times $Q^{\pi_{k+1}} \geq T^{*}Q^{\pi_{k}} \geq Q^{\pi_{k}}$ can be a strict inequality is going to finite too.
+
+---
+## Remarks
+- We have proven that the [[Policy Iteration|PI Algorithm]] converges to the [[Markov Policy|optimal policy]] in finite no. of iterations whenever the no. of policies is finite.
+- If the [[Markov Decision Process (MDP)|state space]] $\mathcal{S}$ and the [[Markov Decision Process (MDP)|action space]] $\mathcal{A}$ are finite, the number of policies are finite and is $|\mathcal{A}|^{|\mathcal{S}|}$.
+- Even though finite, this can be very large.
+  For $10 \times 10$ grid with $3$ actions, each state has $4^{100} \approx 1.6 \times 10^{60}$ possible policies
+- In practice though, the [[Policy Iteration|PI algorithm]] converges faster.
+- A much better analysis can be found in [[Fast Convergence of Policy Iteration]].
+
+---
+## See Also
+- [[Policy Iteration]]
+- [[Policy Improvement Theorem]]
+- [[Fast Convergence of Policy Iteration]]
+- [[Uniqueness of Fixed Point]]
+- [[Bellman Equation for Value Function]]
+
