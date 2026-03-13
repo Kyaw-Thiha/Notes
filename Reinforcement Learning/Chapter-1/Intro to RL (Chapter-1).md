@@ -1,4 +1,5 @@
 # Intro to RL 
+#rl
 This chapter covers the fundamentals of [[Markov Decision Process (MDP)|MDP]], followed by introducing the concept of [[Reward|rewards]], and the [[Value Function|value]]/[[Quality Function|quality function]].
 
 ## MDP

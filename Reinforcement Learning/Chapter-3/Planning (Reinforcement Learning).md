@@ -1,4 +1,4 @@
-# Planning
+# Planning (Chapter-3)
 #rl/planning 
 In the `Planning setting`, the underlying assumption is that [[Markov Decision Process (MDP)|MDP]] is known; we know both [[Reward|reward distribution]]  $\mathcal{R}$ and [[Policy-Induced Transition Kernal|transition]] $\mathcal{P}$.
 
