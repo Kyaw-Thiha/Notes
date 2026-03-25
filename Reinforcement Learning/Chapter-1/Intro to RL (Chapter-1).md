@@ -34,7 +34,7 @@ This naturally leads to the introduction of [[Value Function]].
 [[Quality Function|Read More]]
 
 Apart from those, we also formalize the definitions of 
-- [[Policy-Induced Transition Kernal]]
+- [[Policy-Induced Transition Kernel]]
 - [[Episode]]
 - [[Observation]]
 
@@ -44,7 +44,7 @@ Apart from those, we also formalize the definitions of
 - [Book](https://amfarahmand.github.io/IntroRL/lectures/FRL.pdf)
 - [[Markov Decision Process (MDP)]]
 - [[Markov Policy]]
-- [[Policy-Induced Transition Kernal]]
+- [[Policy-Induced Transition Kernel]]
 - [[Episode]]
 - [[Reward]]
 - [[Value Function]]

@@ -1,8 +1,8 @@
 # Planning (Chapter-3)
 #rl/planning 
-In the `Planning setting`, the underlying assumption is that [[Markov Decision Process (MDP)|MDP]] is known; we know both [[Reward|reward distribution]]  $\mathcal{R}$ and [[Policy-Induced Transition Kernal|transition]] $\mathcal{P}$.
+In the `Planning setting`, the underlying assumption is that [[Markov Decision Process (MDP)|MDP]] is known; we know both [[Reward|reward distribution]]  $\mathcal{R}$ and [[Policy-Induced Transition Kernel|transition]] $\mathcal{P}$.
 
-This is unlike the [[Reinforcement Learning Setting|RL Setting]] where the [[Markov Decision Process (MDP)|MDP]] is not known.
+This is unlike the [[Reinforcement Learning Setting (RL)|RL Setting]] where the [[Markov Decision Process (MDP)|MDP]] is not known.
 There is no direct access to $\mathcal{R}$ and $\mathcal{P}$.
 Instead, the agent has only access to data coming from interaction with the environment.
 

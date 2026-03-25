@@ -65,4 +65,4 @@ The `dynamics` can be
 - [Main Reference Slide](https://amfarahmand.github.io/IntroRL/lectures/lec01.pdf)
 - [Reference Book](https://amfarahmand.github.io/IntroRL/lectures/FRL.pdf)
 - [[Markov Policy]]
-- [[Policy-Induced Transition Kernal]]
+- [[Policy-Induced Transition Kernel]]

@@ -1,5 +1,6 @@
 - [Intro to RL by Amir-massoud Farahmand](https://amfarahmand.github.io/IntroRL/)
 - [RL from Sergey Levine](https://rail.eecs.berkeley.edu/deeprlcourse/)
 - [CVG Lab](https://cvg.ethz.ch/lectures/Robot-Learning/)
+- [Robotics Theory](https://github.com/madibabaiasl/modern-robotics-course)
+- [Diffusion](https://diffusion.csail.mit.edu/2026/index.html)
 - [Aerial Robotics course](https://prg.cs.umd.edu/teaching.html)
-- [Robotics](https://github.com/madibabaiasl/modern-robotics-course)
