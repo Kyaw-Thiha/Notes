@@ -8,17 +8,31 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#cv  ",
+      "query": "#cv",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "tag:#llm  ",
+      "query": "#llm",
       "color": {
         "a": 1,
         "rgb": 14725458
+      }
+    },
+    {
+      "query": "#rl ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "#ml",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
       }
     }
   ],
@@ -32,6 +46,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.4457000510613793,
+  "scale": 0.1662359242462489,
   "close": false
 }

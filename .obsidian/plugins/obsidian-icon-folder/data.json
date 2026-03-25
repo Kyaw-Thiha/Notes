@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiExperiment",
+      "LiSchool",
       "LiBookImage",
       "LiGamepad2",
-      "LiBot",
-      "LiCamera",
-      "LiComputer"
+      "LiBot"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -57,5 +57,13 @@
   "Reinforcement Learning-Old": {
     "iconName": "LiGamepad2",
     "iconColor": "#e7d8fd"
+  },
+  "UofT": {
+    "iconName": "LiSchool",
+    "iconColor": "#7982fb"
+  },
+  "Research": {
+    "iconName": "LiExperiment",
+    "iconColor": "#b2e1c2"
   }
 }

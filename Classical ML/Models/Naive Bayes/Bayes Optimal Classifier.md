@@ -1,5 +1,6 @@
-# Bayes Classifier
-#ml
+# Bayes Optimal Classifier
+#ml/classic-models/naive-bayes 
+
 `Bayes Classifier` is the theoretical best possible classifier you can have.
 
 It classifies by choosing the class with highest `posterior probability`:

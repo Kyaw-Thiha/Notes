@@ -17,5 +17,5 @@ where $x^*$ is the unseen data we want to classify
 - [[Gaussian CCM]]
 - [[Naive Bayes]]
 - [[Binary Classification CCM]]
-- [[Bayes Classifier]]
+- [[Bayes Optimal Classifier]]
 - [[Logistic Regression]]

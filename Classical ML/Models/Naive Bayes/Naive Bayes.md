@@ -1,4 +1,6 @@
 # Naive Bayes
+#ml/classic-models/naive-bayes 
+
 `Naive Bayes` is [[Gaussian CCM]] that uses assumption that covariance matrix is diagonal to reduce the number of parameters.
 
 ![Naive Bayes](https://miro.medium.com/v2/1*ZW1icngckaSkivS0hXduIQ.jpeg)
