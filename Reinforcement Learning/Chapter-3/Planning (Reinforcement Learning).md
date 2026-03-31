@@ -75,3 +75,6 @@ We prove its convergence using following theorems:
 3. [[Fast Convergence of Policy Iteration]]
 
 ---
+## See Also
+- [Slides](https://amfarahmand.github.io/IntroRL/lectures/lec03.pdf)
+- [Book](https://amfarahmand.github.io/IntroRL/lectures/FRL.pdf)

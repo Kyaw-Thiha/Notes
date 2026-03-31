@@ -1,4 +1,5 @@
 # Error Bounds of Bellman Equation
+#rl/bellman-equation/residual #rl/bellman-equation/error
 By [[Uniqueness of Fixed Point]], we know that $V = T^{\pi}V$ $(\text{or } V=T^{*}V)$ implies $V=V^{\pi}$ $(\text{or } V=V^{*})$.
 But given $V \approx T^{\pi}V$ $(\text{or } V \approx T^{*}V)$, how close is the approximate solution $V$ to $V^{\pi}$ $(\text{or } V^{*})$.
 

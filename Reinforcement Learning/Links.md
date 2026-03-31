@@ -1,6 +1,8 @@
 - [Intro to RL by Amir-massoud Farahmand](https://amfarahmand.github.io/IntroRL/)
 - [RL from Sergey Levine](https://rail.eecs.berkeley.edu/deeprlcourse/)
 - [CVG Lab](https://cvg.ethz.ch/lectures/Robot-Learning/)
+- [Intro to RL Book by R.Sutton & Barto](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
 - [Robotics Theory](https://github.com/madibabaiasl/modern-robotics-course)
 - [Diffusion](https://diffusion.csail.mit.edu/2026/index.html)
 - [Aerial Robotics course](https://prg.cs.umd.edu/teaching.html)
+- [](https://webdocs.cs.ualberta.ca/%7Ejag/)

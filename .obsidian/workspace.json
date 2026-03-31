@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Future Courses.md",
+                "file": "Reinforcement Learning/Chapter-4/Control Problems/SARSA.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Future Courses"
+              "title": "SARSA"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#rl/planning/naive",
+                "query": "bellman residual",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 222.5,
+    "collapsed": true
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Vision/Tasks/Optical Flow Estimation.md",
+                "file": "Reinforcement Learning/Links.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Optical Flow Estimation"
+              "title": "Backlinks for Links"
             }
           },
           {
@@ -186,42 +187,42 @@
   },
   "active": "76e58a16fded7d78",
   "lastOpenFiles": [
-    "Hyperspectral Denoising.md",
-    "index.md",
-    "Professors List.md",
-    "To-Learn.md",
-    "Reinforcement Learning/Chapter-4/Policy Evaluation/Monte Carlo Estimation of Policy Evaluation.md",
-    "Reinforcement Learning/Links.md",
-    "Reinforcement Learning/Chapter-4/Online Estimation/Online Estimator of Mean of Random Variable.md",
-    "Reinforcement Learning/Chapter-4/Reward Function Online Learning/Epsilon Greedy Policy.md",
-    "Reinforcement Learning/Chapter-4/Policy Evaluation",
-    "Reinforcement Learning/Chapter-4/Reward Function Online Learning/Online Learning of the Reward Function.md",
-    "Reinforcement Learning/Chapter-4/Reward Function Online Learning/Boltzmann distribution for Exploration-Exploitation Tradeoff.md",
+    "Reinforcement Learning/Chapter-4/Control Problems/Q-Learning.md",
+    "Reinforcement Learning/Chapter-4/Control Problems/SARSA.md",
     "Research/How to read a research paper.md",
-    "Pattern Recognition/Week-11a/Linear Discriminant Analysis (LDA).md",
-    "Pattern Recognition/Week-11a/Markov Models.md",
-    "Pattern Recognition/Week-11a/Naive Bayes Review.md",
-    "Classical ML/Models/Naive Bayes/Bayes Optimal Classifier.md",
-    "Classical ML/Models/Naive Bayes/Naive Bayes.md",
-    "Pattern Recognition/Week-11a/Understanding MLE and ERM.md",
+    "Reinforcement Learning/Chapter-4/Markov's Inequality.md",
+    "Pattern Recognition/Week-11b/Finite Markov Decision Process.md",
+    "Reinforcement Learning/Links.md",
+    "Reinforcement Learning/Chapter-4/Policy Evaluation/VI vs TD vs MC for Policy Evaluation.md",
+    "Reinforcement Learning-Old/RL Algorithms/SARSA Overview.md",
+    "Reinforcement Learning-Old/RL Algorithms/Q-Learning Overview.md",
+    "Reinforcement Learning/Chapter-4/Control Problems/Monte Carlo Estimation for Control.md",
+    "Reinforcement Learning/Chapter-4/Policy Evaluation/Temporal Difference Learning for Policy Evaluation(TD).md",
+    "Reinforcement Learning/Chapter-1/Intro to RL (Chapter-1).md",
+    "Classical ML/Models/EM Algorithm/Maths Behind GMM.md",
     "Computer Vision/Event Camera/Event Camera MOT.md",
+    "Computer Vision/Event Camera/Event Camera.md",
+    "Professors List.md",
+    "NRC/Notes/NRC Mar 4th Week.md",
+    "Pattern Recognition/Week-11b",
+    "Reinforcement Learning/Chapter-4/Policy Evaluation/Monte Carlo Estimation for Policy Evaluation.md",
+    "Reinforcement Learning/Chapter-4/Control Problems",
+    "Reinforcement Learning/Chapter-4/Reward Function Online Learning/Epsilon Greedy Policy.md",
+    "Reinforcement Learning/Chapter-4/Reward Function Online Learning/Boltzmann distribution for Exploration-Exploitation Tradeoff.md",
+    "Reinforcement Learning/Chapter-4/Reward Function Online Learning/Online Learning of the Reward Function.md",
+    "Reinforcement Learning/Chapter-4/Policy Evaluation/Temporal Difference(TD) Error.md",
+    "Reinforcement Learning/Chapter-4/Policy Evaluation/TD Learning for Action-Value Function.md",
+    "Reinforcement Learning/Chapter-2/Consequences of Monotonicity and Contraction/Error Bounds of Bellman Equation.md",
+    "Reinforcement Learning/Chapter-3/Planning (Reinforcement Learning).md",
+    "Research/Research Ideas.md",
+    "Reinforcement Learning/Chapter-4/Policy Evaluation",
     "Pattern Recognition/Week-11a",
-    "Computer Vision/Event Camera/Event Camera MOT Datasets.md",
-    "Reinforcement Learning-Old/RL Methods/Epsilon Greedy Strategy Overview.md",
-    "NRC/Work Notes.md",
-    "NRC/Visualization Update.md",
-    "Spherical Implementation Notes.md",
-    "Reinforcement Learning/Chapter-4/Online Estimation/Stochastic Approximation(SA).md",
-    "Reinforcement Learning/Chapter-4/Online Estimation/Stochastic Approximation (SA) Analysis.md",
-    "Reinforcement Learning/Chapter-4/Online Estimation/Sample Average Estimator.md",
     "Reinforcement Learning/Chapter-4/Reward Function Online Learning",
     "Reinforcement Learning/Chapter-4/Online Estimation",
     "Pattern Recognition/Week-10b",
     "Research",
     "Reinforcement Learning/Chapter-2/Sequence of Bellman Operators",
     "Pattern Recognition/Week-10a",
-    "Pattern Recognition/Week-9b",
-    "Reinforcement Learning/Chapter-4",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet (2021).webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",
