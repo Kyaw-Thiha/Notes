@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "22f37836397e9e67",
+        "id": "cc8509276840fed6",
         "type": "tabs",
         "children": [
           {
-            "id": "db226c965de0ce22",
+            "id": "8f400114ff112ee2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/How to read a research paper.md",
+                "file": "Reinforcement Learning/Chapter-4/Online Estimation/Convergence of Stochastic Approximation.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How to read a research paper"
-            }
-          },
-          {
-            "id": "76e58a16fded7d78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reinforcement Learning/Chapter-4/Control Problems/SARSA.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SARSA"
+              "title": "Convergence of Stochastic Approximation"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,14 +170,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "76e58a16fded7d78",
+  "active": "8f400114ff112ee2",
   "lastOpenFiles": [
-    "Reinforcement Learning/Chapter-4/Control Problems/Q-Learning.md",
-    "Reinforcement Learning/Chapter-4/Control Problems/SARSA.md",
+    "Reinforcement Learning/Chapter-4/Online Estimation/Stochastic Approximation (SA) Analysis.md",
+    "Reinforcement Learning/Chapter-4/Online Estimation/Convergence of Stochastic Approximation.md",
+    "Reinforcement Learning/Chapter-4/Online Estimation/Stochastic Approximation(SA).md",
+    "Reinforcement Learning/Chapter-4/Online Estimation/Sample Average Estimator.md",
     "Research/How to read a research paper.md",
+    "Reinforcement Learning/Links.md",
+    "Reinforcement Learning/Chapter-4/Control Problems/SARSA.md",
+    "Reinforcement Learning/Chapter-4/Control Problems/Q-Learning.md",
     "Reinforcement Learning/Chapter-4/Markov's Inequality.md",
     "Pattern Recognition/Week-11b/Finite Markov Decision Process.md",
-    "Reinforcement Learning/Links.md",
     "Reinforcement Learning/Chapter-4/Policy Evaluation/VI vs TD vs MC for Policy Evaluation.md",
     "Reinforcement Learning-Old/RL Algorithms/SARSA Overview.md",
     "Reinforcement Learning-Old/RL Algorithms/Q-Learning Overview.md",
@@ -211,10 +200,6 @@
     "Reinforcement Learning/Chapter-4/Reward Function Online Learning/Boltzmann distribution for Exploration-Exploitation Tradeoff.md",
     "Reinforcement Learning/Chapter-4/Reward Function Online Learning/Online Learning of the Reward Function.md",
     "Reinforcement Learning/Chapter-4/Policy Evaluation/Temporal Difference(TD) Error.md",
-    "Reinforcement Learning/Chapter-4/Policy Evaluation/TD Learning for Action-Value Function.md",
-    "Reinforcement Learning/Chapter-2/Consequences of Monotonicity and Contraction/Error Bounds of Bellman Equation.md",
-    "Reinforcement Learning/Chapter-3/Planning (Reinforcement Learning).md",
-    "Research/Research Ideas.md",
     "Reinforcement Learning/Chapter-4/Policy Evaluation",
     "Pattern Recognition/Week-11a",
     "Reinforcement Learning/Chapter-4/Reward Function Online Learning",

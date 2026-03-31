@@ -117,7 +117,7 @@ $$
 $$
 
 Hence, we can conclude the following
-- for a constant $\alpha$, the variance of $\theta_{t}$is not going to converge to zero
+- for a constant $\alpha$, the variance of $\theta_{t}$ is not going to converge to zero
 - $\theta_{t}$ fluctuates around its mean
 - In order to make $\theta_{t}$ converge in a stronger sense than expectation, we need $\alpha_{t} \to 0$ with some schedule
 - $\alpha_{t} = \frac{1}{t+1}$ works, but it is not the only acceptable one
