@@ -35,3 +35,5 @@ We can do more things like
   Only given input observations $X$
 
 ---
+## See Also
+- [Gitlab Repository](https://gitlab.com/furlong/syde675-w25)

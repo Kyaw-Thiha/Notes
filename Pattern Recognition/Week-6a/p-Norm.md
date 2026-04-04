@@ -19,6 +19,20 @@ where $p \in [0, \ \infty[ \ \cup \ \{ \infty \}$.
   [[Infinity Norm|Read more]]
 
 ---
+## Probability Distribution
+Let $v \in \mathcal{M(S)}$ be the probability distribution.
+Then for a function $V \in \mathcal{F}$, we define $L_{p}(v)$-norm of $V$ with $1\leq p < \infty$ as
+$$
+||V||^{p}_{p,v}
+\triangleq \int_{\mathcal{S}} |V(s)|^{p}
+\ dv(s)
+$$
+The $L_{\infty}(\mathcal{S})$-norm is defined as
+$$
+||V||_{\infty} \triangleq \sup_{s \in \mathcal{S}} |V(s)|
+$$
+
+---
 ## See Also
 - [[1-Norm]]
 - [[Infinity Norm]]
