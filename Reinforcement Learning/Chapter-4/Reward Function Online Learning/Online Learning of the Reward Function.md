@@ -9,7 +9,7 @@ Recall the [[Markov Decision Process (MDP)|immediate reward process]] that at ep
 - and receives a reward of $R_{t} \sim \mathcal{R}(\cdot \mid S_{t}, A_{t})$ 
 - the agents starts a new independent episode $t+1$ and the process repeats
 
-When the [[Reward|reward function]] $r:\mathcal{S} \times \mathcal{A} \to \mathbb{R}$ was known, the [[Markov Policy|optimal policy]] would be
+When the [[Reward|reward function]] $r:\mathcal{S} \times \mathcal{A} \to \mathbb{R}$ was known, the [[Policy|optimal policy]] would be
 $$
 \pi^{*}(s) \leftarrow \arg\max_{a \in \mathcal{A}}
 r(s,a)

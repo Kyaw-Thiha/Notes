@@ -1,7 +1,7 @@
 # Naive Policy Evaluation
 #rl/planning/naive
 
-Given an [[Markov Decision Process (MDP)|MDP]] $(\mathcal{S}, \mathcal{A}, \mathcal{P}, \mathcal{R}, \gamma)$ and a [[Markov Policy|policy]] $\pi$, we would like to compute $V^{\pi}$ or $Q^{\pi}$.
+Given an [[Markov Decision Process (MDP)|MDP]] $(\mathcal{S}, \mathcal{A}, \mathcal{P}, \mathcal{R}, \gamma)$ and a [[Policy|policy]] $\pi$, we would like to compute $V^{\pi}$ or $Q^{\pi}$.
 
 $$
 V^{\pi}(s)
@@ -34,4 +34,4 @@ We can then add them in a discounted way to get $V(s)$.
 ---
 ## See Also
 - [[Markov Decision Process (MDP)]]
-- [[Markov Policy]]
+- [[Policy]]

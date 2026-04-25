@@ -77,7 +77,7 @@ Q^{\pi_{k+1}}
 \geq (T^{*})^{k} \ Q^{\pi_{0}}
 $$
 
-By definition of [[Markov Policy|optimal policy]], we have $Q^{\pi} \leq Q^{*}$ for any $\pi$.
+By definition of [[Policy|optimal policy]], we have $Q^{\pi} \leq Q^{*}$ for any $\pi$.
 This includes all $\pi_{k}$ generated during the [[Policy Iteration]].
 So, $Q^{k+1}$ is sandwiched between $Q^{*}$ and $(T^{*})^{k} \ Q^{\pi_{0}}$.
 $$
@@ -104,7 +104,7 @@ If the number of policies is finite, the number of times $Q^{\pi_{k+1}} \geq T^{
 
 ---
 ## Remarks
-- We have proven that the [[Policy Iteration|PI Algorithm]] converges to the [[Markov Policy|optimal policy]] in finite no. of iterations whenever the no. of policies is finite.
+- We have proven that the [[Policy Iteration|PI Algorithm]] converges to the [[Policy|optimal policy]] in finite no. of iterations whenever the no. of policies is finite.
 - If the [[Markov Decision Process (MDP)|state space]] $\mathcal{S}$ and the [[Markov Decision Process (MDP)|action space]] $\mathcal{A}$ are finite, the number of policies are finite and is $|\mathcal{A}|^{|\mathcal{S}|}$.
 - Even though finite, this can be very large.
   For $10 \times 10$ grid with $3$ actions, each state has $4^{100} \approx 1.6 \times 10^{60}$ possible policies

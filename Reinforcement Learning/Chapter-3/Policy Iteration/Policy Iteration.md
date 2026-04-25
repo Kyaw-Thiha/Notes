@@ -1,6 +1,6 @@
 # Policy Iteration
 #rl/planning/policy-iteration
-`Policy iteration` computes optimal [[Markov Policy|policy]] $\pi^{*}$ based on iteratively applying the following two steps:
+`Policy iteration` computes optimal [[Policy|policy]] $\pi^{*}$ based on iteratively applying the following two steps:
 
 ![Policy Iteration|300](https://notes-media.kthiha.com/Policy-Iteration/27ab2bb8a7b2c99ebd81c92c6409aafc.png)
 - **Policy Evaluation**: Given a policy $\pi_{k}$, compute $V^{\pi_{k}}$ ($(Q^{\pi_{k}})$).
@@ -48,7 +48,7 @@ So the new policy is equal to or better than $\pi_{k}$ at state $s$.
 ## Policy Iteration Algorithm
 The `policy improvement` step only required the new policy $\pi_{k+1}$ to have a [[Value Function|value]] larger than the previous policy's $(V^{\pi_{k+1}} \geq V^{\pi_{k}})$.
 
-In this `policy iteration (PI)` algorithm, we will refer to specific case where we pick the new [[Markov Policy|policy]] $\pi_{k+1}$ as the [[Greedy Policy|greedy policy]] $\pi_{g}(Q^{\pi_{k}})$.
+In this `policy iteration (PI)` algorithm, we will refer to specific case where we pick the new [[Policy|policy]] $\pi_{k+1}$ as the [[Greedy Policy|greedy policy]] $\pi_{g}(Q^{\pi_{k}})$.
 
 Note that
 - the [[Value Function|value function]] of $\pi_{k}$ is the [[Fixed Point|fixed point]] of $T^{\pi_{k}}$ 

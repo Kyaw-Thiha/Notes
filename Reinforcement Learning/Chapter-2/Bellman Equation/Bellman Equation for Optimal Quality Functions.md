@@ -124,7 +124,7 @@ Using **Statement-(a)** and **(b)**, we have proven that
 $$
 V^{\pi^{*}_{V}} = V^{\pi^{*}_{Q}}
 $$
-Hence, we can define the optimal [[Markov Policy|policy]] as 
+Hence, we can define the optimal [[Policy|policy]] as 
 - the policy that satisfies $\pi^{*} \leftarrow \arg \max_{\pi \in \Pi} Q^{\pi}$
 - or the policy that satisfies $\pi^{*} \leftarrow \arg \max_{\pi \in \Pi} V^{\pi}$
 - and they both have the same [[Value Function|value function]].

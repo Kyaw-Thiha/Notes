@@ -20,7 +20,7 @@ $$
 = (T^{\pi}V)(s) - V(s)
 = BR(V)(s)
 $$
-So in expectation, the `TD Error` is equal to the [[Error Bounds of Bellman Equation|Bellman residual]] of $V$, evaluated at state $s$.
+So in expectation, the `TD Error` is equal to the [[Bellman Error|Bellman residual]] of $V$, evaluated at state $s$.
 
 Recall that when Bellman residual is zero when $V=V^{\pi}$.
 So when we are at or close to $V^{\pi}$, the TD error is close to zero in expectation.
@@ -28,5 +28,5 @@ So when we are at or close to $V^{\pi}$, the TD error is close to zero in expect
 ---
 ## See Also
 - [[Temporal Difference Learning for Policy Evaluation(TD)]]
-- [[Error Bounds of Bellman Equation]]
+- [[Bellman Error]]
 - [[TD Learning for Action-Value Function]]

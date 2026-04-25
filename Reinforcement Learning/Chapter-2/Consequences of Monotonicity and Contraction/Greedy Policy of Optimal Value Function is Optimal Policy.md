@@ -24,7 +24,7 @@ We apply $T^{\pi}$ to both sides of $V^{*} = V^{\pi}$ to get
 $$
 T^{\pi} V^{*} = T^{\pi} V^{\pi}
 $$
-As $V^{\pi}$ is the solution of the [[Bellman Equation for Value Function|Bellman equation]] for [[Markov Policy|policy]] $\pi$, we have $T^{\pi}V^{\pi}=V^{\pi}$.
+As $V^{\pi}$ is the solution of the [[Bellman Equation for Value Function|Bellman equation]] for [[Policy|policy]] $\pi$, we have $T^{\pi}V^{\pi}=V^{\pi}$.
 Hence,
 $$
 T^{\pi} V^{*}
@@ -41,7 +41,7 @@ as wanted.
 ---
 ## Discussion
 - Suppose $T^{\pi}V^{*} = T^{*}V^{*}$ for some policy $\pi$.
-  We now have that the [[Value Function|value function]] $V^{\pi}$ of that [[Markov Policy|policy]] is the same as the [[Fixed Point|fixed point]] of $T^{*}$, which is $V^{*}$.
+  We now have that the [[Value Function|value function]] $V^{\pi}$ of that [[Policy|policy]] is the same as the [[Fixed Point|fixed point]] of $T^{*}$, which is $V^{*}$.
 
 - But we have not shown that the fixed point of $T^{*}$ is the [[Value Function|optimal value function]], as in
 
@@ -86,6 +86,6 @@ This proposition states that the value of following $\pi_{g}(V^{*})$ is the same
 
 Practically, this means if we find $V^{*}$ and its greedy policy $\pi_{g}(V^{*})$, it is the same as $V^{*}$.
 
-> To find an [[Markov Policy|optimal policy]], we can find $V^{*}$ first and then follow its [[Greedy Policy|greedy policy]] $\pi_{g}(V^{*})$.
+> To find an [[Policy|optimal policy]], we can find $V^{*}$ first and then follow its [[Greedy Policy|greedy policy]] $\pi_{g}(V^{*})$.
 
 ---

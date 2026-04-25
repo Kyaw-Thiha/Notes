@@ -39,7 +39,7 @@ This entails that the agent can generate the stream of data
 $$
 S_{1}, A_{1}, R_{1}, \ S_{2}, A_{2}, R_{2}, \ \dots
 $$
-by following a `behavior policy` $\pi_{b}$ that is different from the [[Markov Policy|policy]] that we want to evaluate $\pi$.
+by following a `behavior policy` $\pi_{b}$ that is different from the [[Policy|policy]] that we want to evaluate $\pi$.
 
 > - When $\pi_{b} = \pi$, we are in `on-policy` sampling scenario.
 >   The agent is evaluating the same policy that it is following.
@@ -50,4 +50,4 @@ by following a `behavior policy` $\pi_{b}$ that is different from the [[Markov P
 ## See Also
 - [[Temporal Difference Learning for Policy Evaluation(TD)]]
 - [[Temporal Difference(TD) Error]]
-- [[Markov Policy]]
+- [[Policy]]

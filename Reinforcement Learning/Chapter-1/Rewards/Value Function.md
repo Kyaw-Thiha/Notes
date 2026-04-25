@@ -1,6 +1,6 @@
 # Value Function
 #rl/value-function
-A `value function` estimates the expected cumulative future [[Reward|reward]] an agent can achieve from a specific state $s$ or state-action pair $(s, a)$, while following a [[Markov Policy|policy]] $\pi$.
+A `value function` estimates the expected cumulative future [[Reward|reward]] an agent can achieve from a specific state $s$ or state-action pair $(s, a)$, while following a [[Policy|policy]] $\pi$.
 
 ![Bellman Equation|500](https://machinelearningmastery.com/wp-content/uploads/2024/07/rl-bellman-equation-mlm.png)
 
@@ -65,7 +65,7 @@ To find such optimal policy $\pi^{*}$, we need to search over all possible polic
 ### Formalizing Optimal Policy
 
 **Defining Optimal Policy**
-Let $\pi$ and $\pi'$ be the two [[Markov Policy|policies]] being compared against.
+Let $\pi$ and $\pi'$ be the two [[Policy|policies]] being compared against.
 Assume they are `Markov stationary` such that $A_{t} \sim \pi_{t}(\cdot \mid S_{t})$.
 
 > Then, we can say $\pi \geq \pi'$ $\text{iff}$ $V^{\pi}(s) \geq V^{\pi'}(s)$, $\forall s \in \mathcal{S}$.
@@ -136,7 +136,7 @@ $$
 ---
 **Sidenote**
 
-Throughout this page, we are assuming that [[Markov Policy]] is `stationary`.
+Throughout this page, we are assuming that [[Policy]] is `stationary`.
 But note that it can also be `non-stationary` $\bar{\pi} = (\pi_{1}, \ \dots, \ \pi_{T})$.
 
 ---
@@ -152,5 +152,5 @@ This is the maximum value of the value function $V$ over the state space.
 ## See Also
 - [[Reward]]
 - [[Quality Function]]
-- [[Markov Policy]]
+- [[Policy]]
 - [[Bellman Equation for Value Function]]

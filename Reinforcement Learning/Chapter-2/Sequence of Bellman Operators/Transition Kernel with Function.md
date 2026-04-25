@@ -9,7 +9,7 @@ $$
 \ , \quad \forall(s,a) \in \mathcal{S} \times \mathcal{A}
 $$
 
-Likewise, given the [[Policy-Induced Transition Kernel|transition probability kernel]] induced by a [[Markov Policy|policy]] $\pi$, we define $\mathcal{P}^{\pi} f: \mathcal{S} \to \mathbb{R}$ as
+Likewise, given the [[Policy-Induced Transition Kernel|transition probability kernel]] induced by a [[Policy|policy]] $\pi$, we define $\mathcal{P}^{\pi} f: \mathcal{S} \to \mathbb{R}$ as
 $$
 \boxed{ \ (\mathcal{P}^{\pi} f)(s) \triangleq 
 \int_{\mathcal{S}} \mathcal{P}^{\pi}(ds' \mid s)
@@ -26,4 +26,4 @@ $$
 ---
 ## See Also
 - [[Policy-Induced Transition Kernel]]
-- [[Markov Policy]]
+- [[Policy]]

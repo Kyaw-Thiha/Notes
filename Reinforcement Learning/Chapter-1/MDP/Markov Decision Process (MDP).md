@@ -23,7 +23,7 @@ $$
 X_{1} \sim \rho \ , \quad \text{where } \rho \in \mathcal{M}(\mathcal{X})
 $$
 - The agent chooses an `action` from the action space $A_{t} \in \mathcal{A}$.
-  It is usually sampled from the [[Markov Policy|policy]] $\pi$:
+  It is usually sampled from the [[Policy|policy]] $\pi$:
 
 $$
 A_{t} \sim \pi(\cdot \mid X_{t})
@@ -64,5 +64,5 @@ The `dynamics` can be
 ## See Also
 - [Main Reference Slide](https://amfarahmand.github.io/IntroRL/lectures/lec01.pdf)
 - [Reference Book](https://amfarahmand.github.io/IntroRL/lectures/FRL.pdf)
-- [[Markov Policy]]
+- [[Policy]]
 - [[Policy-Induced Transition Kernel]]

@@ -13,7 +13,7 @@ This chapter covers the fundamentals of [[Markov Decision Process (MDP)|MDP]], f
 A `Markov Policy` is a decision rule used in [[Markov Decision Process (MDP)]] that maps the current state of an environment to an action.
 
 ![Markov Policy](https://gibberblot.github.io/rl-notes/_images/deterministic_vs_stochastic_policy.png)
-[[Markov Policy|Read More]]
+[[Policy|Read More]]
 
 ---
 ## Rewards
@@ -43,7 +43,7 @@ Apart from those, we also formalize the definitions of
 - [Slides](https://amfarahmand.github.io/IntroRL/lectures/lec01.pdf)
 - [Book](https://amfarahmand.github.io/IntroRL/lectures/FRL.pdf)
 - [[Markov Decision Process (MDP)]]
-- [[Markov Policy]]
+- [[Policy]]
 - [[Policy-Induced Transition Kernel]]
 - [[Episode]]
 - [[Reward]]

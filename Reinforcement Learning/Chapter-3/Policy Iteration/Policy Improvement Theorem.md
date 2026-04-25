@@ -56,7 +56,7 @@ which is the desired result.
 
 ---
 ## Conclusion from the Proof
-Choosing the [[Greedy Policy|greedy policy]] $w.r.t$ the most recent [[Value Function|value function]] gets us a new [[Markov Policy|policy]] that is at least as good as the previous one.
+Choosing the [[Greedy Policy|greedy policy]] $w.r.t$ the most recent [[Value Function|value function]] gets us a new [[Policy|policy]] that is at least as good as the previous one.
 
 ---
 ## See Also

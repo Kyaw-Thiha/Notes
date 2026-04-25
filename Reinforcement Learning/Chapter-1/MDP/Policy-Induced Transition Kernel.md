@@ -4,7 +4,7 @@ A `policy-induced transition kernel` represents the probability distribution of 
 
 ---
 **Formal Definition**
-An agent is following a [[Markov Policy|Markov stationary policy]] $\pi$ whenever $A_{t}$ is selected according to the policy $\pi(\cdot \mid X_{t})$.
+An agent is following a [[Policy|Markov stationary policy]] $\pi$ whenever $A_{t}$ is selected according to the policy $\pi(\cdot \mid X_{t})$.
 $$
 \begin{align}
 &\text{Deterministic}: A_{t} = \pi(S_{t}) \\[6pt]

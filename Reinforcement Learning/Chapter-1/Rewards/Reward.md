@@ -53,7 +53,7 @@ $$
 G^{\pi}
 \triangleq R_{1} + \dots + R_{T}
 $$
-The random variable $G^{\pi}$ is called the `return` of [[Markov Policy|policy]] $\pi$.
+The random variable $G^{\pi}$ is called the `return` of [[Policy|policy]] $\pi$.
 
 ## Discounted Sum of Rewards
 In order to prioritize earlier rewards, we can define a discounted sum of rewards as the `return`

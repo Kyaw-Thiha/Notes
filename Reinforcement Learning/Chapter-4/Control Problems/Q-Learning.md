@@ -91,7 +91,7 @@ $$
 So, `Q-learning` is evaluating the [[Greedy Policy]] $w.r.t$ the current estimate of $Q_{t}$.
 
 ### Off-Policy Algorithm
-Note that the [[Greedy Policy]] $\pi_{g}$ can be different from the [[Markov Policy|policy]] $\pi$ that the algorithm follows.
+Note that the [[Greedy Policy]] $\pi_{g}$ can be different from the [[Policy|policy]] $\pi$ that the algorithm follows.
 Hence, `Q-learning` works under off-policy sampling scenario.
 
 ---

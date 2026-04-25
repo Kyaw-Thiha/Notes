@@ -15,13 +15,13 @@ Then, we show the opposite direction $\sup_{\pi \in \Pi} V^{\pi}(s) \leq V^{*}(s
 We can then combine those two to prove the theorem.
 
 **Direction-1**
-Using the [[Error Bounds of Bellman Equation]] with the choice of $V = V^{*}$, we get that for any $\pi \in \Pi$,
+Using the [[Bellman Error]] with the choice of $V = V^{*}$, we get that for any $\pi \in \Pi$,
 
 $$
 ||V^{*} - V^{\pi}||_{\infty}
 \leq \frac{||V^{*} - T^{\pi}V^{*}||_{\infty}}{1- \gamma}
 $$
-For $\epsilon > 0$, choose a [[Markov Policy|policy]] $\pi_{\epsilon} \in \Pi$ such that
+For $\epsilon > 0$, choose a [[Policy|policy]] $\pi_{\epsilon} \in \Pi$ such that
 $$
 ||V^{*} - T^{\pi_{\epsilon}}V^{*}||_{\infty}
 \leq (1 - \gamma) \ \epsilon
@@ -126,7 +126,7 @@ $$
 ---
 ## See Also
 - [[Fixed Point]]
-- [[Error Bounds of Bellman Equation]]
+- [[Bellman Error]]
 - [[Uniqueness of Fixed Point]]
 - [[Monotonicity of Bellman Operator]]
 - [[Bellman Operator]]
