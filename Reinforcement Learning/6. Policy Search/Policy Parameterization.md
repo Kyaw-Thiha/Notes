@@ -1,4 +1,5 @@
 # Policy Parameterization
+#rl/policy-methods 
 Consider a [[Policy|stochastic policy]] $\pi_{\theta}: \mathcal{S} \to \mathcal{M}(A)$ parameterized by $\theta \in \Theta$.
 The set $\Theta \subset \mathbb{R}^{p}$ is the parameter space.
 The space of all parameterized policies is given by:
@@ -7,6 +8,7 @@ $$
 \to \mathcal{M}(\mathcal{A}): \theta \in \Theta \}
 $$
 
+---
 ## Examples
 There are many choices as to how we can parameterize [[Policy|policy]] $\pi_{\theta}$
 Consider a generic example based on [[Softmax Function|Boltzmann(or softmax) distribution]].
@@ -43,6 +45,7 @@ If the action-space is $d_{\mathcal{A}}\text{-dimensional}$:
 - Covariance: $\Sigma_{\theta}: \mathcal{S} \to \mathcal{X}^{d_{\mathcal{A}}}_{+}$
   where $\mathcal{S}^{d_{\mathcal{A}}}_{+}$ refers to the set of $d_{\mathcal{A}} \times d_{\mathcal{A}}$ positive semi-definite matrices
 
+---
 ## Ease of Work in Continuous Action Space
 Explicit parameterization of [[Policy|policy]] allows us to easily choose a continuous action
 

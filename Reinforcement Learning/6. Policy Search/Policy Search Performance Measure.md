@@ -66,3 +66,5 @@ Optimization methods can be categorized based on the information they need about
 - **First-order methods** use the derivative the objective instead or in addition to the value.
   They use $\Delta_{\theta} \ J_{\rho}(\theta)$ in order to guide the search.
   The quintessential first-order optimization method is [[Gradient Descent|gradient descent]].
+
+---
