@@ -18,4 +18,4 @@ To show if an algorithm is $\Omega(x)$, we have to show that there is an input t
 ## See Also
 - [[Big-O]]
 - [[Big-Theta]]
-- [[Running Time of Algorithms]]
+- [[Time Complexity]]

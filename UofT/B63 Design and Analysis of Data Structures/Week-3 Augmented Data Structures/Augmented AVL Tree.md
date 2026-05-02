@@ -18,7 +18,7 @@
 - To find select of a rank, do `in-order transversal` of tree.
   Keep track of the number of nodes visited until the desired node is reached.
 
-Even though search, insert and delete won't be affected, the worst [[Running Time of Algorithms|time complexity]] for rank and search is $\Theta(n)$.
+Even though search, insert and delete won't be affected, the worst [[Time Complexity|time complexity]] for rank and search is $\Theta(n)$.
 This is because we may have to visit every node.
 
 ---

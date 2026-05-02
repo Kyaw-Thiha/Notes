@@ -27,7 +27,7 @@
 
 ---
 ## See Also
-- [[Running Time of Algorithms]]
+- [[Time Complexity]]
 - [[Big-O]]
 - [[Big-Omega]]
 - [[Big-Theta]]

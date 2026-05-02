@@ -20,4 +20,4 @@ The above picture shows $f(n) = \Theta(g(n))$.
 ## See Also
 - [[Big-O]]
 - [[Big-Omega]]
-- [[Running Time of Algorithms]]
+- [[Time Complexity]]

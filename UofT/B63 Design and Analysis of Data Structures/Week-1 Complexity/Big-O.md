@@ -25,4 +25,4 @@ We can do this by overestimating the steps it takes.
 ## See Also
 - [[Big-Omega]]
 - [[Big-Theta]]
-- [[Running Time of Algorithms]]
+- [[Time Complexity]]
