@@ -99,4 +99,7 @@ Each edge in the [[graph]] is assigned a real number called its weight.
 ---
 ## See Also
 - [[Breadth-First Search (BFS)]]
+- [[Depth-First Search (DFS)]]
+- [[Strongly Connected Components (SCC)]]
+- [[Kosaraju's SCC Algorithm]]
 - [[Priority Queue]]

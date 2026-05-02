@@ -65,3 +65,4 @@ Therefore, the total running time of [[Breadth-First Search (BFS)|BFS]] is $O(m+
 ## See Also
 - [[Graph]]
 - [[Priority Queue]]
+- [[Depth-First Search (DFS)]]

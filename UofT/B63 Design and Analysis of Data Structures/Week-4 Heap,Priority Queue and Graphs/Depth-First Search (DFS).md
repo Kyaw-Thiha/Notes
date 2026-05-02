@@ -62,3 +62,4 @@ Consider the graph below.
 ## See Also
 - [[Graph]]
 - [[Breadth-First Search (BFS)]]
+- [[Kosaraju's SCC Algorithm]]
