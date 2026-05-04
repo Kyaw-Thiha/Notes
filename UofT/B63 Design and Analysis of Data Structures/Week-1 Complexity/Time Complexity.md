@@ -1,4 +1,7 @@
 # Running Time of Algorthms
+The running time $T(n)$ of an algorithm for input of size $n$ is the number of primitive operations or steps executed.
+
+---
 Suppose we were to count each step.
 We can do
 1. read, write vars: `1 each`
@@ -83,3 +86,11 @@ $$
 $$
 
 ---
+## See Also
+- [[Time Complexity]]
+- [[Big-O]]
+- [[Big-Omega]]
+- [[Big-Theta]]
+- [[Big-O Example]]
+- [[Big-O Notes]]
+- [[Using limits for Big-O]]

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UofT/B63 Design and Analysis of Data Structures/Week-6 Amortized Analysis/Potential Method (Amortized Analysis).md",
-                "mode": "source",
+                "file": "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Hash Table.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Potential Method (Amortized Analysis)"
+              "title": "Hash Table"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 222.5,
+    "collapsed": true
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -186,11 +187,20 @@
   },
   "active": "5311abbc8a994e74",
   "lastOpenFiles": [
+    "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Time Complexity.md",
+    "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Hash Table.md",
     "UofT/B63 Design and Analysis of Data Structures/Week-6 Amortized Analysis/Dynamic Array.md",
+    "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Algorithm Complexity.md",
+    "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Abstract Data Type (ADT).md",
+    "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Big-O.md",
+    "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Big-O Notes.md",
+    "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Big-O Example.md",
+    "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Using limits for Big-O.md",
+    "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Exponential Rules.md",
+    "UofT/B63 Design and Analysis of Data Structures/Week-6 Amortized Analysis/Potential Method (Amortized Analysis).md",
     "UofT/B63 Design and Analysis of Data Structures/Week-6 Amortized Analysis/Accounting Method (Amortized Analysis).md",
     "UofT/B63 Design and Analysis of Data Structures/Week-6 Amortized Analysis/Aggregate Method (Amortized Analysis).md",
     "UofT/B63 Design and Analysis of Data Structures/Week-6 Amortized Analysis/Amortized Analysis.md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-6 Amortized Analysis/Potential Method (Amortized Analysis).md",
     "UofT/B58 Computer Organization/B58 Links.md",
     "Reinforcement Learning/Links.md",
     "UofT/B63 Design and Analysis of Data Structures/Week-6 Amortized Analysis",
@@ -207,16 +217,8 @@
     "UofT/B63 Design and Analysis of Data Structures/Week-4 Heap,Priority Queue and Graphs/Graph.md",
     "UofT/B63 Design and Analysis of Data Structures/Week-4 Heap,Priority Queue and Graphs/Strongly Connected Components (SCC).md",
     "UofT/B63 Design and Analysis of Data Structures/Week-4 Heap,Priority Queue and Graphs/Heap.md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-4 Heap,Priority Queue and Graphs/Depth-First Search (DFS).md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-4 Heap,Priority Queue and Graphs/Breadth-First Search (BFS).md",
-    "To-Learn.md",
-    "Untitled.md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-4 Heap,Priority Queue and Graphs/Priority Queue.md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Time Complexity.md",
     "Deep RL",
-    "Reinforcement Learning/6. Policy Search/First-Order Methods/Policy Gradient for Continuing Tasks.md",
     "UofT/B63 Design and Analysis of Data Structures/Week-4 Heap,Priority Queue and Graphs",
-    "Reinforcement Learning-Old/RL Methods/Policy Gradient Theorem Old.md",
     "Reinforcement Learning/6. Policy Search/First-Order Methods",
     "Reinforcement Learning/6. Policy Search/Zero-Order Methods",
     "UofT/B63 Design and Analysis of Data Structures/Week-3 Augmented Data Structures",
