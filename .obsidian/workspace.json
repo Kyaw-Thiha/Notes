@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Hash Table.md",
+                "file": "UofT/B58 Computer Organization/1.Turing Machine/Transistor.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hash Table"
+              "title": "Transistor"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5,
-    "collapsed": true
+    "width": 222.5
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -185,10 +184,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5311abbc8a994e74",
+  "active": "7bedb07dd39dcbcc",
   "lastOpenFiles": [
-    "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Time Complexity.md",
+    "Untitled.md",
+    "UofT/B58 Computer Organization/1.Turing Machine/Transistor.md",
+    "UofT/B58 Computer Organization/1.Turing Machine/Universal Turing Machine(UTM).md",
+    "UofT/B58 Computer Organization/1.Turing Machine/Turing Machine.md",
+    "UofT/B58 Computer Organization/1.Turing Machine/Relay.md",
+    "UofT/B58 Computer Organization/1.Electrical Components/Semiconductor.md",
+    "UofT/B58 Computer Organization/1.Turing Machine",
+    "UofT/B58 Computer Organization/1.Electrical Components/Electricity.md",
+    "UofT/B58 Computer Organization/1.Electrical Components/MOSFET.md",
+    "UofT/B58 Computer Organization/1.Electrical Components/Capacitor.md",
+    "UofT/B58 Computer Organization/B58 Links.md",
+    "UofT/B58 Computer Organization/1.Electrical Components",
     "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Hash Table.md",
+    "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Time Complexity.md",
     "UofT/B63 Design and Analysis of Data Structures/Week-6 Amortized Analysis/Dynamic Array.md",
     "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Algorithm Complexity.md",
     "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Abstract Data Type (ADT).md",
@@ -201,28 +212,16 @@
     "UofT/B63 Design and Analysis of Data Structures/Week-6 Amortized Analysis/Accounting Method (Amortized Analysis).md",
     "UofT/B63 Design and Analysis of Data Structures/Week-6 Amortized Analysis/Aggregate Method (Amortized Analysis).md",
     "UofT/B63 Design and Analysis of Data Structures/Week-6 Amortized Analysis/Amortized Analysis.md",
-    "UofT/B58 Computer Organization/B58 Links.md",
     "Reinforcement Learning/Links.md",
     "UofT/B63 Design and Analysis of Data Structures/Week-6 Amortized Analysis",
     "UofT/B63 Design and Analysis of Data Structures/Week-5 Edge-Weighted Graph/Dijkstra's Algorithm.md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-5 Edge-Weighted Graph/Weighted Graph.md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-5 Edge-Weighted Graph/Kruskal's Algorithm.md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-5 Edge-Weighted Graph/Prim's Algorithm.md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-5 Edge-Weighted Graph/Minimum Spanning Tree (MST).md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-5 Edge-Weighted Graph/Spanning Tree.md",
     "UofT/B63 Design and Analysis of Data Structures/Week-5 Edge-Weighted Graph",
-    "UofT/B63 Design and Analysis of Data Structures/Week-4 Heap,Priority Queue and Graphs/Kosaraju's SCC Algorithm.md",
     "UofT/B09 Systems Programming",
     "UofT/B58 Computer Organization",
-    "UofT/B63 Design and Analysis of Data Structures/Week-4 Heap,Priority Queue and Graphs/Graph.md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-4 Heap,Priority Queue and Graphs/Strongly Connected Components (SCC).md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-4 Heap,Priority Queue and Graphs/Heap.md",
     "Deep RL",
     "UofT/B63 Design and Analysis of Data Structures/Week-4 Heap,Priority Queue and Graphs",
     "Reinforcement Learning/6. Policy Search/First-Order Methods",
     "Reinforcement Learning/6. Policy Search/Zero-Order Methods",
-    "UofT/B63 Design and Analysis of Data Structures/Week-3 Augmented Data Structures",
-    "UofT/B63 Design and Analysis of Data Structures/Week-2 AVL Tree",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet (2021).webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",
