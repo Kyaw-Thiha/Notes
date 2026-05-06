@@ -21,5 +21,5 @@ $$
 - `Noise`
   Irreducible unpredictability of data
 
-![[Bias-Variance Plot.png]]
+![[Bias-Variance Plot.png|400]]
 Plotting `Bias-Variance` against `Regularization` factor $\lambda$
