@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UofT/B58 Computer Organization/1.Turing Machine/Transistor.md",
+                "file": "UofT/B09 Systems Programming/1.Redirection and Pipelining/Redirection and Pipelining.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transistor"
+              "title": "Redirection and Pipelining"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 222.5,
+    "collapsed": true
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -184,10 +185,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7bedb07dd39dcbcc",
+  "active": "5311abbc8a994e74",
   "lastOpenFiles": [
-    "Untitled.md",
+    "UofT/B09 Systems Programming/BO9 Links.md",
+    "UofT/B09 Systems Programming/1.Redirection and Pipelining/Redirection and Pipelining.md",
+    "UofT/B09 Systems Programming/1.Redirection and Pipelining/Linux File System.md",
+    "UofT/B09 Systems Programming/1.Redirection and Pipelining/Shell.md",
+    "UofT/B09 Systems Programming/1.Redirection and Pipelining/Kernel.md",
+    "UofT/HISA02/HISA02 Week-1b.md",
+    "UofT/B09 Systems Programming/1.Redirection and Pipelining",
+    "UofT/HISA02",
     "UofT/B58 Computer Organization/1.Turing Machine/Transistor.md",
+    "Untitled.md",
     "UofT/B58 Computer Organization/1.Turing Machine/Universal Turing Machine(UTM).md",
     "UofT/B58 Computer Organization/1.Turing Machine/Turing Machine.md",
     "UofT/B58 Computer Organization/1.Turing Machine/Relay.md",
@@ -208,20 +217,12 @@
     "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Big-O Example.md",
     "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Using limits for Big-O.md",
     "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Exponential Rules.md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-6 Amortized Analysis/Potential Method (Amortized Analysis).md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-6 Amortized Analysis/Accounting Method (Amortized Analysis).md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-6 Amortized Analysis/Aggregate Method (Amortized Analysis).md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-6 Amortized Analysis/Amortized Analysis.md",
-    "Reinforcement Learning/Links.md",
     "UofT/B63 Design and Analysis of Data Structures/Week-6 Amortized Analysis",
-    "UofT/B63 Design and Analysis of Data Structures/Week-5 Edge-Weighted Graph/Dijkstra's Algorithm.md",
     "UofT/B63 Design and Analysis of Data Structures/Week-5 Edge-Weighted Graph",
     "UofT/B09 Systems Programming",
     "UofT/B58 Computer Organization",
     "Deep RL",
     "UofT/B63 Design and Analysis of Data Structures/Week-4 Heap,Priority Queue and Graphs",
-    "Reinforcement Learning/6. Policy Search/First-Order Methods",
-    "Reinforcement Learning/6. Policy Search/Zero-Order Methods",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet (2021).webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",
