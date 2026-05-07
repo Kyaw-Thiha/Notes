@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UofT/B09 Systems Programming/1.Redirection and Pipelining/Redirection and Pipelining.md",
-                "mode": "preview",
+                "file": "UofT/B09 Systems Programming/2.Shell Programming/Shell Test Commands.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Redirection and Pipelining"
+              "title": "Shell Test Commands"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5,
-    "collapsed": true
+    "width": 222.5
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -187,11 +186,19 @@
   },
   "active": "5311abbc8a994e74",
   "lastOpenFiles": [
-    "UofT/B09 Systems Programming/BO9 Links.md",
+    "UofT/B09 Systems Programming/2.Shell Programming/Shell Grouping.md",
+    "UofT/B09 Systems Programming/2.Shell Programming/Shell General Option Processing.md",
+    "UofT/B09 Systems Programming/2.Shell Programming/Shell Dot Command.md",
+    "UofT/B09 Systems Programming/2.Shell Programming/Environment Variables.md",
+    "UofT/B09 Systems Programming/2.Shell Programming/Bash Syntax.md",
+    "UofT/B09 Systems Programming/2.Shell Programming/Shell Test Commands.md",
+    "UofT/B09 Systems Programming/1.Redirection and Pipelining/Process Substitution.md",
     "UofT/B09 Systems Programming/1.Redirection and Pipelining/Redirection and Pipelining.md",
-    "UofT/B09 Systems Programming/1.Redirection and Pipelining/Linux File System.md",
     "UofT/B09 Systems Programming/1.Redirection and Pipelining/Shell.md",
+    "UofT/B09 Systems Programming/1.Redirection and Pipelining/Linux File System.md",
     "UofT/B09 Systems Programming/1.Redirection and Pipelining/Kernel.md",
+    "UofT/B09 Systems Programming/BO9 Links.md",
+    "UofT/B09 Systems Programming/2.Shell Programming",
     "UofT/HISA02/HISA02 Week-1b.md",
     "UofT/B09 Systems Programming/1.Redirection and Pipelining",
     "UofT/HISA02",
@@ -210,19 +217,11 @@
     "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Hash Table.md",
     "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Time Complexity.md",
     "UofT/B63 Design and Analysis of Data Structures/Week-6 Amortized Analysis/Dynamic Array.md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Algorithm Complexity.md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Abstract Data Type (ADT).md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Big-O.md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Big-O Notes.md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Big-O Example.md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Using limits for Big-O.md",
-    "UofT/B63 Design and Analysis of Data Structures/Week-1 Complexity/Exponential Rules.md",
     "UofT/B63 Design and Analysis of Data Structures/Week-6 Amortized Analysis",
     "UofT/B63 Design and Analysis of Data Structures/Week-5 Edge-Weighted Graph",
     "UofT/B09 Systems Programming",
     "UofT/B58 Computer Organization",
     "Deep RL",
-    "UofT/B63 Design and Analysis of Data Structures/Week-4 Heap,Priority Queue and Graphs",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet (2021).webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",

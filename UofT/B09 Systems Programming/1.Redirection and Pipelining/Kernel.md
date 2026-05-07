@@ -33,4 +33,7 @@ Areas of virtual memory can be marked as being part of **user space**, or **kern
 - In kernel mode, the CPU can access both kernel and user space.
 
 ---
-
+## See Also
+- [[Kernel]]
+- [[Linux File System]]
+- [[Shell]]

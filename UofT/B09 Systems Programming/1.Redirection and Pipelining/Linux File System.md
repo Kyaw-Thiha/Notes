@@ -11,3 +11,7 @@ The [[kernel]] maintains a single hierarchical directory structure to organize a
 - Symbolic link has a filename-plus-pointer entry in a directory. But this time, the file referred contains a string that maps to another file.
 
 ---
+## See Also
+- [[Kernel]]
+- [[Linux File System]]
+- [[Shell]]

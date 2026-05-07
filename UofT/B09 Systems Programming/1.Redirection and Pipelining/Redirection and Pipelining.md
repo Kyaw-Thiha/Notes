@@ -64,3 +64,73 @@ command | tee output.txt | wc -l
 ```
 
 ---
+## Multi-line Redirection
+```bash
+cat << EOF
+Hello I’m Albert.
+You can use variables too
+E.g., \$x=$x
+EOF
+```
+
+Note that `EOF` is not a keyword. It can be anything else:
+```bash
+cat << BANANA
+This is my text
+BANANA
+```
+
+---
+### Variable Expansion
+Unquoted marker will by default expand variables.
+```bash
+x=42
+cat << EOF
+Hello I'm Albert.
+You can use variables too
+E.g., \$x=$x
+EOF
+```
+
+Quoted markers will not expand variables
+```bash
+x=42
+cat << 'EOF'
+Hello I'm Albert.
+Now $x is $x
+EOF
+```
+
+```bash
+x=42
+cat << "EOF"
+Hello I'm Albert.
+Now $x is $x
+EOF
+```
+
+---
+### Examples
+
+Generating config file.
+```bash
+name="Alice"
+cat << EOF > config.txt
+username=$name
+home=/home/$name
+shell=/bin/bash
+EOF
+```
+
+Feeding SQL with literal `$` signs.
+```bash
+cat << 'EOF' | psql mydb
+SELECT * FROM users WHERE balance > $1000;
+EOF
+```
+
+---
+## See Also
+- [[Shell]]
+- [[Process Substitution]]
+- [[Bash Syntax]]
