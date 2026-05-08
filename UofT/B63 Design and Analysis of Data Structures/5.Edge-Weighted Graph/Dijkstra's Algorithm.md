@@ -1,7 +1,7 @@
 # Dijkstra's Algorithm
-[[Dijkstra's algorithm]] finds the shortest path between $2$ nodes.
+[[Dijkstra's Algorithm]] finds the shortest path between $2$ nodes.
 ![Dijkstra's Algorithm|300](https://blog.aos.sh/img/DAGIF.gif)
-Note that it is very similar to [[Prim's algorithm]].
+Note that it is very similar to [[Prim's Algorithm]].
 
 ---
 ## Example
@@ -20,7 +20,7 @@ Consider the graph below.
 1. We add our start vertex $S$ to the set of reached vertices $S$ and give it a distance $d[S]=0$.
    This creates a distance tree rooted at $S$.
 2. At each stage, we consider the next closest vertex to $S$ from vertices not in $S$, or alternatively, the vertex with the next shortest path to $S$.
-3. We can use a [[priority queue]] to determine the shortest path by considering each neighbour $u$ of $v$ $s.t.$ $u \notin S$ whenever a new vertex $v$ is added to $S$. 
+3. We can use a [[Priority Queue]] to determine the shortest path by considering each neighbour $u$ of $v$ $s.t.$ $u \notin S$ whenever a new vertex $v$ is added to $S$. 
    If we get a smaller [[Priority Queue|priority]] for $u$, we update $u$'s priority to the new priority.
 
 ---
@@ -35,9 +35,9 @@ Consider the graph below.
 - Since $(u,v) \notin O_{S}$, there must be a shorter path $p$ from $S$ to $v$.
 - Consider the edge $e_{j}=(x,y)$, $j>i$ on $p$ that has one endpoint in $S$ and one in $V-S$.
 	- **Case-1**: $y\neq V$
-	  $d_{O}[y] < d_{T}[V]$. This is a contradiction since [[Dijkstra's algorithm]] would have chosen it.
+	  $d_{O}[y] < d_{T}[V]$. This is a contradiction since [[Dijkstra's Algorithm]] would have chosen it.
 	- **Case-2**:
-		- **Case-2A**: If $y=V$ and $d_{O}[y] < d_{T}[V]$, then this is a contradiction because [[Dijkstra's algorithm]] would have chosen it.
+		- **Case-2A**: If $y=V$ and $d_{O}[y] < d_{T}[V]$, then this is a contradiction because [[Dijkstra's Algorithm]] would have chosen it.
 		- **Case-2B**: If $y=V$ and $d_{O}[y] = d_{T}[V]$, we can swap $(x,y)$ with $(u,v)$ and $O_{S}$ is closer to $T_{S}$.
 
 ---

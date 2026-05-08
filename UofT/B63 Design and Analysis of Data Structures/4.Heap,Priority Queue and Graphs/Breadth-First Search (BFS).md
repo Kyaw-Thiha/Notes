@@ -25,10 +25,10 @@ Then, repeat for all of $v$'s neighbours, and so on.
 ![image|300](https://notes-media.kthiha.com/Breadth-First-Search-(BFS)/c9e0e9a71decd9e15a0fd36155bf627e.png)
 
 ---
-A [[Breadth-First Search (BFS)|BFS]] can give the following information about a [[graph]].
+A [[Breadth-First Search (BFS)|BFS]] can give the following information about a [[Graph]].
 - The shortest path from $v$ to any other vertex $u$.
   We denote the distance between the nodes as $d(v)$.
-- Whether the [[graph]] is connected.
+- Whether the [[Graph]] is connected.
 - The number of connected components.
 - Constructs a `spanning tree` that visits every node connected to the starting node.
   **Note**: Because a [[Breadth-First Search (BFS)|BFS]] follows from an adjacency list, the spanning tree is not unique.
@@ -36,7 +36,7 @@ A [[Breadth-First Search (BFS)|BFS]] can give the following information about a 
 
 ---
 ## Implementing BFS
-We can use a [[Priority Queue|queue(FIFO)]] to implement a [[Breadth-First Search (BFS)|BFS]] given an adjacency list representation of a [[graph]].
+We can use a [[Priority Queue|queue(FIFO)]] to implement a [[Breadth-First Search (BFS)|BFS]] given an adjacency list representation of a [[Graph]].
 
 A queue has the following properties:
 - `enqueue(Q,V)`
@@ -58,8 +58,8 @@ Therefore, the total running time of [[Breadth-First Search (BFS)|BFS]] is $O(m+
 **Note**: 
 - Each node is enqueued when it is not visited, at which point it is marked as visited.
 - [[Breadth-First Search (BFS)|BFS]] will only visit the nodes that are reachable from $V$.
-- If the [[graph]] is connected(in the undirected case) or strongly-connected(in the directed case), then this will all be vertices.
-- If not, then we may have to call [[Breadth-First Search (BFS)|BFS]] multiple times in order to see the whole [[graph]].
+- If the [[Graph]] is connected(in the undirected case) or strongly-connected(in the directed case), then this will all be vertices.
+- If not, then we may have to call [[Breadth-First Search (BFS)|BFS]] multiple times in order to see the whole [[Graph]].
 
 ---
 ## See Also

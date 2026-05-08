@@ -8,7 +8,7 @@
 
 ---
 ## Example
-Consider the [[graph]] below.
+Consider the [[Graph]] below.
 ![image|200](https://notes-media.kthiha.com/Kosaraju's-SCC-Algorithm/7012c696c28d0999d0587d56dbbbe8b9.png)
 
 ![image|300](https://notes-media.kthiha.com/Kosaraju's-SCC-Algorithm/27b9ae9f0ef2b346d35d9aeaeb94762d.png)

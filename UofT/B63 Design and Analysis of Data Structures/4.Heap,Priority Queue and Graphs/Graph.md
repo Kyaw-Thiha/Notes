@@ -1,5 +1,5 @@
 # Graph
-A [[graph]] $G = (V, E)$ consists of a set of $\text{vertices(nodes)}$, denoted by $V$ and a set of $\text{edges}$, denoted by $E$.
+A [[Graph]] $G = (V, E)$ consists of a set of $\text{vertices(nodes)}$, denoted by $V$ and a set of $\text{edges}$, denoted by $E$.
 - $n = |V|$ is the number of nodes.
 - $m = |E|$ is the number of edges.
 
@@ -44,7 +44,7 @@ A sequence of edges which connect a sequence of distinct vertices. (You can't go
 
 ![image|300](https://notes-media.kthiha.com/Graph/554202bd365ddcbf39b8e6a44375cf3e.png)
 
-- **Transversal**: Visit each vertex of a [[graph]].
+- **Transversal**: Visit each vertex of a [[Graph]].
 - **Reachability**: $v$ is reachable from $u$ $iff$ there is a path from $u$ to $v$
 
 ---
@@ -60,7 +60,7 @@ Note that $<v>$ is not a cycle.
 
 ---
 ### Tree
-A tree is a [[graph]] that is connected but has no cycles.
+A tree is a [[Graph]] that is connected but has no cycles.
 ![image|300](https://notes-media.kthiha.com/Graph/1a3badad46c6bc92df4e232cd47792ea.png)
 A forest is a collection of trees.
 Note: `Acyclic` means that there are no cycles.
@@ -74,7 +74,7 @@ Trees have the following properties:
 
 ---
 ### Weighted Graph
-Each edge in the [[graph]] is assigned a real number called its weight.
+Each edge in the [[Graph]] is assigned a real number called its weight.
 
 ---
 ### Connectivity

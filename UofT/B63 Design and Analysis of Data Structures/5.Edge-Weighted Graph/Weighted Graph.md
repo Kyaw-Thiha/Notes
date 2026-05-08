@@ -1,5 +1,5 @@
 # Edge-Weighted Graph
-A [[graph]] where each edge has a weight associated to it.
+A [[Graph]] where each edge has a weight associated to it.
 
 We denote the weight of an edge by $w(e)$.
 Usually $w(e) \geq 0$, but it can also be less than $0$.
@@ -19,7 +19,7 @@ An [[Weighted Graph|edge-weighted graph]] consists of
 ## Storing a Weighted Graph
 We may use adjacency list or adjacency matrix to store a weighted graph.
 
-**Example**: Consider the [[weighted graph]] below.
+**Example**: Consider the [[Weighted Graph]] below.
 ![image|200](https://notes-media.kthiha.com/Weighted-Graph/05e32ba3efe1b710eae7b584865baec0.png)
 ![image|200](https://notes-media.kthiha.com/Weighted-Graph/ef8e3c419628d97effaa2f6e661a4d7f.png)
 ![image|200](https://notes-media.kthiha.com/Weighted-Graph/d5febac0abf5c67c175e99b3d147dc75.png)

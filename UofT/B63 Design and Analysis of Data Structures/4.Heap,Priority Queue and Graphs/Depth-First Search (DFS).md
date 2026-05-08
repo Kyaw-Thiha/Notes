@@ -49,7 +49,7 @@ However, the [[Depth-First Search (DFS)|DFS tree]] is NOT unique for a given gra
 	  **Note**: This only applies to [[Graph|directed graphs]].
 	![image|300](https://notes-media.kthiha.com/Depth-First-Search-(DFS)/974f2be07524df7f7c99b6c72b95c579.png)
 - We can use $d[v]$ and $f[v]$ to distinguish between the edges.
-- There is a cycle in [[graph]] $G$ $\iff$ there are any `back-edges` when [[Depth-First Search (DFS)|DFS]] is run.
+- There is a cycle in [[Graph]] $G$ $\iff$ there are any `back-edges` when [[Depth-First Search (DFS)|DFS]] is run.
 - We can detect a `back-edge` in a [[Depth-First Search (DFS)|DFS]] if the vertex we are visiting has been visited but not finished.
 
 ---

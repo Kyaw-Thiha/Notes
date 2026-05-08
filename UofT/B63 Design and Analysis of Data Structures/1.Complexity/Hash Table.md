@@ -11,7 +11,7 @@ When working with arrays, finding element without its index takes an [[Time Comp
 
 This is because in array, elements are not ordered.
 
-With [[hash table]], we could reduce it to $O(1)$.
+With [[Hash Table]], we could reduce it to $O(1)$.
 
 ---
 ## Hash Function
@@ -52,7 +52,7 @@ $$
 - Instead choose **irrational numbers** such as **golden ratio** or its reciprocal. This is because they introduce more randomness and variability into [[Hash Table|hash function]], thus helping achieve a more uniform distribution.
 
 **Why multiplicative method over division method?**
-- Size of the [[hash table]] does not need to be prime.
+- Size of the [[Hash Table]] does not need to be prime.
 - So, uniformly distributing the hash values across the hash table is easier done by simply adjusting the constant $A$.
 
 ---
@@ -63,7 +63,7 @@ There are two methods of handling them: [[#open addressing]] and [[# separate ch
 
 ---
 ### Open Addressing
-Elements are always stored in the [[hash table]] itself.
+Elements are always stored in the [[Hash Table]] itself.
 This can be done through **probing** and **rehashing**.
 
 #### Linear Probing
@@ -73,7 +73,7 @@ H(\text{key})
 = (\text{key mod } k) + i
 = (\text{key \% } k) + i
 $$
-Whenever there is a collision at a particular bucket, the key will try the next index in the [[hash table]].
+Whenever there is a collision at a particular bucket, the key will try the next index in the [[Hash Table]].
 
 ![image|400](https://notes-media.kthiha.com/Hash-Table/8329af78c4de2fd803d0a765d0bb7451.png)
 
@@ -104,19 +104,19 @@ Note that if second [[Hash Table|hash function]] leads to a filled bucket, then 
 
 ---
 ### Separate Chaining
-Store a linked list of key-value pairs in each bucket of the [[hash table]] that hash to the same index.
+Store a linked list of key-value pairs in each bucket of the [[Hash Table]] that hash to the same index.
 ![image|400](https://notes-media.kthiha.com/Hash-Table/b065563ce72cd07a3e8a93ae8659fe34.png)
 
 Note that retrieving an element from linked list takes $O(n)$ compared to [[Hash Table|hash table's]] $O(1)$. Hence, it is best to minimize the number of keys attaching to single bucket.
 
 ---
 ### Load Factor
-The [[#load factor]] of a [[hash table]] is the ratio between the number of elements in the hash table to the size of the hash table.
+The [[#load factor]] of a [[Hash Table]] is the ratio between the number of elements in the hash table to the size of the hash table.
 $$
 \text{load factor}
 = \frac{\text{no. of elements}}{\text{size of hash table}}
 $$
-It signifies how full a [[hash table]] is.
+It signifies how full a [[Hash Table]] is.
 The higher the load factor, the higher the collisions.
 
 Whenever this load factor becomes greater than a threshold, we can

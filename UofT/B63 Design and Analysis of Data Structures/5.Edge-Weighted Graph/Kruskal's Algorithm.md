@@ -1,5 +1,5 @@
 # Kruskal's Algorithm
-[[Kruskal's algorithm]] builds the [[Minimum Spanning Tree (MST)|MST]] by iteratively adding the smallest edge that does not form a cycle until it includes all vertices.
+[[Kruskal's Algorithm]] builds the [[Minimum Spanning Tree (MST)|MST]] by iteratively adding the smallest edge that does not form a cycle until it includes all vertices.
 
 ![Kruskal's Algorithm|300](https://i0.wp.com/oliviagallucci.com/wp-content/uploads/2024/01/KruskalsAlgorithm.gif?resize=549%2C379&ssl=1)
 
@@ -27,7 +27,7 @@ However if we have $n-1$ edges, it does NOT mean we have a tree.
 ---
 ### Comparism to Prim's Algorithm
 
-Compared to [[Prim's algorithm]], [[Kruskal's algorithm]] is more well-suited for sparse [[Graph|graphs]].
+Compared to [[Prim's Algorithm]], [[Kruskal's Algorithm]] is more well-suited for sparse [[Graph|graphs]].
 
 ---
 ## Implementation
@@ -49,16 +49,16 @@ Compared to [[Prim's algorithm]], [[Kruskal's algorithm]] is more well-suited fo
 - In total, it takes $O(m\log n + n \log n)$.
   But because $m \leq n^{2}$, $\log m \in O(\log n)$.
 
-$\therefore$ The [[time complexity]] is $O((m+n) \log n)$.
+$\therefore$ The [[Time Complexity]] is $O((m+n) \log n)$.
 
 ---
 ## Proof of Correctness
-We can prove [[Kruskal's algorithm]] is correct using proof by contradiction.
+We can prove [[Kruskal's Algorithm]] is correct using proof by contradiction.
 
 **Proof**:
 - We order the edges in non-decreasing order of weights.
   $\text{I.e:}$ $w_{1} \leq w_{2} \leq w_{3} \leq \dots \leq w_{n}$
-- Let $K$ be the [[spanning tree]] returned by [[Kruskal's Algorithm]].
+- Let $K$ be the [[Spanning Tree]] returned by [[Kruskal's Algorithm]].
 - Let $O$ be an [[Minimum Spanning Tree (MST)|optimal MST]] $s.t.$ $O$'s weight is less than $k$'s weight. This means that $K$ is not optimal.
 - Let $e_{i} = (u,v)$ be the first edge in our ordering that is not in both $K$ and $O$.
   **Note**: 

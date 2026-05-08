@@ -1,12 +1,12 @@
 # Prim's Algorithm
-[[Prim's algorithm]] builds an [[Minimum Spanning Tree (MST)|MST]] by adding the smallest edge at each step, starting from a random node.
+[[Prim's Algorithm]] builds an [[Minimum Spanning Tree (MST)|MST]] by adding the smallest edge at each step, starting from a random node.
 ![Prim's Algorithm|300](https://i.ytimg.com/vi/xthRL0lcx2w/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDTvrg1fOPERXKgj6f1SQiHjzM6rA)
 It can be thought of as a [[Greedy Policy|greedy algorithm]] that choose the locally optimal solution at each step, and hope to find the global optimum.
 
 ---
 ## Algorithm
 **Idea**: Find an [[Minimum Spanning Tree (MST)|MST]] by doing something similar to [[Breadth-First Search (BFS)|BFS]].
-- Use a [[priority queue]] to store weights.
+- Use a [[Priority Queue]] to store weights.
 - The algorithm grows a tree $T$ one edge at a time.
 - The [[Priority Queue|priority]] of vertex $V$ is the smallest edge weight between $v$ and $T$ so far. We use $\infty$ if there is no such weight.
 
@@ -14,13 +14,13 @@ It can be thought of as a [[Greedy Policy|greedy algorithm]] that choose the loc
 
 > **Algorithm Summary**
 > 
-> With [[Prim's Algorithm]], you choose any vertex and transverse the [[graph]] by taking the path with the least weight.
+> With [[Prim's Algorithm]], you choose any vertex and transverse the [[Graph]] by taking the path with the least weight.
 > Furthermore if a vertex can have a smaller [[Priority Queue|priority]], you must update the [[Heap|min-heap]] to show the smallest possible priority it can have.
 > Finally, we remove the vertex from the [[Heap|min-heap]] when we have visited it.
 
 ---
 ## Example
-Consider the [[graph]] below.
+Consider the [[Graph]] below.
 ![image|300](https://notes-media.kthiha.com/Prim's-Algorithm/dd537f604a56a90c1f0c07fd7277b69e.png)
 
 ![image|300](https://notes-media.kthiha.com/Prim's-Algorithm/957d1aaae0c6e7cd62028b5488e68f38.png)
@@ -60,7 +60,7 @@ Proof by contradiction.
 - At the stage of [[Prim's Algorithm]] when $e$ was added, there was a set $S$ of vertices $s.t.$ $u \in S$ and $v \in V-S$.
 - If the [[Weighted Graph|edge weights]] are unique, then by the [[#Cut Property]], $e$ must belong to $O$.
 - If the [[Weighted Graph|edge weights]] are not unique and if $e \notin O$, that means that there exists a path $p$ from $u$ to $v$ $s.t.$ an edge $e' = (x,y)$ exists on $p$ and $x \in S$ and $y \in V-S$.
-- If $w(e) = w(e')$, then we can swap $e$ with $e'$ and the [[spanning tree]] will still be optimal.
+- If $w(e) = w(e')$, then we can swap $e$ with $e'$ and the [[Spanning Tree]] will still be optimal.
 - It is impossible for $w(e')$ to be less than $w(e)$ or [[Prim's Algorithm]] would have chosen it.
 - If $w(e) < w(e')$, then swapping $e'$ with $e$ reduces the weight of $O$, which is a contradiction.
 

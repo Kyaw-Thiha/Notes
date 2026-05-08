@@ -2,7 +2,7 @@
 In the [[Accounting Method (Amortized Analysis)|accounting method]], we do the [[Amortized Analysis|analysis]] as if we were an intermediate service providing access to the data structure.
 - The cost to us for each operation is the operation's worst-case running time.
 - We charge the customer for each operation such that we cover our costs with what we earn in charges.
-- We aim for a total charge as close as possible to the total cost. This will give us the best estimate of the [[time complexity]].
+- We aim for a total charge as close as possible to the total cost. This will give us the best estimate of the [[Time Complexity]].
 
 The charge is the approximate [[Amortized Analysis|amortized complexity]] per operation.
 - Typically, we will charge more for some types of operations and nothing for other types.
@@ -35,7 +35,7 @@ Suppose we have an [[Augmented Data Structures|augmented stack]] with the operat
 - $\text{pop}(s): \theta(1)$
 - $\text{multiPop}(s,k):$ Removes the top $k$ elements from the stack. $\theta(k)$
 
-Hence, the cost of each operation (representing the [[time complexity]] of each operation) is as follows:
+Hence, the cost of each operation (representing the [[Time Complexity]] of each operation) is as follows:
 - $\text{cost}(\text{push}(s,x)) = 1$
 - $\text{cost}(\text{pop}(s)) = 1$
 - $\text{cost}(\text{multiPop}(s,k)) = \min(k, |s|)$

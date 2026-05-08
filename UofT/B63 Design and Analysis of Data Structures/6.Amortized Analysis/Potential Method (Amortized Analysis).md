@@ -56,7 +56,7 @@ $$
 
 ---
 ## Example 
-Consider a [[dynamic array]].
+Consider a [[Dynamic Array]].
 
 We need $\phi$ to depend on the current state of the array.
 This means that

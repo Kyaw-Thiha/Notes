@@ -1,5 +1,5 @@
 # Strongly Connected Components
-`SCC` is the maximum subset of vertices from each other in a directed [[graph]].
+`SCC` is the maximum subset of vertices from each other in a directed [[Graph]].
 
 ---
 ## Example
@@ -13,7 +13,7 @@ The [[Strongly Connected Components (SCC)|SCCs]] are
 
 ---
 ## Transpose of G
-The transpose of $G$, denoted by $G^{T}$ is a [[graph]] with the same vertices as $G$ but the edges are reversed.
+The transpose of $G$, denoted by $G^{T}$ is a [[Graph]] with the same vertices as $G$ but the edges are reversed.
 E.g:
 ![image|300](https://notes-media.kthiha.com/Strongly-Connected-Components-(SCC)/462bf027020725b65e16021bc2fd2992.png)
 

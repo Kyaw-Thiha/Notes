@@ -1,7 +1,7 @@
 # Heap
-A [[heap]] is one way to store a [[priority queue]].
+A [[Heap]] is one way to store a [[Priority Queue]].
 
-A [[heap]] is 
+A [[Heap]] is 
 - a binary tree
 - every level $i$ has $2^{i}$ nodes, except for the bottom level
 - The bottom fills in left to right
@@ -128,7 +128,7 @@ Therefore, building a heap takes $\Theta(n)$ time.
 Given an array, how can we use a heap to efficiently sort the array?
 
 **Soln**:
-We can convert the array into a [[heap]] ($\Theta(n)$ time) and repeatedly using [[#Extract-Max|extract-max]], updating and balancing the tree and decrementing the size.
+We can convert the array into a [[Heap]] ($\Theta(n)$ time) and repeatedly using [[#Extract-Max|extract-max]], updating and balancing the tree and decrementing the size.
 
 In total, it takes $\Theta(n \log n)$ time.
 
