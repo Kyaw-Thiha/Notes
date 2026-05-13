@@ -8,7 +8,7 @@ Covalent bonds are formed, electrons are shared and each silicon gets to have a 
 To make it a conductor, we add in impurities.
 
 ---
-### Impurities
+### Impurities (Doping)
 We can either toss in a Boron(3 valence electrons) or a Phosphorous(5 valence electrons) into the lattice.
 
 Tossing in Boron results in empty spaces for the electrons
@@ -18,6 +18,8 @@ Tossing in Boron results in empty spaces for the electrons
 Tossing in Phosphorous results in extra electrons.
 - This creates a `n-type`(negative)
 - Free electrons bump into each other, so they move
+
+This process is called [[#Impurities (Doping)|p/n-type doping]].
 
 ---
 ### PN-Junctions
@@ -75,4 +77,5 @@ If we apply positive voltage to the [[#PN-Junctions|n-type]], and negative volta
 - [[Semiconductor]]
 - [[MOSFET]]
 - [[Capacitor]]
+- [Read More](https://tingfengx.github.io/uoftnotes/2019F/CSC258/computer_organizations.pdf)
 
