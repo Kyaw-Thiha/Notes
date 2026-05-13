@@ -4,14 +4,16 @@
 - Let $\mathbb{R}^{+}_{0}$ be the set of positive, real numbers $\geq 0$.
 - Let $\mathbb{N}_{k}$ be the set of natural numbers $\geq k$.
 - Let $\mathcal{F}$ be the set of functions of $f: N_{k} \to R^{+}_{0}$
-- Let $g \in \mathcal{F}$.
 
-Then, $O(g)$ is the set of functions $f \in \mathcal{F}$ $s.t.$ 
-$\exists c \in \mathbb{R}^{+} ,\ \exists N_{0} \in \mathbb{N} , \ \forall n \in \mathbb{N}, \ n \geq N_{0}$
+Let $g \in \mathcal{F}$.
+Define $O(g)$ to be the set of functions $f \in \mathcal{F}$ $s.t.$ 
 $$
+\exists c \in \mathbb{R}^{+} ,\ \exists n_{0} \in \mathbb{N} , \ \forall n \in \mathbb{N}, \ n \geq n_{0} \implies
 0 \leq f(n) \leq c.g(n)
 $$
 
+
+---
 ![Big-0 Notation|400](https://media.geeksforgeeks.org/wp-content/uploads/20240329121436/big-o-analysis-banner.webp)
 This shows $f(n) \in O(g(n))$. 
 

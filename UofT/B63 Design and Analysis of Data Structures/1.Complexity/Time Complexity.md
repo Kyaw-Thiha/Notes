@@ -84,6 +84,23 @@ $$
 &\leq 23n^{2} \\[6pt]
 \end{align}
 $$
+[[Big-O|Read more]]
+
+---
+## Limitations of Time Complexity
+**Large constant values**
+Note the following
+- $10^{100}n \in \Theta(n)$ 
+- $n + 10^{100} \in \Theta(n)$
+
+[[Big-Theta]] cannot detect them. This is the price of ignoring machine differences.
+
+**Worst Case/Best Case**
+Note that this is NOT true:
+- $O$ means worst-case time
+- $\Omega$ means best-case time
+
+Instead $O, \ \Omega, \ \Theta$ classify functions, but not what it stands for.
 
 ---
 ## See Also
