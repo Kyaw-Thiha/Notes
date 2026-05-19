@@ -57,3 +57,4 @@ Suppose $X$ is input, $Y$ is output and $E$ is enable.
 When enable is `TRUE`, the [[#Tristate Buffer|tristate buffer]] acts as a simple buffer. When `FALSE`, the output is allowed to float.
 
 ---
+

@@ -13,6 +13,23 @@ In N-channel([[#NMOS and PMOS|NMOS]]) and P-channel([[#NMOS and PMOS|PMOS]]), th
 ![P-MOS and N-MOS|300](https://www.powerelectronicsnews.com/wp-content/uploads/sites/3/2024/05/Fig1.jpg)
 
 ---
+### N-Type
+> Accumulates electrons. Electrons are pulled from source to a positively doped semiconductor body.
+
+To have enough potential on gate, 
+$\implies$ collects enough of electrons
+$\implies$ to make a bridge(n-channel)
+$\implies$ this closes the switch
+
+### P-Type
+> Accumulates holes(p-channel) pulled from source to a negatively doped semiconductor body.
+
+To have enough potential on gate,
+$\implies$ collect enough holes
+$\implies$ by having enough electrons leave the channel
+$\implies$ so that electrons from [[Transistor|drain]] get conducted to [[Transistor|source]]
+
+---
 ### NMOS
 - **Operation**: Turns on when the gate voltage is higher than the source voltage $(V_{GS} > V_{th})$.
 - **Performance**: Uses electrons, which have higher mobility.
@@ -40,3 +57,5 @@ Turning transistors on and off dissipates power and takes time.
 - [[Semiconductor]]
 - [[MOSFET]]
 - [[Capacitor]]
+- [[Transistor]]
+- [[Relay]]

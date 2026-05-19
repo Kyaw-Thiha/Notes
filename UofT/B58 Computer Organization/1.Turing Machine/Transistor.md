@@ -11,6 +11,16 @@ It has $3$ different terminals:
 - **Emitter**: Where current flows out
 
 ---
+## Comparism to Relay
+- [[Relay|Relays]] use magnetic fields 
+  $\implies$ require flowing current 
+  $\implies$ waste power. 
+- [[Transistor|Transistors]] use electric fields
+  $\implies$ require storing electrons at different points
+  $\implies$ minimal current flow 
+  $\implies$ less energy consumption.
+
+---
 ## MOSFET
 A [[Transistor|metal-oxide semiconductor field-effect transistor]] uses voltage(electric field) instead of current to control a larger current.
 
