@@ -5,6 +5,8 @@ The [[kernel]] maintains a single hierarchical directory structure to organize a
 
 ![image|350](https://notes-media.kthiha.com/Linux-File-System/be34dc9ba3127ff6d0382c0e56151bb6.png)
 
+![|300](https://media.geeksforgeeks.org/wp-content/uploads/20260108164511372024/Linux_File_Hierarchy.webp)
+
 ---
 ### Symbolic Links
 - Normal link is a filename-plus-pointer entry in a directory list.
@@ -12,6 +14,7 @@ The [[kernel]] maintains a single hierarchical directory structure to organize a
 
 ---
 ## See Also
+- [GeeksForGeeks Tutorial](https://www.geeksforgeeks.org/linux-unix/linux-directory-structure/)
 - [[Kernel]]
 - [[Linux File System]]
 - [[Shell]]

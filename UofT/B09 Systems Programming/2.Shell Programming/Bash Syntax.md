@@ -45,6 +45,16 @@ ls ${v}  # 2 Arguments: "Sales", "Receipt.txt"
 ls "${v}"  # 1 Argument: "Sales Receipt.txt"
 ```
 
+Note that if you run this in [[shell]] (not `.sh`),
+```bash
+x=43
+echo $x      # 43
+
+x = 43       # This would be error. 
+             # Terminal thinks you are calling script
+             # called x with arguments of "=" and "43c"
+```
+
 ---
 ### Arithmetic Expression
 ```bash
@@ -97,7 +107,7 @@ $1    # First Argument: foo
 $2    # Second Argument: bar
 $3    # Third Argument: xyz
 $*    # Expands arguments to one word: "foo bar xyz"
-$@    # Expands arguments to three words: "foo", "bar", "xyz"
+$@    # Expands arguments to all arguments: "foo", "bar", "xyz"
 ```
 
 We can also use the `shift N` keyword to remove `N` parameters.
