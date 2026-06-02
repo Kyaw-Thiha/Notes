@@ -1,0 +1,2 @@
+- `Combinational circuits` are circuits where output values are entirely dependant on input values.
+- [[Sequential Circuit|Sequential circuits]] are circuits that depends on both input values and previous state of circuit.
