@@ -10,7 +10,7 @@ f(x)
 $$
 This [[activation function]] combines
 - [[ReLU]]
-- [[Dropout]]
+- [[Pattern Recognition/Week-10a/Dropout]]
 - **Zoneout**: Randomly forces a few hidden units to maintain their prior value by mulitplying with $1$.
 
 ![|300](https://alaaalatif.github.io/gelu_imgs/gelu_viz-1.png)
