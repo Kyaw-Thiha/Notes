@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UofT/APS360 Applied Deep Learning/1.Neural Networks/Tanh Activation Function.md",
-                "mode": "source",
+                "file": "UofT/B58 Computer Organization/4.Sequential Circuit/Sequential Circuit.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tanh Activation Function"
+              "title": "Sequential Circuit"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 206.5,
+    "collapsed": true
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reinforcement Learning/Chapter-5/VFA with Function Approximator/VFA given Value Function.md",
+                "file": "UofT/B58 Computer Organization/3.Combinational Circuit/Subtractor.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for VFA given Value Function"
+              "title": "Backlinks for Subtractor"
             }
           },
           {
@@ -186,42 +187,42 @@
   },
   "active": "5311abbc8a994e74",
   "lastOpenFiles": [
-    "UofT/APS360 Applied Deep Learning/1.Neural Networks/SiLU(Swish) Function.md",
-    "UofT/APS360 Applied Deep Learning/1.Neural Networks/SELU Function.md",
-    "UofT/APS360 Applied Deep Learning/1.Neural Networks/ReLU Activation Function.md",
-    "UofT/APS360 Applied Deep Learning/1.Neural Networks/PReLU.md",
-    "UofT/APS360 Applied Deep Learning/1.Neural Networks/Logistic Activation Function.md",
-    "UofT/APS360 Applied Deep Learning/1.Neural Networks/Leaky ReLU.md",
-    "UofT/APS360 Applied Deep Learning/1.Neural Networks/GELU Function.md",
-    "UofT/APS360 Applied Deep Learning/1.Neural Networks/ELU Activation Function.md",
-    "UofT/APS360 Applied Deep Learning/1.Neural Networks/Activation Function.md",
-    "UofT/APS360 Applied Deep Learning/1.Neural Networks/Tanh Activation Function.md",
-    "UofT/APS360 Applied Deep Learning/APS360 Course Links.md",
+    "UofT/B58 Computer Organization/3.Combinational Circuit/Comparator.md",
+    "UofT/B58 Computer Organization/4.Sequential Circuit/Sequential Circuit.md",
+    "UofT/B58 Computer Organization/4.Sequential Circuit",
+    "UofT/B58 Computer Organization/3.Combinational Circuit/Demultiplexer.md",
+    "UofT/B58 Computer Organization/B58 Links.md",
+    "UofT/B58 Computer Organization/3.Combinational Circuit/Subtractor.md",
+    "UofT/B58 Computer Organization/3.Combinational Circuit/Adder.md",
+    "UofT/B58 Computer Organization/2.Binary/Two's Complement.md",
+    "UofT/B58 Computer Organization/3.Combinational Circuit/Ripple-Carry Binary Adder.md",
+    "UofT/B58 Computer Organization/3.Combinational Circuit/Full Adder.md",
+    "UofT/B58 Computer Organization/3.Combinational Circuit/Half Adder.md",
+    "UofT/HISA02 Rise of Machines/Homework-b.md",
+    "UofT/HISA02 Rise of Machines/Ancient Warfare Technology in Ancient China Warring States.md",
+    "UofT/B58 Computer Organization/4.",
+    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/Union of AVL Trees.md",
+    "UofT/B63 Design and Analysis of Data Structures/3.Augmented Data Structures/Augmented AVL Tree.md",
+    "UofT/B63 Design and Analysis of Data Structures/3.Augmented Data Structures/Augmented Data Structures.md",
+    "UofT/B63 Design and Analysis of Data Structures/3.Augmented Data Structures/Weight-Balanced Trees.md",
+    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/AVL Tree.md",
+    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/AVL Tree Algorithms.md",
+    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/AVL Tree Height.md",
+    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/B-Tree.md",
+    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/Difference of AVL Trees.md",
+    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/Intersection of AVL Trees.md",
+    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/Rotations in AVL Tree.md",
+    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/Splay Tree.md",
+    "UofT/HISA02 Rise of Machines/Technologies of Food.md",
+    "UofT/HISA02 Rise of Machines/HISA02.md",
+    "Robotics/CSCC85",
+    "UofT/APS360 Applied Deep Learning/3.Neural Network/Regularization",
+    "UofT/APS360 Applied Deep Learning/3.Neural Network/Normalization",
+    "UofT/APS360 Applied Deep Learning/3.Neural Network",
     "UofT/APS360 Applied Deep Learning/1.Neural Networks",
-    "Pattern Recognition/Pattern Recognition.md",
     "UofT/AP360/Untitled",
     "UofT/APS360 Applied Deep Learning",
-    "Pattern Recognition/Needed Notes.md",
-    "UofT/B09 Systems Programming/2.Shell Programming/Shell Test Commands.md",
-    "UofT/B09 Systems Programming/2.Shell Programming/Bash Syntax.md",
-    "UofT/B09 Systems Programming/BO9 Links.md",
-    "UofT/B09 Systems Programming/2.Shell Programming/Environment Variables.md",
-    "UofT/B09 Systems Programming/2.Shell Programming/Shell General Option Processing.md",
-    "UofT/B58 Computer Organization/3. Combinational Circuit/Demultiplexer.md",
-    "UofT/B58 Computer Organization/3. Combinational Circuit/Multiplexer.md",
-    "UofT/B58 Computer Organization/B58 Links.md",
-    "UofT/B58 Computer Organization/3. Combinational Circuit",
-    "UofT/B09 Systems Programming/2.Shell Programming/Shell Grouping.md",
-    "UofT/B09 Systems Programming/2.Shell Programming/Shell Dot Command.md",
-    "UofT/B58 Computer Organization/1.Turing Machine/Complementary Metal-Oxide-Semiconductor(CMOS).md",
-    "UofT/B58 Computer Organization/1.Turing Machine/CMOS Example.md",
-    "UofT/B58 Computer Organization/1.Turing Machine/Relay.md",
-    "UofT/B58 Computer Organization/2.Binary/Untitled",
-    "UofT/B58 Computer Organization/2.Binary",
-    "UofT/B63 Design and Analysis of Data Structures/7.Sets",
-    "UofT/B09 Systems Programming/3.Shell Utility Programs",
-    "UofT/B09 Systems Programming/2.Shell Programming",
-    "UofT/B09 Systems Programming/1.Redirection and Pipelining",
+    "UofT/B58 Computer Organization/3.Combinational Circuit",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet (2021).webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",
@@ -230,9 +231,9 @@
     "Computer Vision/CNN/attachments/Pooling Strategies.png",
     "Robotics/Untitled.canvas",
     "Robotics/Fault Tolerance/attachments/ToleranceNaive.png",
-    "Robotics/Fault Tolerance/attachments/Pasted image 20251223165433.png",
+    "Robotics/CSCC85/Fault Tolerance/attachments/Pasted image 20251223165433.png",
     "Robotics/Fault Tolerance/attachments/Pasted image 20251223163547.png",
-    "Robotics/Fault Tolerance/attachments/Pasted image 20251223171512.png",
+    "Robotics/CSCC85/Fault Tolerance/attachments/Pasted image 20251223171512.png",
     "Software Design/SOLID Design Principles/Untitled.canvas",
     "Software Design/Untitled.canvas",
     "Classical ML/Untitled.canvas"

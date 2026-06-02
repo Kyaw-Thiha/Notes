@@ -1,0 +1,5 @@
+- [Robotics Manipulation by Russ Tedrake](https://manipulation.csail.mit.edu/index.html)
+- [Mobile Robotics by Florian Shkurti](https://www.cs.toronto.edu/~florian/courses/csc477_fall22/)
+- [Planning by Steven M Lavelle](https://lavalle.pl/planning/book.pdf)
+- [Modern Robotics: Mechanics Planning and Control by Kevin Lynch](https://hades.mech.northwestern.edu/images/7/7f/MR.pdf)
+- [Modern Robotics Coursera](https://www.coursera.org/specializations/modernrobotics)
