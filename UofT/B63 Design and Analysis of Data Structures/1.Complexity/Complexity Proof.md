@@ -10,6 +10,24 @@ Recall that in [[Big-O]], we are trying to upper bound.
 [[Big-O|Read more]]
 
 ---
+## Disproving Big-$O$
+Recall that to show $f \in O(g)$, we had to prove that
+$$
+\exists c \in R^{+}, \exists n_{0} \in \mathbb{N},
+\forall n \geq n_{0} \implies f(n) \leq c.g(n)
+$$
+To prove $f \notin O(g)$, 
+$$
+\exists c \in R^{+}, \exists n_{0} \in \mathbb{N},
+\forall n \geq \boxed{\max(n_{0}, 1)}
+\implies f(n) \leq c.g(n)
+$$
+- The key is using $\max(n_{0},1)$ instead of $n_{0}$.
+- Then, prove it by contradiction.
+- Solve $f(n) \leq c.g(n)$ till left side is just $n$.
+- Then, choose $n_{0}=\text{right-side} + 1$.
+
+---
 ### Proving Big-$\Omega$
 Recall that in [[Big-Omega]], we are trying to lower bound.
 - First, remove positive terms.

@@ -1,9 +1,29 @@
 # Union of AVL Trees
 Given two [[AVL Tree|AVL Trees]] $T$ and $V$, return an [[AVL Tree]] with all the keys in $T$ and $V$.
 
+> **Main Idea**
+> Choose the tree with more nodes or height.
+> Add each node of the other tree to that bigger tree.
+
+---
+## Pseudocode
 Consider this pseudocode.
 ![image|300](https://notes-media.kthiha.com/Union-of-AVL-Trees/23572b3761f3f9cfb59300909710ffd4.png)
 
+---
+## Complexity
+Recall that height of a [[AVL Tree]] is $O(\log \text{n})$ where $n=\text{no. of nodes}$.
+
+- Let $n$ be the number of nodes of smaller tree.
+- Let $m$ be the number of nodes of larger tree.
+
+In worst case, the height of our [[AVL Tree]] will be $m+n$.
+We will need to insert $n$ nodes.
+Hence, the [[Time Complexity|worst-case complexity]] is $O(n \log(m+n))$
+
+
+---
+## Example
 Union the following trees:
 ![image|300](https://notes-media.kthiha.com/Union-of-AVL-Trees/b55bdc767851f1aabbeea289af6663f8.png)
 

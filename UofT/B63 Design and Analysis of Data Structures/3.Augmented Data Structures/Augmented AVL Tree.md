@@ -82,3 +82,21 @@ Each rotation, we only need to consider a constant number of nodes so it takes $
 $\therefore$ Each operation takes $\Theta(\log n)$ time in the worst case.
 
 ---
+## Select Pseudocode
+```python
+select(T, r):
+	r' = size(T.left) + 1 # +1 is to add in current node
+	if T == null: # r not in T
+		deal with special case
+	if r == r':
+		return T.key
+	if r < r':
+		return select(T.left, r)
+	else:
+		return select(T.right, r-r')
+	
+	where
+	size(T) = 0 if T == null, else T.size
+```
+
+---

@@ -1,5 +1,6 @@
 # Examples
-1. Consider the insertion sort function.
+#### Example-1
+Consider the insertion sort function.
    Prove that it is $\Theta(n^{2})$.
 
 ![image|400](https://notes-media.kthiha.com/Running-Time-of-Algorithms/e05058186c5c65d9c5f3f68a02ab1904.png)
@@ -51,7 +52,8 @@ $$
 Therefore, the function $\in \Theta(n^{2})$.
 
 ---
-2. Prove $n^{3} - n^{2} + 5 \in \Theta(n^{3})$
+#### Example-2
+Prove $n^{3} - n^{2} + 5 \in \Theta(n^{3})$
 
 **Solution**:
 We have to prove $n^{3} - n^{2} + 5 \in O(n^{3})$ and $n^{3} - n^{2} + 5 \in \Omega(n^{3})$.
@@ -64,7 +66,7 @@ n^{3} - n^{2} + 5
 &\leq n^{3} + 5n^{3}
 \end{align}
 $$
-When $n \geq 2$, $n^{3} + 5 n^{3} = 6n^{3}$.
+When $n \geq 1$, $n^{3} + 5 n^{3} = 6n^{3}$.
 Let $n_{0} = 1$ and $c=6$.
 Then, $n^{3} - n^{2} + 5 \in O(n^{3})$.
 
@@ -87,6 +89,32 @@ $$
 Since we want $n \geq n_{0}$, where $n_{0} \in \mathbb{N}$, we should pick $b < 1$.
 Let $b = \frac{1}{2}$.
 Then, $n=2$ and $n_{0}=2$.
+
+---
+#### Example-3
+Prove that $n \log(n) \notin O(n)$.
+
+Recall that to show $f \in O(g)$, we had to prove that
+$$
+\exists c \in R^{+}, \exists n_{0} \in \mathbb{N},
+\forall n \geq n_{0} \implies f(n) \leq c.g(n)
+$$
+Now to prove $f \notin O(g)$, we attempt to prove by contradiction.
+$$
+\exists c \in R^{+}, \exists n_{0} \in \mathbb{N},
+\forall n \geq \boxed{\max(n_{0}, 1)}
+\implies f(n) \leq c.g(n)
+$$
+Then, we get that
+$$
+\begin{align}
+n \log(n) &\leq c \times n \\[6pt]
+\log(n) &\leq c \\[6pt]
+n &\leq 2^{c} &,\forall n \geq \max(n_{0}, 1)
+\end{align}
+$$
+Choose $n_{0}=2^{c} + 1$. Then, $n_{0} > 2^{c}$ for all $c$.
+Therefore, this is a contradiction.
 
 ---
 ## See Also
