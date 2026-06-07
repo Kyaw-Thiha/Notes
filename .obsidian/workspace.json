@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UofT/B63 Design and Analysis of Data Structures/Week-4 Heap,Priority Queue and Graphs/Kosaraju's SCC Algorithm.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kosaraju's SCC Algorithm"
-            }
-          },
-          {
-            "id": "5311abbc8a994e74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UofT/B58 Computer Organization/4.Sequential Circuit/Sequential Circuit.md",
+                "file": "UofT/B58 Computer Organization/4.Sequential Circuit/Latches and Flip-Flops.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sequential Circuit"
+              "title": "Latches and Flip-Flops"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5,
-    "collapsed": true
+    "width": 206.5
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -185,20 +169,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5311abbc8a994e74",
+  "active": "7bedb07dd39dcbcc",
   "lastOpenFiles": [
-    "UofT/B58 Computer Organization/3.Combinational Circuit/Comparator.md",
+    "UofT/B58 Computer Organization/5.Registers",
+    "UofT/B58 Computer Organization/4.Sequential Circuit/D Latch.md",
+    "UofT/B58 Computer Organization/4.Sequential Circuit/Latches and Flip-Flops.md",
+    "UofT/B58 Computer Organization/4.Sequential Circuit/SR Latch.md",
     "UofT/B58 Computer Organization/4.Sequential Circuit/Sequential Circuit.md",
+    "UofT/B58 Computer Organization/4.Sequential Circuit/Clocked SR Latch.md",
+    "UofT/B58 Computer Organization/B58 Links.md",
+    "UofT/B09 Systems Programming/BO9 Links.md",
+    "UofT/HISA02 Rise of Machines/Paradox of AI in the Lens of Ursula Franklin.md",
+    "UofT/HISA02 Rise of Machines/Technology of Oil.md",
+    "UofT/HISA02 Rise of Machines/HISA02.md",
+    "Robotics/Robotics Links.md",
+    "UofT/B58 Computer Organization/3.Combinational Circuit/Comparator.md",
     "UofT/B58 Computer Organization/4.Sequential Circuit",
     "UofT/B58 Computer Organization/3.Combinational Circuit/Demultiplexer.md",
-    "UofT/B58 Computer Organization/B58 Links.md",
     "UofT/B58 Computer Organization/3.Combinational Circuit/Subtractor.md",
     "UofT/B58 Computer Organization/3.Combinational Circuit/Adder.md",
     "UofT/B58 Computer Organization/2.Binary/Two's Complement.md",
     "UofT/B58 Computer Organization/3.Combinational Circuit/Ripple-Carry Binary Adder.md",
     "UofT/B58 Computer Organization/3.Combinational Circuit/Full Adder.md",
     "UofT/B58 Computer Organization/3.Combinational Circuit/Half Adder.md",
-    "UofT/HISA02 Rise of Machines/Homework-b.md",
     "UofT/HISA02 Rise of Machines/Ancient Warfare Technology in Ancient China Warring States.md",
     "UofT/B58 Computer Organization/4.",
     "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/Union of AVL Trees.md",
@@ -206,15 +199,6 @@
     "UofT/B63 Design and Analysis of Data Structures/3.Augmented Data Structures/Augmented Data Structures.md",
     "UofT/B63 Design and Analysis of Data Structures/3.Augmented Data Structures/Weight-Balanced Trees.md",
     "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/AVL Tree.md",
-    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/AVL Tree Algorithms.md",
-    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/AVL Tree Height.md",
-    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/B-Tree.md",
-    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/Difference of AVL Trees.md",
-    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/Intersection of AVL Trees.md",
-    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/Rotations in AVL Tree.md",
-    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/Splay Tree.md",
-    "UofT/HISA02 Rise of Machines/Technologies of Food.md",
-    "UofT/HISA02 Rise of Machines/HISA02.md",
     "Robotics/CSCC85",
     "UofT/APS360 Applied Deep Learning/3.Neural Network/Regularization",
     "UofT/APS360 Applied Deep Learning/3.Neural Network/Normalization",
