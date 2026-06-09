@@ -37,7 +37,7 @@ However, to make sure the output change only when the [[Clocked SR Latch|clock s
 Now to prevent forbidden state again, we reintroduce $D$ as
 ![image|300](https://notes-media.kthiha.com/D-Latch/6a2ddde0e27dc9910d4d2bdc958fe996.png)
 
-[[D Latch|Read More]]
+[[Flip-Flop|Read More]]
 
 ---
 ## Notation
@@ -49,4 +49,4 @@ Now to prevent forbidden state again, we reintroduce $D$ as
 - [[Sequential Circuit]]
 - [[SR Latch]]
 - [[Clocked SR Latch]]
-- [[D Latch]]
+- [[Flip-Flop]]

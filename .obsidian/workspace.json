@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UofT/B58 Computer Organization/4.Sequential Circuit/Latches and Flip-Flops.md",
+                "file": "UofT/B58 Computer Organization/5.Registers/Finite State Machine.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Latches and Flip-Flops"
+              "title": "Finite State Machine"
             }
           }
         ]
@@ -169,16 +169,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7bedb07dd39dcbcc",
+  "active": "69396d93c04c2ffa",
   "lastOpenFiles": [
-    "UofT/B58 Computer Organization/5.Registers",
-    "UofT/B58 Computer Organization/4.Sequential Circuit/D Latch.md",
-    "UofT/B58 Computer Organization/4.Sequential Circuit/Latches and Flip-Flops.md",
-    "UofT/B58 Computer Organization/4.Sequential Circuit/SR Latch.md",
-    "UofT/B58 Computer Organization/4.Sequential Circuit/Sequential Circuit.md",
-    "UofT/B58 Computer Organization/4.Sequential Circuit/Clocked SR Latch.md",
     "UofT/B58 Computer Organization/B58 Links.md",
+    "UofT/B58 Computer Organization/5.Registers/Finite State Machine.md",
+    "UofT/B63 Design and Analysis of Data Structures/3.Augmented Data Structures/Weight-Balanced Trees.md",
+    "UofT/B58 Computer Organization/5.Registers/Counter.md",
+    "UofT/B58 Computer Organization/5.Registers/Register.md",
+    "UofT/B58 Computer Organization/4.Sequential Circuit/Flip-Flop.md",
+    "UofT/B58 Computer Organization/4.Sequential Circuit/Sequential Circuit.md",
+    "UofT/B58 Computer Organization/3.Combinational Circuit/Ripple-Carry Binary Adder.md",
+    "UofT/B58 Computer Organization/4.Sequential Circuit/Latches and Flip-Flops.md",
+    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/AVL Tree Algorithms.md",
+    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/Union of AVL Trees.md",
+    "UofT/HISA02 Rise of Machines/War as Big Tech.md",
+    "UofT/HISA02 Rise of Machines/War from Above.md",
     "UofT/B09 Systems Programming/BO9 Links.md",
+    "UofT/B58 Computer Organization/5.Registers",
+    "UofT/B58 Computer Organization/4.Sequential Circuit/SR Latch.md",
+    "UofT/B58 Computer Organization/4.Sequential Circuit/Clocked SR Latch.md",
     "UofT/HISA02 Rise of Machines/Paradox of AI in the Lens of Ursula Franklin.md",
     "UofT/HISA02 Rise of Machines/Technology of Oil.md",
     "UofT/HISA02 Rise of Machines/HISA02.md",
@@ -189,16 +198,8 @@
     "UofT/B58 Computer Organization/3.Combinational Circuit/Subtractor.md",
     "UofT/B58 Computer Organization/3.Combinational Circuit/Adder.md",
     "UofT/B58 Computer Organization/2.Binary/Two's Complement.md",
-    "UofT/B58 Computer Organization/3.Combinational Circuit/Ripple-Carry Binary Adder.md",
     "UofT/B58 Computer Organization/3.Combinational Circuit/Full Adder.md",
-    "UofT/B58 Computer Organization/3.Combinational Circuit/Half Adder.md",
-    "UofT/HISA02 Rise of Machines/Ancient Warfare Technology in Ancient China Warring States.md",
     "UofT/B58 Computer Organization/4.",
-    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/Union of AVL Trees.md",
-    "UofT/B63 Design and Analysis of Data Structures/3.Augmented Data Structures/Augmented AVL Tree.md",
-    "UofT/B63 Design and Analysis of Data Structures/3.Augmented Data Structures/Augmented Data Structures.md",
-    "UofT/B63 Design and Analysis of Data Structures/3.Augmented Data Structures/Weight-Balanced Trees.md",
-    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/AVL Tree.md",
     "Robotics/CSCC85",
     "UofT/APS360 Applied Deep Learning/3.Neural Network/Regularization",
     "UofT/APS360 Applied Deep Learning/3.Neural Network/Normalization",
@@ -206,7 +207,6 @@
     "UofT/APS360 Applied Deep Learning/1.Neural Networks",
     "UofT/AP360/Untitled",
     "UofT/APS360 Applied Deep Learning",
-    "UofT/B58 Computer Organization/3.Combinational Circuit",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet (2021).webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",

@@ -27,9 +27,9 @@ The solution is to
 ## Edge-Triggered D-Latch
 Note that the [[#SR Flip-Flops]] still have the issues of unstable behaviour due to the forbidden state.
 
-To solve this, we connect the [[D Latch]] to the input of a [[SR Latch]].
+To solve this, we connect the [[Flip-Flop]] to the input of a [[SR Latch]].
 ![image|300](https://notes-media.kthiha.com/D-Latch/6a2ddde0e27dc9910d4d2bdc958fe996.png)
-Hence, negative-edge triggered flip-flop like [[D Latch|SR Flip Flop]].
+Hence, negative-edge triggered flip-flop like [[Flip-Flop|SR Flip Flop]].
 
 ---
 ### Flip-Flop Behaviour

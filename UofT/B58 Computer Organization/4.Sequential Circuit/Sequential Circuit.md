@@ -33,6 +33,19 @@ Unlike the `AND` and `OR` gates, in `NAND` and `NOR gates` the output $Q_{t+1}$ 
 However, these feedback gates can enter an unsteady state.
 
 ---
+## Design Procedure of Combinational and Sequential Circuit
+In `combinational circuits`, we
+- first state the desired behaviour
+- draw the truth table
+- logic expression
+- build circuit
+
+In [[Sequential Circuit|sequential circuits]], we
+- first state the desired behavior
+- draw the [[Finite State Machine|finite state machine]]
+- build circuit with [[Flip-Flop|flip-flops]]
+
+---
 ## See Also
 - [Video about Sequential Circuits](https://youtu.be/fLN1YOmuAr8?si=yKbWlE-fHf_6yTof)
 - [Lecture Video covering sequential circuits](https://youtu.be/baFa6_Wv7cg?si=cx0sgXi6A3kkfwGR)
