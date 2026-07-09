@@ -14,7 +14,7 @@ When the [[Clocked SR Latch|clock signal]] is `HIGH`, the output looks like this
 However, we want to have output changing only once when the [[Clocked SR Latch|clock pulse]] change.
 
 ---
-## SR Flip-Flops
+## SR/JK Flip-Flops
 The solution is to 
 - create a disconnect between circuit output and circuit input
 - in order to prevent unwanted feedback and changes to output
@@ -45,6 +45,15 @@ Hence, negative-edge triggered flip-flop like [[Flip-Flop|SR Flip Flop]].
 - Once the clock goes `HIGH`, the first flip-flop starts transmitting at the same time that the second flip-flop stops.
 
 ![image|400](https://notes-media.kthiha.com/D-Latch/a9ddf4bb60219f6ab47a27f80ee8fca4.png)
+
+---
+### Truth Table
+| J   | K   | Action | Q after clock                  |
+| --- | --- | ------ | ------------------------------ |
+| 0   | 0   | Hold   | Q stays the same               |
+| 0   | 1   | Reset  | Q → $0$                        |
+| 1   | 0   | Set    | Q → $1$                        |
+| 1   | 1   | Toggle | Q flips ($0\to1$ or $1 \to 0$) |
 
 ---
 ### Notation

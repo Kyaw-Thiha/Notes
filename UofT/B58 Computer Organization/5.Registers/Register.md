@@ -25,3 +25,13 @@ Implementing the [[Register|register]] with these [[Flip-Flop|special D flip-flo
 ![image|350](https://notes-media.kthiha.com/Register/883caf6bf38d9c03c507bd08d1ff8396.png)
 
 ---
+## Register File Functionality
+![image|350](https://notes-media.kthiha.com/Register/c1fc0cbeec72189314dd43ed7ee70d2e.png)
+
+### Write Operation
+![image|350](https://notes-media.kthiha.com/Register/99884767bc5cf9cd5132172f680450fc.png)
+
+### Read Operation
+![image|350](https://notes-media.kthiha.com/Register/04a6246e3cab69b815d135059155d9c7.png)
+
+---

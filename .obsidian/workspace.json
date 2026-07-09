@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "df757aaab6955529",
+        "id": "d427456b58e126d6",
         "type": "tabs",
         "children": [
           {
-            "id": "69396d93c04c2ffa",
+            "id": "6b0c1a3808709e3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UofT/B58 Computer Organization/5.Registers/Finite State Machine.md",
+                "file": "UofT/LGGA64/LGGA64 Course Links.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Finite State Machine"
+              "title": "LGGA64 Course Links"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5
+    "width": 206.5,
+    "collapsed": true
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -169,44 +170,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "69396d93c04c2ffa",
+  "active": "6b0c1a3808709e3b",
   "lastOpenFiles": [
+    "UofT/LGGA64/Week-2/(191-200)Chinese Words.md",
+    "UofT/LGGA64/Week-2/(181-190)Chinese Words.md",
+    "UofT/LGGA64/Week-2/(171-180)Chinese Words.md",
+    "UofT/LGGA64/Week-2/(161-170)Chinese Words.md",
+    "UofT/LGGA64/Week-2/(151-160)Chinese Words.md",
+    "UofT/LGGA64/Week-2/(141-150)Chinese Words.md",
+    "UofT/LGGA64/Week-2/(101-110)Chinese Words.md",
+    "UofT/LGGA64/Week-2/(111-120)Chinese Words.md",
+    "UofT/LGGA64/Week-2/(121-130)Chinese Words.md",
+    "UofT/LGGA64/Week-2/(131-140)Chinese Words.md",
+    "UofT/LGGA64/LGGA64 Course Links.md",
+    "UofT/LGGA64/Week-2",
+    "Future Courses.md",
+    "UofT/B58 Computer Organization/8.Instruction/MIPS Instruction Types.md",
+    "UofT/B58 Computer Organization/8.Instruction/Instruction Register.md",
+    "UofT/B58 Computer Organization/8.Instruction/Program Counter(PC).md",
     "UofT/B58 Computer Organization/B58 Links.md",
-    "UofT/B58 Computer Organization/5.Registers/Finite State Machine.md",
-    "UofT/B63 Design and Analysis of Data Structures/3.Augmented Data Structures/Weight-Balanced Trees.md",
-    "UofT/B58 Computer Organization/5.Registers/Counter.md",
+    "UofT/B58 Computer Organization/8.Instruction",
+    "UofT/B58 Computer Organization/7.Memory/Cache.md",
+    "UofT/B58 Computer Organization/7.Memory/Main Memory.md",
+    "UofT/B58 Computer Organization/7.Memory/Dynamic RAM(DRAM).md",
+    "UofT/B58 Computer Organization/7.Memory/Amdahl's Law.md",
+    "UofT/B58 Computer Organization/7.Memory/Static RAM(SRAM).md",
+    "UofT/B58 Computer Organization/7.Memory/Data Bus.md",
     "UofT/B58 Computer Organization/5.Registers/Register.md",
-    "UofT/B58 Computer Organization/4.Sequential Circuit/Flip-Flop.md",
-    "UofT/B58 Computer Organization/4.Sequential Circuit/Sequential Circuit.md",
-    "UofT/B58 Computer Organization/3.Combinational Circuit/Ripple-Carry Binary Adder.md",
-    "UofT/B58 Computer Organization/4.Sequential Circuit/Latches and Flip-Flops.md",
-    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/AVL Tree Algorithms.md",
-    "UofT/B63 Design and Analysis of Data Structures/2.AVL Tree/Union of AVL Trees.md",
-    "UofT/HISA02 Rise of Machines/War as Big Tech.md",
-    "UofT/HISA02 Rise of Machines/War from Above.md",
+    "UofT/B58 Computer Organization/7.Memory",
     "UofT/B09 Systems Programming/BO9 Links.md",
-    "UofT/B58 Computer Organization/5.Registers",
-    "UofT/B58 Computer Organization/4.Sequential Circuit/SR Latch.md",
-    "UofT/B58 Computer Organization/4.Sequential Circuit/Clocked SR Latch.md",
-    "UofT/HISA02 Rise of Machines/Paradox of AI in the Lens of Ursula Franklin.md",
-    "UofT/HISA02 Rise of Machines/Technology of Oil.md",
-    "UofT/HISA02 Rise of Machines/HISA02.md",
-    "Robotics/Robotics Links.md",
-    "UofT/B58 Computer Organization/3.Combinational Circuit/Comparator.md",
-    "UofT/B58 Computer Organization/4.Sequential Circuit",
-    "UofT/B58 Computer Organization/3.Combinational Circuit/Demultiplexer.md",
-    "UofT/B58 Computer Organization/3.Combinational Circuit/Subtractor.md",
+    "UofT/B58 Computer Organization/6.Processor Components/Arithmetic Logic Unit (ALU).md",
     "UofT/B58 Computer Organization/3.Combinational Circuit/Adder.md",
-    "UofT/B58 Computer Organization/2.Binary/Two's Complement.md",
-    "UofT/B58 Computer Organization/3.Combinational Circuit/Full Adder.md",
+    "UofT/LGGA64",
+    "UofT/B58 Computer Organization/6.Processor Components",
+    "UofT/B58 Computer Organization/5.Registers",
+    "UofT/B58 Computer Organization/4.Sequential Circuit",
     "UofT/B58 Computer Organization/4.",
     "Robotics/CSCC85",
     "UofT/APS360 Applied Deep Learning/3.Neural Network/Regularization",
-    "UofT/APS360 Applied Deep Learning/3.Neural Network/Normalization",
-    "UofT/APS360 Applied Deep Learning/3.Neural Network",
-    "UofT/APS360 Applied Deep Learning/1.Neural Networks",
-    "UofT/AP360/Untitled",
-    "UofT/APS360 Applied Deep Learning",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet (2021).webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",

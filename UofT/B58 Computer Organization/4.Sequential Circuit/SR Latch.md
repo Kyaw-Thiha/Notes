@@ -26,6 +26,15 @@ Therefore,
 - $11$ is considered a `forbidden state` in [[SR Latch|NOR-based SR Latches]].
 
 ---
+### Truth Table
+| S   | R   | Action    | Q (next)         |
+| --- | --- | --------- | ---------------- |
+| 0   | 0   | Hold      | Q stays the same |
+| 0   | 1   | Reset     | Q $\to 0$        |
+| 1   | 0   | Set       | Q $\to 1$        |
+| 1   | 1   | Forbidden | undefined        |
+
+---
 ## SR Latch with NOR Gates
 ![SR Latch|350](https://i.sstatic.net/zk3PI.jpg)
 

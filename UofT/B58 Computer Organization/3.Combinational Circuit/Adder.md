@@ -1,5 +1,0 @@
-## Half-Adder
-
-## Full-Adder
-
-## 
