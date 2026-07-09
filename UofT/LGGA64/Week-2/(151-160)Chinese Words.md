@@ -1,0 +1,30 @@
+- `面 (miàn)`: face; side; noodles
+	- noodles | 面条 | [miàntiáo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%9D%A2%E6%9D%A1&op=translate)
+	- to face, confront | 面对 | [miànduì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%9D%A2%E5%AF%B9&op=translate)
+- `名 (míng)`: name
+	- name | 名字 | [míngzi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%90%8D%E5%AD%97&op=translate)
+	- famous | 有名 | [yǒumíng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%9C%89%E5%90%8D&op=translate)
+- `明 (míng)`: bright, clear; next (as in "tomorrow")
+	- tomorrow | 明天 | [míngtiān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%98%8E%E5%A4%A9&op=translate)
+	- to understand, clear | 明白 | [míngbai](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%98%8E%E7%99%BD&op=translate)
+- `拿 (ná)`: to take, to hold
+	- to take away | 拿走 | [ná zǒu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%8B%BF%E8%B5%B0&op=translate)
+	- to pick up | 拿起 | [ná qǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%8B%BF%E8%B5%B7&op=translate)
+- `哪 (nǎ)`: which
+	- which one | 哪个 | [nǎge](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%93%AA%E4%B8%AA&op=translate)
+	- where | 哪里 | [nǎlǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%93%AA%E9%87%8C&op=translate)
+- `那 (nà)`: that
+	- that one | 那个 | [nàge](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%82%A3%E4%B8%AA&op=translate)
+	- then, in that case | 那么 | [nàme](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%82%A3%E4%B9%88&op=translate)
+- `奶 (nǎi)`: milk; grandma
+	- milk | 牛奶 | [niúnǎi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%89%9B%E5%A5%B6&op=translate)
+	- (paternal) grandma | 奶奶 | [nǎinai](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A5%B6%E5%A5%B6&op=translate)
+- `男 (nán)`: male
+	- boy | 男孩 | [nánhái](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%94%B7%E5%AD%A9&op=translate)
+	- boyfriend | 男朋友 | [nán péngyou](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%94%B7%E6%9C%8B%E5%8F%8B&op=translate)
+- `南 (nán)`: south
+	- to the south (side) | 南边 | [nánbiān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8D%97%E8%BE%B9&op=translate)
+	- the south (region) | 南方 | [nánfāng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8D%97%E6%96%B9&op=translate)
+- `难 (nán)`: difficult
+	- very difficult | 很难 | [hěn nán](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BE%88%E9%9A%BE&op=translate)
+	- sad, hard to bear | 难过 | [nánguò](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%9A%BE%E8%BF%87&op=translate)

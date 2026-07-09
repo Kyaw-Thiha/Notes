@@ -1,0 +1,30 @@
+- `球 (qiú)`: ball
+	- basketball | 篮球 | [lánqiú](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%AF%AE%E7%90%83&op=translate)
+	- to play ball | 打球 | [dǎqiú](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%89%93%E7%90%83&op=translate)
+- `去 (qù)`: to go
+	- to go out | 出去 | [chūqù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%87%BA%E5%8E%BB&op=translate)
+	- where are you going? | 去哪儿 | [qù nǎr](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8E%BB%E5%93%AA%E5%84%BF&op=translate)
+- `热 (rè)`: hot
+	- very hot | 很热 | [hěn rè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BE%88%E7%83%AD&op=translate)
+	- lively, bustling | 热闹 | [rènao](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%83%AD%E9%97%B9&op=translate)
+- `人 (rén)`: person, people
+	- Chinese person | 中国人 | [Zhōngguórén](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%AD%E5%9B%BD%E4%BA%BA&op=translate)
+	- people | 人们 | [rénmen](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BA%BA%E4%BB%AC&op=translate)
+- `认 (rèn)`: to recognize, to acknowledge
+	- to know, be acquainted with | 认识 | [rènshi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%AE%A4%E8%AF%86&op=translate)
+	- serious, conscientious | 认真 | [rènzhēn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%AE%A4%E7%9C%9F&op=translate)
+- `日 (rì)`: day; sun
+	- birthday | 生日 | [shēngrì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%94%9F%E6%97%A5&op=translate)
+	- date | 日期 | [rìqī](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%97%A5%E6%9C%9F&op=translate)
+- `肉 (ròu)`: meat
+	- pork | 猪肉 | [zhūròu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%8C%AA%E8%82%89&op=translate)
+	- meat (general) | 肉 | [ròu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%82%89&op=translate)
+- `三 (sān)`: three
+	- three (things) | 三个 | [sān gè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%89%E4%B8%AA&op=translate)
+	- March | 三月 | [sānyuè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%89%E6%9C%88&op=translate)
+- `山 (shān)`: mountain
+	- to climb a mountain, go hiking | 爬山 | [páshān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%88%AC%E5%B1%B1&op=translate)
+	- tall mountain | 高山 | [gāoshān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%AB%98%E5%B1%B1&op=translate)
+- `商 (shāng)`: commerce, business
+	- to discuss, negotiate | 商量 | [shāngliang](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%95%86%E9%87%8F&op=translate)
+	- shop, store | 商店 | [shāngdiàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%95%86%E5%BA%97&op=translate)

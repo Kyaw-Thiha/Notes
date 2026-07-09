@@ -1,0 +1,2 @@
+- [Textbook](https://www.blcup.com/FlipView?bid=ZGQ4YzNjY2ItYTZiMS00MGQ5LTk1OGQtNjk4MTJmZGUyMjViIzc5Mjk=)
+- [Text to Speech](https://forvo.com/)

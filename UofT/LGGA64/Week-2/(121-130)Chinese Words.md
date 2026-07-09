@@ -1,0 +1,30 @@
+- `渴 (kě)`: thirsty
+	- thirsty | 渴了 | [kě le](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%B8%B4%E4%BA%86&op=translate)
+	- eager, longing for | 渴望 | [kěwàng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%B8%B4%E6%9C%9B&op=translate)
+- `客 (kè)`: guest; customer
+	- guest | 客人 | [kèrén](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%AE%A2%E4%BA%BA&op=translate)
+	- customer | 顾客 | [gùkè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%A1%BE%E5%AE%A2&op=translate)
+- `课 (kè)`: class, lesson
+	- class, lesson | 课 | [kè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%AF%BE&op=translate)
+	- textbook | 课本 | [kèběn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%AF%BE%E6%9C%AC&op=translate)
+- `口 (kǒu)`: mouth; measure word *(note: same as #120 — repeated in this table)*
+	- entrance | 门口 | [ménkǒu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%97%A8%E5%8F%A3&op=translate)
+	- exit | 出口 | [chūkǒu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%87%BA%E5%8F%A3&op=translate)
+- `块 (kuài)`: piece, lump; measure word (for money, dollar/yuan)
+	- one dollar/yuan | 一块钱 | [yí kuài qián](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%80%E5%9D%97%E9%92%B1&op=translate)
+	- together | 一块儿 | [yíkuà er](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%80%E5%9D%97%E5%84%BF&op=translate)
+- `快 (kuài)`: fast, quick; soon
+	- fast | 快点 | [kuài diǎn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BF%AB%E7%82%B9&op=translate)
+	- happy | 快乐 | [kuàilè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BF%AB%E4%B9%90&op=translate)
+- `来 (lái)`: to come
+	- to come over | 过来 | [guòlái](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BF%87%E6%9D%A5&op=translate)
+	- welcome | 欢迎 | [huānyíng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%AC%A2%E8%BF%8E&op=translate)
+- `老 (lǎo)`: old
+	- teacher | 老师 | [lǎoshī](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%80%81%E5%B8%88&op=translate)
+	- old friend | 老朋友 | [lǎo péngyou](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%80%81%E6%9C%8B%E5%8F%8B&op=translate)
+- `了 (le)`: (completed action/change particle)
+	- finished eating | 吃了 | [chī le](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%90%83%E4%BA%86&op=translate)
+	- got it, understand | 明白了 | [míngbái le](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%98%8E%E7%99%BD%E4%BA%86&op=translate)
+- `里 (lǐ)`: inside; unit of distance (li)
+	- inside | 里面 | [lǐmiàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%87%8C%E9%9D%A2&op=translate)
+	- inside home | 家里 | [jiā lǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%AE%B6%E9%87%8C&op=translate)

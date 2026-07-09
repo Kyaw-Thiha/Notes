@@ -1,0 +1,30 @@
+- `上 (shàng)`: on, above; to go up/attend
+	- on top, above | 上面 | [shàngmiàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%8A%E9%9D%A2&op=translate)
+	- to go to school | 上学 | [shàngxué](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%8A%E5%AD%A6&op=translate)
+- `少 (shǎo)`: few, little
+	- very little/few | 很少 | [hěn shǎo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BE%88%E5%B0%91&op=translate)
+	- how much/many | 多少 | [duōshao](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A4%9A%E5%B0%91&op=translate)
+- `绍 (shào)`: (appears almost exclusively in 介绍)
+	- to introduce *(repeated from #111 介)* | 介绍 | [jièshào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BB%8B%E7%BB%8D&op=translate)
+	- self-introduction | 自我介绍 | [zìwǒ jièshào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D&op=translate)
+- `身 (shēn)`: body
+	- body, health | 身体 | [shēntǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BA%AB%E4%BD%93&op=translate)
+	- identity | 身份 | [shēnfèn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BA%AB%E4%BB%BD&op=translate)
+- `什 (shén)`: (appears almost exclusively in 什么)
+	- what *(repeated from #144 么)* | 什么 | [shénme](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BB%80%E4%B9%88&op=translate)
+	- why | 为什么 | [wèishénme](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%BA%E4%BB%80%E4%B9%88&op=translate)
+- `生 (shēng)`: to be born; life; student
+	- student | 学生 | [xuésheng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%AD%A6%E7%94%9F&op=translate)
+	- to be born | 出生 | [chūshēng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%87%BA%E7%94%9F&op=translate)
+- `师 (shī)`: teacher, master
+	- teacher  | 老师 | [lǎoshī](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%80%81%E5%B8%88&op=translate)
+	- master craftsman, skilled worker | 师傅 | [shīfù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B8%88%E5%82%85&op=translate)
+- `十 (shí)`: ten
+	- ten (things) | 十个 | [shí gè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8D%81%E4%B8%AA&op=translate)
+	- October | 十月 | [shíyuè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8D%81%E6%9C%88&op=translate)
+- `时 (shí)`: time
+	- time | 时间 | [shíjiān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%97%B6%E9%97%B4&op=translate)
+	- sometimes | 有时候 | [yǒu shíhou](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%9C%89%E6%97%B6%E5%80%99&op=translate)
+- `识 (shí)`: to know, recognize
+	- to know, be acquainted with *(repeated from #185 认)* | 认识 | [rènshi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%AE%A4%E8%AF%86&op=translate)
+	- knowledge | 知识 | [zhīshi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%9F%A5%E8%AF%86&op=translate)

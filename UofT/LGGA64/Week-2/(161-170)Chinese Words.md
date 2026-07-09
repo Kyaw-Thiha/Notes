@@ -1,0 +1,28 @@
+- `脑 (nǎo)`: brain
+	- brain | 大脑 | [dànǎo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A4%A7%E8%84%91&op=translate)
+	- computer | 电脑 | [diànnǎo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%94%B5%E8%84%91&op=translate)
+- `呢 (ne)`: question particle ("and...?", "what about...?")
+	- and you? | 你呢 | [nǐ ne](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BD%A0%E5%91%A2&op=translate)
+	- what about him? | 他呢 | [tā ne](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BB%96%E5%91%A2&op=translate)
+- `能 (néng)`: can, to be able to
+	- can (you) or not? | 能不能 | [néng bu néng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%83%BD%E4%B8%8D%E8%83%BD&op=translate)
+	- ability | 能力 | [nénglì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%83%BD%E5%8A%9B&op=translate)
+- `你 (nǐ)`: you
+	- hello | 你好 | [nǐ hǎo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BD%A0%E5%A5%BD&op=translate)
+	- your, yours | 你的 | [nǐ de](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BD%A0%E7%9A%84&op=translate)
+- `年 (nián)`: year
+	- this year | 今年 | [jīnnián](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BB%8A%E5%B9%B4&op=translate)
+	- New Year | 新年 | [xīnnián](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%96%B0%E5%B9%B4&op=translate)
+- `您 (nín)`: you (polite/formal)
+	- hello (polite) | 您好 | [nín hǎo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%82%A8%E5%A5%BD&op=translate)
+- `牛 (niú)`: cow, ox, cattle
+	- beef | 牛肉 | [niúròu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%89%9B%E8%82%89&op=translate)
+- `女 (nǚ)`: female, woman
+	- girl | 女孩 | [nǚhái](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A5%B3%E5%AD%A9&op=translate)
+	- girlfriend | 女朋友 | [nǚ péngyou](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A5%B3%E6%9C%8B%E5%8F%8B&op=translate)
+- `七 (qī)`: seven
+	- seven (things) | 七个 | [qī gè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%83%E4%B8%AA&op=translate)
+	- July | 七月 | [qīyuè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%83%E6%9C%88&op=translate)
+- `跑 (pǎo)`: to run
+	- to run, jog | 跑步 | [pǎobù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%B7%91%E6%AD%A5&op=translate)
+	- to run away/off | 跑掉 | [pǎodiào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%B7%91%E6%8E%89&op=translate)

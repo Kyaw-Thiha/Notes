@@ -1,0 +1,33 @@
+- `介 (jiè)`: to introduce; between
+	- to introduce | 介绍 | [jièshào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BB%8B%E7%BB%8D&op=translate)
+	- to be situated between | 介于 | [jièyú](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BB%8B%E4%BA%8E&op=translate)
+- `今 (jīn)`: now, present
+	- today | 今天 | [jīntiān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BB%8A%E5%A4%A9&op=translate)
+	- nowadays | 如今 | [rújīn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A6%82%E4%BB%8A&op=translate)
+- `进 (jìn)`: to advance; to enter
+	- to go in/enter | 进去 | [jìnqù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BF%9B%E5%8E%BB&op=translate)
+	- to make progress | 进步 | [jìnbù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BF%9B%E6%AD%A5&op=translate)
+- `京 (jīng)`: capital (city)
+	- Beijing | 北京 | [Běijīng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8C%97%E4%BA%AC&op=translate)
+	- capital city | 京城 | [jīngchéng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BA%AC%E5%9F%8E&op=translate)
+- `净 (jìng)`: clean; net (as in net weight); pure, only
+	- clean | 干净 | [gānjìng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B9%B2%E5%87%80&op=translate)
+	- net weight | 净重 | [jìngzhòng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%87%80%E9%87%8D&op=translate)
+- `九 (jiǔ)`: nine
+	- nine | 九个 | [jiǔ gè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B9%9D%E4%B8%AA&op=translate)
+	- September | 九月 | [jiǔyuè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B9%9D%E6%9C%88&op=translate)
+- `就 (jiù)`: then, at once; precisely, exactly
+	- exactly/precisely is | 就是 | [jiùshì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B0%B1%E6%98%AF&op=translate)
+	- to get employed | 就业 | [jiùyè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B0%B1%E4%B8%9A&op=translate)
+- `开 (kāi)`: to open; to start; to turn on
+	- to open | 打开 | [dǎkāi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%89%93%E5%BC%80&op=translate)
+	- to start/begin | 开始 | [kāishǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BC%80%E5%A7%8B&op=translate)
+- `看 (kàn)`: to look, to see, to watch, to read
+	- to watch TV | 看电视 | [kàn diànshì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%9C%8B%E7%94%B5%E8%A7%86&op=translate)
+	- to read a book | 看书 | [kàn shū](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%9C%8B%E4%B9%A6&op=translate)
+- `看 (kān)`: to look after, to watch over, to guard
+	- to look after (patient/child) | 看护 | [kānhù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%9C%8B%E6%8A%A4&op=translate)
+	- to guard/watch the door | 看门 | [kān mén](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%9C%8B%E9%97%A8&op=translate)
+- `口 (kǒu)`: mouth; measure word (for people, mouthfuls, etc.)
+	- saliva (lit. "mouth water") | 口水 | [kǒushuǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8F%A3%E6%B0%B4&op=translate)
+	- population | 人口 | [rénkǒu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BA%BA%E5%8F%A3&op=translate)

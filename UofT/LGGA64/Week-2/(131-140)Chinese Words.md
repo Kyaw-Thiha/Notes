@@ -1,0 +1,30 @@
+- `冷 (lěng)`: cold
+	- cold water | 冷水 | [lěngshuǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%86%B7%E6%B0%B4&op=translate)
+	- very cold | 很冷 | [hěn lěng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BE%88%E5%86%B7&op=translate)
+- `里 (lǐ)`: inside *(repeated from #130 in this table)*
+	- here | 这里 | [zhèlǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BF%99%E9%87%8C&op=translate)
+	- there | 那里 | [nàlǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%82%A3%E9%87%8C&op=translate)
+- `两 (liǎng)`: two (used before measure words, instead of 二)
+	- two people | 两个人 | [liǎng gè rén](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%A4%E4%B8%AA%E4%BA%BA&op=translate)
+	- two o'clock | 两点 | [liǎng diǎn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%A4%E7%82%B9&op=translate)
+- `零 (líng)`: zero
+	- spare change, pocket money | 零钱 | [língqián](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%9B%B6%E9%92%B1&op=translate)
+	- snacks | 零食 | [língshí](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%9B%B6%E9%A3%9F&op=translate)
+- `六 (liù)`: six
+	- six (things) | 六个 | [liù gè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%85%AD%E4%B8%AA&op=translate)
+	- June | 六月 | [liùyuè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%85%AD%E6%9C%88&op=translate)
+- `楼 (lóu)`: building; floor/storey
+	- upstairs | 楼上 | [lóushàng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%A5%BC%E4%B8%8A&op=translate)
+	- downstairs | 楼下 | [lóuxià](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%A5%BC%E4%B8%8B&op=translate)
+- `路 (lù)`: road, path
+	- road (lit. "horse road") | 马路 | [mǎlù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%A9%AC%E8%B7%AF&op=translate)
+	- on the way | 路上 | [lùshang](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%B7%AF%E4%B8%8A&op=translate)
+- `妈 (mā)`: mom
+	- mom | 妈妈 | [māma](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A6%88%E5%A6%88&op=translate)
+	- parents (lit. "dad mom") | 爸爸妈妈 | [bàba māma](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%88%B8%E7%88%B8%E5%A6%88%E5%A6%88&op=translate)
+- `马 (mǎ)`: horse
+	- a horse | 一匹马 | [yì pǐ mǎ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%80%E5%8C%B9%E9%A9%AC&op=translate)
+	- right away, immediately | 马上 | [mǎshàng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%A9%AC%E4%B8%8A&op=translate)
+- `吗 (ma)`: question particle (turns a statement into a yes/no question)
+	- how are you? | 你好吗 | [nǐ hǎo ma](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BD%A0%E5%A5%BD%E5%90%97&op=translate)
+	- is that so? really? | 是吗 | [shì ma](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%98%AF%E5%90%97&op=translate)

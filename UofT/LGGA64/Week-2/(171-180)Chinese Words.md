@@ -1,0 +1,30 @@
+- `朋 (péng)`: friend (used in 朋友)
+	- friend | 朋友 | [péngyou](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%9C%8B%E5%8F%8B&op=translate)
+	- good friend | 好朋友 | [hǎo péngyou](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A5%BD%E6%9C%8B%E5%8F%8B&op=translate)
+- `票 (piào)`: ticket
+	- entrance ticket | 门票 | [ménpiào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%97%A8%E7%A5%A8&op=translate)
+	- bus/train ticket | 车票 | [chēpiào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BD%A6%E7%A5%A8&op=translate)
+- `起 (qǐ)`: to rise, get up; from
+	- to get up (from bed) | 起床 | [qǐchuáng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%B5%B7%E5%BA%8A&op=translate)
+	- together | 一起 | [yìqǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%80%E8%B5%B7&op=translate)
+- `期 (qī)`: period, phase, term
+	- period of time, era | 时期 | [shíqī](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%97%B6%E6%9C%9F&op=translate)
+	- week | 星期 | [xīngqī](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%98%9F%E6%9C%9F&op=translate)
+- `钱 (qián)`: money
+	- how much money? | 多少钱 | [duōshao qián](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A4%9A%E5%B0%91%E9%92%B1&op=translate)
+	- wallet | 钱包 | [qiánbāo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%92%B1%E5%8C%85&op=translate)
+- `气 (qì)`: air, gas; anger
+	- weather | 天气 | [tiānqì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A4%A9%E6%B0%94&op=translate)
+	- to get angry | 生气 | [shēngqì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%94%9F%E6%B0%94&op=translate)
+- `汽 (qì)`: steam, vapor (used in vehicle/liquid compounds)
+	- car | 汽车 | [qìchē](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%B1%BD%E8%BD%A6&op=translate)
+	- soda, carbonated drink | 汽水 | [qìshuǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%B1%BD%E6%B0%B4&op=translate)
+- `前 (qián)`: front; before
+	- in front | 前面 | [qiánmiàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%89%8D%E9%9D%A2&op=translate)
+	- before, previously | 以前 | [yǐqián](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BB%A5%E5%89%8D&op=translate)
+- `钱 (qián)`: money *(repeated from #175 in this table)*
+	- to spend money | 花钱 | [huāqián](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%8A%B1%E9%92%B1&op=translate)
+	- price | 价钱 | [jiàqian](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BB%B7%E9%92%B1&op=translate)
+- `请 (qǐng)`: please; to invite
+	- excuse me, may I ask | 请问 | [qǐngwèn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%AF%B7%E9%97%AE&op=translate)
+	- to invite/treat someone (to a meal) | 请客 | [qǐngkè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%AF%B7%E5%AE%A2&op=translate)

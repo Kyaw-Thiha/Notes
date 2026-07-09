@@ -1,0 +1,29 @@
+- `买 (mǎi)`: to buy
+	- to buy things, go shopping | 买东西 | [mǎi dōngxi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B9%B0%E4%B8%9C%E8%A5%BF&op=translate)
+	- to buy a ticket | 买票 | [mǎi piào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B9%B0%E7%A5%A8&op=translate)
+- `慢 (màn)`: slow
+	- slowly | 慢慢 | [mànmàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%85%A2%E6%85%A2&op=translate)
+	- slow down, take it easy | 慢点 | [màn diǎn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%85%A2%E7%82%B9&op=translate)
+- `忙 (máng)`: busy
+	- very busy | 很忙 | [hěn máng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BE%88%E5%BF%99&op=translate)
+	- to help out | 帮忙 | [bāngmáng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B8%AE%E5%BF%99&op=translate)
+- `毛 (máo)`: hair, fur; (informal) dime/jiao (0.1 yuan)
+	- sweater | 毛衣 | [máoyī](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%AF%9B%E8%A1%A3&op=translate)
+	- ten cents (one jiao) | 一毛钱 | [yì máo qián](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%80%E6%AF%9B%E9%92%B1&op=translate)
+- `么 (me)`: suffix used in question words
+	- what | 什么 | [shénme](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BB%80%E4%B9%88&op=translate)
+	- how | 怎么 | [zěnme](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%80%8E%E4%B9%88&op=translate)
+- `没 (méi)`: not have; (negates completed actions) did not
+	- don't have | 没有 | [méiyǒu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%B2%A1%E6%9C%89&op=translate)
+	- it's okay, no worries | 没关系 | [méi guānxi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%B2%A1%E5%85%B3%E7%B3%BB&op=translate)
+- `妹 (mèi)`: younger sister
+	- younger sister | 妹妹 | [mèimei](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A6%B9%E5%A6%B9&op=translate)
+	- brothers and sisters, siblings | 兄弟姐妹 | [xiōngdì jiěmèi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%85%84%E5%BC%9F%E5%A7%90%E5%A6%B9&op=translate)
+- `门 (mén)`: door, gate; measure word (for subjects/courses)
+	- to knock on the door | 敲门 | [qiāo mén](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%95%B2%E9%97%A8&op=translate)
+- `们 (men)`: plural suffix (for pronouns/people)
+	- we | 我们 | [wǒmen](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%88%91%E4%BB%AC&op=translate)
+	- they | 他们 | [tāmen](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BB%96%E4%BB%AC&op=translate)
+- `米 (mǐ)`: rice; meter (unit)
+	- cooked rice | 米饭 | [mǐfàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%B1%B3%E9%A5%AD&op=translate)
+	- centimeter | 厘米 | [límǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8E%98%E7%B1%B3&op=translate)

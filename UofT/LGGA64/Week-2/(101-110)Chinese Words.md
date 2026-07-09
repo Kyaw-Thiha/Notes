@@ -1,0 +1,43 @@
+- `几 (jǐ)`: how many?
+	- how many | 几个 | [jǐgè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%87%A0%E4%B8%AA&op=translate)
+	- tea table/coffee table | 茶几 | [chá jī](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%8C%B6%E5%87%A0&op=translate)
+- `几 (jī)`: almost, nearly
+	- almost/nearly | 几乎 | [jīhū](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%87%A0%E4%B9%8E&op=translate)
+- `记 (jì)`: to remember; to record; to note down
+	- diary | 日记 | [rì jì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%97%A5%E8%AE%B0&op=translate)
+	- to remember | 记得 | [jì de](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%AE%B0%E5%BE%97&op=translate)
+- `家 (jiā)`: family; home; household
+	- family members | 家人 | [jiā rén](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%AE%B6%E4%BA%BA&op=translate)
+	- to go home | 回家 | [huí jiā](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%9B%9E%E5%AE%B6&op=translate)
+- `假 (jiǎ)`: false, fake
+	- fake | 假的 | [jiǎ de](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%81%87%E7%9A%84&op=translate)
+	- lie/false words | 假话 | [jiǎ huà](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%81%87%E8%AF%9D&op=translate)
+- `假 (jià)`: vacation, holiday
+	- to have a holiday/vacation | 放假 | [fàng jià](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%94%BE%E5%81%87&op=translate)
+	- vacation period | 假期 | [jià qī](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%81%87%E6%9C%9F&op=translate)
+- `间 (jiān)`: between, among; room
+	- time | 时间 | [shí jiān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%97%B6%E9%97%B4&op=translate)
+	- room | 房间 | [fáng jiān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%88%BF%E9%97%B4&op=translate)
+- `间 (jiàn)`: gap, interval
+	- gap/interval | 间隔 | [jiàn gé](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%97%B4%E9%9A%94&op=translate)
+- `见 (jiàn)`: to see; to meet; to catch sight of
+	- to meet | 见面 | [jiàn miàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%A7%81%E9%9D%A2&op=translate)
+	- goodbye | 再见 | [zài jiàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%86%8D%E8%A7%81&op=translate)
+- `教 (jiāo)`: to teach
+	- to teach | 教书 | [jiāo shū](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%95%99%E4%B9%A6&op=translate)
+	- to teach a class | 教课 | [jiāo kè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%95%99%E8%AF%BE&op=translate)
+- `教 (jiào)`: teaching, doctrine, religion
+	- to ask for advice | 请教 | [qǐng jiào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%AF%B7%E6%95%99&op=translate)
+	- education | 教育 | [jiào yù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%95%99%E8%82%B2&op=translate)
+- `叫 (jiào)`: to call; to be called/named; to shout, cry out
+	- to be called/named | 叫做 | [jiào zuò](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8F%AB%E5%81%9A&op=translate)
+	- to be named (person) | 名叫 | [míng jiào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%90%8D%E5%8F%AB&op=translate)
+- `觉 (jué)`: to feel, to sense, to become aware of
+	- to feel/think | 觉得 | [jué de](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%A7%89%E5%BE%97&op=translate)
+	- feeling, sense | 感觉 | [gǎn jué](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%84%9F%E8%A7%89&op=translate)
+- `觉 (jiào)`: sleep
+	- to sleep | 睡觉 | [shuì jiào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%9D%A1%E8%A7%89&op=translate)
+	- nap, midday sleep | 午觉 | [wǔ jiào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8D%88%E8%A7%89&op=translate)
+- `姐 (jiě)`: older sister; (informal) young woman/miss
+	- older sister | 姐姐 | [jiě jie](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A7%90%E5%A7%90&op=translate)
+	- sisters | 姐妹 | [jiě mèi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A7%90%E5%A6%B9&op=translate)
