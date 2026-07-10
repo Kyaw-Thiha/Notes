@@ -1,0 +1,30 @@
+- `候 (hòu)`: time / to wait
+    - time/moment | 时候 | [shí hou](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%97%B6%E5%80%99&op=translate)
+    - climate | 气候 | [qì hòu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%B0%94%E5%80%99&op=translate)
+- `花 (huā)`: flower / to spend
+    - flower | 花儿 | [huā r](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%8A%B1%E5%84%BF&op=translate)
+    - to spend money | 花钱 | [huā qián](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%8A%B1%E9%92%B1&op=translate)
+- `话 (huà)`: words / speech
+    - to speak | 说话 | [shuō huà](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%AF%B4%E8%AF%9D&op=translate)
+    - conversation/dialogue | 对话 | [duì huà](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%AF%B9%E8%AF%9D&op=translate)
+- `坏 (huài)`: bad / broken
+    - bad person | 坏人 | [huài rén](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%9D%8F%E4%BA%BA&op=translate)
+    - broken/spoiled | 坏了 | [huài le](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%9D%8F%E4%BA%86&op=translate)
+- `欢 (huān)`: happy
+    - to like | 喜欢 | [xǐ huan](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%96%9C%E6%AC%A2&op=translate)
+    - welcome | 欢迎 | [huān yíng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%AC%A2%E8%BF%8E&op=translate)
+- `回 (huí)`: to return
+    - to go home | 回家 | [huí jiā](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%9B%9E%E5%AE%B6&op=translate)
+    - to answer/reply | 回答 | [huí dá](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%9B%9E%E7%AD%94&op=translate)
+- `会 (huì)`: can / to meet
+    - can (know how to) | 会说 | [huì shuō](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BC%9A%E8%AF%B4&op=translate)
+    - to hold a meeting | 开会 | [kāi huì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BC%80%E4%BC%9A&op=translate)
+- `火 (huǒ)`: fire
+    - train | 火车 | [huǒ chē](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%81%AB%E8%BD%A6&op=translate)
+    - to get angry | 发火 | [fā huǒ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8F%91%E7%81%AB&op=translate)
+- `机 (jī)`: machine
+    - airplane | 飞机 | [fēi jī](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%A3%9E%E6%9C%BA&op=translate)
+    - opportunity/chance | 机会 | [jī huì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%9C%BA%E4%BC%9A&op=translate)
+- `鸡 (jī)`: chicken
+    - rooster | 公鸡 | [gōng jī](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%85%AC%E9%B8%A1&op=translate)
+    - fried chicken | 炸鸡 | [zhà jī](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%82%B8%E9%B8%A1&op=translate)

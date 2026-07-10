@@ -1,0 +1,33 @@
+- `放 (fàng)`: to put / to release
+    - to put down | 放下 | [fàng xià](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%94%BE%E4%B8%8B&op=translate)
+    - to have a holiday/vacation | 放假 | [fàng jià](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%94%BE%E5%81%87&op=translate)
+- `飞 (fēi)`: to fly
+    - airplane | 飞机 | [fēi jī](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%A3%9E%E6%9C%BA&op=translate)
+    - to soar/fly | 飞翔 | [fēi xiáng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%A3%9E%E7%BF%94&op=translate)
+- `非 (fēi)`: not
+    - very/extremely | 非常 | [fēi cháng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%9D%9E%E5%B8%B8&op=translate)
+    - Africa | 非洲 | [fēi zhōu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%9D%9E%E6%B4%B2&op=translate)
+- `分 (fēn)`: to divide / minute
+    - minute | 分钟 | [fēn zhōng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%88%86%E9%92%9F&op=translate)
+    - to divide/split up | 分开 | [fēn kāi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%88%86%E5%BC%80&op=translate)
+- `风 (fēng)`: wind
+    - windy (the wind blows) | 刮风 | [guā fēng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%88%AE%E9%A3%8E&op=translate)
+    - scenery | 风景 | [fēng jǐng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%A3%8E%E6%99%AF&op=translate)
+- `服 (fú)`: clothes / to obey
+    - clothes | 衣服 | [yī fu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%A1%A3%E6%9C%8D&op=translate)
+    - service | 服务 | [fú wù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%9C%8D%E5%8A%A1&op=translate)
+- `干 (gān)`: dry
+    - clean | 干净 | [gān jìng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B9%B2%E5%87%80&op=translate)
+    - cheers! (dry the cup) | 干杯 | [gān bēi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B9%B2%E6%9D%AF&op=translate)
+- `干 (gàn)`: to do
+    - what are you doing | 干什么 | [gàn shén me](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B9%B2%E4%BB%80%E4%B9%88&op=translate)
+    - capable | 能干 | [néng gàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%83%BD%E5%B9%B2&op=translate)
+- `高 (gāo)`: tall / high
+    - happy | 高兴 | [gāo xìng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%AB%98%E5%85%B4&op=translate)
+    - height (of a person) | 身高 | [shēn gāo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BA%AB%E9%AB%98&op=translate)
+- `告 (gào)`: to tell
+    - to tell/inform | 告诉 | [gào su](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%91%8A%E8%AF%89&op=translate)
+    - advertisement | 广告 | [guǎng gào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B9%BF%E5%91%8A&op=translate)
+- `哥 (gē)`: older brother
+    - older brother | 哥哥 | [gē ge](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%93%A5%E5%93%A5&op=translate)
+    - buddies/bros | 哥们儿 | [gē mén r](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%93%A5%E4%BB%AC%E5%84%BF&op=translate)

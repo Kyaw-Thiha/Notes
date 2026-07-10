@@ -1,0 +1,33 @@
+- `都 (dōu)`: all / both
+    - all/both are | 都是 | [dōu shì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%83%BD%E6%98%AF&op=translate)
+    - everyone (all) | 大家都 | [dà jiā dōu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A4%A7%E5%AE%B6%E9%83%BD&op=translate)
+- `都 (dū)`: capital city
+    - capital city | 首都 | [shǒu dū](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%A6%96%E9%83%BD&op=translate)
+    - metropolis | 大都市 | [dà dū shì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A4%A7%E9%83%BD%E5%B8%82&op=translate)
+- `读 (dú)`: to read
+    - to read a book/to study | 读书 | [dú shū](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%AF%BB%E4%B9%A6&op=translate)
+    - to read aloud | 朗读 | [lǎng dú](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%9C%97%E8%AF%BB&op=translate)
+- `对 (duì)`: correct / toward
+    - that's right | 对了 | [duì le](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%AF%B9%E4%BA%86&op=translate)
+    - opposite/facing | 对面 | [duì miàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%AF%B9%E9%9D%A2&op=translate)
+- `多 (duō)`: many / much
+    - how much/how many | 多少 | [duō shao](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A4%9A%E5%B0%91&op=translate)
+    - many thanks | 多谢 | [duō xiè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A4%9A%E8%B0%A2&op=translate)
+- `饿 (è)`: hungry
+    - very hungry | 很饿 | [hěn è](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BE%88%E9%A5%BF&op=translate)
+    - to starve | 挨饿 | [ái è](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%8C%A8%E9%A5%BF&op=translate)
+- `儿 (ér)`: son / child (suffix)
+    - son | 儿子 | [ér zi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%84%BF%E5%AD%90&op=translate)
+    - children | 儿童 | [ér tóng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%84%BF%E7%AB%A5&op=translate)
+- `二 (èr)`: two
+    - twenty | 二十 | [èr shí](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BA%8C%E5%8D%81&op=translate)
+    - February | 二月 | [èr yuè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BA%8C%E6%9C%88&op=translate)
+- `饭 (fàn)`: meal / rice
+    - to eat a meal | 吃饭 | [chī fàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%90%83%E9%A5%AD&op=translate)
+    - cooked rice | 米饭 | [mǐ fàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%B1%B3%E9%A5%AD&op=translate)
+- `方 (fāng)`: direction / square
+    - method | 方法 | [fāng fǎ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%96%B9%E6%B3%95&op=translate)
+    - direction | 方向 | [fāng xiàng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%96%B9%E5%90%91&op=translate)
+- `房 (fáng)`: house / room
+    - room | 房间 | [fáng jiān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%88%BF%E9%97%B4&op=translate)
+    - house | 房子 | [fáng zi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%88%BF%E5%AD%90&op=translate)

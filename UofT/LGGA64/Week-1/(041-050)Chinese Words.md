@@ -1,0 +1,33 @@
+- `地 (dì)`: land / earth
+    - the earth | 地球 | [dì qiú](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%9C%B0%E7%90%83&op=translate)
+    - place | 地方 | [dì fang](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%9C%B0%E6%96%B9&op=translate)
+- `地 (de)`: (adverbial particle)
+    - to say happily | 高兴地说 | [gāo xìng de shuō](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%AB%98%E5%85%B4%E5%9C%B0%E8%AF%B4&op=translate)
+    - to run quickly | 很快地跑 | [hěn kuài de pǎo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BE%88%E5%BF%AB%E5%9C%B0%E8%B7%91&op=translate)
+- `的 (de)`: (possessive/attributive particle)
+    - mine | 我的 | [wǒ de](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%88%91%E7%9A%84&op=translate)
+    - delicious (food) | 好吃的 | [hǎo chī de](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A5%BD%E5%90%83%E7%9A%84&op=translate)
+- `等 (děng)`: to wait
+    - wait a moment | 等一下 | [děng yí xià](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%AD%89%E4%B8%80%E4%B8%8B&op=translate)
+    - to wait for someone | 等人 | [děng rén](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%AD%89%E4%BA%BA&op=translate)
+- `弟 (dì)`: younger brother
+    - younger brother | 弟弟 | [dì di](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BC%9F%E5%BC%9F&op=translate)
+    - brothers | 兄弟 | [xiōng dì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%85%84%E5%BC%9F&op=translate)
+- `第 (dì)`: (ordinal number prefix)
+    - first | 第一 | [dì yī](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%AC%AC%E4%B8%80&op=translate)
+    - second | 第二 | [dì èr](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%AC%AC%E4%BA%8C&op=translate)
+- `点 (diǎn)`: o'clock / point / a bit
+    - what time is it | 几点 | [jǐ diǎn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%87%A0%E7%82%B9&op=translate)
+    - a little bit | 一点 | [yì diǎn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%80%E7%82%B9&op=translate)
+- `电 (diàn)`: electricity
+    - telephone | 电话 | [diàn huà](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%94%B5%E8%AF%9D&op=translate)
+    - television | 电视 | [diàn shì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%94%B5%E8%A7%86&op=translate)
+- `店 (diàn)`: shop
+    - shop/store | 商店 | [shāng diàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%95%86%E5%BA%97&op=translate)
+    - hotel/restaurant | 饭店 | [fàn diàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%A5%AD%E5%BA%97&op=translate)
+- `东 (dōng)`: east
+    - east side | 东边 | [dōng biān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%9C%E8%BE%B9&op=translate)
+    - thing/object | 东西 | [dōng xi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%9C%E8%A5%BF&op=translate)
+- `动 (dòng)`: to move
+    - to exercise/sports | 运动 | [yùn dòng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BF%90%E5%8A%A8&op=translate)
+    - animal | 动物 | [dòng wù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8A%A8%E7%89%A9&op=translate)

@@ -1,0 +1,36 @@
+- `过 (guò)`: to pass / (experience particle)
+    - to cross the street | 过马路 | [guò mǎ lù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BF%87%E9%A9%AC%E8%B7%AF&op=translate)
+    - have been to (experience marker) | 去过 | [qù guò](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8E%BB%E8%BF%87&op=translate)
+- `还 (hái)`: still / also
+    - still/rather | 还是 | [hái shi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BF%98%E6%98%AF&op=translate)
+    - not bad/pretty good | 还好 | [hái hǎo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BF%98%E5%A5%BD&op=translate)
+- `还 (huán)`: to return (something)
+    - to return a book | 还书 | [huán shū](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BF%98%E4%B9%A6&op=translate)
+    - to pay back money | 还钱 | [huán qián](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BF%98%E9%92%B1&op=translate)
+- `孩 (hái)`: child
+    - child | 孩子 | [hái zi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%AD%A9%E5%AD%90&op=translate)
+    - small child | 小孩 | [xiǎo hái](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B0%8F%E5%AD%A9&op=translate)
+- `汉 (hàn)`: Han / Chinese
+    - Chinese language | 汉语 | [hàn yǔ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%B1%89%E8%AF%AD&op=translate)
+    - Chinese characters | 汉字 | [hàn zì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%B1%89%E5%AD%97&op=translate)
+- `好 (hǎo)`: good
+    - hello | 你好 | [nǐ hǎo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BD%A0%E5%A5%BD&op=translate)
+    - OK/alright | 好的 | [hǎo de](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A5%BD%E7%9A%84&op=translate)
+- `好 (hào)`: to be fond of
+    - hobby | 爱好 | [ài hào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%88%B1%E5%A5%BD&op=translate)
+    - curious | 好奇 | [hào qí](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A5%BD%E5%A5%87&op=translate)
+- `号 (hào)`: number
+    - phone number | 号码 | [hào mǎ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8F%B7%E7%A0%81&op=translate)
+    - what date (of the month) | 几号 | [jǐ hào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%87%A0%E5%8F%B7&op=translate)
+- `喝 (hē)`: to drink
+    - to drink water | 喝水 | [hē shuǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%96%9D%E6%B0%B4&op=translate)
+    - to drink tea | 喝茶 | [hē chá](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%96%9D%E8%8C%B6&op=translate)
+- `和 (hé)`: and
+    - me and you | 我和你 | [wǒ hé nǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%88%91%E5%92%8C%E4%BD%A0&op=translate)
+    - peace | 和平 | [hé píng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%92%8C%E5%B9%B3&op=translate)
+- `很 (hěn)`: very
+    - very good | 很好 | [hěn hǎo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BE%88%E5%A5%BD&op=translate)
+    - very happy | 很高兴 | [hěn gāo xìng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BE%88%E9%AB%98%E5%85%B4&op=translate)
+- `后 (hòu)`: after / behind
+    - afterwards | 以后 | [yǐ hòu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BB%A5%E5%90%8E&op=translate)
+    - behind | 后面 | [hòu miàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%90%8E%E9%9D%A2&op=translate)

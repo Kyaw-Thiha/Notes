@@ -1,0 +1,30 @@
+- `杯 (bēi)`: cup
+    - cup | 杯子 | [bēi zi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%9D%AF%E5%AD%90&op=translate)
+    - a cup of water | 一杯水 | [yì bēi shuǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%80%E6%9D%AF%E6%B0%B4&op=translate)
+- `北 (běi)`: north
+    - north side | 北方 | [běi fāng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8C%97%E6%96%B9&op=translate)
+    - Beijing | 北京 | [běi jīng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8C%97%E4%BA%AC&op=translate)
+- `备 (bèi)`: to prepare
+    - to prepare | 准备 | [zhǔn bèi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%87%86%E5%A4%87&op=translate)
+    - equipment | 设备 | [shè bèi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%AE%BE%E5%A4%87&op=translate)
+- `本 (běn)`: root / measure word for books
+    - a book (measure word usage) | 一本书 | [yì běn shū](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%80%E6%9C%AC%E4%B9%A6&op=translate)
+    - originally | 本来 | [běn lái](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%9C%AC%E6%9D%A5&op=translate)
+- `比 (bǐ)`: to compare
+    - to compare/relatively | 比较 | [bǐ jiào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%AF%94%E8%BE%83&op=translate)
+    - competition/match | 比赛 | [bǐ sài](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%AF%94%E8%B5%9B&op=translate)
+- `边 (biān)`: side
+    - next to/beside | 旁边 | [páng biān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%97%81%E8%BE%B9&op=translate)
+    - border | 边界 | [biān jiè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BE%B9%E7%95%8C&op=translate)
+- `别 (bié)`: don't / other
+    - don't worry | 别担心 | [bié dān xīn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%88%AB%E6%8B%85%E5%BF%83&op=translate)
+    - other people | 别人 | [bié rén](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%88%AB%E4%BA%BA&op=translate)
+- `病 (bìng)`: illness
+    - to get sick | 生病 | [shēng bìng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%94%9F%E7%97%85&op=translate)
+    - patient | 病人 | [bìng rén](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%97%85%E4%BA%BA&op=translate)
+- `不 (bù)`: not
+    - no need/you're welcome | 不用 | [bú yòng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%8D%E7%94%A8&op=translate)
+    - not bad | 不错 | [bú cuò](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%8D%E9%94%99&op=translate)
+- `菜 (cài)`: dish / vegetable
+    - vegetables | 蔬菜 | [shū cài](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%94%AC%E8%8F%9C&op=translate)
+    - menu | 菜单 | [cài dān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%8F%9C%E5%8D%95&op=translate)

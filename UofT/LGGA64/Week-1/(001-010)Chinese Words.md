@@ -1,0 +1,33 @@
+- `爱 (ài)`: to love
+    - I love you | 我爱你 | [wǒ ài nǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%88%91%E7%88%B1%E4%BD%A0&op=translate)
+    - hobby | 爱好 | [ài hào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%88%B1%E5%A5%BD&op=translate)
+- `八 (bā)`: eight
+    - eight o'clock | 八点 | [bā diǎn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%85%AB%E7%82%B9&op=translate)
+    - eighty | 八十 | [bā shí](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%85%AB%E5%8D%81&op=translate)
+- `爸 (bà)`: dad
+    - dad | 爸爸 | [bà ba](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%88%B8%E7%88%B8&op=translate)
+    - mom and dad | 爸妈 | [bà mā](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%88%B8%E5%A6%88&op=translate)
+- `吧 (ba)`: (modal particle softening a suggestion)
+    - let's go | 走吧 | [zǒu ba](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%B5%B0%E5%90%A7&op=translate)
+    - okay/alright | 好吧 | [hǎo ba](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A5%BD%E5%90%A7&op=translate)
+- `吧 (bā)`: bar (loanword)
+    - bar/pub | 酒吧 | [jiǔ bā](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%85%92%E5%90%A7&op=translate)
+    - internet cafe | 网吧 | [wǎng bā](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%BD%91%E5%90%A7&op=translate)
+- `白 (bái)`: white
+    - white color | 白色 | [bái sè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%99%BD%E8%89%B2&op=translate)
+    - in vain | 白费 | [bái fèi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%99%BD%E8%B4%B9&op=translate)
+- `百 (bǎi)`: hundred
+    - one hundred | 一百 | [yī bǎi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%80%E7%99%BE&op=translate)
+    - one hundred percent | 百分之百 | [bǎi fēn zhī bǎi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%99%BE%E5%88%86%E4%B9%8B%E7%99%BE&op=translate)
+- `班 (bān)`: class/shift
+    - class (at school) | 班级 | [bān jí](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%8F%AD%E7%BA%A7&op=translate)
+    - to go to work | 上班 | [shàng bān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%8A%E7%8F%AD&op=translate)
+- `半 (bàn)`: half
+    - half an hour | 半个小时 | [bàn gè xiǎo shí](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8D%8A%E4%B8%AA%E5%B0%8F%E6%97%B6&op=translate)
+    - half | 一半 | [yí bàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%80%E5%8D%8A&op=translate)
+- `帮 (bāng)`: to help
+    - to help (do someone a favor) | 帮忙 | [bāng máng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B8%AE%E5%BF%99&op=translate)
+    - to help/assist | 帮助 | [bāng zhù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B8%AE%E5%8A%A9&op=translate)
+- `包 (bāo)`: bag / to wrap
+    - backpack/schoolbag | 书包 | [shū bāo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B9%A6%E5%8C%85&op=translate)
+    - steamed bun/dumpling | 包子 | [bāo zi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8C%85%E5%AD%90&op=translate)

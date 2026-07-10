@@ -1,0 +1,36 @@
+- `次 (cì)`: time / occurrence
+    - next time | 下次 | [xià cì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%8B%E6%AC%A1&op=translate)
+    - this time | 这次 | [zhè cì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BF%99%E6%AC%A1&op=translate)
+- `从 (cóng)`: from
+    - from...to... | 从…到… | [cóng…dào…](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BB%8E%E2%80%A6%E5%88%B0%E2%80%A6&op=translate)
+    - in the past/previously | 从前 | [cóng qián](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BB%8E%E5%89%8D&op=translate)
+- `错 (cuò)`: wrong
+    - mistake/error | 错误 | [cuò wù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%94%99%E8%AF%AF&op=translate)
+    - not bad | 不错 | [bú cuò](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%8D%E9%94%99&op=translate)
+- `答 (dá)`: to answer
+    - to answer/reply | 回答 | [huí dá](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%9B%9E%E7%AD%94&op=translate)
+    - answer (to a question) | 答案 | [dá àn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%AD%94%E6%A1%88&op=translate)
+- `打 (dǎ)`: to hit / to play
+    - to make a phone call | 打电话 | [dǎ diàn huà](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%89%93%E7%94%B5%E8%AF%9D&op=translate)
+    - to play ball | 打球 | [dǎ qiú](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%89%93%E7%90%83&op=translate)
+- `大 (dà)`: big
+    - everyone | 大家 | [dà jiā](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A4%A7%E5%AE%B6&op=translate)
+    - university | 大学 | [dà xué](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A4%A7%E5%AD%A6&op=translate)
+- `蛋 (dàn)`: egg
+    - egg | 鸡蛋 | [jī dàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%B8%A1%E8%9B%8B&op=translate)
+    - cake | 蛋糕 | [dàn gāo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%9B%8B%E7%B3%95&op=translate)
+- `到 (dào)`: to arrive
+    - to arrive | 到达 | [dào dá](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%88%B0%E8%BE%BE&op=translate)
+    - until/up to | 直到 | [zhí dào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%9B%B4%E5%88%B0&op=translate)
+- `道 (dào)`: way / road / to say
+    - to know | 知道 | [zhī dào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%9F%A5%E9%81%93&op=translate)
+    - road | 道路 | [dào lù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%81%93%E8%B7%AF&op=translate)
+- `得 (dé)`: to get/obtain
+    - to obtain | 得到 | [dé dào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BE%97%E5%88%B0&op=translate)
+    - proud/pleased with oneself | 得意 | [dé yì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BE%97%E6%84%8F&op=translate)
+- `得 (děi)`: must/have to
+    - have to go now | 得走了 | [děi zǒu le](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BE%97%E8%B5%B0%E4%BA%86&op=translate)
+    - must think it over | 得想想 | [děi xiǎng xiang](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BE%97%E6%83%B3%E6%83%B3&op=translate)
+- `得 (de)`: (structural particle before complement)
+    - run fast (runs so fast that...) | 跑得快 | [pǎo de kuài](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%B7%91%E5%BE%97%E5%BF%AB&op=translate)
+    - speak clearly | 说得清楚 | [shuō de qīng chu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%AF%B4%E5%BE%97%E6%B8%85%E6%A5%9A&op=translate)

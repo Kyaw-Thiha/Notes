@@ -1,0 +1,30 @@
+- `歌 (gē)`: song
+    - to sing a song | 唱歌 | [chàng gē](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%94%B1%E6%AD%8C&op=translate)
+    - song/musical piece | 歌曲 | [gē qǔ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%AD%8C%E6%9B%B2&op=translate)
+- `个 (gè)`: (general measure word)
+    - one (item) | 一个 | [yí gè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%80%E4%B8%AA&op=translate)
+    - how many | 几个 | [jǐ gè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%87%A0%E4%B8%AA&op=translate)
+- `给 (gěi)`: to give
+    - give it to me | 给我 | [gěi wǒ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%BB%99%E6%88%91&op=translate)
+    - to call you (give you a call) | 给你打电话 | [gěi nǐ dǎ diàn huà](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%BB%99%E4%BD%A0%E6%89%93%E7%94%B5%E8%AF%9D&op=translate)
+- `跟 (gēn)`: with / to follow
+    - follow/come with me | 跟我来 | [gēn wǒ lái](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%B7%9F%E6%88%91%E6%9D%A5&op=translate)
+    - me and you (with) | 我跟你 | [wǒ gēn nǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%88%91%E8%B7%9F%E4%BD%A0&op=translate)
+- `工 (gōng)`: work
+    - work/job | 工作 | [gōng zuò](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B7%A5%E4%BD%9C&op=translate)
+    - worker | 工人 | [gōng rén](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B7%A5%E4%BA%BA&op=translate)
+- `关 (guān)`: to close / related
+    - to close the door | 关门 | [guān mén](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%85%B3%E9%97%A8&op=translate)
+    - regarding/about | 关于 | [guān yú](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%85%B3%E4%BA%8E&op=translate)
+- `馆 (guǎn)`: building / hall
+    - museum | 博物馆 | [bó wù guǎn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8D%9A%E7%89%A9%E9%A6%86&op=translate)
+    - restaurant | 餐馆 | [cān guǎn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%A4%90%E9%A6%86&op=translate)
+- `贵 (guì)`: expensive
+    - very expensive | 很贵 | [hěn guì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BE%88%E8%B4%B5&op=translate)
+    - may I ask your (honorable) surname | 贵姓 | [guì xìng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%B4%B5%E5%A7%93&op=translate)
+- `国 (guó)`: country
+    - country/nation | 国家 | [guó jiā](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%9B%BD%E5%AE%B6&op=translate)
+    - China | 中国 | [zhōng guó](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%AD%E5%9B%BD&op=translate)
+- `果 (guǒ)`: fruit / result
+    - fruit | 水果 | [shuǐ guǒ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%B0%B4%E6%9E%9C&op=translate)
+    - result | 结果 | [jié guǒ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%BB%93%E6%9E%9C&op=translate)

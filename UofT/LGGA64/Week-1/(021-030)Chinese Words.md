@@ -1,0 +1,33 @@
+- `茶 (chá)`: tea
+    - to drink tea | 喝茶 | [hē chá](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%96%9D%E8%8C%B6&op=translate)
+    - tea table/coffee table | 茶几 | [chá jī](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%8C%B6%E5%87%A0&op=translate)
+- `差 (chà)`: to differ / lacking
+    - pretty much/almost | 差不多 | [chà bu duō](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B7%AE%E4%B8%8D%E5%A4%9A&op=translate)
+    - poor quality | 差劲 | [chà jìn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B7%AE%E5%8A%B2&op=translate)
+- `差 (chāi)`: business trip / errand
+    - to go on a business trip | 出差 | [chū chāi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%87%BA%E5%B7%AE&op=translate)
+    - errand/mission | 差事 | [chāi shi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B7%AE%E4%BA%8B&op=translate)
+- `常 (cháng)`: often
+    - often | 常常 | [cháng cháng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B8%B8%E5%B8%B8&op=translate)
+    - usually | 平常 | [píng cháng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B9%B3%E5%B8%B8&op=translate)
+- `场 (chǎng)`: field / place
+    - market | 市场 | [shì chǎng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B8%82%E5%9C%BA&op=translate)
+    - sports field/playground | 操场 | [cāo chǎng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%93%8D%E5%9C%BA&op=translate)
+- `唱 (chàng)`: to sing
+    - to sing a song | 唱歌 | [chàng gē](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%94%B1%E6%AD%8C&op=translate)
+    - singer | 歌唱家 | [gē chàng jiā](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%AD%8C%E5%94%B1%E5%AE%B6&op=translate)
+- `车 (chē)`: car / vehicle
+    - car | 汽车 | [qì chē](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%B1%BD%E8%BD%A6&op=translate)
+    - bicycle | 自行车 | [zì xíng chē](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%87%AA%E8%A1%8C%E8%BD%A6&op=translate)
+- `吃 (chī)`: to eat
+    - to eat a meal | 吃饭 | [chī fàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%90%83%E9%A5%AD&op=translate)
+    - delicious | 好吃 | [hǎo chī](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A5%BD%E5%90%83&op=translate)
+- `出 (chū)`: to go out / to come out
+    - to go out | 出去 | [chū qù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%87%BA%E5%8E%BB&op=translate)
+    - to appear/occur | 出现 | [chū xiàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%87%BA%E7%8E%B0&op=translate)
+- `穿 (chuān)`: to wear
+    - to put on clothes | 穿衣服 | [chuān yī fu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%A9%BF%E8%A1%A3%E6%9C%8D&op=translate)
+    - to put on shoes | 穿鞋 | [chuān xié](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%A9%BF%E9%9E%8B&op=translate)
+- `床 (chuáng)`: bed
+    - on the bed | 床上 | [chuáng shàng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BA%8A%E4%B8%8A&op=translate)
+    - to get out of bed | 起床 | [qǐ chuáng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%B5%B7%E5%BA%8A&op=translate)
