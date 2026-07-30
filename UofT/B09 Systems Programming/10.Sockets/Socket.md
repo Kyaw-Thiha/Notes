@@ -1,0 +1,2 @@
+# Socket
+A [[Socket|socket]] is an IPC(inter-process communication) mechanism like [[File Redirection & Pipes|pipes]], but designed for [[Unix Process Creation|processes]] not related by `fork()`, and may live on different computer.
