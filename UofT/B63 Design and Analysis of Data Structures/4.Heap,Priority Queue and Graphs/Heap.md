@@ -65,7 +65,7 @@ We can use an array to implement a heap.
 - The start index is $1$.
 - Left child of node $i$ is $2i$.
 - Right child of node $i$ is $2i+1$.
-- Parent of node $i$ is $\left[ \frac{1}{2} \right]$.
+- Parent of node $i$ is $\left[ \frac{i}{2} \right]$.
 
 ![image|300](https://notes-media.kthiha.com/Heap/e789ee64f021092f3949093cda70bd3d.png)
 
