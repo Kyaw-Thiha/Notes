@@ -14,9 +14,9 @@ Examples:
 ---
 ### Cache Blocks
 The [[Cache|cache]] has a few sets of blocks:
-- In a [[Cache|direct mapped cache]], each set has one block.
-- In a [[Cache|N-way set associative cache]], each set has $N$ blocks.
-- In a [[Cache|fully associative cache]], it has one set with all the blocks.
+- In a [[Direct-Mapped Cache|direct mapped cache]], each set has one block.
+- In a [[N-Way Set Associative Cache|N-way set associative cache]], each set has $N$ blocks.
+- In a [[Fully-Associative Cache|fully associative cache]], it has one set with all the blocks.
 
 A memory address gets hashed to a set.
 Different memory addresses may be hashed to the same set.
@@ -62,3 +62,8 @@ Each [[Cache|cache]] has a finite size.
 Every time a load is performed from memory, the block must be stored. This means that another block might need to be evicted.
 
 ---
+## See Also 
+- [[Cache]]
+- [[Direct-Mapped Cache]]
+- [[N-Way Set Associative Cache]]
+- [[Fully-Associative Cache]]
