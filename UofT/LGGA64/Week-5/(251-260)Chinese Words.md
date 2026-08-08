@@ -1,0 +1,36 @@
+- `新 (xīn)`: new
+    - new year | 新年 | [xīn nián](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%96%B0%E5%B9%B4&op=translate)
+    - news | 新闻 | [xīn wén](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%96%B0%E9%97%BB&op=translate)
+- `星 (xīng)`: star
+    - stars | 星星 | [xīng xing](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%98%9F%E6%98%9F&op=translate)
+    - Sunday | 星期天 | [xīng qī tiān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%98%9F%E6%9C%9F%E5%A4%A9&op=translate)
+- `行 (xíng)`: to walk / OK, capable
+    - that works/OK | 行吗 | [xíng ma](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%A1%8C%E5%90%97&op=translate)
+    - to travel | 旅行 | [lǚ xíng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%97%85%E8%A1%8C&op=translate)
+- `行 (háng)`: row / profession
+    - bank | 银行 | [yín háng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%93%B6%E8%A1%8C&op=translate)
+    - industry/profession | 行业 | [háng yè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%A1%8C%E4%B8%9A&op=translate)
+- `兴 (xìng)`: interest / mood
+    - happy | 高兴 | [gāo xìng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%AB%98%E5%85%B4&op=translate)
+    - interest | 兴趣 | [xìng qù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%85%B4%E8%B6%A3&op=translate)
+- `兴 (xīng)`: to rise / flourish
+    - excited | 兴奋 | [xīng fèn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%85%B4%E5%A5%8B&op=translate)
+    - to rise/prosper | 兴起 | [xīng qǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%85%B4%E8%B5%B7&op=translate)
+- `休 (xiū)`: to rest
+    - to rest | 休息 | [xiū xi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BC%91%E6%81%AF&op=translate)
+    - vacation/time off | 休假 | [xiū jià](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BC%91%E5%81%87&op=translate)
+- `学 (xué)`: to study
+    - school | 学校 | [xué xiào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%AD%A6%E6%A0%A1&op=translate)
+    - student | 学生 | [xué sheng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%AD%A6%E7%94%9F&op=translate)
+- `样 (yàng)`: kind / appearance
+    - how (what kind of way) | 怎么样 | [zěn me yàng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%80%8E%E4%B9%88%E6%A0%B7&op=translate)
+    - appearance/shape | 样子 | [yàng zi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%A0%B7%E5%AD%90&op=translate)
+- `要 (yào)`: to want
+    - do you want it or not | 要不要 | [yào bu yào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%A6%81%E4%B8%8D%E8%A6%81&op=translate)
+    - important | 重要 | [zhòng yào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%87%8D%E8%A6%81&op=translate)
+- `爷 (yé)`: grandfather
+    - (paternal) grandfather | 爷爷 | [yé ye](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%88%B7%E7%88%B7&op=translate)
+    - lord/sir (old term) | 老爷 | [lǎo ye](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%80%81%E7%88%B7&op=translate)
+- `也 (yě)`: also
+    - also is/also are | 也是 | [yě shì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B9%9F%E6%98%AF&op=translate)
+    - me too | 我也是 | [wǒ yě shì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%88%91%E4%B9%9F%E6%98%AF&op=translate)

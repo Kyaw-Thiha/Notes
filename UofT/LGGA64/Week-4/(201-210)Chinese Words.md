@@ -1,0 +1,30 @@
+- `事 (shì)`: matter / affair
+    - to work/do things | 做事 | [zuò shì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%81%9A%E4%BA%8B&op=translate)
+    - thing/matter | 事情 | [shì qing](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BA%8B%E6%83%85&op=translate)
+- `试 (shì)`: to try / to test
+    - to take an exam | 考试 | [kǎo shì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%80%83%E8%AF%95&op=translate)
+    - to give it a try | 试试 | [shì shi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%AF%95%E8%AF%95&op=translate)
+- `视 (shì)`: to look at / to view
+    - television | 电视 | [diàn shì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%94%B5%E8%A7%86&op=translate)
+    - to value/take seriously | 重视 | [zhòng shì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%87%8D%E8%A7%86&op=translate)
+- `是 (shì)`: to be / yes
+    - yes/that's right | 是的 | [shì de](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%98%AF%E7%9A%84&op=translate)
+    - is that so or not | 是不是 | [shì bu shì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%98%AF%E4%B8%8D%E6%98%AF&op=translate)
+- `手 (shǒu)`: hand
+    - mobile phone | 手机 | [shǒu jī](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%89%8B%E6%9C%BA&op=translate)
+    - to shake hands | 握手 | [wò shǒu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%8F%A1%E6%89%8B&op=translate)
+- `书 (shū)`: book
+    - book | 书本 | [shū běn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B9%A6%E6%9C%AC&op=translate)
+    - to read a book | 看书 | [kàn shū](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%9C%8B%E4%B9%A6&op=translate)
+- `树 (shù)`: tree
+    - tree | 树木 | [shù mù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%A0%91%E6%9C%A8&op=translate)
+    - a big tree | 大树 | [dà shù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A4%A7%E6%A0%91&op=translate)
+- `谁 (shéi)`: who
+    - who is it | 是谁 | [shì shéi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%98%AF%E8%B0%81&op=translate)
+    - whose | 谁的 | [shéi de](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%B0%81%E7%9A%84&op=translate)
+- `水 (shuǐ)`: water
+    - to drink water | 喝水 | [hē shuǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%96%9D%E6%B0%B4&op=translate)
+    - fruit | 水果 | [shuǐ guǒ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%B0%B4%E6%9E%9C&op=translate)
+- `睡 (shuì)`: to sleep
+    - to sleep | 睡觉 | [shuì jiào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%9D%A1%E8%A7%89&op=translate)
+    - to fall asleep | 睡着 | [shuì zháo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%9D%A1%E7%9D%80&op=translate)

@@ -1,0 +1,30 @@
+- `语 (yǔ)`: language
+    - Chinese language | 汉语 | [hàn yǔ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%B1%89%E8%AF%AD&op=translate)
+    - English language | 英语 | [yīng yǔ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%8B%B1%E8%AF%AD&op=translate)
+- `元 (yuán)`: yuan (currency) / first
+    - ten yuan | 十元 | [shí yuán](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8D%81%E5%85%83&op=translate)
+    - New Year's Day | 元旦 | [yuán dàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%85%83%E6%97%A6&op=translate)
+- `远 (yuǎn)`: far
+    - very far | 很远 | [hěn yuǎn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BE%88%E8%BF%9C&op=translate)
+    - far away | 远方 | [yuǎn fāng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BF%9C%E6%96%B9&op=translate)
+- `院 (yuàn)`: courtyard / institution
+    - hospital | 医院 | [yī yuàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8C%BB%E9%99%A2&op=translate)
+    - courtyard | 院子 | [yuàn zi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%99%A2%E5%AD%90&op=translate)
+- `月 (yuè)`: month / moon
+    - moon | 月亮 | [yuè liang](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%9C%88%E4%BA%AE&op=translate)
+    - January | 一月 | [yī yuè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%80%E6%9C%88&op=translate)
+- `再 (zài)`: again
+    - goodbye | 再见 | [zài jiàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%86%8D%E8%A7%81&op=translate)
+    - once more | 再次 | [zài cì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%86%8D%E6%AC%A1&op=translate)
+- `在 (zài)`: at / in
+    - where | 在哪里 | [zài nǎ lǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%9C%A8%E5%93%AA%E9%87%8C&op=translate)
+    - at home | 在家 | [zài jiā](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%9C%A8%E5%AE%B6&op=translate)
+- `早 (zǎo)`: early
+    - good morning | 早上好 | [zǎo shang hǎo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%97%A9%E4%B8%8A%E5%A5%BD&op=translate)
+    - a bit earlier | 早点 | [zǎo diǎn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%97%A9%E7%82%B9&op=translate)
+- `怎 (zěn)`: how
+    - how | 怎么 | [zěn me](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%80%8E%E4%B9%88&op=translate)
+    - how's it going | 怎么样 | [zěn me yàng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%80%8E%E4%B9%88%E6%A0%B7&op=translate)
+- `站 (zhàn)`: station / to stand
+    - bus/train station | 车站 | [chē zhàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BD%A6%E7%AB%99&op=translate)
+    - to stand up | 站起来 | [zhàn qǐ lái](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%AB%99%E8%B5%B7%E6%9D%A5&op=translate)

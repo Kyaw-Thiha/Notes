@@ -1,0 +1,30 @@
+- `下 (xià)`: down / under
+    - below/underneath | 下面 | [xià miàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%8B%E9%9D%A2&op=translate)
+    - to get off work | 下班 | [xià bān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%8B%E7%8F%AD&op=translate)
+- `先 (xiān)`: first
+    - mister/sir | 先生 | [xiān sheng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%85%88%E7%94%9F&op=translate)
+    - first of all | 首先 | [shǒu xiān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%A6%96%E5%85%88&op=translate)
+- `现 (xiàn)`: now / present
+    - now | 现在 | [xiàn zài](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%8E%B0%E5%9C%A8&op=translate)
+    - reality | 现实 | [xiàn shí](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%8E%B0%E5%AE%9E&op=translate)
+- `想 (xiǎng)`: to think / to want
+    - to want to | 想要 | [xiǎng yào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%83%B3%E8%A6%81&op=translate)
+    - to miss (someone) | 想念 | [xiǎng niàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%83%B3%E5%BF%B5&op=translate)
+- `小 (xiǎo)`: small
+    - little kid | 小孩 | [xiǎo hái](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B0%8F%E5%AD%A9&op=translate)
+    - to be careful | 小心 | [xiǎo xīn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B0%8F%E5%BF%83&op=translate)
+- `校 (xiào)`: school
+    - school | 学校 | [xué xiào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%AD%A6%E6%A0%A1&op=translate)
+    - principal/headmaster | 校长 | [xiào zhǎng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%A0%A1%E9%95%BF&op=translate)
+- `笑 (xiào)`: to laugh / to smile
+    - to smile/laugh | 笑了 | [xiào le](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%AC%91%E4%BA%86&op=translate)
+    - joke | 笑话 | [xiào hua](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%AC%91%E8%AF%9D&op=translate)
+- `些 (xiē)`: some
+    - some | 一些 | [yì xiē](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%80%E4%BA%9B&op=translate)
+    - these | 这些 | [zhè xiē](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BF%99%E4%BA%9B&op=translate)
+- `写 (xiě)`: to write
+    - to write characters | 写字 | [xiě zì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%86%99%E5%AD%97&op=translate)
+    - to write a letter | 写信 | [xiě xìn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%86%99%E4%BF%A1&op=translate)
+- `谢 (xiè)`: to thank
+    - thank you | 谢谢 | [xiè xie](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%B0%A2%E8%B0%A2&op=translate)
+    - many thanks | 多谢 | [duō xiè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A4%9A%E8%B0%A2&op=translate)

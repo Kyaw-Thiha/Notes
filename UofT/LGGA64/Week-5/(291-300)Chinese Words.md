@@ -1,0 +1,30 @@
+- `自 (zì)`: self
+    - oneself | 自己 | [zì jǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%87%AA%E5%B7%B1&op=translate)
+    - freedom | 自由 | [zì yóu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%87%AA%E7%94%B1&op=translate)
+- `子 (zǐ)`: son / (noun suffix)
+    - son | 儿子 | [ér zi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%84%BF%E5%AD%90&op=translate)
+    - table | 桌子 | [zhuō zi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%A1%8C%E5%AD%90&op=translate)
+- `字 (zì)`: (written) character / word
+    - Chinese character | 汉字 | [hàn zì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%B1%89%E5%AD%97&op=translate)
+    - to write characters | 写字 | [xiě zì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%86%99%E5%AD%97&op=translate)
+- `走 (zǒu)`: to walk
+    - to walk/to leave | 走路 | [zǒu lù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%B5%B0%E8%B7%AF&op=translate)
+    - let's go | 走吧 | [zǒu ba](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%B5%B0%E5%90%A7&op=translate)
+- `最 (zuì)`: most
+    - best | 最好 | [zuì hǎo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%9C%80%E5%A5%BD&op=translate)
+    - favorite (like the most) | 最喜欢 | [zuì xǐ huan](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%9C%80%E5%96%9C%E6%AC%A2&op=translate)
+- `昨 (zuó)`: yesterday
+    - yesterday | 昨天 | [zuó tiān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%98%A8%E5%A4%A9&op=translate)
+    - last night | 昨晚 | [zuó wǎn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%98%A8%E6%99%9A&op=translate)
+- `左 (zuǒ)`: left (direction)
+    - left side | 左边 | [zuǒ biān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B7%A6%E8%BE%B9&op=translate)
+    - turn left | 向左转 | [xiàng zuǒ zhuǎn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%90%91%E5%B7%A6%E8%BD%AC&op=translate)
+- `作 (zuò)`: to do / to make
+    - homework/assignment | 作业 | [zuò yè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BD%9C%E4%B8%9A&op=translate)
+    - author/writer | 作者 | [zuò zhě](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BD%9C%E8%80%85&op=translate)
+- `坐 (zuò)`: to sit
+    - please sit | 请坐 | [qǐng zuò](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%AF%B7%E5%9D%90&op=translate)
+    - to take (a bus/train) | 坐车 | [zuò chē](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%9D%90%E8%BD%A6&op=translate)
+- `做 (zuò)`: to do / to make
+    - to do what | 做什么 | [zuò shén me](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%81%9A%E4%BB%80%E4%B9%88&op=translate)
+    - to do homework | 做作业 | [zuò zuò yè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%81%9A%E4%BD%9C%E4%B8%9A&op=translate)

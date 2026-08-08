@@ -1,0 +1,30 @@
+- `问 (wèn)`: to ask
+    - to ask a question | 问问题 | [wèn wèn tí](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%97%AE%E9%97%AE%E9%A2%98&op=translate)
+    - to greet | 问好 | [wèn hǎo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%97%AE%E5%A5%BD&op=translate)
+- `我 (wǒ)`: I / me
+    - we/us | 我们 | [wǒ men](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%88%91%E4%BB%AC&op=translate)
+    - myself | 我自己 | [wǒ zì jǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%88%91%E8%87%AA%E5%B7%B1&op=translate)
+- `五 (wǔ)`: five
+    - five o'clock | 五点 | [wǔ diǎn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BA%94%E7%82%B9&op=translate)
+    - fifty | 五十 | [wǔ shí](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BA%94%E5%8D%81&op=translate)
+- `午 (wǔ)`: noon
+    - noon | 中午 | [zhōng wǔ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%AD%E5%8D%88&op=translate)
+    - afternoon | 下午 | [xià wǔ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%8B%E5%8D%88&op=translate)
+- `西 (xī)`: west
+    - west side | 西边 | [xī biān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%A5%BF%E8%BE%B9&op=translate)
+    - Western food | 西餐 | [xī cān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%A5%BF%E9%A4%90&op=translate)
+- `息 (xī)`: to rest
+    - to rest | 休息 | [xiū xi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BC%91%E6%81%AF&op=translate)
+    - news/information | 消息 | [xiāo xi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%B6%88%E6%81%AF&op=translate)
+- `习 (xí)`: to practice
+    - to review | 复习 | [fù xí](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A4%8D%E4%B9%A0&op=translate)
+    - habit | 习惯 | [xí guàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B9%A0%E6%83%AF&op=translate)
+- `洗 (xǐ)`: to wash
+    - to wash clothes | 洗衣服 | [xǐ yī fu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%B4%97%E8%A1%A3%E6%9C%8D&op=translate)
+    - to take a shower | 洗澡 | [xǐ zǎo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%B4%97%E6%BE%A1&op=translate)
+- `喜 (xǐ)`: to like
+    - to like | 喜欢 | [xǐ huan](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%96%9C%E6%AC%A2&op=translate)
+    - happy occasion | 喜事 | [xǐ shì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%96%9C%E4%BA%8B&op=translate)
+- `系 (xì)`: department / system / to tie
+    - Chinese department (major) | 中文系 | [zhōng wén xì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%AD%E6%96%87%E7%B3%BB&op=translate)
+    - relationship/connection | 关系 | [guān xì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%85%B3%E7%B3%BB&op=translate)

@@ -1,0 +1,30 @@
+- `说 (shuō)`: to speak
+    - to talk | 说话 | [shuō huà](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%AF%B4%E8%AF%9D&op=translate)
+    - to explain | 说明 | [shuō míng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%AF%B4%E6%98%8E&op=translate)
+- `四 (sì)`: four
+    - four o'clock | 四点 | [sì diǎn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%9B%9B%E7%82%B9&op=translate)
+    - forty | 四十 | [sì shí](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%9B%9B%E5%8D%81&op=translate)
+- `送 (sòng)`: to give / to send
+    - to give a gift | 送礼物 | [sòng lǐ wù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%80%81%E7%A4%BC%E7%89%A9&op=translate)
+    - to see someone off | 送行 | [sòng xíng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%80%81%E8%A1%8C&op=translate)
+- `诉 (sù)`: to tell
+    - to tell | 告诉 | [gào su](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%91%8A%E8%AF%89&op=translate)
+    - to recount/narrate | 诉说 | [sù shuō](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%AF%89%E8%AF%B4&op=translate)
+- `岁 (suì)`: years old
+    - how old are you | 几岁 | [jǐ suì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%87%A0%E5%B2%81&op=translate)
+    - age | 岁数 | [suì shu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%B2%81%E6%95%B0&op=translate)
+- `他 (tā)`: he
+    - they/them (male) | 他们 | [tā men](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BB%96%E4%BB%AC&op=translate)
+    - his | 他的 | [tā de](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BB%96%E7%9A%84&op=translate)
+- `她 (tā)`: she
+    - they/them (female) | 她们 | [tā men](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A5%B9%E4%BB%AC&op=translate)
+    - her | 她的 | [tā de](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A5%B9%E7%9A%84&op=translate)
+- `太 (tài)`: too / very
+    - too expensive | 太贵了 | [tài guì le](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A4%AA%E8%B4%B5%E4%BA%86&op=translate)
+    - that's great | 太好了 | [tài hǎo le](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A4%AA%E5%A5%BD%E4%BA%86&op=translate)
+- `体 (tǐ)`: body
+    - body/health | 身体 | [shēn tǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BA%AB%E4%BD%93&op=translate)
+    - physical education/sports | 体育 | [tǐ yù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BD%93%E8%82%B2&op=translate)
+- `天 (tiān)`: day / sky
+    - today | 今天 | [jīn tiān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BB%8A%E5%A4%A9&op=translate)
+    - sky | 天空 | [tiān kōng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A4%A9%E7%A9%BA&op=translate)

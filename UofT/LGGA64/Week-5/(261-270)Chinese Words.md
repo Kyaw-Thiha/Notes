@@ -1,0 +1,30 @@
+- `页 (yè)`: page
+    - page number | 页码 | [yè mǎ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%A1%B5%E7%A0%81&op=translate)
+    - page of a book | 书页 | [shū yè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B9%A6%E9%A1%B5&op=translate)
+- `一 (yī)`: one
+    - one o'clock | 一点 | [yī diǎn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%80%E7%82%B9&op=translate)
+    - together | 一起 | [yì qǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%80%E8%B5%B7&op=translate)
+- `衣 (yī)`: clothing
+    - clothes | 衣服 | [yī fu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%A1%A3%E6%9C%8D&op=translate)
+    - raincoat | 雨衣 | [yǔ yī](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%9B%A8%E8%A1%A3&op=translate)
+- `医 (yī)`: medicine / doctor
+    - doctor | 医生 | [yī shēng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8C%BB%E7%94%9F&op=translate)
+    - hospital | 医院 | [yī yuàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8C%BB%E9%99%A2&op=translate)
+- `影 (yǐng)`: shadow / movie
+    - movie | 电影 | [diàn yǐng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%94%B5%E5%BD%B1&op=translate)
+    - shadow | 影子 | [yǐng zi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BD%B1%E5%AD%90&op=translate)
+- `用 (yòng)`: to use
+    - to use | 使用 | [shǐ yòng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BD%BF%E7%94%A8&op=translate)
+    - useful | 有用 | [yǒu yòng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%9C%89%E7%94%A8&op=translate)
+- `友 (yǒu)`: friend
+    - friend | 朋友 | [péng you](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%9C%8B%E5%8F%8B&op=translate)
+    - friendship | 友谊 | [yǒu yì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8F%8B%E8%B0%8A&op=translate)
+- `有 (yǒu)`: to have
+    - do you have it or not | 有没有 | [yǒu méi yǒu](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%9C%89%E6%B2%A1%E6%9C%89&op=translate)
+    - a little bit | 有点儿 | [yǒu diǎn r](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%9C%89%E7%82%B9%E5%84%BF&op=translate)
+- `右 (yòu)`: right (direction)
+    - right side | 右边 | [yòu biān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%8F%B3%E8%BE%B9&op=translate)
+    - turn right | 向右转 | [xiàng yòu zhuǎn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%90%91%E5%8F%B3%E8%BD%AC&op=translate)
+- `雨 (yǔ)`: rain
+    - to rain | 下雨 | [xià yǔ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%8B%E9%9B%A8&op=translate)
+    - umbrella | 雨伞 | [yǔ sǎn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%9B%A8%E4%BC%9E&op=translate)

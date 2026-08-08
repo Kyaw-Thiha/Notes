@@ -5,7 +5,7 @@
 	- very little/few | 很少 | [hěn shǎo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BE%88%E5%B0%91&op=translate)
 	- how much/many | 多少 | [duōshao](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A4%9A%E5%B0%91&op=translate)
 - `绍 (shào)`: (appears almost exclusively in 介绍)
-	- to introduce *(repeated from #111 介)* | 介绍 | [jièshào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BB%8B%E7%BB%8D&op=translate)
+	- to introduce  | 介绍 | [jièshào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BB%8B%E7%BB%8D&op=translate)
 	- self-introduction | 自我介绍 | [zìwǒ jièshào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D&op=translate)
 - `身 (shēn)`: body
 	- body, health | 身体 | [shēntǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BA%AB%E4%BD%93&op=translate)

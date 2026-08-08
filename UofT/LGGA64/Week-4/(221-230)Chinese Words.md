@@ -1,0 +1,30 @@
+- `条 (tiáo)`: (measure word for long thin things)
+    - a pair of pants | 一条裤子 | [yì tiáo kù zi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%80%E6%9D%A1%E8%A3%A4%E5%AD%90&op=translate)
+    - a piece of news | 一条新闻 | [yì tiáo xīn wén](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%80%E6%9D%A1%E6%96%B0%E9%97%BB&op=translate)
+- `听 (tīng)`: to listen
+    - to listen to music | 听音乐 | [tīng yīn yuè](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%90%AC%E9%9F%B3%E4%B9%90&op=translate)
+    - to hear | 听见 | [tīng jiàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%90%AC%E8%A7%81&op=translate)
+- `同 (tóng)`: same
+    - classmate | 同学 | [tóng xué](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%90%8C%E5%AD%A6&op=translate)
+    - the same/identical | 相同 | [xiāng tóng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%9B%B8%E5%90%8C&op=translate)
+- `图 (tú)`: picture / map
+    - picture/image | 图片 | [tú piàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%9B%BE%E7%89%87&op=translate)
+    - map | 地图 | [dì tú](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%9C%B0%E5%9B%BE&op=translate)
+- `外 (wài)`: outside
+    - outside | 外面 | [wài miàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A4%96%E9%9D%A2&op=translate)
+    - foreign country | 外国 | [wài guó](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%A4%96%E5%9B%BD&op=translate)
+- `玩 (wán)`: to play
+    - to play/have fun | 玩儿 | [wán r](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%8E%A9%E5%84%BF&op=translate)
+    - to play games | 玩游戏 | [wán yóu xì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%8E%A9%E6%B8%B8%E6%88%8F&op=translate)
+- `晚 (wǎn)`: evening / late
+    - good night | 晚安 | [wǎn ān](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%99%9A%E5%AE%89&op=translate)
+    - dinner | 晚饭 | [wǎn fàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%99%9A%E9%A5%AD&op=translate)
+- `网 (wǎng)`: net / network
+    - internet | 网络 | [wǎng luò](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%BD%91%E7%BB%9C&op=translate)
+    - website | 网站 | [wǎng zhàn](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%BD%91%E7%AB%99&op=translate)
+- `忘 (wàng)`: to forget
+    - to forget | 忘记 | [wàng jì](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BF%98%E8%AE%B0&op=translate)
+    - don't forget | 别忘了 | [bié wàng le](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%88%AB%E5%BF%98%E4%BA%86&op=translate)
+- `文 (wén)`: writing / language
+    - Chinese (language) | 中文 | [zhōng wén](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%AD%E6%96%87&op=translate)
+    - culture | 文化 | [wén huà](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%96%87%E5%8C%96&op=translate)

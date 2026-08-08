@@ -1,0 +1,36 @@
+- `找 (zhǎo)`: to look for
+    - to find | 找到 | [zhǎo dào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%89%BE%E5%88%B0&op=translate)
+    - to give change | 找钱 | [zhǎo qián](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%89%BE%E9%92%B1&op=translate)
+- `这 (zhè)`: this
+    - this one | 这个 | [zhè ge](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BF%99%E4%B8%AA&op=translate)
+    - here | 这里 | [zhè lǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E8%BF%99%E9%87%8C&op=translate)
+- `着 (zhe)`: (particle marking an ongoing state)
+    - sitting (there) | 坐着 | [zuò zhe](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%9D%90%E7%9D%80&op=translate)
+    - looking at | 看着 | [kàn zhe](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%9C%8B%E7%9D%80&op=translate)
+- `着 (zháo)`: to be affected by / to fall (asleep)
+    - anxious/worried | 着急 | [zháo jí](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%9D%80%E6%80%A5&op=translate)
+    - to fall asleep | 睡着 | [shuì zháo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%9D%A1%E7%9D%80&op=translate)
+- `真 (zhēn)`: real / true
+    - really/truly | 真的 | [zhēn de](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%9C%9F%E7%9A%84&op=translate)
+    - true or false | 真假 | [zhēn jiǎ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%9C%9F%E5%81%87&op=translate)
+- `正 (zhèng)`: correct / upright
+    - just right/precisely | 正好 | [zhèng hǎo](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%AD%A3%E5%A5%BD&op=translate)
+    - in the middle of (doing) | 正在 | [zhèng zài](https://translate.google.com/?sl=zh-CN&tl=en&text=%E6%AD%A3%E5%9C%A8&op=translate)
+- `知 (zhī)`: to know
+    - to know | 知道 | [zhī dào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%9F%A5%E9%81%93&op=translate)
+    - knowledge | 知识 | [zhī shi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E7%9F%A5%E8%AF%86&op=translate)
+- `中 (zhōng)`: middle / China
+    - China | 中国 | [zhōng guó](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%AD%E5%9B%BD&op=translate)
+    - noon | 中午 | [zhōng wǔ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%B8%AD%E5%8D%88&op=translate)
+- `重 (zhòng)`: heavy / important
+    - important | 重要 | [zhòng yào](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%87%8D%E8%A6%81&op=translate)
+    - very heavy | 很重 | [hěn zhòng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%BE%88%E9%87%8D&op=translate)
+- `重 (chóng)`: to repeat / again
+    - to repeat | 重复 | [chóng fù](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%87%8D%E5%A4%8D&op=translate)
+    - to meet again | 重逢 | [chóng féng](https://translate.google.com/?sl=zh-CN&tl=en&text=%E9%87%8D%E9%80%A2&op=translate)
+- `住 (zhù)`: to live / to reside
+    - to live at/in | 住在 | [zhù zài](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BD%8F%E5%9C%A8&op=translate)
+    - address | 住址 | [zhù zhǐ](https://translate.google.com/?sl=zh-CN&tl=en&text=%E4%BD%8F%E5%9D%80&op=translate)
+- `准 (zhǔn)`: accurate / to allow
+    - accurate | 准确 | [zhǔn què](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%87%86%E7%A1%AE&op=translate)
+    - to prepare | 准备 | [zhǔn bèi](https://translate.google.com/?sl=zh-CN&tl=en&text=%E5%87%86%E5%A4%87&op=translate)
