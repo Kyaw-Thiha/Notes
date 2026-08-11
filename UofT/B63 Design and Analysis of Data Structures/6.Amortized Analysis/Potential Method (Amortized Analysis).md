@@ -68,7 +68,7 @@ We need the number of items in the array $n$ to play a role.
 - In fact, when the array doubles, the potential should be $0$ or close to $0$.
 
 **Getting the potential function**:
-If we let $m$ be the size of the array, then we know that $m=2n$ when the array doubles.
+If we let $m$ be the size of the array, then we know that $m=2n$ when the array doubles, where $n$ is the no. of elements.
 From this, we can get the function
 $$
 \phi(h) = 2n - m
