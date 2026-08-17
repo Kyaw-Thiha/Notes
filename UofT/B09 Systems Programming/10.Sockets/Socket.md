@@ -52,7 +52,7 @@ int ufd = socket(AF_INET, SOCK_DGRAM, 0);    // UDP over IPv4
 int lfd = socket(AF_UNIX, SOCK_STREAM, 0);   // local-only, unix domain
 ```
 
-### Handling Broken Code
+### Handling Broken Pipe
 ```c
 `// Set up a sigaction struct to IGNORE the SIGPIPE signal`
 struct sigaction sa = { .sa_handler = SIG_IGN, .sa_flags = 0 };
