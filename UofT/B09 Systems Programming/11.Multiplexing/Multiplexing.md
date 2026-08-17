@@ -35,10 +35,12 @@ fcntl(pfd[0], F_SETFL, O_NONBLOCK);
 fcntl(pfd[1], F_SETFL, O_NONBLOCK);
 
 // Signal handler
+// The signal handler's entire job is to write one byte into the pipe.
 void handler(int sig) {
     char byte = 1;
     write(pfd[1], &byte, 1);   // only safe call in the handler
 }
+
 // Register handler for SIGINT
 signal(SIGINT, handler);
 
