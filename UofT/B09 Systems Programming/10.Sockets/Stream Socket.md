@@ -63,6 +63,67 @@ int connect(int fd, const struct sockaddr *server_addr, socklen_t addrlen);
 ![image|500](https://notes-media.kthiha.com/Stream-Socket/173fdbf0e1f5d646ca351e158e9afcba.png)
 
 ---
+## Code Snippet
+### Stream Socket Server
+```c
+// Create a TCP socket
+int sfd = socket(AF_INET, SOCK_STREAM, 0);
+
+// Set up the address to bind to
+struct sockaddr_in addr = { .sin_family = AF_INET,
+                             .sin_port = htons(8080),
+                             .sin_addr.s_addr = INADDR_ANY }; 
+bind(sfd, (struct sockaddr *)&addr, sizeof(addr));
+listen(sfd, 10);   // backlog of 10 pending connections
+
+// Prepare to capture info about whoever connects
+struct sockaddr_in client_addr;
+socklen_t len = sizeof(client_addr);
+
+
+int cfd = accept(sfd, (struct sockaddr *)&client_addr, &len);
+
+// sfd keeps listening; cfd talks to this one client
+```
+
+### Stream Socket Client
+```c
+```c
+// Create a TCP socket
+int fd = socket(AF_INET, SOCK_STREAM, 0);
+
+// Set up the address of the server we want to connect to
+struct sockaddr_in server_addr = { .sin_family = AF_INET,
+                                    .sin_port = htons(8080) };
+inet_pton(AF_INET, "127.0.0.1", &server_addr.sin_addr);
+
+// Attempt to connect to the server
+// Blocked until connected, refused, or times out
+if (connect(fd,(struct sockaddr *)&server_addr, sizeof(server_addr)) == -1) {
+    perror("connect failed");
+    exit(1);
+}
+
+// Send the 5-byte message "hello"
+write(fd, "hello", 5);
+```
+
+### Server Handling Multiple Clients
+```c
+while (1) {
+    int cfd = accept(sfd, NULL, NULL);
+    if (fork() == 0) {
+        close(sfd);              // child doesn't need the listening socket
+        // talk to client via cfd
+        read(cfd, buf, sizeof(buf));
+        close(cfd);
+        exit(0);
+    }
+    close(cfd);                  // parent doesn't need the client socket
+}
+```
+
+---
 ## See Also
 - [[Socket]]
 - [[Stream Socket]]

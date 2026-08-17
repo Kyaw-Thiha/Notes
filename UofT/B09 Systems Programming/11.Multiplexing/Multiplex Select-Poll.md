@@ -95,6 +95,107 @@ Both `select()` and `poll()` suffer when monitoring large number of [[Unix File 
 To solve this, we can use [[Multiplex Epoll|epoll]] instead.
 
 ---
+## Code Snippets
+### Select Basic Usage
+```c
+// Declare a file descriptor tracking which fds to monitor 
+fd_set readfds;
+
+// Clear the set, and add fd1 and fd2
+FD_ZERO(&readfds);
+FD_SET(fd1, &readfds);
+FD_SET(fd2, &readfds);
+
+// select() needs the highest fd number in any set, plus 1
+int maxfd = (fd1 > fd2 ? fd1 : fd2) + 1;
+int ready = select(maxfd, &readfds, NULL, NULL, NULL);  // block indefinitely
+
+// select() modifies readfds in place 
+// This leaves only the fds that are actually ready
+if (FD_ISSET(fd1, &readfds))
+    printf("fd1 is ready\n");
+if (FD_ISSET(fd2, &readfds))
+    printf("fd2 is ready\n");
+```
+
+### Select with Timeout
+```c
+struct timeval tv = { .tv_sec = 5, .tv_usec = 0 };  // 5 second timeout
+
+// Adding the fd to the set
+fd_set readfds;
+FD_ZERO(&readfds);
+FD_SET(fd, &readfds);
+
+// Wait up to 5 seconds for fd to become readable
+int ready = select(fd + 1, &readfds, NULL, NULL, &tv);
+if (ready == 0)
+    printf("timed out\n");
+```
+
+### Select must rebuild every call
+```c
+while (1) {
+    fd_set readfds;
+    // FD_SET gets clobbered by select(), must redo each loop
+    FD_ZERO(&readfds);  
+    FD_SET(fd, &readfds);
+
+    // Block until fd is readable
+    select(fd + 1, &readfds, NULL, NULL, NULL);
+	
+    // Confirm fd is actually the one that became ready before acting on it	
+    if (FD_ISSET(fd, &readfds))
+        handle(fd);
+}
+```
+
+### Poll Basic Usage
+```c
+// Array of fds we want to monitor
+struct pollfd fds[2];
+
+// Watch fds for "ready to read" events
+fds[0].fd = fd1; fds[0].events = POLLIN;
+fds[1].fd = fd2; fds[1].events = POLLIN;
+
+// Block until at least one fd has an event
+// -1 means wait forever
+int ready = poll(fds, 2, -1);  // block indefinitely
+
+// poll() fills in revents per-entry rather than mutating the input like select() does
+for (int i = 0; i < 2; i++) {
+    if (fds[i].revents & POLLIN)
+        printf("fd %d is ready\n", fds[i].fd);
+}
+```
+
+### Poll with timeout
+```c
+// Array of fds we want to monitor
+struct pollfd fds[1] = { { .fd = fd, .events = POLLIN } };
+
+int ready;
+while ((ready = poll(fds, 1, 1000)) == -1 && errno == EINTR)
+    continue;  // interrupted by signal, just retry
+
+// ready == 0 means the 1-second timeout expired with no events on fd
+if (ready == 0)
+    printf("timed out\n");
+```
+
+### Poll Detecting Hangup Peer
+```c
+struct pollfd fds[1] = { { .fd = cfd, .events = POLLIN } };
+poll(fds, 1, -1);
+
+if (fds[0].revents & POLLHUP)
+    printf("peer closed connection\n");
+if (fds[0].revents & POLLERR)
+    printf("error on socket\n");
+```
+
+---
 ## See Also
 - [[Multiplexing]]
 - [[Multiplex Select-Poll]]

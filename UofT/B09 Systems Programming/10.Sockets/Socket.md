@@ -44,6 +44,32 @@ Writing to a [[File Redirection & Pipes|pipe]] or [[Socket|socket]] whose other 
 	- The offending `write()` instead returns **-1** with `errno == EPIPE`, which you can check and handle gracefully.
 
 ---
+## Code Snippets
+### Creating a Socket
+```c
+int sfd = socket(AF_INET, SOCK_STREAM, 0);   // TCP over IPv4
+int ufd = socket(AF_INET, SOCK_DGRAM, 0);    // UDP over IPv4
+int lfd = socket(AF_UNIX, SOCK_STREAM, 0);   // local-only, unix domain
+```
+
+### Handling Broken Code
+```c
+`// Set up a sigaction struct to IGNORE the SIGPIPE signal`
+struct sigaction sa = { .sa_handler = SIG_IGN, .sa_flags = 0 };
+
+// Clear the signal mask, and install the handler
+sigemptyset(&sa.sa_mask);
+sigaction(SIGPIPE, &sa, NULL);
+
+// Try writing 4 bytes of data
+ssize_t n = write(cfd, "data", 4);
+
+// If write failed specifically because the peer closed the connection, handle it gracefully
+if (n == -1 && errno == EPIPE)
+    printf("client disconnected\n");
+```
+
+---
 ## See Also
 - [[Socket]]
 - [[Stream Socket]]

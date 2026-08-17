@@ -70,6 +70,78 @@ typedef union epoll_data {
 	- pointer to your own per-connection bookkeeping struct.
 
 ---
+## Code Snippets
+### Epoll Setup
+```c
+// Array of fds we want to monitor
+int epfd = epoll_create1(0);
+
+// Describe what we want to monitor and how
+struct epoll_event ev;
+ev.events = EPOLLIN; // notify when sfd has data ready to read (level-triggered by default)
+ev.data.fd = sfd;    // tag this event with sfd so we know which fd triggered it later
+
+// Register sfd with the epoll instance
+epoll_ctl(epfd, EPOLL_CTL_ADD, sfd, &ev);
+```
+
+### Epoll Wait Loop
+```c
+// Buffer to receive up to 10 ready events per epoll_wait() call
+struct epoll_event evs[10];
+
+/* Block until at least one registered fd has an event, or forever since timeout is -1.
+Returns the number of ready events */
+int n = epoll_wait(epfd, evs, 10, -1);
+
+for (int i = 0; i < n; i++) {
+    // If the ready fd is the listening socket, it means a new client 
+    // is trying to connect
+    if (evs[i].data.fd == sfd) {
+        // Accept the new connection; 
+        // NULL, NULL means we don't care about the client's address here
+        int cfd = accept(sfd, NULL, NULL);
+        
+        // Register the new client fd with epoll 
+        // so future data from it triggers events too
+        struct epoll_event ev = { .events = EPOLLIN, .data.fd = cfd };
+        epoll_ctl(epfd, EPOLL_CTL_ADD, cfd, &ev);
+    } else {
+        // Otherwise, an existing client fd has data ready
+        handle_client(evs[i].data.fd);
+    }
+}
+```
+
+### Epoll storing a pointer
+```c
+// Per-connection state: keep the fd plus a dedicated buffer for this client
+struct conn { int fd; char buf[256]; };
+
+// Allocate connection state on the heap so it persists across event loop 
+// iterations
+struct conn *c = malloc(sizeof(*c));
+c->fd = cfd;
+
+struct epoll_event ev;
+ev.events = EPOLLIN;
+ev.data.ptr = c;               // store your own struct, not just the fd
+epoll_ctl(epfd, EPOLL_CTL_ADD, cfd, &ev);
+
+// later, in the wait loop:
+struct conn *c = evs[i].data.ptr; // recover the connection struct directly 
+read(c->fd, c->buf, sizeof(c->buf)); // read into the connection's own buffer
+```
+
+### Epoll removing/modifying a monitored fd
+```c
+epoll_ctl(epfd, EPOLL_CTL_DEL, cfd, NULL);  // stop monitoring, ev unused
+
+struct epoll_event ev = { .events = EPOLLIN | EPOLLOUT, .data.fd = cfd };
+epoll_ctl(epfd, EPOLL_CTL_MOD, cfd, &ev);   // now also watch for writability
+```
+
+---
 ## See Also
 - [[Multiplexing]]
 - [[Multiplex Select-Poll]]
