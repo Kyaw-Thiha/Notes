@@ -67,3 +67,9 @@ int dup2(int oldfd, int newfd);
   The shell syntax `2>&1` is implemented as `dup2(1, 2)`.
 
 ---
+## See Also
+- [[Unix File System]]
+- [[Unix File Descriptors]]
+- [[Unix Low-Level File IO]]
+- [[Unix User]]
+- [[Bitwise Operations]]

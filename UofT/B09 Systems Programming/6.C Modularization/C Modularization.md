@@ -72,3 +72,7 @@ Used for sharing global variable across multiple `.c` files, but only allocate s
 - `int var;`: definition. Actual address is allocated.
 
 ---
+## See Also
+- [[C Modularization]]
+- [[C Preprocessor]]
+- [[Makefile]]

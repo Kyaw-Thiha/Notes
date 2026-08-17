@@ -1,4 +1,7 @@
 # Setting Signal Actions
+
+![image|400](https://notes-media.kthiha.com/Signal-Action/2d81201d08570b88ea76475bf2504cdb.png)
+
 ```c
 int sigaction(int sig,
               const struct sigaction *act,
@@ -67,3 +70,7 @@ Flags specific to `SIGCHLD` are:
 - `SA_NOCLDWAIT`: Don't turn a terminated child into a **zombie**
 
 ---
+## See Also 
+- [[Unix Signals]]
+- [[Signal Handler]]
+- [[Signal Action]]

@@ -39,3 +39,9 @@ But the group/others still have read permissions.
 > You can browse directory, but only if told specific filename.
 
 ---
+## See Also
+- [[Unix File System]]
+- [[Unix File Descriptors]]
+- [[Unix Low-Level File IO]]
+- [[Unix User]]
+- [[Bitwise Operations]]

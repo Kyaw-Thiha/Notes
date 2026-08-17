@@ -78,3 +78,9 @@ int lstat(const char *path, struct stat *statbuf);
 - **Key difference:** if `path` is a symlink, `stat()` follows it and reports on the target. `lstat()` reports on the symlink itself.
 
 ---
+## See Also
+- [[Unix File System]]
+- [[Unix File Descriptors]]
+- [[Unix Low-Level File IO]]
+- [[Unix User]]
+- [[Bitwise Operations]]

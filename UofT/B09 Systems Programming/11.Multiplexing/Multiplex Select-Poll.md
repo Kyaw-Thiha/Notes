@@ -92,4 +92,10 @@ Both `select()` and `poll()` suffer when monitoring large number of [[Unix File 
 > The kernel does not remember the FD list between calls. 
 > This means their CPU cost scales with the number of FDs monitored, not with the number of actual I/O events.
 
+To solve this, we can use [[Multiplex Epoll|epoll]] instead.
+
 ---
+## See Also
+- [[Multiplexing]]
+- [[Multiplex Select-Poll]]
+- [[Multiplex Epoll]]

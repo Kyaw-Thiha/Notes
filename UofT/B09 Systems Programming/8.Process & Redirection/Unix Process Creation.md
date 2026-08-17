@@ -1,4 +1,8 @@
 # Unix Process Creation
+![image|300](https://notes-media.kthiha.com/Unix-Process-Creation/f088dfe35316f2e285c1010943b0e979.png)
+
+---
+
 **Step-1**: Clone the process (`fork()`)
 ```c
 pid_t fork(void);
@@ -54,6 +58,7 @@ Terminating processes:
 
 ---
 ## Children, Zombies and Orphans
+
 ### Waiting for a Child
 ```c
 pid_t wait(int *wstatus);
@@ -83,6 +88,7 @@ Useful **macros** applied to the `wstatus` value `s`:
 
 ---
 ### Zombies & Orphans
+![image|300](https://notes-media.kthiha.com/Unix-Process-Creation/35bb296479e4dceeba570a38c095872e.png)
 #### Zombies
 - If the child dies first, but the parent hasn't called `wait()`:
 	- The dead child becomes a **"zombie."**
@@ -100,3 +106,63 @@ If the parent dies first, but the child is still running:
 	- so it never becomes a permanent zombie.
 
 ---
+## Code Snippets
+### Basic
+```c
+pid_t pid = fork();
+if (pid == 0) {
+	/* Child */
+    printf("child, pid=%d\n", getpid());
+    exit(42);
+} else {
+	/* Parent */
+    int status;
+    waitpid(pid, &status, 0); // Wait till child process change state
+    if (WIFEXITED(status))
+        printf("child exited with %d\n", WEXITSTATUS(status));
+}
+```
+
+### Running a Program on Fork
+```c
+pid_t pid = fork();
+if (pid == 0) {
+    execlp("ls", "ls", "-l", NULL);
+    perror("execlp failed"); // only reached if exec fails
+    exit(1);
+}
+waitpid(pid, NULL, 0);
+```
+
+### Non-Blocking Wait
+```c
+pid_t pid = fork();
+if (pid == 0) { sleep(3); exit(0); }
+
+int status;
+pid_t r;
+while ((r = waitpid(pid, &status, WNOHANG)) == 0) {
+    printf("still running...\n");
+    sleep(1);
+}
+printf("done: %d\n", r);
+```
+
+### Orphan
+```c
+pid_t pid = fork();
+if (pid == 0) {
+    sleep(2);
+    printf("child's new parent pid = %d\n", getppid()); // will print 1
+    exit(0);
+}
+exit(0); // parent dies immediately, child gets orphaned
+```
+
+---
+## See Also
+- [[Unix Process Creation]]
+- [[File Redirection & Pipes]]
+- [[Redirection and Pipelining]]
+- [[Unix File System]]
+- [[Unix File Descriptors]]

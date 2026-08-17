@@ -25,6 +25,9 @@ A [[Unix Signals|signal]] is just a constant representing a type or a case. It c
 
 ---
 ## Signal Lifecycle
+
+![image|400](https://notes-media.kthiha.com/Unix-Signals/bac86b4bb118676cf874ed1e055263a2.png)
+
 1. Some event **generates** a [[Unix Signals|signal]].
    Eg:
 	- a hardware error.
@@ -74,3 +77,31 @@ int raise(int sig);              // send `sig` to yourself (the calling process)
 ```
 
 ---
+## Code Snippets
+### Basic Handler
+```c
+void handler(int sig) {
+    write(STDOUT_FILENO, "caught!\n", 8);
+}
+
+struct sigaction sa = { .sa_handler = handler, .sa_flags = 0 };
+sigemptyset(&sa.sa_mask);
+sigaction(SIGINT, &sa, NULL);
+```
+
+### Ignoring SIGPIPE
+```c
+struct sigaction sa = { .sa_handler = SIG_IGN, .sa_flags = 0 };
+sigemptyset(&sa.sa_mask);
+sigaction(SIGPIPE, &sa, NULL);
+
+ssize_t n = write(fd, "hello", 5);
+if (n == -1 && errno == EPIPE)
+    printf("nobody's reading\n");
+```
+
+---
+## See Also 
+- [[Unix Signals]]
+- [[Signal Handler]]
+- [[Signal Action]]

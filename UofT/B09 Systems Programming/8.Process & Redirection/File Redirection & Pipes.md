@@ -1,4 +1,7 @@
 ## File Redirection
+
+![image|300](https://notes-media.kthiha.com/File-Redirection-&-Pipes/52739af167afe0bddb3080f3e0112621.png)
+
 How a shell implements [[Redirection and Pipelining|redirection]] `command > file`:
 1. Before `fork()`: 
 	- [[Unix Low-Level File IO|open]] the target file. 
@@ -24,6 +27,9 @@ How a shell implements [[Redirection and Pipelining|redirection]] `command > fil
 
 ---
 ## Pipes
+
+![image|300](https://notes-media.kthiha.com/File-Redirection-&-Pipes/ef2146aa63e825327f0182211c5f7718.png)
+
 ```c
 int pipe(int pipefd[2]);
 ```
@@ -91,3 +97,69 @@ Instead, if the operation can't complete immediately, they:
 - set `errno` to **`EAGAIN`**
 
 ---
+## Code Snippets
+### Redirect to a file
+```c
+/* ls > out.txt */
+
+int fd = open("out.txt", O_WRONLY | O_CREAT | O_TRUNC, 0644);
+
+pid_t pid = fork();
+if (pid == 0) {
+    dup2(fd, STDOUT_FILENO);
+    close(fd);
+    execlp("ls", "ls", NULL);
+    exit(1);
+}
+close(fd); // parent doesn't need it
+waitpid(pid, NULL, 0);
+```
+
+### Pipe Between Two Children
+```c
+/* ls | wc -l */
+
+int pfd[2];
+pipe(pfd);
+
+pid_t p1 = fork();
+if (p1 == 0) {                 // writer: ls
+    dup2(pfd[1], STDOUT_FILENO);
+    close(pfd[0]); close(pfd[1]);
+    execlp("ls", "ls", NULL);
+    exit(1);
+}
+
+pid_t p2 = fork();
+if (p2 == 0) {                 // reader: wc -l
+    dup2(pfd[0], STDIN_FILENO);
+    close(pfd[0]); close(pfd[1]);
+    execlp("wc", "wc", "-l", NULL);
+    exit(1);
+}
+
+close(pfd[0]); close(pfd[1]);  // parent needs neither end
+waitpid(p1, NULL, 0);
+waitpid(p2, NULL, 0);
+```
+
+### Non-Blocking Read from Pipe
+```c
+int flags = fcntl(pfd[0], F_GETFL);   // get current flags on the read end
+fcntl(pfd[0], F_SETFL, flags | O_NONBLOCK);  
+
+char buf[64];
+int n = read(pfd[0], buf, sizeof(buf));      
+if (n == -1 && errno == EAGAIN)              
+    printf("no data yet\n");
+// n == 0  would mean EOF (writer closed its end)
+// n  > 0  is the number of bytes actually read
+```
+
+---
+## See Also
+- [[Unix Process Creation]]
+- [[File Redirection & Pipes]]
+- [[Redirection and Pipelining]]
+- [[Unix File System]]
+- [[Unix File Descriptors]]

@@ -10,6 +10,8 @@ Consider the following
 sort bigfile | head -1
 ```
 
+![image|400](https://notes-media.kthiha.com/Signal-Handler/7c0cf0fc9ac369f4c5f5694cfae72d98.png)
+
 The `SIGPIPE`-kills-by-default behavior lets `sort` terminate promptly instead of wasting CPU.
 
 ---
@@ -20,6 +22,9 @@ Set the action for `SIGPIPE` to **`SIG_IGN`**.
 
 ---
 ## Handler Limitations
+
+![image|500](https://notes-media.kthiha.com/Signal-Handler/e89b257010725f29499bcd04709715cb.png)
+
 It's unsafe to call some things inside a [[Signal Handler|signal handler]], like
 -  `printf()`
 	- Suppose your program's normal code is in the middle of running another `printf()` call when a signal arrives.
@@ -50,3 +55,28 @@ Instead:
 3. Your normal code **periodically checks** that variable/pipe at safe moments in its own control flow.
 
 ---
+## Code Snippet
+### Self-Pipe Trick
+```c
+int sigpipe[2];
+
+void handler(int sig) {
+    char byte = 1;
+    write(sigpipe[1], &byte, 1);     // only async-signal-safe call used
+}
+
+pipe(sigpipe);
+struct sigaction sa = { .sa_handler = handler, .sa_flags = 0 };
+sigemptyset(&sa.sa_mask);
+sigaction(SIGCHLD, &sa, NULL);
+
+char byte;
+read(sigpipe[0], &byte, 1);          // main loop reacts here, safely
+printf("handling SIGCHLD now\n");
+```
+
+---
+## See Also 
+- [[Unix Signals]]
+- [[Signal Handler]]
+- [[Signal Action]]

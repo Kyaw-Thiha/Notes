@@ -62,4 +62,10 @@ On an executable file:
 - `set-gid`: same idea, but for group privilege.
 
 ---
+## See Also
+- [[Unix File System]]
+- [[Unix File Descriptors]]
+- [[Unix Low-Level File IO]]
+- [[Unix User]]
+- [[Bitwise Operations]]
 
