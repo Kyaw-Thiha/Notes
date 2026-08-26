@@ -1,0 +1,18 @@
+# Week-5
+- [[LeNet(1989)]]
+- [[AlexNet(2012)]]
+	- [[Data Augmentation]]
+	- [[Dropout]]
+	- [[ReLU Activation Function|ReLU]] instead of [[Sigmoid Function|Sigmoid]]
+- [[Inception(2014)]]
+	- [[Pointwise Convolution]]
+	- [[Inception(2014)|Auxiliary Loss]] to fix [[Vanishing and Exploding Gradients|Vanishing Gradients]]
+- [[VGG(2014)]]
+	- Shows that stacked $3 \times 3$ [[Convolution Layer|filters]] can approximate any large [[Convolution Layer|filters]]
+	- Better [[Data Augmentation]]
+- [[ResNet(2015)]]
+	- Even with [[Batch Normalization]] and [[ReLU]], training deep networks can fail
+	- Uses [[Skip Connections]] to fix
+- [[Transfer Learning]]
+	- [[Transfer Learning|Feature Transfer]]
+	- [[Transfer Learning|Fine-tuning]]
