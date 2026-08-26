@@ -23,7 +23,7 @@ This is despite the fact that deeper network's solution space contains the shall
 
 ## Why It Happens?
 
-From the [[ResNet|ResNet paper's]] analysis:
+From the [[ResNet(2015)|ResNet paper's]] analysis:
 
 **Not vanishing gradients**
 - Plain networks trained with Batch Normalization
@@ -39,7 +39,7 @@ From the [[ResNet|ResNet paper's]] analysis:
 
 ## Solution
 
-[[ResNet]] addresses this through **residual learning**:
+[[ResNet(2015)]] addresses this through **residual learning**:
 - Explicitly reformulate layers to learn residual functions $F(x) = H(x) - x$
 - If identity mappings are optimal, easier to push residual to zero
 - Shortcuts allow easier optimization of deep networks
@@ -47,6 +47,6 @@ From the [[ResNet|ResNet paper's]] analysis:
 ---
 
 ## See Also
-- [[ResNet]]: The solution to this problem
+- [[ResNet(2015)]]: The solution to this problem
 - [[Skip Connections]]: Architectural pattern that helps
 - [[Vanishing Gradients]]: Related but different problem

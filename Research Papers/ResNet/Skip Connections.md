@@ -44,7 +44,7 @@ Adds parameters
 
 ---
 ## Architectures Using Skip Connections
-- [[ResNet]] - additive, identity shortcuts
+- [[ResNet(2015)]] - additive, identity shortcuts
 - U-Net - concatenation, for encoder-decoder
 - DenseNet - concatenation, connects all layers
 - [[Transformer]] - additive, in attention and FFN blocks

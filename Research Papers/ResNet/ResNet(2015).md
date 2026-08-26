@@ -1,5 +1,5 @@
 # ResNet 
-`ResNet` learn residual mappings $F(x) = H(x) - x$ via [[Skip Connection]].
+[[ResNet(2015)|ResNet]] learn residual mappings $F(x) = H(x) - x$ via [[Skip Connection]].
 
 ![ResNet|500](https://notes-media.kthiha.com/ResNet/b5d42d4e7230e47a78d8b4172adf09bb.png)
 
