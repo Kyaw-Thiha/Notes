@@ -17,4 +17,4 @@ Later layers are more semantic like exact objects.
 Pooling makes the representation invariant to small translations.
 This is useful since presence of a field is more relevant than the precise location.
 
-[[Pooling|Read More]]
+[[Pooling Layer|Read More]]
