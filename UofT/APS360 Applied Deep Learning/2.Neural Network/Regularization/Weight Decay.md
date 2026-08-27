@@ -1,5 +1,5 @@
 # Weight Decay
-[[Weight decay]] is a form of [[regularization]] by preventing  weights from growing too much and hence lowering the variance.
+[[Weight Decay]] is a form of [[regularization]] by preventing  weights from growing too much and hence lowering the variance.
 
 Add a [[Norm|2-norm]] to the [[loss function]] as
 $$

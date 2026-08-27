@@ -1,5 +1,5 @@
 # Early Stopping
-[[Early stopping]] is a form of [[regularization]] by stopping the training before the model overfits.
+[[Early Stopping]] is a form of [[regularization]] by stopping the training before the model overfits.
 
 ![|300](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*-37i5H3lie_x5299utHX4A.png)
 
