@@ -13,7 +13,7 @@ We will start with more classical ones first.
 
 ---
 ### Linear Activation Function
-Being the most trivial [[activation function]], it is also considered as an identity function, and is defined as
+Being the most trivial [[Activation Function]], it is also considered as an identity function, and is defined as
 $$
 f(x) = x
 $$
@@ -152,7 +152,7 @@ f(x)
 &= 0.5x \ \left( 1 + \tanh\left[ \sqrt{ \frac{2}{\pi} } (x + 0.044715x^{3}) \right] \right)
 \end{align}
 $$
-This [[activation function]] combines
+This [[Activation Function]] combines
 - [[ReLU]]
 - [[Pattern Recognition/Week-10a/Dropout]]
 - **Zoneout**: Randomly forces a few hidden units to maintain their prior value by mulitplying with $1$.

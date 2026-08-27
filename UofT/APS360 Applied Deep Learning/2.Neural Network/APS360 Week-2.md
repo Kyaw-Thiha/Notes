@@ -1,4 +1,4 @@
-# Week-3
+# Week-2
 **Hyperparameters**
 - [[Hyperparameter|Hyperparameters]] and how to optimize them
 

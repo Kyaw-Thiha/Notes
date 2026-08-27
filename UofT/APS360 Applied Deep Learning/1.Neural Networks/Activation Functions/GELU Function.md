@@ -8,7 +8,7 @@ f(x)
 &= 0.5x \ \left( 1 + \tanh\left[ \sqrt{ \frac{2}{\pi} } (x + 0.044715x^{3}) \right] \right)
 \end{align}
 $$
-This [[activation function]] combines
+This [[Activation Function]] combines
 - [[ReLU]]
 - [[Pattern Recognition/Week-10a/Dropout]]
 - **Zoneout**: Randomly forces a few hidden units to maintain their prior value by mulitplying with $1$.

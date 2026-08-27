@@ -1,4 +1,4 @@
-# Week-5
+# Week-4
 - [[LeNet(1989)]]
 - [[AlexNet(2012)]]
 	- [[Data Augmentation]]

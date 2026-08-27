@@ -1,4 +1,4 @@
-# Week-4
+# Week-3
 - [[Convolutional Neural Network (CNN)]]
 - [[Convolution Layer]]
 - [[Pooling Layer]]

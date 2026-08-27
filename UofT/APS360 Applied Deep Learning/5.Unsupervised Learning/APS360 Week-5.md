@@ -1,4 +1,4 @@
-# Week-6
+# Week-5
 ### VAE
 - [[Variational AutoEncoders (VAE)]]
 - [[Convolutional CVAE]]

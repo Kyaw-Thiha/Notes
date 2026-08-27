@@ -1,4 +1,4 @@
-# Week-8
+# Week-7
 ## RNN
 - Weakness of [[Recurrent Neural Network (RNN)]]
 
