@@ -1,7 +1,9 @@
 # Convolutional CVAE
 Compared to [[Conditional Variational AutoEncoders (CVAE)|CVAE]], fully-connected dense neural networks flatten the image and thus, lose the structure.
+
 [[Convolution Layer]] can preserve local structures like edges  and curves, so it result in sharper reconstructions.
 
+---
 ## Encoder
 Here is a typical `Conv-CVAE Encoder`.
 ```
@@ -25,8 +27,15 @@ Input: z + y  (latent vector + condition)
         → Output: (1, 28, 28) reconstructed image
 ```
 
+You can read more about [[Transposed Convolution|transposed convolution here]].
+
+---
 ## See Also
-- [[Conditional Variational AutoEncoders (CVAE)]]
-- [[Variational AutoEncoders (VAE)]]
 - [[AutoEncoders]]
+- [[Variational AutoEncoders (VAE)]]
+- [[Conditional Variational AutoEncoders (CVAE)]]
+- [[Convolutional CVAE]]
+- [[Maths Behind VAE]]
+- [[Posterior Collapse of CVAE]]
 - [[Convolution Layer]]
+- [[Transposed Convolution]]

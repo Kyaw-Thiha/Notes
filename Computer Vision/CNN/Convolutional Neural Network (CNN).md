@@ -1,6 +1,6 @@
 # Convolutional Neural Network
 
-`CNN` are [[Neural Network|Neural Networks]] composed of [[Convolution Layer|Convolution]] and [[Pooling]]
+`CNN` are [[Neural Network|Neural Networks]] composed of [[Convolution Layer|Convolution]] and [[Pooling Layer]]
 layers.
 
 ![CNN](https://media.licdn.com/dms/image/v2/D5612AQGOui8XZUZJSA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1680532048475?e=2147483647&v=beta&t=5gZVHYNL2Vc2mK3iKrpK-FcpURIFdyaP4Vi38eeeZyM)
@@ -51,5 +51,7 @@ The `Fully Connected Layer` is just a [[Neural Network|Dense Neural Network]] th
 ---
 ## See Also 
 - [Convolutional Neural Network Cheatsheet](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks)
+- [[Convolutional Neural Network (CNN)]]
 - [[Convolution Layer]]
-- [[Pooling]]
+- [[Convolution Operator]]
+- [[Pooling Layer]]

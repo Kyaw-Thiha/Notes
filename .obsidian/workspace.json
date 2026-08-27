@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UofT/APS360 Applied Deep Learning/7.RNN/APS360 Week-8.md",
+                "file": "UofT/APS360 Applied Deep Learning/8.GAN/Generative Adversarial Network(GAN).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Generative Adversarial Network(GAN)"
+            }
+          },
+          {
+            "id": "413cb56fdadfbf8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UofT/APS360 Applied Deep Learning/APS360 Course Links.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "APS360 Week-8"
+              "title": "APS360 Course Links"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5,
-    "collapsed": true
+    "width": 206.5
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -173,44 +187,44 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ed8ad04b4db1b270",
+  "active": "413cb56fdadfbf8f",
   "lastOpenFiles": [
+    "UofT/APS360 Applied Deep Learning/10.GNN/APS360 Week-10.md",
+    "UofT/APS360 Applied Deep Learning/9.Transformer/APS360 Week-9.md",
+    "UofT/APS360 Applied Deep Learning/8.GAN/APS360 Week-8.md",
+    "UofT/APS360 Applied Deep Learning/8.GAN/Generative Adversarial Network(GAN).md",
+    "UofT/APS360 Applied Deep Learning/7.RNN/APS360 Week-7.md",
+    "UofT/APS360 Applied Deep Learning/6.RNN/APS360 Week-6.md",
+    "UofT/APS360 Applied Deep Learning/5.Unsupervised Learning/APS360 Week-5.md",
+    "UofT/APS360 Applied Deep Learning/4.CNN/APS360 Week-4.md",
+    "UofT/APS360 Applied Deep Learning/3.CNN/APS360 Week-3.md",
+    "UofT/APS360 Applied Deep Learning/2.Neural Network/APS360 Week-2.md",
+    "UofT/APS360 Applied Deep Learning/1.Neural Networks/APS360 Week-1.md",
+    "UofT/APS360 Applied Deep Learning/APS360 Course Links.md",
+    "UofT/APS360 Applied Deep Learning/1.Neural Networks/Activation Functions/Activation Function.md",
+    "UofT/APS360 Applied Deep Learning/1.Neural Networks/Activation Functions",
+    "UofT/APS360 Applied Deep Learning/10.GNN/Graph Attention Network(GAT).md",
+    "UofT/APS360 Applied Deep Learning/10.GNN/Graph Convolutional Network(GCN).md",
+    "UofT/APS360 Applied Deep Learning/10.GNN/Graph Neural Network(GNN).md",
+    "UofT/APS360 Applied Deep Learning/9.Transformer/Self-Attention.md",
+    "UofT/APS360 Applied Deep Learning/9.Transformer/Attention Mechanism.md",
+    "UofT/APS360 Applied Deep Learning/9.Transformer/Transformer.md",
+    "UofT/APS360 Applied Deep Learning/9.Transformer/Transformer for Language Modelling.md",
+    "UofT/APS360 Applied Deep Learning/10.GNN",
+    "10.",
+    "LLM/1. Transformer Models.md",
+    "UofT/APS360 Applied Deep Learning/9.Transformer",
+    "UofT/APS360 Applied Deep Learning/8.GAN",
     "UofT/APS360 Applied Deep Learning/7.RNN/Sequence to Sequence RNN.md",
-    "UofT/APS360 Applied Deep Learning/7.RNN/APS360 Week-8.md",
     "UofT/APS360 Applied Deep Learning/7.RNN/Deep RNN.md",
     "UofT/APS360 Applied Deep Learning/7.RNN/Bidirectional RNN.md",
     "UofT/APS360 Applied Deep Learning/7.RNN/Gated Recurrent Unit(GRU).md",
     "UofT/APS360 Applied Deep Learning/7.RNN/Long Short-Term Memory (LSTM).md",
-    "UofT/APS360 Applied Deep Learning/6.RNN/Recurrent Neural Network (RNN).md",
-    "UofT/APS360 Applied Deep Learning/6.RNN/APS360 Week-7.md",
     "UofT/APS360 Applied Deep Learning/7.RNN",
-    "UofT/APS360 Applied Deep Learning/APS360 Course Links.md",
-    "UofT/APS360 Applied Deep Learning/6.RNN/Word Embeddings/Skip-Gram.md",
-    "UofT/APS360 Applied Deep Learning/6.RNN/Word Embeddings/GLoVe.md",
-    "UofT/APS360 Applied Deep Learning/6.RNN/Word Embeddings/CBOW Model.md",
-    "UofT/APS360 Applied Deep Learning/6.RNN/Word Embeddings/Word2Vec.md",
     "UofT/APS360 Applied Deep Learning/6.RNN/Word Embeddings",
-    "UofT/APS360 Applied Deep Learning/5.Unsupervised Learning/APS360 Week-6.md",
     "UofT/APS360 Applied Deep Learning/6.RNN",
-    "UofT/APS360 Applied Deep Learning/5.Unsupervised Learning/Contrastive Learning.md",
-    "UofT/APS360 Applied Deep Learning/5.Unsupervised Learning/AutoEncoders Pretraining.md",
-    "UofT/APS360 Applied Deep Learning/5.Unsupervised Learning/Self-Supervised Learning.md",
-    "Computer Vision/AutoEncoders/Convolutional CVAE.md",
-    "Computer Vision/AutoEncoders/Conditional Variational AutoEncoders (CVAE).md",
-    "Computer Vision/AutoEncoders/Transposed Convolution.md",
-    "Computer Vision/AutoEncoders/Variational AutoEncoders (VAE).md",
     "UofT/APS360 Applied Deep Learning/5.Unsupervised Learning",
-    "Computer Vision/AutoEncoders/Maths Behind VAE.md",
-    "Computer Vision/AutoEncoders/AutoEncoders.md",
-    "Computer Vision/AutoEncoders/Archi Notes.md",
-    "Computer Vision/AutoEncoders/Posterior Collapse of CVAE.md",
-    "UofT/APS360 Applied Deep Learning/4.CNN/APS360 Week-5.md",
     "UofT/APS360 Applied Deep Learning/4.CNN/Models",
-    "UofT/APS360 Applied Deep Learning/4.CNN",
-    "UofT/APS360 Applied Deep Learning/3.CNN",
-    "UofT/APS360 Applied Deep Learning/3.Neural Network/Gradient Descent/Untitled",
-    "UofT/APS360 Applied Deep Learning/2.Neural Network/Gradient Descent",
-    "UofT/B09 Systems Programming/11.Multiplexing",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet (2021).webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",

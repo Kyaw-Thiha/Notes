@@ -1,6 +1,6 @@
 # Conditional Variational AutoEncoder (CVAE)
 
-![CVAE](https://www.researchgate.net/publication/365190062/figure/fig2/AS:11431281095388874@1667878234857/Structure-of-the-conditional-variational-autoencoder-CVAE.png)
+![CVAE|400](https://www.researchgate.net/publication/365190062/figure/fig2/AS:11431281095388874@1667878234857/Structure-of-the-conditional-variational-autoencoder-CVAE.png)
 
 In vanilla [[Variational AutoEncoders (VAE)|VAE]], we do not have control over the output.
 - Encoder: $q(z | x)$
@@ -15,7 +15,11 @@ So, both encoder & decoder have access to $y$.
 In context of `MNIST`, $y$ could be something like the image label.
 Hence, the `CVAE` is learning how a specific label looks like.
 
+---
 ## See Also
 - [[AutoEncoders]]
 - [[Variational AutoEncoders (VAE)]]
-
+- [[Conditional Variational AutoEncoders (CVAE)]]
+- [[Convolutional CVAE]]
+- [[Maths Behind VAE]]
+- [[Posterior Collapse of CVAE]]
