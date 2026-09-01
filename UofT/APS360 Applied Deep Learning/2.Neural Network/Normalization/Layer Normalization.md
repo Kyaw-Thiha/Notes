@@ -31,3 +31,10 @@ $$
 Compared to [[Batch Normalization|batch normalization]], 
 - this is simpler to implement
 - and does not depend on [[batch size]]
+
+---
+## See Also
+- [Good Article](https://www.pinecone.io/learn/batch-layer-normalization/)
+- [[Batch Normalization]]
+- [[Layer Normalization]]
+- [[Neural Network]]

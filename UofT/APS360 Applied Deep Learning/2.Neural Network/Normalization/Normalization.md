@@ -84,6 +84,37 @@ To summarize their differences
 - [[Batch Normalization|BatchNorm]] has different processing for training and inference, while [[Layer Normalization|LayerNorm]] uses the same.
 
 ---
+## Example
+Suppose you have batch of two examples and four features.
+$$
+\text{X} = \begin{bmatrix}
+1 & 0  \\
+0 & 1 \\
+1 & 0  \\
+0 & 1 \\
+\end{bmatrix}
+$$
+
+Mean $\mu_{\text{BatchNorm}}$ vector of [[Batch Normalization|batch normalization layer]] applied:
+$$
+\mu_{\text{BatchNorm}} = 
+\begin{bmatrix}
+0.5 \\
+0.5 \\
+0.5 \\
+0.5 \\
+\end{bmatrix}
+$$
+Mean $\mu_{\text{LayerNorm}}$ vector of [[Layer Normalization|layer normalization layer]] applied:
+$$
+\mu_{\text{LayerNorm}}
+= \begin{bmatrix}
+0.5  \\
+0.5
+\end{bmatrix}
+$$
+
+---
 ## See Also
 - [Good Article](https://www.pinecone.io/learn/batch-layer-normalization/)
 - [[Batch Normalization]]

@@ -16,6 +16,10 @@ This non-horizontal sloped line for negative part allows [[Backpropagation|backp
 However the [[Gradient Descent Detail|gradient]] is still small, making learning to be slow. 
 
 ---
+- [[Leaky ReLU]] has undefined gradient in $0$.
+- [[Leaky ReLU]] has a range of $(- \infty, + \infty)$.
+
+---
 ## See Also
 - [Good Article](https://www.analytixlabs.co.in/blog/activation-function-in-neural-network/)
 - [[Activation Function]]

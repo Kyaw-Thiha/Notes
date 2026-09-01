@@ -97,6 +97,20 @@ $$
 $$
 
 ---
+## Computing Weights
+In any [[Neural Network|fully-connected layer]], weights connect every input to every output $(a \times b)$ plus one bias per output neuron$(b)$.
+$$
+a \times b + b
+$$
+Applying that rule to an [[Multi-Head Attention|attention block]], we get
+- Query $Q$ $(d_{model} \to d_{k})$: $d_{model} \cdot d_{k} + d_{k}$
+- Key $K$ $(d_{model} \to d_{k})$: $d_{model} \cdot d_{k} + d_{k}$
+- Key $V$ $(d_{model} \to d_{v})$: $d_{model} \cdot d_{v} + d_{v}$
+- $\text{Multi-Head Output} = \text{Concat}(O_{1}, \ \dots, \ O_{h}) \cdot W^{O}$: $d_{v} \times d_{v} + d_{v}$
+- Fully-Connected(1) $(d_{v} \to h_{1})$: $d_{v} \cdot h_{1} + h_{1}$
+- Fully-Connected(2) $(d_{1} \to h_{2})$: $d_{v} \cdot h_{2} + h_{2}$
+
+---
 ### Comparism to RNN
 For the [[Recurrent Neural Network (RNN)]],
 - Struggle with long range dependencies.
@@ -119,6 +133,7 @@ For the [[Transformer]],
 - [[Transformer for Language Modelling]]
 - [[Self-Attention]]
 - [[Attention Mechanism]]
+- [[Multi-Head Attention]]
 - [[Recurrent Neural Network (RNN)]]
 - [[Word2Vec]]
 - [[GLoVe]]

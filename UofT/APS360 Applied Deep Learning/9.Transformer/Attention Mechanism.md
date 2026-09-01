@@ -30,6 +30,7 @@ Suppose we have two embeddings $a,b \in \mathbb{R}^{d}$. We could use
 - [[Transformer]]
 - [[Transformer for Language Modelling]]
 - [[Self-Attention]]
+- [[Multi-Head Attention]]
 - [[Attention Mechanism]]
 - [[Recurrent Neural Network (RNN)]]
 

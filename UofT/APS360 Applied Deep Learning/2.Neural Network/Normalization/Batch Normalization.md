@@ -68,3 +68,8 @@ The drawbacks involves
 - Not suited for sequence models. They could have different lengths and smaller batch sizes corresponding to longer sequences.
 
 ---
+## See Also
+- [Good Article](https://www.pinecone.io/learn/batch-layer-normalization/)
+- [[Batch Normalization]]
+- [[Layer Normalization]]
+- [[Neural Network]]

@@ -99,7 +99,12 @@ This matrix describes **how much each token attends to the others**. For example
 - **Position information**: Added via positional encodings since attention is permutation-invariant.
 
 ---
+- Assumes a [[Neural Network|fully connected]] [[Graph|graph]] over input sequence.
+- Assumes a [[Graph|directed graph]] over the input.
+- [[Self-Attention|Multi-head attention]] with $K$ heads computes $K$ attention matrices.
+- Attention scores are normalized row-wise.
 
+---
 ## See Also
 - [[Transformer]]
 - [[Attention Mechanism]]
