@@ -21,6 +21,7 @@ Compared to [[Convolutional Neural Network (CNN)|CNN]], they have
 
 ---
 ## See Also 
+- [Paper Introducing ViTs](https://arxiv.org/abs/2010.11929)
 - [[Transformer]]
 - [[Multi-Head Attention]]
 - [[Self-Attention]]
