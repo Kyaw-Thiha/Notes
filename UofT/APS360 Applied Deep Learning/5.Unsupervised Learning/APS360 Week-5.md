@@ -12,3 +12,7 @@
 ## Pretraining
 - [[AutoEncoders Pretraining]]
 - [[Contrastive Learning]]
+
+## Models
+- [[RotNet(2018)]]
+- [[SimCLR(2020)]]

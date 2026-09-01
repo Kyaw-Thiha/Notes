@@ -10,3 +10,4 @@
 - [[Gradient Descent]]
 - [[Gradient Descent Detail]]
 - [[Backpropagation]]
+- [[Backpropagation Example]]

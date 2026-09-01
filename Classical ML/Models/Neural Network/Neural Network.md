@@ -1,13 +1,13 @@
 # Neural Network
 #ml/models/neural-network
 
-A `Neural Network` is a function composed of `linear transformations` and `non-linear activations`.
+A [[Neural Network|neural network]] is a function composed of `linear transformations` and `non-linear activations`.
 
 $$
 f_{\theta}: R^n \to R^m
 $$
 
-![Neural Network](https://cdn-images-1.medium.com/v2/resize:fit:732/1*KNZZYteeBqkJViS1_LT1CQ.gif)
+![Neural Network|400](https://cdn-images-1.medium.com/v2/resize:fit:732/1*KNZZYteeBqkJViS1_LT1CQ.gif)
 
 Another way to see `Neural Network` is as a `Feature Mappings` model which we do not need to manually craft, but is rather learned through data.
 
@@ -22,7 +22,7 @@ In 1980s, [[Backpropagation]] algorithm was invented by [Hinton et. al](https://
 
 ---
 ## Universal Approximation Theorem
-A `Feedforward Neural Network` with a `single` hidden layer containing finite number of neurons can approximate any continuous function on compact subsets of $R^N$, under different assumptions of the `Activation Function`:
+A [[Neural Network|feed-forward neural network]] with a `single` hidden layer containing finite number of neurons can approximate any continuous function on compact subsets of $R^N$, under different assumptions of the [[Activation Function|activation functions]]:
 
 - Arbitrary width and bounded depth: [Hornik(1989)](https://www.cs.cmu.edu/~epxing/Class/10715/reading/Kornick_et_al.pdf) and [Cybenko(1989)](https://web.njit.edu/~usman/courses/cs675_fall18/10.1.1.441.7873.pdf)
 - Arbitrary depth and bounded width: [Lu et. al.(2017)](https://papers.nips.cc/paper_files/paper/2017/file/32cbf687880eb1674a07bf717761dd3a-Paper.pdf)
@@ -32,11 +32,18 @@ A `Feedforward Neural Network` with a `single` hidden layer containing finite nu
 
 ---
 ## Activation Functions
-`Activation Functions` $\sigma(\cdot)$ introduces `non-linearity` so that the `Neural Network` can represent non-linear functions.
-- `Relu`
+[[Activation Function|Activation function]] $\sigma(\cdot)$ introduces `non-linearity` so that the [[Neural Network]] can represent non-linear functions.
+- [[ReLU]]
 - [[Sigmoid Function]]
 - [[Softmax Function]]
-- `Tanh`
-- `Gelu`
+- [[Tanh Activation Function]]
+- [[GELU Function]]
 
+---
+## Debugging Neural Network
+- Overfit Test: Train and test model on training set.
+- Sanity Check: Ensure loss is going down.
+- [[Classical ML/Metrics/Confusion Matrix|Confusion Matrix]]
+- 2D Projection of Data: [[PCA Algorithm]], t-SNE
 
+---

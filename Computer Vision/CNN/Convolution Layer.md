@@ -56,7 +56,7 @@ $$
 ### No. of Parameters
 Given a [[Convolution Layer|convolution layer]] with
 - input channels: $c_{in}$
-- output channels: $c_{out}$
+- output channels: $c_{out} \ \text{(no. of filters)}$ 
 - kernel size: $k$
 - bias term
 
