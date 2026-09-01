@@ -1,5 +1,5 @@
 # ViT
-[[ViT (Vision Transformer)|Vision transformers]] adapt the [[Transformer|transformer architecture]] to computer vision tasks.
+[[ViT(Vision Transformer)|Vision transformers]] adapt the [[Transformer|transformer architecture]] to computer vision tasks.
 
 ![400](https://viso.ai/wp-content/uploads/2021/09/vision-transformer-vit.png)
 

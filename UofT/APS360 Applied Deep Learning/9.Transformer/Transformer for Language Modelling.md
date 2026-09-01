@@ -28,3 +28,4 @@ Compared to static embeddings like [[Word2Vec]] and [[GLoVe]], [[Transformer]](a
 - [[Recurrent Neural Network (RNN)]]
 - [[Word2Vec]]
 - [[GLoVe]]
+- [[ViT(Vision Transformer)]]

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UofT/APS360 Applied Deep Learning/9.Transformer/ViT (Vision Transformer).md",
-                "mode": "preview",
+                "file": "UofT/APS360 Applied Deep Learning/9.Transformer/Transformer for Language Modelling.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ViT (Vision Transformer)"
+              "title": "Transformer for Language Modelling"
             }
           },
           {
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5,
-    "collapsed": true
+    "width": 206.5
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -189,8 +188,11 @@
   },
   "active": "ed8ad04b4db1b270",
   "lastOpenFiles": [
+    "UofT/APS360 Applied Deep Learning/9.Transformer/Transformer.md",
+    "UofT/APS360 Applied Deep Learning/9.Transformer/APS360 Week-9.md",
+    "UofT/APS360 Applied Deep Learning/9.Transformer/Transformer for Language Modelling.md",
+    "UofT/APS360 Applied Deep Learning/9.Transformer/ViT(Vision Transformer).md",
     "UofT/APS360 Applied Deep Learning/8.GAN/APS360 Week-8.md",
-    "UofT/APS360 Applied Deep Learning/9.Transformer/ViT (Vision Transformer).md",
     "UofT/APS360 Applied Deep Learning/8.GAN/CycleGAN(2017).md",
     "UofT/APS360 Applied Deep Learning/5.Unsupervised Learning/APS360 Week-5.md",
     "UofT/APS360 Applied Deep Learning/5.Unsupervised Learning/Models/RotNet(2018).md",
@@ -209,11 +211,8 @@
     "Robotics/CSC376/CSC376 Course Links.md",
     "Robotics/CSC376/Chapter-2",
     "UofT/APS360 Applied Deep Learning/9.Transformer/Self-Attention.md",
-    "UofT/APS360 Applied Deep Learning/9.Transformer/Transformer.md",
     "UofT/APS360 Applied Deep Learning/9.Transformer/Multi-Head Attention.md",
-    "UofT/APS360 Applied Deep Learning/9.Transformer/APS360 Week-9.md",
     "UofT/APS360 Applied Deep Learning/9.Transformer/Attention Mechanism.md",
-    "UofT/APS360 Applied Deep Learning/9.Transformer/Transformer for Language Modelling.md",
     "UofT/APS360 Applied Deep Learning/2.Neural Network/Normalization/Normalization.md",
     "UofT/APS360 Applied Deep Learning/2.Neural Network/Normalization/Layer Normalization.md",
     "UofT/APS360 Applied Deep Learning/2.Neural Network/Normalization/Batch Normalization.md",
