@@ -125,6 +125,74 @@ For the [[Transformer]],
 - No recurrence, facilitates parallel computation.
 
 ---
+## Parameter Count
+**First LayerNorm**:
+First, we count the first [[Layer Normalization|layer normalization]]:
+$$
+d + d = 2d
+$$
+
+**Q,K,V Linear Projections**:
+Second, we count the parameters for linear projections
+$$
+\begin{align}
+Q &= X W^Q \\[6pt]
+K &= X W^K \\[6pt]
+V &= X W^V
+\end{align}
+$$
+Where:
+- $X$ is the matrix of [[Word2Vec|token embeddings]].
+- $W^{Q} \in \mathbb{R}^{d_{\text{model}} \times d_k}$ is the parameter matrix for [[Self-Attention|query]]
+- $W^{K} \in \mathbb{R}^{d_{\text{model}} \times d_k}$ is the parameter matrix for [[Self-Attention|key]]
+- $W^{V} \in \mathbb{R}^{d_{\text{model}} \times d_k}$ is the parameter matrix for [[Self-Attention|value]]
+
+These amounts to
+$$
+3 \times (d_{model} \times d_{k} + d_{k})
+$$
+and totalling across heads yield
+$$
+\begin{align}
+&3 \times h \times (d_{model} \times d_{k} + d_{k})
+\\[6pt]
+= \ &3 \times (d_{model} \cdot (h \cdot d_{k}) + (h \cdot d_{k})) \\[6pt]
+= \ &3 \  (d_{model} \times d_{model} + d_{model}) 
+\end{align}
+$$
+
+**Output Linear Projection**:
+These outputs then get concatenated
+$$
+\begin{align}
+\text{head}_{i} &= \text{softmax}\left( \frac{Q_{i}K_{i}^{T}}{\sqrt{ d_{k} }} \right) V_{i}
+\\[6pt]
+\text{Concat} &= [\text{head}_{1}, \ \text{head}_{2}, \ \dots \ \text{head}_{h}]
+\in \mathbb{R^{d_{model}}} \\[6pt]
+\text{Output} &= \text{Concat} \cdot W^{O}
+\end{align}
+$$
+where the output projection $W^{O}$ yields another
+$$
+d_{model} \times d_{model} + d_{model}
+$$
+
+**Second LayerNorm**
+We then apply layer norm again to get
+$$
+d + d = 2d
+$$
+After that, we pass it through two linear layers
+$$
+(d_{model} \times d_{h} + d_{h}) + (d_{model} \times d_{ff} + d_{ff})
+$$
+Adding it all together gets us
+$$
+\underbrace{4d^2 + 4d}_{\text{Attention (Q,K,V,O)}} + \underbrace{2d \cdot d_{ff} + d_{ff} + d}_{\text{Feedforward}} + \underbrace{4d}_{\text{2 LayerNorms}} = 4d^2 + 2d \cdot d_{ff} + d_{ff} + 9d
+$$
+
+
+---
 ## See Also
 - [A Good Blog](https://www.datacamp.com/tutorial/how-transformers-work)
 - [Code Examples](https://nlp.seas.harvard.edu/annotated-transformer/)
