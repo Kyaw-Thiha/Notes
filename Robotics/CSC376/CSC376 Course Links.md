@@ -1,0 +1,4 @@
+- [Modern Robotics Textbook](https://hades.mech.northwestern.edu/images/0/0c/MR-tablet-v2.pdf)
+- [Modern Robotics Video Series](http://modernrobotics.northwestern.edu/)
+- [Modern Robotics Course Slides](https://hades.mech.northwestern.edu/images/9/9d/MR-slides.zip)
+- [Modern Robotics Practice Exercise](https://hades.mech.northwestern.edu/images/e/ef/MR_practice_exercises.pdf)
