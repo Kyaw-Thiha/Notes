@@ -4,6 +4,7 @@
 - [Deep Learning by Chris Bishop](https://www.bishopbook.com/)
 - [Deep Learning by Goodfellow](https://www.deeplearningbook.org/)
 - [Blog by Lilian](https://lilianweng.github.io/)
+- [Skule Link for PastPapers](https://courses.skule.ca/course/APS360H1)
 
 ---
 ## Course Notes

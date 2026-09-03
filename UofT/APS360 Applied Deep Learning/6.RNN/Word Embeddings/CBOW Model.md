@@ -11,6 +11,12 @@ $$
 $$
 
 ---
+## Comparism to Skip-Gram
+Compared to [[Skip-Gram]],
+- [[Skip-Gram]] is better for small datasets and rare words.
+- [[CBOW Model]] is faster and better for frequent words.
+
+---
 ## See Also
 - [[Word2Vec]]
 - [[Skip-Gram]]

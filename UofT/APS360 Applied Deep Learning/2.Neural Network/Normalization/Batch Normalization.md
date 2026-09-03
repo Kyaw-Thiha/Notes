@@ -68,6 +68,14 @@ The drawbacks involves
 - Not suited for sequence models. They could have different lengths and smaller batch sizes corresponding to longer sequences.
 
 ---
+## Parameter Count
+Since it has $2$ learnable parameters: $\mu$ and $\sigma^{2}$, it has
+$$
+2 \times d_{model}
+$$
+parameters count.
+
+---
 ## See Also
 - [Good Article](https://www.pinecone.io/learn/batch-layer-normalization/)
 - [[Batch Normalization]]

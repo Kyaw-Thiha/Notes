@@ -44,3 +44,60 @@ The [[#Updated Long-Term Memory|updated long-term memory]] is the amount of past
 ![image|400](https://notes-media.kthiha.com/Long-Short-Term-Memory-(LSTM)/8548d4315f394b9c48a7a752dbde4733.png)
 
 ---
+## Formula
+The [[Long Short-Term Memory (LSTM)|forget gate]] is computed as
+$$
+f_t = \sigma(W_{f} \  x_t + U_f \ h_{t-1} + b_f)
+$$
+The [[Long Short-Term Memory (LSTM)|input gate]] is computed as
+$$
+i_t = \sigma(W_i \ x_t + U_i \ h_{t-1} + b_i)
+$$
+The current [[Long Short-Term Memory (LSTM)|cell state]] is then computed as
+$$
+\tilde{c}_t = \tanh(W_c \ x_t + U_c \ h_{t-1} + b_c)
+$$
+The new [[Long Short-Term Memory (LSTM)|cell state]] is computed as
+$$
+c_t = f_t \odot c_{t-1} + i_t \odot \tilde{c}_t
+$$
+The [[Long Short-Term Memory (LSTM)|output gate]] is computed as
+$$
+o_t = \sigma(W_o \ x_t + U_o \ h_{t-1} + b_o)
+$$
+The new [[Long Short-Term Memory (LSTM)|hidden state]] is finally computed as
+$$
+h_t = o_t \odot \tanh(c_t)
+$$
+Note that this $h_{t}$ and $c_{t}$ are used in future time-step.
+
+---
+## Parameter Count
+An [[Long Short-Term Memory (LSTM)|LSTM]] has $3$ gate matrices and $1$ cell matrix.
+Each gate can be represented by 
+$$
+f_{t} = \sigma(W_{x}x_{t} + W_{h}h_{t-1} + b)
+$$
+This gets us the following parameters:
+$$
+\underbrace{h\cdot x}_{W_{x}} + 
+\underbrace{h\cdot h}_{W_{h}} + 
+\underbrace{h}_{b} = h(x+h+1)
+$$
+
+Given $3$ gates and $1$ cell state, its parameter count is
+$$
+4hd + 4h^{2} + 4h
+$$
+where
+- $d$ is the input size
+- $h$ is the hidden size
+
+---
+## See Also
+- [[Recurrent Neural Network (RNN)]]
+- [[Bidirectional RNN]]
+- [[Deep RNN]]
+- [[Sequence to Sequence RNN]]
+- [[Gated Recurrent Unit(GRU)]]
+- [[Long Short-Term Memory (LSTM)]]

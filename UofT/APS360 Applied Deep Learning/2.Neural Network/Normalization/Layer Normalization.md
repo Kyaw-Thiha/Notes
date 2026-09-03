@@ -33,6 +33,14 @@ Compared to [[Batch Normalization|batch normalization]],
 - and does not depend on [[batch size]]
 
 ---
+## Parameter Count
+Since it has $2$ learnable parameters: $\mu$ and $\sigma^{2}$, it has
+$$
+2 \times d_{model}
+$$
+parameters count.
+
+---
 ## See Also
 - [Good Article](https://www.pinecone.io/learn/batch-layer-normalization/)
 - [[Batch Normalization]]

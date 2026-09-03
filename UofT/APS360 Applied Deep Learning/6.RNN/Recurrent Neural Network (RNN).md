@@ -53,5 +53,23 @@ Use [[Skip Connections|skip connections]] to ensure hidden state over the long t
 ![image|400](https://notes-media.kthiha.com/Recurrent-Neural-Network-(RNN)/0d1d3ca653583025333fdff6a074fdd3.png)
 
 ---
+## No. of Parameters
+A [[Recurrent Neural Network (RNN)|RNN]] has
+- $W_{xh} \in \mathbb{R}^{d \times h}$
+- $W_{hh} \in \mathbb{R}^{h \times h}$
+- $b \in \mathbb{R}^{h}$
+
+Hence, its parameter count is 
+$$
+(d \times h) + (h \times h) + h
+$$
+
+---
 ## See Also
 - [[Recurrent Neural Network (RNN)]]
+- [[Bidirectional RNN]]
+- [[Deep RNN]]
+- [[Sequence to Sequence RNN]]
+- [[Gated Recurrent Unit(GRU)]]
+- [[Long Short-Term Memory (LSTM)]]
+- [[Transformer]]

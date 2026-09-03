@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f4824d8d19b69cb6",
+        "id": "19800609a8acb01b",
         "type": "tabs",
         "children": [
           {
-            "id": "ed8ad04b4db1b270",
+            "id": "ed03320ff137b52f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UofT/APS360 Applied Deep Learning/9.Transformer/ViT(Vision Transformer).md",
+                "file": "UofT/APS360 Applied Deep Learning/6.RNN/Recurrent Neural Network (RNN).md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ViT(Vision Transformer)"
-            }
-          },
-          {
-            "id": "413cb56fdadfbf8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UofT/APS360 Applied Deep Learning/2.Neural Network/Normalization/Batch Normalization.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Batch Normalization"
+              "title": "Recurrent Neural Network (RNN)"
             }
           }
         ]
@@ -187,12 +173,27 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ed8ad04b4db1b270",
+  "active": "ed03320ff137b52f",
   "lastOpenFiles": [
+    "UofT/APS360 Applied Deep Learning/7.RNN/Gated Recurrent Unit(GRU).md",
+    "UofT/APS360 Applied Deep Learning/7.RNN/Sequence to Sequence RNN.md",
+    "UofT/APS360 Applied Deep Learning/7.RNN/Long Short-Term Memory (LSTM).md",
+    "UofT/APS360 Applied Deep Learning/2.Neural Network/Normalization/Batch Normalization.md",
+    "UofT/APS360 Applied Deep Learning/2.Neural Network/Normalization/Layer Normalization.md",
+    "UofT/B07 Software Design/SOLID Design Principles/Liskov Substitution Principle.md",
+    "UofT/APS360 Applied Deep Learning/7.RNN/Bidirectional RNN.md",
+    "UofT/APS360 Applied Deep Learning/7.RNN/Deep RNN.md",
+    "UofT/APS360 Applied Deep Learning/6.RNN/Recurrent Neural Network (RNN).md",
+    "UofT/APS360 Applied Deep Learning/APS360 Course Links.md",
+    "UofT/APS360 Applied Deep Learning/6.RNN/Word Embeddings/CBOW Model.md",
+    "UofT/APS360 Applied Deep Learning/6.RNN/Word Embeddings/Skip-Gram.md",
+    "UofT/APS360 Applied Deep Learning/9.Transformer/ViT(Vision Transformer).md",
+    "Computer Vision/CNN/Convolution Layer.md",
+    "UofT/APS360 Applied Deep Learning/3.CNN/APS360 Week-3.md",
+    "UofT/APS360 Applied Deep Learning/9.Transformer/Multi-Head Attention.md",
     "UofT/APS360 Applied Deep Learning/9.Transformer/Transformer for Language Modelling.md",
     "UofT/APS360 Applied Deep Learning/9.Transformer/APS360 Week-9.md",
     "UofT/APS360 Applied Deep Learning/9.Transformer/Transformer.md",
-    "UofT/APS360 Applied Deep Learning/9.Transformer/ViT(Vision Transformer).md",
     "UofT/APS360 Applied Deep Learning/8.GAN/APS360 Week-8.md",
     "UofT/APS360 Applied Deep Learning/8.GAN/CycleGAN(2017).md",
     "UofT/APS360 Applied Deep Learning/5.Unsupervised Learning/APS360 Week-5.md",
@@ -201,23 +202,8 @@
     "Classical ML/Metrics/Distance Measure.md",
     "UofT/APS360 Applied Deep Learning/4.CNN/Saliency Map.md",
     "UofT/APS360 Applied Deep Learning/5.Unsupervised Learning/Models",
-    "UofT/APS360 Applied Deep Learning/1.Neural Networks/APS360 Week-1.md",
-    "Classical ML/Models/Neural Network/Neural Network.md",
-    "Classical ML/Models/Neural Network/Vectorizing Neural Network.md",
-    "Classical ML/Models/Neural Network/Backpropagation.md",
-    "Classical ML/Models/Neural Network/Backpropagation Example.md",
-    "Robotics/CSC376/Chapter-2/(2.1)DOF of Rigid Body/Degrees of Freedom.md",
-    "Robotics/CSC376/Chapter-2/(2.1)DOF of Rigid Body/Rigid Body.md",
     "Robotics/CSC376/Chapter-2/(2.1)DOF of Rigid Body",
-    "Robotics/CSC376/CSC376 Course Links.md",
     "Robotics/CSC376/Chapter-2",
-    "UofT/APS360 Applied Deep Learning/9.Transformer/Self-Attention.md",
-    "UofT/APS360 Applied Deep Learning/9.Transformer/Multi-Head Attention.md",
-    "UofT/APS360 Applied Deep Learning/9.Transformer/Attention Mechanism.md",
-    "UofT/APS360 Applied Deep Learning/2.Neural Network/Normalization/Normalization.md",
-    "UofT/APS360 Applied Deep Learning/2.Neural Network/Normalization/Layer Normalization.md",
-    "UofT/APS360 Applied Deep Learning/2.Neural Network/Normalization/Batch Normalization.md",
-    "UofT/APS360 Applied Deep Learning/5.Unsupervised Learning/Contrastive Learning.md",
     "Robotics/CSC376",
     "UofT/APS360 Applied Deep Learning/1.Neural Networks/Activation Functions",
     "UofT/APS360 Applied Deep Learning/10.GNN",

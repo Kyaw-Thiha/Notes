@@ -13,3 +13,11 @@ It takes advantage of the fact that in certain sequential task, a prediction dep
 At each time step, the hidden state is obtained by concatentating (or sum/avg) the forward and backward hidden states.
 
 ---
+## See Also
+- [[Recurrent Neural Network (RNN)]]
+- [[Bidirectional RNN]]
+- [[Deep RNN]]
+- [[Sequence to Sequence RNN]]
+- [[Gated Recurrent Unit(GRU)]]
+- [[Long Short-Term Memory (LSTM)]]
+- [[Transformer]]
