@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Robotics/CSC376/Chapter-2/(2.1)DOF of Rigid Body/Degrees of Freedom(DOF).md",
-                "mode": "preview",
+                "file": "Robotics/CSC376/Chapter-2/(2.2)DOF of Robot/Stewart Platform.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Degrees of Freedom(DOF)"
+              "title": "Stewart Platform"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5,
-    "collapsed": true
+    "width": 206.5
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -175,8 +174,12 @@
   },
   "active": "ed03320ff137b52f",
   "lastOpenFiles": [
+    "Robotics/CSC376/Chapter-2/(2.2)DOF of Robot/Joint.md",
+    "Robotics/CSC376/Chapter-2/(2.2)DOF of Robot/Grubler's Formula.md",
     "Robotics/CSC376/Chapter-2/(2.1)DOF of Rigid Body/Rigid Body.md",
+    "Robotics/CSC376/Chapter-2/(2.2)DOF of Robot/Stewart Platform.md",
     "Robotics/CSC376/Chapter-2/(2.1)DOF of Rigid Body/Degrees of Freedom(DOF).md",
+    "Robotics/CSC376/Chapter-2/(2.2)DOF of Robot",
     "Robotics/CSC376/CSC376 Course Links.md",
     "UofT/APS360 Applied Deep Learning/APS360 Final Notes.md",
     "UofT/APS360 Applied Deep Learning/9.Transformer/Multi-Head Attention.md",
@@ -198,9 +201,6 @@
     "UofT/APS360 Applied Deep Learning/7.RNN/Deep RNN.md",
     "UofT/APS360 Applied Deep Learning/6.RNN/Word Embeddings/CBOW Model.md",
     "UofT/APS360 Applied Deep Learning/6.RNN/Word Embeddings/Skip-Gram.md",
-    "UofT/APS360 Applied Deep Learning/9.Transformer/ViT(Vision Transformer).md",
-    "UofT/APS360 Applied Deep Learning/3.CNN/APS360 Week-3.md",
-    "UofT/APS360 Applied Deep Learning/9.Transformer/Transformer for Language Modelling.md",
     "UofT/APS360 Applied Deep Learning/5.Unsupervised Learning/Models",
     "Robotics/CSC376/Chapter-2/(2.1)DOF of Rigid Body",
     "Robotics/CSC376/Chapter-2",
@@ -210,7 +210,6 @@
     "10.",
     "UofT/APS360 Applied Deep Learning/9.Transformer",
     "UofT/APS360 Applied Deep Learning/8.GAN",
-    "UofT/APS360 Applied Deep Learning/7.RNN",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet (2021).webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",
