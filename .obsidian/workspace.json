@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UofT/C73 Algorithms Design/CSCC73 Course.md",
+                "file": "UofT/C73 Algorithms Design/1.Interval Scheduling/Interval Scheduling.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSCC73 Course"
+              "title": "Interval Scheduling"
             }
           }
         ]
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5
+    "width": 206.5,
+    "collapsed": true
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -174,12 +175,17 @@
   },
   "active": "ed03320ff137b52f",
   "lastOpenFiles": [
+    "UofT/C73 Algorithms Design/CSCC73 Course.md",
+    "UofT/C73 Algorithms Design/1.Interval Scheduling/Interval Scheduling.md",
+    "UofT/C73 Algorithms Design/1.Interval Scheduling/Greedy Algorithm.md",
+    "Robotics/CSCC85/Fault Tolerance/Fault Tolerances.md",
+    "Classical ML/Models/Decision Trees/Greedy Algorithm(Decision Tree).md",
+    "UofT/C73 Algorithms Design/1.Interval Scheduling",
     "Robotics/CSC376/Chapter-2/(2.2)DOF of Robot/Joint.md",
     "Robotics/CSC376/Chapter-2/(2.2)DOF of Robot/Grubler's Formula.md",
     "Robotics/CSC376/Chapter-2/(2.2)DOF of Robot/Stewart Platform.md",
     "Robotics/CSC376/Chapter-2/(2.1)DOF of Rigid Body/Rigid Body.md",
     "Robotics/CSC376/Chapter-2/(2.1)DOF of Rigid Body/Degrees of Freedom(DOF).md",
-    "UofT/C73 Algorithms Design/CSCC73 Course.md",
     "UofT/STAB57 Intro to Stats/Week-1/STAB57 Week-1.md",
     "UofT/C73 Algorithms Design",
     "UofT/STAB57 Intro to Stats/Week-1/Indicator Function.md",
@@ -200,16 +206,11 @@
     "UofT/APS360 Applied Deep Learning/9.Transformer/Multi-Head Attention.md",
     "UofT/APS360 Applied Deep Learning/APS360 Course Links.md",
     "Computer Vision/CNN/Pooling Layer.md",
-    "Computer Vision/CNN/Convolution Layer.md",
-    "UofT/APS360 Applied Deep Learning/9.Transformer/Transformer.md",
-    "UofT/APS360 Applied Deep Learning/9.Transformer/Self-Attention.md",
-    "UofT/APS360 Applied Deep Learning/9.Transformer/Attention Mechanism.md",
     "UofT/APS360 Applied Deep Learning/5.Unsupervised Learning/Models",
     "Robotics/CSC376/Chapter-2/(2.1)DOF of Rigid Body",
     "Robotics/CSC376/Chapter-2",
     "Robotics/CSC376",
     "UofT/APS360 Applied Deep Learning/1.Neural Networks/Activation Functions",
-    "UofT/APS360 Applied Deep Learning/10.GNN",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet (2021).webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",
