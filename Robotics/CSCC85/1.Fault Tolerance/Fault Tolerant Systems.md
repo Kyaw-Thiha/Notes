@@ -21,6 +21,9 @@ Mainly used for systems where
 `2. Availability`
 Availability $A(t)$ is a measure of probability that a system is performing correctly and is available to carry out its function at time $t$.
 
+> Its the time system is up and working at time $t$.
+> It makes sense for websites, but not for say airliner.
+
 `3. Maintainability`
 Maintainability is a measure of probability that the system can be restored to correct operation within time bound after failure.
 - `MTTR`: Average time to restore service after failure

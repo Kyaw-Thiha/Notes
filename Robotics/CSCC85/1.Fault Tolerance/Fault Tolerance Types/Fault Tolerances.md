@@ -1,13 +1,12 @@
 # Fault Tolerances
 #robotics/fault-tolerance 
 
-`Fault tolerance` is the property of a system that allows it to handle a certain number of flaws while
-still fulfilling its correct function. 
+[[Fault Tolerances|Fault tolerance]] is the property of a system that allows it to handle a certain number of flaws while still fulfilling its correct function. 
 
 There are 3 different faults to consider:
-1. Hardware Fault Tolerance
-2. Software Fault Tolerance
-3. Information Fault Tolerance
+1. [[#Hardware Fault Tolerance]]
+2. [[#Software Fault Tolerance]]
+3. [[#Information Fault Tolerance]]
 
 ---
 ## Hardware Fault Tolerance
