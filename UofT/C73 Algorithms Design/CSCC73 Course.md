@@ -8,3 +8,6 @@ More Resources:
 - [Advice on presenting algorithms and proofs](https://www.cs.toronto.edu/~vassos/teaching/c73/handouts/AssignmentPresentation.pdf)
 
 ---
+## Login
+- Username: `student`
+- Password: `I<3C73`
