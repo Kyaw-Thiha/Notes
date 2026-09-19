@@ -25,7 +25,7 @@ This means that for $K$ features, we will have $(N_{j} - 1)^K$ possible threshol
 ## Choosing optimal threshold
 Compute [[Information Gain]] over each of the features $j$.
 Choose the feature threshold with highest `Information Gain`.
-This is done through the [[Greedy Algorithm]].
+This is done through the [[Greedy Algorithm(Decision Tree)]].
 
 ---
 ## Decision Tree vs [[K-NN]]

@@ -81,4 +81,4 @@ where stopping criteria can be
 ## See Also
 - [[Entropy]]
 - [[Classical ML/Models/Decision Trees/Decision Tree]]
-- [[Greedy Algorithm]]
+- [[Greedy Algorithm(Decision Tree)]]

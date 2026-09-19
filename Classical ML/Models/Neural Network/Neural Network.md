@@ -47,3 +47,12 @@ A [[Neural Network|feed-forward neural network]] with a `single` hidden layer co
 - 2D Projection of Data: [[PCA Algorithm]], t-SNE
 
 ---
+## Parameter Count
+$$
+a \times b + b
+$$
+where
+- $a$ is input layer neurons count
+- $b$ is output layer neurons count
+
+---
