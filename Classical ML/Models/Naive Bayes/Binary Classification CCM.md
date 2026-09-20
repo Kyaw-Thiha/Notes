@@ -21,7 +21,7 @@ Given data $\{ (x_{i}, y_{i}) \}^N_{i=1}$, $y_{i} \in \{ c_{1}, c_{2} \}$,
   Use all $x_{i} \text{ s.t. } y_{i} = c_{1}$  to learn $p(x \ | \ y = c_{1})$
   Use all $x_{i} \text{ s.t. } y_{i} = c_{2}$  to learn $p(x \ | \ y = c_{2})$
   
-We can then assume [[Gaussian Distribution]] of the `likelihood`
+We can then assume [[Gaussian Distribution (Normal Distribution)]] of the `likelihood`
 $$
 P(x | y = c_{i}) = G(x; \mu_{i}, \Sigma_{i})
 $$

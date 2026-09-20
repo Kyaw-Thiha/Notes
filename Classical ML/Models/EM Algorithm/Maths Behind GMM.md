@@ -19,7 +19,7 @@ Let $\theta = \{ m_{1:K}, \mu_{1:K}, C_{1:K} \}$ be the parameters to learn.
 
 ---
 `Component Likelihood`
-Since each component likelihood is modelled as [[Gaussian Distribution]], we get
+Since each component likelihood is modelled as [[Gaussian Distribution (Normal Distribution)]], we get
 $$
 p(y \ | \ l=j, \theta) = G(y; \ \mu_{j}, C_{j})
 $$

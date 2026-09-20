@@ -1,6 +1,6 @@
 # Gaussian CCM
 
-`Gaussian CCM` is a [[Class-Conditional Model]] that assume likelihoods to be [[Gaussian Distribution]]
+`Gaussian CCM` is a [[Class-Conditional Model]] that assume likelihoods to be [[Gaussian Distribution (Normal Distribution)]]
 $$
 p(x|c_{i}) = \frac{1}{(2\pi)^D |\Sigma_{i}|^{1/2}} \exp\left( -\frac{1}{2} (x - \mu_{i}) \Sigma^{-1}_{i} (x - \mu_{i}) \right)
 $$
@@ -65,7 +65,7 @@ $$
 
 ---
 ## Remarks
-- If the likelihoods $p(x|c_{i})$ are not [[Gaussian Distribution]], then `Gaussian CCM` perform horribly.
+- If the likelihoods $p(x|c_{i})$ are not [[Gaussian Distribution (Normal Distribution)]], then `Gaussian CCM` perform horribly.
 - No. of parameters in `Covariance Matrix`: $\frac{D(D+1)}{2} \sim O(D^2)$ 
   Hence, no. of parameters is very large in high dimensional data
 - We need a huge amount of data to estimate the parameters

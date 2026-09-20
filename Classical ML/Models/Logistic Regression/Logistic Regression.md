@@ -68,7 +68,7 @@ $$
 
 `Remarks`
 - For `Exponential Distribution Family`, the `decision boundary` is always linear.
-- Note that we only assuming `posterior` to be [[Gaussian Distribution]].
+- Note that we only assuming `posterior` to be [[Gaussian Distribution (Normal Distribution)]].
   The `likelihood` and `prior` can be either `Gaussian` or `Non-Gaussian`.
 - Recall that in [[Gaussian CCM]], `decision boundary` is linear when $\Sigma_{1} = \Sigma_{2}$.
 

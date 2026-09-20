@@ -85,7 +85,7 @@ $$
 
 `Proof`
 Suppose $x \sim N(\mu, \Sigma)$ and $y = Ax + b$.
-Since `linear transformation` of [[Gaussian Distribution]] is another [[Gaussian Distribution]], we get that
+Since `linear transformation` of [[Gaussian Distribution (Normal Distribution)]] is another [[Gaussian Distribution (Normal Distribution)]], we get that
 $$
 y \sim N(A\mu+b, \ A \ \Sigma A^T)
 $$

@@ -1,7 +1,7 @@
 # Gaussian Mixture Model
 #ml/classic-models/mixture-model/gaussian  
 
-This is a [[Mixture Model]] where the data distributions are modelled as [[Gaussian Distribution]].
+This is a [[Mixture Model]] where the data distributions are modelled as [[Gaussian Distribution (Normal Distribution)]].
 
 ![GMM|400](https://towardsdatascience.com/wp-content/uploads/2023/01/1GWkzcCKBqQV7GgwTaa4l4g.gif)
 
