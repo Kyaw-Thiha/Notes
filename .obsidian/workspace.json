@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UofT/STAB57 Intro to Stats/Week-2/Maximum Likelihood Estimation(MLE).md",
-                "mode": "source",
+                "file": "UofT/C73 Algorithms Design/2./Huffman Algorithm.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Maximum Likelihood Estimation(MLE)"
+              "title": "Huffman Algorithm"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5,
-    "collapsed": true
+    "width": 206.5
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -175,8 +174,12 @@
   },
   "active": "ed03320ff137b52f",
   "lastOpenFiles": [
-    "UofT/STAB57 Intro to Stats/Week-1/Central Limit Theorem(CLT).md",
+    "UofT/C73 Algorithms Design/CSCC73 Course.md",
+    "Classical ML/Maths/Gaussian Distribution (Normal Distribution).md",
+    "UofT/STAB57 Intro to Stats/Week-1/Moment Generating Function(MGF).md",
+    "UofT/STAB57 Intro to Stats/Week-1/Linear Combination of Normal Variables.md",
     "UofT/STAB57 Intro to Stats/Week-2/Maximum Likelihood Estimation(MLE).md",
+    "UofT/STAB57 Intro to Stats/Week-1/Central Limit Theorem(CLT).md",
     "UofT/STAB57 Intro to Stats/Week-2/Likelihood Function.md",
     "Pattern Recognition/Week-2a/MLE Review.md",
     "UofT/STAB57 Intro to Stats/Week-2/Method of Moments Estimation.md",
@@ -202,12 +205,8 @@
     "UofT/C73 Algorithms Design/2./Knapsack.md",
     "UofT/C73 Algorithms Design/2./Maximum Lateness Scheduling.md",
     "UofT/STAB57 Intro to Stats/Week-2",
-    "UofT/C73 Algorithms Design/CSCC73 Course.md",
     "UofT/C73 Algorithms Design/2.",
-    "UofT/STAB57 Intro to Stats/Week-1/Linear Combination of Normal Variables.md",
-    "UofT/STAB57 Intro to Stats/Week-1/Moment Generating Function(MGF).md",
     "UofT/STAB57 Intro to Stats/Week-1/Covariance.md",
-    "UofT/STAB57 Intro to Stats/Week-1/Expectation.md",
     "UofT/C73 Algorithms Design/1.Interval Scheduling",
     "UofT/C73 Algorithms Design",
     "UofT/STAB57 Intro to Stats/Week-1",

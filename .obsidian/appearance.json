@@ -1,11 +1,12 @@
 {
   "baseFontSize": 20,
   "nativeMenus": false,
-  "cssTheme": "Typewriter",
+  "cssTheme": "Blue Topaz",
   "enabledCssSnippets": [
     "center-mermaid",
     "small-code",
     "spacing-fix"
   ],
-  "showRibbon": false
+  "showRibbon": false,
+  "theme": "system"
 }
