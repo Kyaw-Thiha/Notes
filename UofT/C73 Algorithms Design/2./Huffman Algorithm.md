@@ -2,6 +2,8 @@
 Let $\Gamma$ be the alphabet with $|\Gamma| \geq 2$.
 Code for $\Gamma$ be a function from $\Gamma$ to $\{ 0,1 \}^{*}$.
 
+![image|350](https://notes-media.kthiha.com/Huffman-Algorithm/1286ada1af9f1ee6b3ae441797bf36a4.png)
+
 E.g: ASCII fixed-length code of $[ \ \log_{2}(|\Gamma|) \ ]$ bits per symbol.
 In here, same $8$ bits for letters that may not be used that often.
 So instead, [[Huffman Algorithm|Huffman algorithm]] gets us variable-length code.
@@ -27,12 +29,21 @@ $$
 \text{depth of leaf } x \text{ in T}}
 $$
 
+For example, here is a possible tree, with suboptimal pair highlighted:
+
+![image|350](https://notes-media.kthiha.com/Huffman-Algorithm/e70ca9765e550238b68f33f8d32babcd.png)
+
+And here is the optimal version:
+
+![image|350](https://notes-media.kthiha.com/Huffman-Algorithm/86aa4e96cad73a99b3ffe48990b417f2.png)
+
 ---
 ## Observations
 - An optimal tree must be a full tree. 
 - If $x, \ y$ are symbols with minimum frequency, then $\exists$ an optimal tree $s.t.$ $x \ \& \ y$ are siblings with max depth.
 
 ---
+## Algorithm
 - Create nodes with leaves for all the symbols.
 - Find $x, y = \text{min freq symbls}$.
 - Remove $x$ & $y$ from $\Gamma$ and replace them by $z$(new symbol) with frequency $f(x) + f(y)$.
