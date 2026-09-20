@@ -1,9 +1,14 @@
+# Moment Generating Function (MGF)
+The [[Moment Generating Function(MGF)|MGF]] is defined as
 $$
 M_{X}(t) = E[e^{tx}]
 $$
+where
 - $E[X^{k}] = \frac{d^{k}}{dt^{k}} M_{x}(t)$
 - Uniquely identifies a PDF.
 
+---
+## Independance
 If $x \ \& \ y$ are independent, 
 $$
 M_{x+y}(t) = M_{x}(t) * M_{y}(t)

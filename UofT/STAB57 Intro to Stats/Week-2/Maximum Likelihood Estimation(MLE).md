@@ -65,6 +65,11 @@ $$
 Let $\hat{\theta}$ be [[Maximum Likelihood Estimation(MLE)|MLE]] of $\theta$ and $\phi(\theta)$ be any $1\text{-}1$ function of $\theta$ defined on $\Omega$.
 Then, $\phi(\hat{\theta})$ is the [[Maximum Likelihood Estimation(MLE)|MLE]] of $\phi(\theta)$.
 
+For example, 
+- For $\text{Bern}(\theta)$, [[Maximum Likelihood Estimation(MLE)|MLE]] for $\theta$ is $\bar{X}$.
+- For $\theta \in [0,1]$, $\theta^{2}$ is a one-one function of $\theta$.
+- Hence, the [[Maximum Likelihood Estimation(MLE)|MLE]] for $\theta^{2}$ is $\bar{X}^{2}$.
+
 ---
 ## Examples
 ### Example-1
@@ -128,6 +133,76 @@ $$
 f(x) = \frac{1}{\sqrt{ 2x \sigma^{2}_{0} }}
 \exp\left[ - \frac{1}{2\sigma^{2}_{0}} (x-\mu)^{2}
 \right]
+$$
+Computing the likelihood function, we get
+$$
+\begin{align}
+L(\mu)
+&= f(x_{1}) * f(x_{2}) * \dots * f(x_{n}) \\[6pt]
+&= \frac{1}{\sqrt{ 2\pi \sigma^{2} }} \exp \left[ -\frac{1}{2\sigma^{2}} 
+(x_{1} - \mu)^{2} \right]  
+* \frac{1}{\sqrt{ 2\pi \sigma^{2} }} \exp \left[ -\frac{1}{2\sigma^{2}} 
+(x_{2} - \mu)^{2} \right] * \\[6pt]
+&  \dots * \frac{1}{\sqrt{ 2\pi \sigma^{2} }} \exp  
+\left[ -\frac{1}{2\sigma^{2}} (x_{n} - \mu)^{2} \right] \\[6pt]
+&= \left( \frac{1}{2\pi \sigma^{2}} \right)^{n} \exp \left[ -\frac{1} 
+{2\sigma^{2}} \sum(x_{i} - \mu)^{2} \right]
+\end{align}
+$$
+
+Taking the [[Log Likelihood|log likelihood]], we get
+$$
+l(\mu) = \text{const} - \frac{1}{2\sigma^{2}} \sum(x_{i}-\mu)^{2}
+$$
+Taking the derivative to $0$, we get
+$$
+\begin{align}
+&\frac{dl(\mu)}{d\mu} = 0 \\[6pt]
+\implies &0 - \frac{1}{2\sigma^{2}} \ 2\sum(x_{i} - \mu)(-1) = 0 \\[6pt]
+\implies &\sum(x_{i} - \mu) = 0 \\[6pt]
+\implies &\sum x_{i} - \sum \mu = 0 \\[6pt]
+\implies &\sum x_{i} - n \mu = 0 \\[6pt]
+\implies &\hat{\mu} = \frac{\sum x_{i}}{n} = \bar{x}
+\end{align}
+$$
+
+---
+### Example-3
+**Question**: Let $X_{1}, X_{2}, \dots, X_{n} \overset{iid}{\sim} \text{Bernoulli}(\theta)$ where $\sigma^{2}_{0}$ is known. Find the [[Maximum Likelihood Estimation(MLE)|MLE]] of $\lambda$.
+
+**Solution**: Recall that the PDF is of
+$$
+P[X=x] = \theta^{x}(1-\theta)^{(1-x)}
+$$
+
+Computing the likelihood function, we get
+$$
+\begin{align}
+L(\theta)
+&= P[X_{1} = x_{1}] * P[X_{2} = x_{2}] * \dots * P[X_{n} = x_{n}] \\[6pt]
+&= \theta^{x_{1}}(1-\theta)^{1-x_{1}} * \theta^{x_{2}}(1-\theta)^{1-x_{2}} *
+\dots * \theta^{x_{n}}(1-\theta)^{1-x_{n}} \\[6pt]
+&= \theta^{\sum x_{i}} (1-\theta)^{n - \sum x_{i}}
+\end{align}
+$$
+Taking the [[Log Likelihood|log likelihood]], we get
+$$
+l(\theta)
+= \sum x_{i} \log(\theta) + \left( n - \sum x_{i} \right) \log(1 - \theta)
+$$
+
+Taking the derivative to $0$, we get
+$$
+\begin{align}
+&\frac{dl(\theta)}{d\theta} = 0 \\[6pt]
+\implies & \frac{\sum x_{i}}{\theta} - \frac{n - \sum x_{i}}{1 - \theta}
+= 0 \\[6pt]
+\implies & \frac{\sum x_{i}}{\theta} = \frac{n - \sum x_{i}}{1- \theta} \\[6pt]
+\implies & \frac{1-\theta}{\theta} = \frac{n - \sum x_{i}}{\sum x_{i}} \\[6pt]
+\implies & \frac{1}{\theta} - 1 = \frac{n}{\sum x_{i}} - 1 \\[6pt]
+\implies & \frac{1}{\theta} = \frac{n}{\sum x_{i}} \\[6pt]
+\implies & \hat{\theta} = \frac{\sum x_{i}}{n} = \bar{x} \\[6pt]
+\end{align}
 $$
 
 ---
