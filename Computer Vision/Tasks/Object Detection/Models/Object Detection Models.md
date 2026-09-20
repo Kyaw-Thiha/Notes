@@ -24,7 +24,7 @@ Although it achieves high accuracy at its time, it has slow computation speed.
 `Fast R-CNN (2015)`
 Its main algorithm was
 1. Uses single [[Convolutional Neural Network (CNN)|CNN]] pass to obtain image features
-2. Introduces `Region of Interest (ROI)` [[Pooling]].
+2. Introduces `Region of Interest (ROI)` [[Pooling Layer]].
    This pools image features for each proposal obtained through selective search algorithm.
 
 Its main innovations were

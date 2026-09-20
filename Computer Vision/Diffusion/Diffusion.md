@@ -3,7 +3,7 @@
 
 ![Diffusion|300](https://media.geeksforgeeks.org/wp-content/uploads/20250804190118579985/diffusion_model.webp)
 
-- **[[#Forward Diffusion Process|Forward Process]]:** Gradually adds [[Gaussian Distribution|gaussian noise]] to training data over many steps.
+- **[[#Forward Diffusion Process|Forward Process]]:** Gradually adds [[Gaussian Distribution (Normal Distribution)|gaussian noise]] to training data over many steps.
 - **[[#Reverse Diffusion Process|Reverse Process]]:** Uses a [[Neural Network|neural network]] to predict and remove the added noise step by step.
 - **Inference:** Starts from pure random noise and applies the learned reverse steps iteratively.
 
@@ -39,14 +39,14 @@ q(x_{1:T} \mid x_{0})
 $$
 The data sample $x_{0}$ gradually loses its distinguishable features as step $t$ becomes larger.
 
-When $T\to \infty$, $x_{T}$ is equivalent to an [[Gaussian Distribution|isotropic Gaussian distribution]].
+When $T\to \infty$, $x_{T}$ is equivalent to an [[Gaussian Distribution (Normal Distribution)|isotropic Gaussian distribution]].
 
 ---
 ### Closed Form using Reparameterization Trick
 Using [[Maths Behind VAE|reparameterization trick]]([external](https://lilianweng.github.io/posts/2018-08-12-vae/#reparameterization-trick)), we can sample $x_{t}$ at any arbitrary time step $t$ in a closed form.
 
 **Merging Gaussian Distribution**:
-Suppose we merge two [[Gaussian Distribution|Gaussian distributions]] with different variances of
+Suppose we merge two [[Gaussian Distribution (Normal Distribution)|Gaussian distributions]] with different variances of
 $$
 \mathcal{N}(0, \ \sigma^{2}_{1}\mathbf{I})
 \ \quad \text{and} \quad  \ 

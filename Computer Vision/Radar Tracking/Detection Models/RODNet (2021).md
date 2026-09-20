@@ -88,7 +88,7 @@ where
 The `M-Net` combine chirp level features into frame-level features.
 
 - `Input` is the RF images of 1 frame with $n$ chirps $(C_{RF}, n, H, W)$
-- To merge features $n$ chirps into $1$, a [[Pooling|temporal max pooling layer]] is applied.
+- To merge features $n$ chirps into $1$, a [[Pooling Layer|temporal max pooling layer]] is applied.
 - `Output` is the radar frame features of $(C_{1}, H, W)$ where $C_{1}$ is no. of `filters` for temporal convolution.
 
 Essentially, `M-Net` acts as `Doppler compensated FFT` that can be trained end-to-end in the [[Neural Network]].

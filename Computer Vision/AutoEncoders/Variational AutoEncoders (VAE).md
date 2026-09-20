@@ -6,7 +6,7 @@ Compared to [[AutoEncoders|basic autoencoders]], instead of producing one latent
 ![Variational AutoEncoder Architecture|400](https://media.geeksforgeeks.org/wp-content/uploads/20231201153426/Variational-AutoEncoder.png)
 
 
-They can be used to define a [[Gaussian Distribution]]: 
+They can be used to define a [[Gaussian Distribution (Normal Distribution)]]: 
 $$
 q(z | x) = N(z; \mu(x), \alpha^2(x).I)
 $$
