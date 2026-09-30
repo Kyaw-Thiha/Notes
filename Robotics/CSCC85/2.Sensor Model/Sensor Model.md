@@ -11,7 +11,7 @@ where
 - $f(x)$ is a simple function (`linear`/`logarithmic`) that represents the sensor response $r(x)$
 
 ---
-`Simple Model`
+## Simple Model
 The simplest model for sensors is an `affine model`
 $$
 r(x) = ax + b
@@ -48,6 +48,20 @@ where
   Average of noise values should approach $0$.
 
 > Do note that if you have information about sensor noise (for example through `sensor calibration`), then you should use it.
+
+---
+### Microphone Example
+$$
+s(t) = f(t) + n(t)
+$$
+where 
+- $f(t)$ is the physical quantity
+- $n(t)$ is the noise which could be
+	- background
+	- sensor distortion
+	- EM interference
+	- thermal noise
+	- sampling distortion
 
 ---
 `Noise Removal`

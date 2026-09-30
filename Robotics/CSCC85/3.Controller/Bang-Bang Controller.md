@@ -1,12 +1,12 @@
 # Bang-Bang Controller
 #robotics/controller/bang-bang
 
-`Bang-Bang Controller` is the simplest [[Controller]] which try to push the state towards the desired reference value.
+[[Bang-Bang Controller|Bang-Bang Controller]] is the simplest [[Controller]] which try to push the state towards the desired reference value.
 
 ![Bang-Bang Controller|500](https://www.chi.camp/wp-content/uploads/2016/05/bangbang_control.png)
 
 ---
-`Simple Controller`
+## Simple Controller
 The simplest controller can be thought of as
 ```c
 float acceleration = 0;
@@ -22,7 +22,8 @@ if (velocity < reference) {
 Note that when the velocity is actually at the reference, the car will be either accelerating or decelerating most of the time.
 
 ---
-`Tolerance Bang-Bang Controller`
+## Tolerance Bang-Bang Controller
+
 The tolerance value can be added as
 ```c
 float error = reference - x;

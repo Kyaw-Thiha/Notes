@@ -1,6 +1,6 @@
 # Sensor Noise
 #robotics/sensor/noise
-`Sensor Noise` is the distortions and noise introduced by the [[Sensing Process]].
+[[Sensor Noise|Sensor noise]] is the distortions and noise introduced by the [[Sensing Process|sensing process]].
 
 ![Sensor Noise|400](https://miro.medium.com/v2/resize:fit:700/1*TCTUoHmNHekdE9gut89dqQ.png)
 

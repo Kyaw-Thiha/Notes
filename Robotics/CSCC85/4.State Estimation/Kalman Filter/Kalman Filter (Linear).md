@@ -11,7 +11,7 @@
   Includes the noise term.
 - Relation between state variables to sensor model is represented by a `linear model`.
   Includes a noise term.
-- Noise in both system and sensor readings is [[Gaussian Distribution|zero-mean Gaussian]].
+- Noise in both system and sensor readings is [[Gaussian Distribution (Normal Distribution)|zero-mean Gaussian]].
 
 ---
 ## Key Summaries

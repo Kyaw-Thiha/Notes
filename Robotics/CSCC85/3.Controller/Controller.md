@@ -1,14 +1,50 @@
 # Controller
 #robotics/controller 
 
-`Controller` is a software in robotics system that change the states of physical quantities in the environment towards a desired value and maintain it.
+[[Controller|Controller]] is a software in robotics system that change the states of physical quantities in the environment towards a desired value and maintain it.
 
 ![Controller](https://scaron.info/figures/feedback_loop.png)
 
----
-### Modelling the System
+For any system that needs to achieve a particular value of some variable, we need a component that ensures this value is **maintained**.
 
-`State`
+---
+## Controller
+1. Have a reference value.
+2. Read/sense relevant state variables.
+3. Compute the error: difference between reference and current.
+4. Find an input to the system to reduce the error
+
+---
+## Closed-Loop Control
+![image|400](https://notes-media.kthiha.com/Controller/601cf917f7a03491912b63cc945a0016.png)
+
+### Modelling with Controller
+$$
+\frac{ds}{dt} = \begin{bmatrix}
+0 & 1 & 0 \\[6pt]
+0 & 0 & 1 \\[6pt]
+0 & 0 & 0 \\[6pt]
+\end{bmatrix}
+\begin{bmatrix}
+x \\[6pt]
+v_{x} \\[6pt]
+a_{x}
+\end{bmatrix}
++ \begin{bmatrix}
+0 & 0 \\[6pt]
+0 & 0 \\[6pt]
+1 & -1
+\end{bmatrix}
+\begin{bmatrix}
+\text{accelerator} \\[6pt]
+\text{brake}
+\end{bmatrix}
+$$
+
+---
+## Modelling the System
+
+### State
 We can represent the state as
 $$
 \vec{s} = \begin{bmatrix}
@@ -21,7 +57,7 @@ x_{n}
 \text{where } x_{i} \text{ represents a quantity of the state}
 $$
 
-`Linear Model`
+### Linear Model
 Modelling the system as a linear system, we can get
 $$
 \dot{\vec{s}} 
@@ -32,7 +68,7 @@ where
 - $\frac{d\vec{s}}{dt}$ is the change in state variables over time
 - $A$ is the matrix for applying linear function to state variables
 
-`Controller Model`
+### Controller Model
 We can also add the controller affecting the state as
 $$
 \dot{\vec{s}} 
@@ -110,22 +146,25 @@ Hence, the controller effects a change in state variables by changing the accele
 This in turn changes the velocity, and then the position of the car $(\text{matrix } A)$.
 
 ---
-### Controller Implementations
+## Controller Implementations
 
-`Bang-Bang Controller`
-This is the simplest `controller` which try to push the state towards the desired reference value.
+### Bang-Bang Controller
+This is the simplest [[Controller|controller]] which try to push the state towards the desired reference value.
 [[Bang-Bang Controller|Read More]]
 
+---
 
-`PID Controller`
+### PID Controller
 This is a controller that uses the `error`, the `integral over past error`, and the `change in error`.
 [[PID Controller|Read More]]
 
-`LQR Controller`
+---
+### LQR Controller
 This is the controller that optimizes a quadratic cost function to balances state error and control effort.
 [[LQR Controller|Read More]]
 
-`MPC Controller`
+---
+### MPC Controller
 This is the controller that optimizes a quadratic cost function 
 - over a finite horizon 
 - has explicit state and control constraints, and 

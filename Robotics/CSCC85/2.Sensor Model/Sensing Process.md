@@ -25,6 +25,8 @@ Sources of these noise include:
 ### 2. Sampling
 `Sampling` is taking the value of the response $r(t)$ at uniformly spaced intervals.
 
+![image|400](https://notes-media.kthiha.com/Sensing-Process/dc56117692073fac3f151d7f43d1531b.png)
+
 The sensor response $r(t)$ is not usable by computer system since it is continuous and real-valued, so `sampling` is used.
 
 $$

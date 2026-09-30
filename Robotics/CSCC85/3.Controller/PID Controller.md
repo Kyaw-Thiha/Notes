@@ -1,7 +1,7 @@
 # PID Controller
 #robotics/controller/pid 
 
-`PID Controller` is a controller that uses 3 terms:
+[[PID Controller|PID Controller]] is a controller that uses $3$ terms:
 - `Error`
 - `Sum of previous T error values`
 - `Difference between error and previous error`
@@ -14,7 +14,7 @@ The 3 components are
 - `Derivative`: $k_{d}$ $\times$ $\frac{d}{dt} e(t)$
 
 ---
-`P-Controller`
+## P-Controller
 This control the value by a proportional change to error only.
 ```c
 while (loop) {
@@ -29,14 +29,16 @@ while (loop) {
 Its main drawback is its tendency to overshoot and oscillate.
 This is due to inertia in the physical system.
 
+![image|300](https://notes-media.kthiha.com/PID-Controller/f7f066c84049d132eefc1957279171ec.png)
+
 The constant $k_{p}$ can be used to compensate it.
 But small values of $k_{p}$ will lead to increased convergence time.
 And large values of $k_{p}$ will create the oscillation problem.
 
-To fix this, we use the `PD Controller.`
+To fix this, we use the [[#PD Controller]].
 
 ---
-`PD Controller`
+## PD Controller
 Adding in the derivative term, we get
 ```c
 while (loop) {
@@ -51,7 +53,21 @@ while (loop) {
 ```
 where $k_{d}$ is significantly smaller than $k_{p}$.
 
-`Analyzing Large Error`
+Note that 
+$$
+\text{input} \propto \frac{de}{dt}
+$$
+where $\frac{de}{dt}$ is how fast error is changing.
+
+### Discrete Derivative
+$$
+\frac{de}{dt} = \frac{x_{-1} - x_{0}}{t}
+$$
+where 
+- $x_{-1}$ is the initial state
+- $x_{0}$ is the current/final state
+
+### Analyzing Large Error
 Suppose the error is large and positive.
 Then, it is decreasing due to action of the controller.
 
@@ -60,7 +76,7 @@ Hence,
 - `D-Term` $u_{d}$ will provide a control input with opposite sign to $u_{p}$ (since the error is decreasing)
 - Since $k_{p} \gg k_{d}$, $| \ \text{diff} \ | < |\text{err|}$ so $u$ is still large, positive signal
 
-`Analyzing Small Error`
+### Analyzing Small Error
 Suppose the system is approaching the reference value.
 Then the error is still positive, but is small.
 
@@ -75,7 +91,7 @@ On some situations, PD controller can achieve equilibrium at a state value that 
 To fix this, we use the `PID Controller.`
 
 ---
-`PID Controller`
+## PID Controller
 Adding in the integral term, we get
 
 ```c
@@ -94,10 +110,18 @@ while (loop) {
 The `integral term` is the integral/sum of past $T$ errors.
 
 Suppose the error is very small (approaching reference).
+
+![image|300](https://notes-media.kthiha.com/PID-Controller/44cf87f577cdd4b7afcd8d0d17f6702a.png)
+
 Then, the `P-Term` $u_{p}$ and `D-Term` $u_{d}$ aren't providing sufficient control input to drive it towards $0$.
 Hence, the accumulation of error will allow `I-Term` $u_{i}$ to provide the required push.
 
-`Limitation`
+Note that the integral term has
+$$
+\text{input} \propto \int e \ dt \left( = \sum ^{t}_{t=0} e_{t} \Delta t \right)
+$$
+
+### Limitation
 The optimum constants need to be found empirically.
 Badly tuned PID controller will result in
 - Failure to converge the system towards reference
