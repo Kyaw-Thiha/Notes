@@ -206,3 +206,45 @@ $$
 $$
 
 ---
+### Example-4
+**Question**: Let $X_{1}, X_{2}, \dots, X_{n} \overset{iid}{\sim} f(X;\theta)$ where $f(X;\theta) = \theta X^{\theta-1}$ $0<X<1$ and $\theta> 0$. 
+Find the [[Maximum Likelihood Estimation(MLE)|MLE]] of $\theta$.
+
+**Solution**:
+- $f(X; \theta) = \theta x^{\theta-1}$, $0<X<1$, $\theta > 0$
+- $X_{i}$s are independent.
+
+We can rewrite this as
+$$
+f(X_{i};\theta) = \theta x_{i}^{\theta-1} \ \mathbb{I}(0 < X_{i} < 1)
+\ \mathbb{I}(\theta > 0)
+$$
+We can then get likelihood function as
+$$
+\begin{align}
+L(\theta) &= \prod ^{n}_{i=1} f(X_{i}; \theta) \\[6pt]
+&= \prod ^{n}_{i=1} \theta X_{i}^{\theta-1} \ \mathbb{I}(0 < X_{i} < 1)
+\cdot \mathbb{I}(\theta > 1) \\[6pt]
+&= \theta^{n} \left( \prod ^{n}_{i=1} X_{i} \right)^{\theta-1}
+\mathbb{I}(0 < X_{1}, X_{2}, \dots, X_{n} < 1) \cdot \mathbb{I}(\theta > 0)
+\end{align}
+$$
+Taking the [[Log Likelihood|log likelihood]], we get
+$$
+L(\theta) = \log(L(\theta))
+= n \log \theta + (\theta - 1) \sum ^{n}_{i=1} \log(X_{i})
+$$
+Taking the derivative, we get
+$$
+L'(\theta) = \frac{n}{\theta} + \sum ^{n}_{i=1} \log (X_{i})
+$$
+Setting it to $0$, we get
+$$
+\begin{align}
+&L'(\theta) = 0 \\[6pt]
+&\frac{n}{\theta} + \sum ^{n}_{i=1} \log (X_{i}) = 0 \\[6pt]
+&\hat{\theta}_{MLE} = \frac{-n}{\sum^{n}_{i=1} \log(X_{i})}
+\end{align}
+$$
+Since we have boundary earlier, we need to check them.
+For $0 < X_{i} < 1$, we need to check $\log X_{i} < 0$.

@@ -1,34 +1,17 @@
-# Estimator
-![image|350](https://notes-media.kthiha.com/Estimator/95a2310e4cfa72bd9c0818398b5b67d3.png)
-
+# Sample Variance
+We can define [[Sample Variance|population variance]] $\sigma^{2}$ as
+$$
+\sigma^{2} = \mathbb{E}[(X - \mu)^{2}]
+$$
+where $\mu = \mathbb{E}[X]$.
 
 ---
-## Example
-**At coffee shop**: Your friend wants to know ($\mu$). 
-
-**Tomorrow/next week**:
-Suppose we get data $x_{1}, \ x_{2}, \ \dots, \ x_{30}$ and find the mean
-$$
-\bar{X} = \frac{X_{1} + X_{2} + \dots + X_{30}}{30}
-$$
-This is the [[Estimator|estimator]].
-
-**At present time**:
-$$
-\bar{x} = \frac{x_{1} + x_{2} + \dots + x_{30}}{30}
-= 194.4
-$$
-This is the [[Estimator|estimate]].
-
----
-## Estimators of Sample Variance
-### Biased Estimator
+## Estimators
 If we have equally likely $N$ data points in our population, this is equivalent to 
 $$
 \hat{\sigma}^{2} = \frac{1}{n} \sum^{n}_{i=1}(x_{i} - \bar{x})^{2}
 $$
-### Unbiased Estimator
-Or similarly as an [[Estimator|unbiased estimator]] of
+or similarly as an unbiased estimator of
 $$
 C^{2} = \frac{1}{n-1} \sum^{n}_{i=1}(x_{i} - \bar{x})^{2}
 $$
@@ -103,5 +86,18 @@ $$
 \end{align}
 $$
 Note that when $n\to \infty$, $\text{Bias}[\hat{\sigma}^{2}] \to 0$.
+
+---
+## Unbiasedness of Sample Variance using Chi-Sq Distribution
+Recall that the mean of a [[Chi-Squared Distribution]] is its degrees of freedom $df$.
+Then since [[Sample Variance|standardized sample variance]] $\frac{(n-1)S^{2}}{\sigma^{2}} \sim \mathcal{X}^{2}_{(df=n-1)}$
+$$
+\begin{align}
+\mathbb{E}\left[ \frac{(n-1)S^{2}}{\sigma^{2}} \right] &= (n-1) \\[6pt]
+\mathbb{E}[S^{2}] &= \sigma^{2}
+\end{align}
+$$
+
+This proves that $S^{2}$ is an [[Estimator|unbiased estimator]] for $\sigma^{2}$ under [[Gaussian Distribution (Normal Distribution)|normal distribution]].
 
 ---
