@@ -22,3 +22,8 @@ The common estimator is $\bar{X}$:
 - [[Chi-Squared Distribution of the Sample Variance]] ($\frac{(n-1)S^{2}}{\sigma^{2}} \sim \mathcal{X}^{2}_{(df = n-1)}$)
 
 ---
+## Exercises
+- [[STAB57 Week-3 Exercise]]
+- [[STAB57 Week-3 Tutorial]]
+
+---
