@@ -1,4 +1,4 @@
-# Independence between $\bar{X}$ and $S^{2}$
+## Independence between $\bar{X}$ and $S^{2}$
 Suppose $X_{1}, X_{2}, \dots, X_{n} \overset{iid}{\sim} \mathbb{N}(\mu, \sigma^{2})$. Then, we have the following theorem:
 $$
 \boxed{ \ \bar{X} \text{ and } S^{2} \text{ are independent} \ }
