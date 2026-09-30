@@ -150,9 +150,20 @@ $$
 
 ---
 #### Getting Variance of T
+Finding the variance of $T$, 
 $$
 \begin{align}
 Var(T)
-&= Var\left( \frac{3()}{} \right)
+&= Var\left( \frac{3(n-1) S^{2}}{2n-1} \right) \\[6pt]
+&= \frac{9(n-1)^{2}}{2(n-1)^{2}} \ Var(S^{2}) \\[6pt]
+&= \frac{9(n-1)^{2}}{(2n-1)^{2}} \cdot \frac{2\sigma^{2}}{n-1}
 \end{align}
 $$
+
+Hence, our final answer is
+$$
+\boxed{ \ Var(T) =  \frac{9(n-1)^{2}}{(2n-1)^{2}} \cdot 
+\frac{2\sigma^{2}}{n-1} \ }
+$$
+
+---
