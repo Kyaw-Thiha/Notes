@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Robotics/CSCC85/Projects/C85 Project-1.md",
-                "mode": "source",
+                "file": "Computer Vision/CNN/Convolution Layer.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C85 Project-1"
+              "title": "Convolution Layer"
             }
           }
         ]
@@ -174,8 +174,10 @@
   },
   "active": "e8d246d343a8bc26",
   "lastOpenFiles": [
-    "Robotics/Robotics Links.md",
+    "Computer Vision/CNN/Convolutional Neural Network (CNN).md",
+    "Computer Vision/CNN/Pooling Layer.md",
     "Robotics/CSCC85/Projects/C85 Project-1.md",
+    "Robotics/Robotics Links.md",
     "Robotics/CSCC85/Projects",
     "Robotics/CSC376/Chapter-4/CSC376 Lab-4.md",
     "Robotics/CSC376/Chapter-3/Robotics Frame.md",
@@ -200,8 +202,6 @@
     "Robotics/CSCC85/3.Controller/Dynamical Systems.md",
     "UofT/C73 Algorithms Design/CSCC73 Course.md",
     "UofT/C73 Algorithms Design/4.Dynamic Programming/Dynamic Programming.md",
-    "UofT/C73 Algorithms Design/4.Dynamic Programming/Longest Increasing Subsequece(LIS).md",
-    "UofT/C73 Algorithms Design/4.Dynamic Programming/Closest Pair of Points.md",
     "Robotics/CSC376/Chapter-3",
     "UofT/STAB57 Intro to Stats/Week-4",
     "UofT/C73 Algorithms Design/4.Dynamic Programming",
