@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a8ddd01a798ce3a4",
+        "id": "8726f009cd8ebff4",
         "type": "tabs",
         "children": [
           {
-            "id": "e8d246d343a8bc26",
+            "id": "3b4815aec6a7a27e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision/CNN/Convolution Layer.md",
+                "file": "UofT/STAB57 Intro to Stats/Week-5/STAB57 Week-5.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Convolution Layer"
+              "title": "STAB57 Week-5"
             }
           }
         ]
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5
+    "width": 206.5,
+    "collapsed": true
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -172,47 +173,48 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e8d246d343a8bc26",
+  "active": "3b4815aec6a7a27e",
   "lastOpenFiles": [
-    "Computer Vision/CNN/Convolutional Neural Network (CNN).md",
-    "Computer Vision/CNN/Pooling Layer.md",
-    "Robotics/CSCC85/Projects/C85 Project-1.md",
-    "Robotics/Robotics Links.md",
-    "Robotics/CSCC85/Projects",
+    "UofT/STAB57 Intro to Stats/Week-4/STAB57 Week-4.md",
+    "UofT/STAB57 Intro to Stats/Week-4/STAB57 Week-4 Tutorial.md",
+    "UofT/STAB57 Intro to Stats/Week-5/STAB57 Week-5.md",
+    "UofT/STAB57 Intro to Stats/Week-5/Test Statistics.md",
+    "UofT/STAB57 Intro to Stats/Week-5/Critical Region Method.md",
+    "UofT/STAB57 Intro to Stats/Week-5/Hypothesis Test.md",
+    "UofT/STAB57 Intro to Stats/Week-5/One-Sided Hypothesis Testing.md",
+    "UofT/STAB57 Intro to Stats/Week-5/Confidence Interval Hypothesis Testing.md",
+    "UofT/STAB57 Intro to Stats/Week-4/One-Sided Interval.md",
+    "UofT/STAB57 Intro to Stats/Week-4/Pivotal Quanity.md",
+    "UofT/STAB57 Intro to Stats/Week-4/Confidence Interval for Variance of Normal Distribution.md",
+    "UofT/STAB57 Intro to Stats/Week-4/Confidence Interval for Population Proportion.md",
+    "UofT/STAB57 Intro to Stats/Week-4/Confidence Interval for Mean of Normal Distribution.md",
+    "UofT/STAB57 Intro to Stats/Week-4/Confidence Interval.md",
+    "UofT/STAB57 Intro to Stats/Week-5/Type-1, Type-2 Error.md",
+    "UofT/STAB57 Intro to Stats/Week-5/P-Value.md",
+    "Robotics/CSC376/Chapter-4/CSC376 Week-5 Tutorial.md",
     "Robotics/CSC376/Chapter-4/CSC376 Lab-4.md",
+    "Untitled.canvas",
     "Robotics/CSC376/Chapter-3/Robotics Frame.md",
-    "Robotics/CSC376/Chapter-4",
-    "Robotics/CSC376/Chapter-3/DH Parameter (Denavit-Hartenberg).md",
-    "UofT/C73 Algorithms Design/4.Dynamic Programming/Weighted Interval Scheduling.md",
     "UofT/STAB57 Intro to Stats/Week-3/STAB57 Week-3 Tutorial.md",
-    "UofT/STAB57 Intro to Stats/Week-3/STAB57 Week-3.md",
     "UofT/STAB57 Intro to Stats/Week-3/STAB57 Week-3 Exercise.md",
-    "UofT/STAB57 Intro to Stats/Week-4/Untitled.md",
-    "UofT/STAB57 Intro to Stats/Week-3/Sample Variance.md",
-    "UofT/STAB57 Intro to Stats/Week-3/Mean Squared Error(MSE).md",
-    "UofT/STAB57 Intro to Stats/Week-3/Independence between Mean and Variance.md",
-    "UofT/STAB57 Intro to Stats/Week-3/Example of Zero Covariance doesn't imply independence.md",
-    "UofT/STAB57 Intro to Stats/Week-3/Chi-Squared Distribution of the Sample Variance.md",
-    "UofT/STAB57 Intro to Stats/Week-3/Chi-Squared Distribution.md",
-    "Robotics/CSCC85/3.Controller/PID Controller.md",
-    "Robotics/CSCC85/3.Controller/Bang-Bang Controller.md",
-    "Robotics/CSCC85/3.Controller/Controller.md",
-    "Robotics/CSCC85/3.Controller/MPC Controller.md",
-    "Robotics/CSCC85/3.Controller/Maths behind MPC Controller.md",
-    "Robotics/CSCC85/3.Controller/Dynamical Systems.md",
-    "UofT/C73 Algorithms Design/CSCC73 Course.md",
-    "UofT/C73 Algorithms Design/4.Dynamic Programming/Dynamic Programming.md",
+    "UofT/STAB57 Intro to Stats/Week-3/STAB57 Week-3.md",
+    "Robotics/CSCC85/4.State Estimation/Localization/Histogram Localization.md",
+    "Robotics/CSCC85/4.State Estimation/Localization/Monte-Carlo Localization.md",
+    "Robotics/CSCC85/4.State Estimation/Localization/Localization.md",
+    "Robotics/CSCC85/4.State Estimation/Localization/GPS.md",
+    "UofT/PHLB17 Political Philosophy",
+    "UofT/STAB57 Intro to Stats/Week-5",
+    "UofT/C73 Algorithms Design/5.",
+    "Robotics/CSCC85/Projects",
+    "Robotics/CSC376/Chapter-4",
     "Robotics/CSC376/Chapter-3",
     "UofT/STAB57 Intro to Stats/Week-4",
     "UofT/C73 Algorithms Design/4.Dynamic Programming",
     "UofT/STAB57 Intro to Stats/Week-3/Untitled",
     "Robotics/CSC376/Chapter-2/(2.3)Config Space",
-    "UofT/STAB57 Intro to Stats/Week-3",
-    "UofT/C73 Algorithms Design/3.Divide & Conquer",
     "Robotics/CSCC85/1.Fault Tolerance/attachments/Pasted image 20251223165433.png",
     "Robotics/CSCC85/1.Fault Tolerance/attachments/Pasted image 20251223171512.png",
     "Robotics/CSCC85/1.Fault Tolerance/attachments/Pasted image 20251223170339.png",
-    "Robotics/CSCC85/1.Fault Tolerance/Fault Tolerance Types",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet (2021).webp",
     "Computer Vision/Radar Tracking/Detection Models/attachments/RADDet Data Annotation.webp",

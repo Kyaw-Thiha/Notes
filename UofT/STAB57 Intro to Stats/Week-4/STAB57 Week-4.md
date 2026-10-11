@@ -14,5 +14,6 @@ This week is about interval estimation.
 - [[Confidence Interval for Variance of Normal Distribution]]
 - [[One-Sided Interval]]
 - [[Confidence Interval for Population Proportion]]
+- [[STAB57 Week-4 Tutorial]]
 
 ---
