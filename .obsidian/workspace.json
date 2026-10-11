@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Robotics/CSC376/Week-3/CSC376 Week-3.md",
+                "file": "UofT/C73 Algorithms Design/1.Interval Scheduling/Interval Scheduling.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSC376 Week-3"
+              "title": "Interval Scheduling"
             }
           }
         ]
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5
+    "width": 206.5,
+    "collapsed": true
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -174,8 +175,11 @@
   },
   "active": "3b4815aec6a7a27e",
   "lastOpenFiles": [
-    "Robotics/CSC376/Week-3/DH Examples.md",
+    "UofT/C73 Algorithms Design/1.Interval Scheduling/Greedy Algorithm.md",
+    "UofT/C73 Algorithms Design/2./Maximum Lateness Scheduling.md",
+    "UofT/C73 Algorithms Design/1.Interval Scheduling/Interval Scheduling.md",
     "Robotics/CSC376/Week-3/CSC376 Week-3.md",
+    "Robotics/CSC376/Week-3/DH Examples.md",
     "Robotics/CSC376/Week-3/DH Parameter (Denavit-Hartenberg).md",
     "UofT/STAB57 Intro to Stats/Week-5/STAB57 Week-5.md",
     "UofT/STAB57 Intro to Stats/Week-4/STAB57 Week-4.md",
@@ -198,9 +202,6 @@
     "Untitled.canvas",
     "Robotics/CSC376/Week-3/Robotics Frame.md",
     "UofT/STAB57 Intro to Stats/Week-3/STAB57 Week-3 Tutorial.md",
-    "UofT/STAB57 Intro to Stats/Week-3/STAB57 Week-3 Exercise.md",
-    "UofT/STAB57 Intro to Stats/Week-3/STAB57 Week-3.md",
-    "Robotics/CSCC85/4.State Estimation/Localization/Histogram Localization.md",
     "UofT/PHLB17 Political Philosophy",
     "UofT/STAB57 Intro to Stats/Week-5",
     "UofT/C73 Algorithms Design/5.",
