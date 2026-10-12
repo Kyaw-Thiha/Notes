@@ -205,3 +205,9 @@ This means that
 ![image|300](https://notes-media.kthiha.com/Interval-Schedule/d9c3d581b69fa521fc534c960713448f.png)
 
 ---
+## See Also
+- [[Greedy Algorithm]]
+- [[Interval Scheduling]]
+- [[Maximum Lateness Scheduling]]
+- [[Fractional Knapsack]]
+- [[Huffman Algorithm]]

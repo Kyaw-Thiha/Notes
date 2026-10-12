@@ -19,9 +19,8 @@ No codeword is a prefix of another.
 
 ---
 ## Optimal Code
-**Input**: $\Gamma$, $\forall x \in \Gamma$, $f(x) = \text{freq of } x$ $s.t.$ $\sum f(x) = 1$.
-**Output**: [[AVL Tree|Binary tree]] representing optimal prefix-free code.
-$\text{I.e:}$ One that minimizes.
+> **Input**: $\Gamma$, $\forall x \in \Gamma$, $f(x) = \text{freq of } x$ $s.t.$ $\sum f(x) = 1$.
+> **Output**: [[AVL Tree|Binary tree]] representing optimal prefix-free code. $\text{I.e:}$ One that minimizes.
 $$
 \text{AD}(T)
 = \sum_{x \in \Gamma} f(x) 
@@ -102,3 +101,9 @@ $$
 $$
 
 ---
+## See Also
+- [[Greedy Algorithm]]
+- [[Interval Scheduling]]
+- [[Maximum Lateness Scheduling]]
+- [[Fractional Knapsack]]
+- [[Huffman Algorithm]]
