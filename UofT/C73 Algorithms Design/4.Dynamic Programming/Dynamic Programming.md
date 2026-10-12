@@ -15,11 +15,12 @@ Usually we solve `optimization problems`, but we could also solve `decision maki
 9. [[Time Complexity|Running time analysis]].
 
 ---
-## Longest Increasing Sequence
-Want:
-- find [[Longest Increasing Subsequece(LIS)|LIS]] of $A$
-- find [[Longest Increasing Subsequece(LIS)|LIS]] of $A$ ending at pos $i$
+## Algorithms
+### Longest Increasing Sequence
+[[Longest Increasing Subsequece(LIS)|Longest increasing subsequence]] is finding an increasing subset of numbers from left to right, that may not necessarily be immediately after each other. 
 
-The problem we ended up solving up have additional parameters than what we were originally trying to solve. 
+![300](https://assets.leetcode.com/users/images/5a09ce7b-2181-4627-b393-bcae69f465ab_1613480139.9677143.png)
+
+### Weighted Interval Scheduling
 
 ---

@@ -1,6 +1,16 @@
 # Weighted Interval Scheduling
-## Problem Formulation
+[[Weighted Interval Scheduling|Weighted interval scheduling]] aims to find the largest subset of jobs where no two jobs conflict, and with highest total weight of chosen jobs.
 
+![300](https://storage.googleapis.com/algodailyrandomassets/curriculum/dynamic-programming/dp6.png)
+
+---
+## Formal Definition
+> **Input**: A finite set of jobs $\mathcal{J}$, along with the start time $s(j)$, finish time $f(j)$, and weight $wt(j)$ of each job $j \in \mathcal{J}$. 
+
+> **Output**: A subset $A$ of $\mathcal{J}$ that contains no conflicting jobs and has maximum weight. That is, a set $A \subseteq \mathcal{J}$ such that
+> 
+> (`feasibility`) for all $j \neq j' \in A$, $j$ does not conflict with $j'$ and 
+> (`optimality`) if $B \subseteq \mathcal{J}$ has the property that for all $j \neq j' \in B$, $j$ does not conflict with $j'$, then $wt(A) \geq wt(B)$.
 
 ---
 Let $S = \text{opt set for jobs } 1\dots n$. Then, 

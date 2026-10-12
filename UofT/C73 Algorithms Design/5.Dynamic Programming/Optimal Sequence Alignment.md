@@ -1,13 +1,36 @@
 # Optimal Sequence Alignment (Edit Distance)
-## Problem Formulation
-**Input**: Strings: $x[1\dots m]$ and $y[1\dots n]$.
-**Output**: Edit distance between $x$ and $y$.
+[[Optimal Sequence Alignment|Optimal sequence alignment]] can get us the similarity between two strings in terms of the number of edits needed to transform one string into another.
+
+![300](https://www2.seas.gwu.edu/~simhaweb/cs151/lectures/module12/figures/align5.gif)
+
+---
+## Formal Definition
+Given two strings, we can define a measure of similarity between them as having minimum number of edits. 
+
+> **Input**: Strings: $x[1\dots m]$ and $y[1\dots n]$.
+> **Output**: Edit distance between $x$ and $y$.
+
 We then have the following functions: `insert()`, `delete()`, `change()`.
+
+### Alignment
+An [[Optimal Sequence Alignment|alignment]] of strings $x$ and $y$ is a pair of strings $x'$ and $y'$ so that
+- $(a)$ $x'$ is $x$ possibly with some $\text{"-"}$ symbols interspersed and the similarly for $y'$
+- $(b)$ $|x'| = |y'|$
+- $(c)$ there is no position $i$ so that $x'[i] = y'[i] = -$.
+
+### Definitions
+> **Cost**
+> The `cost` of an alignment of $x$ and $y$ is optimal if there is no alignment of $x$ and $y$ with lower cost. 
+
+> **Edit Distance**
+> The `edit distance` between $x$ and $y$ is the cost of an optimal alignment.
+
+> **Invertibility**
+> Since the operations `insert()` and `delete()` are inverses of each other, the [[Optimal Sequence Alignment|edit distance]] between $x$ and $y$ is the same as the [[Optimal Sequence Alignment|edit distance]] between $y$ and $x$.
 
 ---
 ## Example
 Consider the following example:
-
 ![image|300](https://notes-media.kthiha.com/Optimal-Sequence-Alignment/a7ce9f7bb168f29c05ea41ac2abef6f9.png)
 
 Alternatively, we could do 
@@ -33,7 +56,7 @@ $$
 ED(i,j) = \begin{cases}
 i & , \ \text{if } j=0 \\[6pt]
 j & , \ \text{if } i=0 \\[6pt]
-\min(\text{ED}(i-1, j-1) + \text{diff}(i,j), \ \text{ED}(i-1,\ j)+1,  
+\min(\text{ED}(i-1, j-1) + \delta(i,j), \ \text{ED}(i-1,\ j)+1,  
 \ \text{ED}(i, \ j-1) + 1) & , \ \text{o.w} \ (\dagger) \\[6pt]
 \end{cases}
 $$
