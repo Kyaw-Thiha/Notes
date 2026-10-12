@@ -34,6 +34,15 @@ else
 
 ---
 ## Runtime Complexity
+[[Time Complexity|Time complexity]] $T(n)$ can be described in 
+$$
+T(n) = \begin{cases}
+a \cdot T\left( \frac{n}{b} \right) + c \cdot n^{d}
+& \text{if } n > 1 \\[6pt]
+c & \text{if } n=1
+\end{cases}
+$$
+
 ### Merge Sort
 $$
 T(n) = 2\cdot T\left( \frac{n}{2} \right) + c \cdot n

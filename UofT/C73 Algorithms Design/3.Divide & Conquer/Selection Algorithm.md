@@ -130,4 +130,3 @@ $$
 $$
 
 ---
-## Deterministic D-Select

@@ -1,4 +1,4 @@
-# Binary Multiplication
+# Optimized Binary Multiplication
 ## Algorithm
 ### Binary Representation
  We can represent a binary $X$ as
@@ -27,8 +27,12 @@ $$
 ### Multiplication Improved Representation
 Multiplying the binaries $X$ and $Y$ can be represented in
 $$
-X \cdot Y = X_{1}Y_{1}2^{n} + (X_{1}Y_{0} + X_{0}Y_{1}) \cdot 2^{n}
+\begin{align}
+X \cdot Y 
+&= (X_{1} \cdot 2^{n/2} + X_{0}) \cdot (Y_{1} \cdot 2^{n/2} + Y_{0}) \\[6pt]
+&= X_{1}Y_{1}2^{n} + (X_{1}Y_{0} + X_{0}Y_{1}) \cdot 2^{n}
 + X_{0}Y_{0}
+\end{align}
 $$
 which has a time complexity of
 $$
