@@ -8,7 +8,7 @@ X: \underbrace{\boxed{ \ X_{1} \ }}_{\frac{n}{2}}
 $$
 Hence, we get that
 $$
-X = X\cdot 2^{n/2} + X_{0}
+X = X_{1} \cdot 2^{n/2} + X_{0}
 $$
 
 ---
@@ -20,7 +20,7 @@ Y: \underbrace{\boxed{ \ Y_{1} \ }}_{\frac{n}{2}}
 $$
 Getting us
 $$
-Y = Y\cdot 2^{n/2} + Y_{0}
+Y = Y_{1} \cdot 2^{n/2} + Y_{0}
 $$
 
 ---
