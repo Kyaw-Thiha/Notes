@@ -208,6 +208,6 @@ This means that
 ## See Also
 - [[Greedy Algorithm]]
 - [[Interval Scheduling]]
-- [[Maximum Lateness Scheduling]]
+- [[Minimum Lateness Scheduling]]
 - [[Fractional Knapsack]]
 - [[Huffman Algorithm]]

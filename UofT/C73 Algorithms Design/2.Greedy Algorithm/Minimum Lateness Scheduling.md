@@ -1,5 +1,5 @@
-# Maximum Lateness Scheduling
-[[Maximum Lateness Scheduling|Minimum lateness scheduling]] aims to minimize the lateness of a set of jobs, given the deadline of each jobs.
+# Minimum Lateness Scheduling
+[[Minimum Lateness Scheduling|Minimum lateness scheduling]] aims to minimize the lateness of a set of jobs, given the deadline of each jobs.
 
 ![300](https://iq.opengenus.org/content/images/2020/04/Open-Genus.png)
 
@@ -13,7 +13,7 @@
 
 ---
 ### Schedule Definition
-A [[Maximum Lateness Scheduling|schedule]] is a function $S: \mathcal{J} \to \mathbb{R}$ where $S(j) \geq r$ is the start time for job $j$ $s.t.$
+A [[Minimum Lateness Scheduling|schedule]] is a function $S: \mathcal{J} \to \mathbb{R}$ where $S(j) \geq r$ is the start time for job $j$ $s.t.$
 $$
 \big[ S(j), \ S(j) + l(j) \big) \ \cap \  
 \big[  S(j'), \ S(j') + l(i') \big) = \emptyset
@@ -26,7 +26,7 @@ Formally, we require scheduler $S$ to satisfy the following `feasibility require
 
 ---
 ### Lateness Definition
-The [[Maximum Lateness Scheduling|lateness]] of job $j$ in schedule $S$ i the amount by which $j$ misses its deadline.
+The [[Minimum Lateness Scheduling|lateness]] of job $j$ in schedule $S$ i the amount by which $j$ misses its deadline.
 $$
 L(S,j) = \max\big(S(j) + l(j) - d(j), \ 0 \big)
 $$
@@ -67,7 +67,7 @@ Running Time: $O(n \log n)$
 
 ---
 ### Inversion Definition
-Given $S_{1}$ and $S_{2}$ are [[Maximum Lateness Scheduling|schedules]] of the same set of jobs $\mathcal{J}$, we define [[Maximum Lateness Scheduling|inversion]] of $S_{1}$ $w.r.t$ $S_{2}$ over a pair of jobs $i,j$ as
+Given $S_{1}$ and $S_{2}$ are [[Minimum Lateness Scheduling|schedules]] of the same set of jobs $\mathcal{J}$, we define [[Minimum Lateness Scheduling|inversion]] of $S_{1}$ $w.r.t$ $S_{2}$ over a pair of jobs $i,j$ as
 $$
 S_{1}(i) < S_{1}(j)
 \iff S_{2}(i) > S_{2}(j)
@@ -146,6 +146,6 @@ In [[Interval Scheduling|promising set argument]], we show that partial solution
 - [A blog post](https://iq.opengenus.org/scheduling-to-minimize-lateness/#gsc.tab=0)
 - [[Greedy Algorithm]]
 - [[Interval Scheduling]]
-- [[Maximum Lateness Scheduling]]
+- [[Minimum Lateness Scheduling]]
 - [[Fractional Knapsack]]
 - [[Huffman Algorithm]]

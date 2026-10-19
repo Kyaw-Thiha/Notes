@@ -2,6 +2,7 @@
 A [[Greedy Algorithm|greedy algorithm]] builds a solution in stages. In each stage, it extends a partial solution to a more complete one [[#Greedy|greedily]] & [[#Irrevocable|irrevocably]].
 
 ---
+## Terminology
 ### Greedy
 [[#Greedy|Greedily]] means that of the possible extensions to the current partial answer, 
 - it chooses one that results in what appears to be best for the next stage 
@@ -20,7 +21,7 @@ Each stage strictly extends the previous partial answer.
 
 ---
 ### Maximum Lateness Scheduling
-[[Maximum Lateness Scheduling|Minimum lateness scheduling]] aims to minimize the lateness of a set of jobs, given the deadline of each jobs.
+[[Minimum Lateness Scheduling|Minimum lateness scheduling]] aims to minimize the lateness of a set of jobs, given the deadline of each jobs.
 
 ![300](https://iq.opengenus.org/content/images/2020/04/Open-Genus.png)
 
@@ -45,12 +46,12 @@ In [[Interval Scheduling|promising set argument]], we show that partial solution
  In [[Interval Scheduling|greedy-stays-ahead argument]], we show that the final answer is at least as good as any optimal solution.
 
 ### Exchange Argument
-In [[Maximum Lateness Scheduling|exchange argument]], we start with an initial state and massage the state to be more similar to the output of our algorithm. The importance is that in each step, the massage retains optimality of the algorithm.
+In [[Minimum Lateness Scheduling|exchange argument]], we start with an initial state and massage the state to be more similar to the output of our algorithm. The importance is that in each step, the massage retains optimality of the algorithm.
 
 ---
 ## See Also
 - [[Greedy Algorithm]]
 - [[Interval Scheduling]]
-- [[Maximum Lateness Scheduling]]
+- [[Minimum Lateness Scheduling]]
 - [[Fractional Knapsack]]
 - [[Huffman Algorithm]]

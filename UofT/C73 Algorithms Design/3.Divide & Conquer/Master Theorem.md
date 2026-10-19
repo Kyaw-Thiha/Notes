@@ -17,6 +17,32 @@ with
 > In the **second case**, the running time is dominated by the number of recursive calls made.
 
 ---
+## Runtime Complexity
+[[Time Complexity|Time complexity]] $T(n)$ can be described in 
+$$
+T(n) = \begin{cases}
+a \cdot T\left( \frac{n}{b} \right) + c \cdot n^{d}
+& \text{if } n > 1 \\[6pt]
+c & \text{if } n=1
+\end{cases}
+$$
+where
+- $c\geq1$ and $d \geq 0$ are constants.
+- the **first term** $a \cdot T\left( \frac{n}{b} \right)$ accounts for the time required to solve recursively the $a$ subproblems, each of size $\frac{n}{b}$.
+- the **second term** $cn^{d}$ accounts for the time required to 
+	- divide up the given input into smaller inputs.
+	- and to compute the solution to the original instance from the solutions to smaller instances.
+
+where the constants are
+- $a:$ no. of `recursive subproblems` created
+- $b:$ how much `smaller` each subproblem gets
+- $c:$ the `constant multiplier` on the divide/combine work
+- $d:$ `exponent` describing how divide/combine grows with input size $n$
+	- $d=0:$ divide/combine work is constant (eg: [[AVL Tree|binary search]])
+	- $d=1:$ divide/combine work is linear (eg: [[Divide & Conquer|merge sort]])
+	- $d=2:$ divide/combine work is quadratic (eg: an algorithm that compares every pair of elements when combining)
+
+---
 ## Proof
 We shall reason about the amount of time required by the [[Divide & Conquer|divide-and-conquer algorithm]].
 
