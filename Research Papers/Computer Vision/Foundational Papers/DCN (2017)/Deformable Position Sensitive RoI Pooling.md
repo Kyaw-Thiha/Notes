@@ -11,7 +11,7 @@ This results in $C+1$ channels for $C$ objects.
 
 `Score maps` are denoted as $\{ x_{ij} \}$ where $(i,j)$ enumerate all bins.
 
-[[Pooling]] is performed on these score maps.
+[[Pooling Layer]] is performed on these score maps.
 The output value for $(i,j)^{th}$ bin is obtained by summation from one score map $x_{ij}$ corresponding to that bin.
 
 The difference from [[Deformable RoI Pooling|RoI Pooling]] is that a general feature map $x$ is replaced by $x_{ij}$

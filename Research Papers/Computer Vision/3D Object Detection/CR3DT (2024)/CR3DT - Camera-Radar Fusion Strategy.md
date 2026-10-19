@@ -16,7 +16,7 @@ Technical details of the two-stage Camera-RADAR fusion strategy in [[CR3DT (2024
 **Input**: $6$ RGB images ($256 \times 704$ resolution)
 
 **Processing**:
-1. [[ResNet]]-50 backbone extracts image features
+1. [[ResNet(2015)]]-50 backbone extracts image features
 2. [[Lift, Splat, Shoot]] view transformer projects to BEV
 3. Features lifted into 64-channel pillars
 

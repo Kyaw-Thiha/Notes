@@ -8,7 +8,7 @@ Link: https://arxiv.org/abs/2005.12872
 ![Architecture](https://viso.ai/wp-content/uploads/2024/02/DETR-Architecture.jpg)
 
 
-Most prior models use [[Region Proposals]], [[Window Centers]] and [[Research Papers/DETR/Set Prediction/Anchors]] to predict objects and learn from them.
+Most prior models use [[Region Proposals]], [[Window Centers]] and [[Research Papers/Computer Vision/Foundational Papers/DETR/Set Prediction/Anchors]] to predict objects and learn from them.
 
 All of these methods require additional handcrafted preprocessing layer like [[Non-Maximum Suppression (NMS)|NMS]] which add computational cost during inference.
 

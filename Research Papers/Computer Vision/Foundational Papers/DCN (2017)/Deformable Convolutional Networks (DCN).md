@@ -41,7 +41,7 @@ But both methods have limitations
 
 ---
 ## Deformable RoI Pooling
-`Deformable RoI pooling` enhances flexibility by incorporating learned offsets to dynamically adjust the bin positions of [[Pooling]].
+`Deformable RoI pooling` enhances flexibility by incorporating learned offsets to dynamically adjust the bin positions of [[Pooling Layer]].
 
 ![Deformable RoI Pooling|300](https://miro.medium.com/v2/resize:fit:1400/1*flnN8-vVlJJ--AEqDfkFjg.png)
 

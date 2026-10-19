@@ -70,7 +70,7 @@ The paper considered different symmetric functions like
 - `Attention Sum`
 And it chose `Max Pooling` since it yielded higher accuracy.
 
-[[Pooling#Different Pooling Strategies |Read more about Different Pooling Strategies]]
+[[Pooling Layer#Different Pooling Strategies|Read more about Different Pooling Strategies]]
 
 ### Local and Global Aggregation
 For `Point Segmentation`, we need both local & global features.

@@ -6,6 +6,9 @@
 ---
 ## Architecture
 `BEVDet` follows a similar architecture as used in `BEV Semantic Segmentation models`.
+
+![BEVDeT](https://notes-media.kthiha.com/BEVDET/8167f6dd5762f49a9327823c48583afd.png)
+
 It consists of
 - `Image View Encoder`: Encoding features in image view
 - `View Transformer`: Transforming features from image to BEV
@@ -15,7 +18,7 @@ It consists of
 ### Image-View Encoder
 Encodes input features into high level features.
 
-- `Backbone`: [[ResNet]] and [[SwimTransformer]] for high-level feature extraction
+- `Backbone`: [[ResNet(2015)]] and [[SwimTransformer]] for high-level feature extraction
 - `Neck`: [[Lift, Splat, Shoot|FPN-LSS]] for multi-resolution feature fusion
 
 ### View Transformer
@@ -24,7 +27,7 @@ Transforms the features from image into BEV.
 - Takes `image-view feature` as input.
 - Densely predicts the `depth` through a classification manner.
 - Classification scores and the derived image-view feature are used in rendering the predefined `point cloud`.
-- Apply a [[Pooling|pooling operation]] along the vertical direction to generate BEV Features.
+- Apply a [[Pooling Layer|pooling operation]] along the vertical direction to generate BEV Features.
 
 ### BEV Encoder
 Further encodes the feature in the BEV space.
@@ -32,7 +35,7 @@ Further encodes the feature in the BEV space.
 Compared to [[#Image-View Encoder]], it perceives some pivotal cues with high precision like scale, orientation, and velocity.
 
 Similar to [[Lift, Splat, Shoot]], it uses
-- [[ResNet]] to construct the backbone
+- [[ResNet(2015)]] to construct the backbone
 - [[Lift, Splat, Shoot|FPN-LSS]] to combine the features with different resolution
 
 ### 3D Object Detection Head
