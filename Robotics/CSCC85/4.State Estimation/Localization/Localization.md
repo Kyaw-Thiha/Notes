@@ -8,8 +8,7 @@ In most applications, [[GPS]] can be used to determine the location.
 However, it does not work indoors and can be inaccurate.
 
 ---
-
-`Probabilistic Localization Model`
+## Probabilistic Localization Model
 
 The belief $(\text{of how likely particular states are})$ is defined as
 $$
@@ -21,7 +20,8 @@ where
 - $x_{k}$ is the current state being estimated
 - $d_{i}$, $i\in \{ 0, \dots, k \}$ is the measurement at $\text{step-i}$
 
-`Markovian Localization`
+---
+## Markovian Localization
 Assuming the [[Markov Property]], we get
 $$
 Bel(x_{k}) 
@@ -37,17 +37,19 @@ where
 ---
 ## Localization Methods
 
-`Histogram Localization`
+### Histogram Localization
 Histogram localization is a discrete Bayes filter over a grid of states.
+
 [[Histogram Localization|Read More]]
 
-`Particle-Filter Localization`
+### Particle-Filter Localization
 Particle-Filter localization is a [[Monte Carlo Methods|Monte Carlo Estimation]] that  represents uncertainty by simulating many particles.
-[[Monte-Carlo Localization|Read More]]
+
+[[Monte-Carlo Localization (MCL)|Read More]]
 
 ---
 ## See Also
 - [Paco's Notes](https://www.cs.utoronto.ca/~strider/docs/C85_Localization.pdf)
 - [[GPS]]
 - [[Histogram Localization]]
-- [[Monte-Carlo Localization]]
+- [[Monte-Carlo Localization (MCL)]]

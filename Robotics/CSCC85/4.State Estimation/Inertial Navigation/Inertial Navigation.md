@@ -1,6 +1,6 @@
 # Inertial Navigation
 #robotics/localization/inertial-navigation
-`Inertial Navigation` performs dead-reckoning [[Localization]] by integrating sensor data to estimate robot's state.
+[[Inertial Navigation|Inertial navigation]] performs dead-reckoning [[Localization|localization]] by integrating sensor data to estimate robot's state.
 
 ![Inertial Navigation|300](https://timeandnavigation.si.edu/sites/default/files/multimedia-assets/500-si_fl_inertial_nav_18_fa_flat_rev_5-15.jpg)
 
@@ -15,6 +15,11 @@ Three [[Accelerometer]] oriented orthogonally are needed for 3 axis of motion.
 Likewise, three [[Gyroscope]] are needed for 3 axis of rotation.
 
 ---
+## Algorithm Idea
+- Obtain accurate initial position/orientation
+- Loop. Update state vector $\bar{X} = [x \quad y \quad z \quad \theta \quad \phi \quad \alpha]$ at small time intervals.
+
+---
 ### Computing Position and Orientation
 From the acceleration data provided by sensor,
 - `Orientation`: Integrating angle's rate of change over time
@@ -24,26 +29,28 @@ From the acceleration data provided by sensor,
 ---
 ## Coordinate Frames
 To determine robot's orientation, we need two coordinate frames
-- `Global Coordinate Frame`
-  Describes position and orientation of robot as well as its environment $w.r.t$ predefined point chosen as origin
-- `Body Coordinate Frame`
-  Consists of central location (center of robot), and direction of coordinate axes aligned with robot's body
+> **Global Coordinate Frame**
+> Describes position and orientation of robot as well as its environment $w.r.t$ predefined point chosen as origin
 
+> **Body Coordinate Frame**
+> Consists of central location (center of robot), and direction of coordinate axes aligned with robot's body
+
+---
 ### Orientation
-
 `Orientation Conversion`
 For orientation conversion,
 $$
 \vec{g} = C \ . \ \vec{b}
 $$
 where
-- $C$ is the $3 \times 3$ `rotation matrix`
+- $C$ is the $3 \times 3$ [[SO(3) Rotation|rotation matrix]]
 - $\vec{g}$ is the `global coordinate frame`
 - $\vec{b}$ is the `body coordinate frame`
 
 We compute the rotation matrix $C$ by integrating the angle rate of change provided by gryo sensors.
 
-`Updating rotation matrix`
+---
+## Estimating Rotation
 Using the [derivation here](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-696.pdf), we get
 $$
 C(t + \delta t)
@@ -54,7 +61,7 @@ where
 - $I$ is the $3 \times 3$ identity matrix
 - $\sigma = |\vec{w}_{b} \ \delta t|$ where $\vec{w}_{b} = [w_{bx} \quad w_{by} \quad w_{bz}]$ is the the rate of change along body coordinate frame coordinate axes.
 - $\delta t$ is the change in time
-- 
+
 $$
 B = \begin{bmatrix}
 0 & -w_{bz} \ \delta t & w_{by} \ \delta t \\
@@ -63,10 +70,10 @@ w_{bz} \ \delta t & 0 & -w_{bx} \ \delta t \\
 \end{bmatrix}
 $$
 
-### Position
-
-`Estimating Position`
-For converting the acceleration,
+---
+## Estimating Position
+### Acceleration
+For converting the acceleration from egocentric to global coordinate frame,
 $$
 \vec{a}_{g}(t) = C(t) \cdot \vec{a}_{b}(t)
 $$
@@ -75,6 +82,8 @@ where
 - $\vec{a_{b}}(t) = [a_{bx}(t) \quad a_{by}(t) \quad a_{bz}(t)]$ is the `body coordinate frame`
 - $\vec{a_{g}}(t)$ is the `global coordinate frame` at time $t$
 
+---
+### Velocity
 Given the acceleration vector in global coordinate frame,
 $$
 \vec{v}_{g} (t + \delta t)
@@ -85,6 +94,8 @@ Note that
 - We are using [[First-Order Taylor Expansion]]
 - We are compensating for gravity
 
+---
+### Position
 Given the velocity vector in global coordinate frame,
 $$
 \vec{s}_{g}(t + \delta t)
@@ -93,7 +104,7 @@ $$
 we get the position vector.
 
 ---
-`Drift`
+## Drift
 Note that we have inaccuracies due to
 - Noise is gyrometer and accelerometer
 - Approximation from [[First-Order Taylor Expansion|Taylor's Approximation]]
@@ -103,12 +114,13 @@ This error introduced into the estimation process for orientation, velocity, and
 
 This error can be significant over longer intervals of time.
 
-`How is it useful?`
-Given problem of `drift`, inertial navigation is not reliable over long intervals of time.
+---
+### How is it useful?
+Given problem of [[#Drift|drift]], inertial navigation is not reliable over long intervals of time.
 
 However for shorter intervals, it is useful for
-- Situations [[Localization]] doesn't work $(\text{e.g lack of distinct landmarks})$
-- [[GPS]] is unavailable $(\text{E.g: Urban Environment, Mars})$
+- Situations [[Localization|localization]] doesn't work $(\text{e.g lack of distinct landmarks})$
+- [[GPS|GPS]] is unavailable $(\text{E.g: Urban Environment, Mars})$
 - `Motion Compensation` $(\text{E.g: Drone compensating against wind})$
 
 ---

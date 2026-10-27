@@ -1,6 +1,7 @@
 # Monte-Carlo Localization
 #robotics/localization/particle-filter #robotics/localization/monte-carlo
-$\text{Monte-Carlo Localization (MCL)}$ $[\text{Particle-Filter Localization}]$ is a [[Localization]] technique that represents uncertainty by using many particles that 
+
+[[Monte-Carlo Localization (MCL)|Particle-Filter Localization]] is a [[Localization]] technique that represents uncertainty by using many particles that 
 - are moved
 - weighted by sensor data, and
 - resampled to converge on true location.
@@ -8,32 +9,68 @@ $\text{Monte-Carlo Localization (MCL)}$ $[\text{Particle-Filter Localization}]$ 
 ![Monte-Carlo Localization|400](https://assets.omscs.io/notes/particle-filters.gif)
 
 ---
-### Main Mechanism
+## Algorithm
+### $(1)$ Initialize
+> Initialize $N$ particles randomly.
+> Each particle will have
+$$
+\bar{X} = \begin{bmatrix}
+x \\[6pt]
+y \\[6pt]
+\theta \\[6pt]
+\end{bmatrix}
+$$
+> Then, we initialize the belief as $Bel_{i}(\bar{x}) = \frac{1}{N}$.
 
-The `particle-filter` runs a loop with 3 steps:
+---
+### $(2)$ Main Loop
+> $(2.1)$ Do an action
+> Simulate action on each particle according to the `motion model` with noise.
+> Nothing happens to $Bel_{i}(x)$
 
-`Action`
+> $(2.2)$ Take sensor measurement from Robot. This is the real measurement.
+> Simulate sensor readings from each particle.
+> Check agreement, and then update $Bel_{i}(x)$.
+
+> $(2.3)$ Re-normalize
+> To ensure $N$ particles probability adds up to $1$.
+
+---
+### $(3)$ Resample Particles
+> $(3.1)$ Create a new set of $N$ particles by random sampling from the current set with probability proportional to belief $p(\cdot) \propto Bel_{i}(\bar{x})$.
+
+> $(3.2)$ Sample randomly for $90\%$ proporional to belief as above.
+> Then, add $10\%$ of uniform sampling to ensure the robot could recover from bad convergence. 
+
+---
+## Main Mechanism
+
+The [[Monte-Carlo Localization (MCL)|particle filter]] runs a loop with 3 steps:
+
+### Action
 - The robot carries out a random or predefined action.
 - Each particles also update its state accordingly.
 - But it must model noise by using a `motion model`.
 
-`Sensing`
+---
+### Sensing
 - Each particle has `ground truth value` $(\text{GT})$ 
 - The robot obtain the sensor readings at the new pose.
 - Each particle compute the error between $\text{GT}$ and $\text{Sensor Readings}$
 - The error probability is computed using a `sensor model`
 - Re-normalize the beliefs across all particles.
 
-`Resampling`
+---
+### Resampling
 - Sample particles with probability proportional to $Bel(x_{i})$
 - To mitigate wrong convergence, a fixed percentage of particles $(\text{e.g: 5\%})$ is drawn uniformly.
 - Re-normalize the beliefs across the chosen particles. 
 
 ---
-### Mathematical Model
+## Mathematical Model
 `Particle Filtering` can be thought of as [[Monte Carlo Methods|Monte Carlo]] approximation of [[Histogram Localization|Bayesian Localization]].
 
-`State`
+### State
 Suppose the state modelled is position and heading direction. Then, 
 $$x_{i} = (x, y, \theta)$$
 
@@ -47,7 +84,8 @@ $$
 Bel(x) \approx \sum^N_{i=1} w_{i} \ \delta(x-x_{i})
 $$
 
-`Motion Model`
+---
+### Motion Model
 The action can be represented as
 $$
 x_{i}^{(t)}
@@ -62,7 +100,8 @@ d &= d_{original} + \mathcal{N}(0, \sigma^2) \\[6pt]
 \end{align}
 $$
 
-`Sensor Model`
+---
+### Sensor Model
 For each $\text{particle-}i$ and $\text{sensor ray-}j$,
 $$
 e_{ij} = GT_{ij} - z_{j}
@@ -91,7 +130,8 @@ $$
 Bel(x_{i}) \gets Bel(x_{i}) \ p(z \mid x_{i})
 $$
 
-`Resampling`
+---
+### Resampling
 The particles are sampled proportional to their belief
 $$
 x_{i} \sim Bel(x)
@@ -101,8 +141,8 @@ $$
 x_{i} \sim \text{Uniform}(0,1)
 $$
 
-`Note: Sensor Calibration`
-Note that a sensor calibration can be used instead of gaussian model for the motion and sensor.
+> **Sensor Calibration**
+> Note that a sensor calibration can be used instead of gaussian model for the motion and sensor.
 
 ---
 ## Limitations

@@ -1,7 +1,7 @@
 # Kalman Filter
 #kalman-filter/linear 
 
-`Kalman Filter` uses a system model to predict state variables while accounting for noise in sensing & actions.
+[[Kalman Filter (Linear)|Kalman Filter]] uses a system model to predict state variables while accounting for noise in sensing & actions.
 
 ![Kalman Filter|400](https://wirelesspi.com/wp-content/uploads/2024/05/figure-kalman-filter-conventional-algorithm.png)
 
@@ -21,8 +21,7 @@
 - This adjustment takes into account the `uncertainties` in the system and the sensor measurements.
 ---
 ## Model
-
-`System Model`
+### System Model
 The system model is given by
 $$
 \vec{x}_{t} 
@@ -39,7 +38,7 @@ where
 - $B$ relates `control inputs matrix`
 
 ---
-`Sensor Model`
+### Sensor Model
 The linear sensor model is given by
 $$
 \vec{z}_{t}
@@ -54,9 +53,8 @@ where
 - $H_{t}$ is the mapping between `state to sensor readings`
 
 ---
-`Process Covariance`
+### Process Covariance
 This `Process Covariance matrix` $P$ describes the uncertainty in the state variable estimates, and changes over time.
-
 - Each update is affected by random noise
 - Noise at $t=c$ will be factored into every update for $t>c$.
 - Hence, noise compounds over time.
@@ -64,11 +62,11 @@ This `Process Covariance matrix` $P$ describes the uncertainty in the state vari
 
 ---
 ## Algorithm
-The `Kalman Filter` consists of two steps: 
+The [[Kalman Filter|Kalman Filter]] consists of two steps: 
 - Prediction
 - Measurement Update
 
-`Prediction`
+### Prediction
 The prediction step is denoted as
 $$
 \begin{align}
@@ -85,35 +83,39 @@ where
 - $\hat{x}_{t-1}$ is the `final estimate` of state variables after completing both steps $(\text{prediction and measurement update})$ of the Kalman Filter in the previous timestep $t-1$
 - $\vec{u}_{t}$ is the `control input`
 
-and
+and for the second term, 
 - $\check{P}_{t}$ is the `predicted process covariance` of the first $(\text{prediction})$ step
 - $\hat{P}_{t-1}$ is the `final estimate of process covariance` after completing both steps $\text{(prediction and measurement update)}$ in the previous timestep $t-1$
-- $Q_{t}$ is the `Gaussian Covariance` of the system noise
+- $Q_{t}$ is the `Gaussian Covariance` of the system noise(linear model)
 
 ---
-`Prediction Notes`
-
-- Note that predicted state variables at time $t$ uses the `final Kalman estimate` of state variables at time $t-1$.
-  The same goes for process covariance too.
+#### Prediction Notes
+- Note that predicted state variables at time $t$ uses the `final Kalman estimate` of state variables at time $t-1$. The same goes for process covariance too.
 
 - $\text{Equation-(1)}$ simply applies the linear system to the previous Kalman estimate for the `state variables`, without the noise term.
 
-- Likewise, $\text{Equation-(2)}$ applies the linear system to the previous Kalman estimate of `uncertainty`.
-  But this time, it also injects new uncertainty in terms of $Q_{t}$.
+- Likewise, $\text{Equation-(2)}$ applies the linear system to the previous Kalman estimate of `uncertainty`. But this time, it also injects new uncertainty in terms of $Q_{t}$.
 
-Note that 
-$$
-\begin{align}
-&y = Ax \\[6pt]
-\implies &Cov(y) = APA^T
-\end{align}
-$$
+Note that $y=Ax \implies Cov(y) = APA^{T}$.
 
 ---
-`Measurement Update`
-Given $\text{step-1}$ predictions, KF uses sensor measurements the update the estimates of state variables.
+### Kalman Gain Update
+The Kalman Gain Update is given by
+$$
+K_{t} 
+= \check{P}_{t} H_{t}^T
+\ (H_{t} \check{P}_{t} H_{t}^T + R_{t})^{-1}
+$$
+where
+- $\check{P}_{t}$ is the `predicted process covariance` of the first $(\text{prediction})$ step
+- $H_{t}$ is the mapping between `state to sensor readings`
+- $R_{t}$ is the covariance of zero-mean Gaussian sensor noise
 
-The measurement update step is denoted as
+This is derived by optimizing over the $(\text{error covariances of the Kalman estimate})^2$ in order to get the estimate closest to the true state variable value.
+
+---
+### Measurement Update
+Given $\text{step-1}$ predictions, KF uses sensor measurements the update the estimates of state variables. The measurement update step is denoted as
 $$
 \begin{align}
 \hat{x}_{t}
@@ -131,14 +133,14 @@ where
 - $\check{x}_{t}$ is `predicted state variables` of the first $(\text{prediction})$ step
 - $\vec{z}_{t}$ is the `observed sensor measurement` at time $t$
 - $H_{t}$ is the mapping between `state to sensor readings`
-- $K_{t}$ is the `Kalman gain`
+- $K_{t}$ is the `Kalman gain`. A matrix with all the noise folded in that determines how much to update the state. 
 
 and
 - $\hat{P}_{t}$ is the `final estimate of process covariance` after completing both steps$\text{(prediction and measurement update)}$ at time $t$
 - $\check{P}_{t}$ is the `predicted process covariance` of the first $(\text{prediction})$ step
 
 ---
-`Measurement Update Notes`
+#### Measurement Update Notes
 In $\text{Equation-(3)}$, $(\vec{z}_{t} - H_{t} \ \check{x}_{t})$ is comparing the difference between 
 - sensor measurements $\vec{z}_{t}$ obtained at time $t$
 - and predicted sensor measurements $\check{x}_{t}$ from $\text{Equation-(1)}$ with $H_{t}$ from our sensor model
@@ -150,21 +152,6 @@ This means that
 - conversely if difference between our predicted state variables $\check{x}_{t}$ and corresponding sensor measurement $\vec{z}_{t}$ is large, adjustment will be large.
 
 In $\text{Equation-(4)}$, the measurement update reduces the `uncertainty` in our process.
-
----
-`Kalman Gain Update`
-The Kalman Gain Update is given by
-$$
-K_{t} 
-= \check{P}_{t} H_{t}^T
-\ (H_{t} \check{P}_{t} H_{t}^T + R_{t})^{-1}
-$$
-where
-- $\check{P}_{t}$ is the `predicted process covariance` of the first $(\text{prediction})$ step
-- $H_{t}$ is the mapping between `state to sensor readings`
-- $R_{t}$ is the covariance of zero-mean Gaussian sensor noise
-
-This is derived by optimizing over the $(\text{error covariances of the Kalman estimate})^2$ in order to get the estimate closest to the true state variable value.
 
 ---
 ## Limitations

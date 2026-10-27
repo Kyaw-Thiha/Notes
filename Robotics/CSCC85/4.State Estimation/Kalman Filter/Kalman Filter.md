@@ -1,10 +1,13 @@
 # Kalman Filter
 #kalman-filter 
-`Kalman Filter` estimates the true state of the system from noisy, inaccurate measurements over time.
+[[Kalman Filter|Kalman Filter]] estimates the true state of the system from noisy, inaccurate measurements over time.
 
 ![Kalman Filter|300](https://www.mathworks.com/videos/understanding-kalman-filters-part-3-optimal-state-estimator--1490710645421/_jcr_content/video.adapt.full.medium.jpg/1763309995099.jpg)
 
-
+---
+## Main Idea
+- Predict state variables given current value.
+- Combine with sensor measurement.
 
 ---
 ## See Also

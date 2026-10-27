@@ -1,20 +1,20 @@
 # Histogram Localization
 #robotics/localization/histogram #robotics/localization/bayesian
-`Histogram localization` is a discrete [[Bayes Rule|Bayes]] filter over a grid of states.
+
+[[Histogram Localization|Histogram localization]] is a discrete [[Bayes Rule|Bayes]] filter over a grid of states.
 
 ![Histogram Localization|300](https://www.researchgate.net/profile/Harry-Duong-Nguyen/publication/325809276/figure/fig5/AS:638364235595776@1529209302105/Occupancy-Grid-Map-of-multiple-spaces-stitched-into-a-common-map.png)
 It divides the map into a uniform grid of small regions, and estimates the probability per region. 
 
 ---
 ## Main Mechanism
-
-`Process`
+### Process
 The process for estimating the belief values consists of 2 steps.
 - `Sensing`: Carrying out sensor measurement
 - `Action`: Action is performed, and belief is updated based on the result.
 - `Normalize` after each sensing/action step
 
-`Mathematical Model`
+### Mathematical Model
 The process of computing $B(x_{k})$ is broken into 2 parts:
 $$
 \begin{align}
@@ -27,8 +27,15 @@ p(x_{k} \ | \ p_{x_{k-1}} \ , \ a_{k-1})
 $$
 where
 - $p(z_{k} \mid x_{k})$ is the `sensor model`
-- $\sum_{x_{k-1}} \ p(x_{k} \ | \ p_{x_{k-1}} \ , \ a_{k-1}) \ Bel(x_{k-1})$ is the `motion model`
+- $\sum_{x_{k-1}} \ p(x_{k} \ | \ p_{x_{k-1}} \ , \ a_{k-1}) \ Bel(x_{k-1})$ is the `motion model`. 
 - $\eta$ is the `normalization constant`
+
+### Steps Taken
+- Shift the belief according to the action. 
+	- Need to handle borders
+	- For cells with no info, give it a small value (say $0.01$)
+- Eval $p(z_{k} \mid x_{k})$ for each
+- Renormalize
 
 ---
 `Motion Model`
@@ -51,9 +58,9 @@ $$
   `Solution`: Ensure update process handle it.
   
 
-We can also consider using [[Monte-Carlo Localization]].
+We can also consider using [[Monte-Carlo Localization (MCL)]].
 
 ---
 ## See Also
 - [[Localization]]
-- [[Monte-Carlo Localization]]
+- [[Monte-Carlo Localization (MCL)]]
