@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UofT/STAB57 Intro to Stats/Week-7/Consistent Estimator.md",
+                "file": "UofT/STAB57 Intro to Stats/Week-7/STAB57 Week-7.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Consistent Estimator"
+              "title": "STAB57 Week-7"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5,
-    "collapsed": true
+    "width": 206.5
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -175,8 +174,10 @@
   },
   "active": "29dfb7c3d1af56b5",
   "lastOpenFiles": [
-    "UofT/STAB57 Intro to Stats/Week-7/Sufficient Statistics.md",
+    "UofT/STAB57 Intro to Stats/Week-7/Fisher Information.md",
+    "UofT/STAB57 Intro to Stats/Week-7/Score Function.md",
     "UofT/STAB57 Intro to Stats/Week-7/Consistent Estimator.md",
+    "UofT/STAB57 Intro to Stats/Week-7/Sufficient Statistics.md",
     "Robotics/CSC376/Week-7/Inverse Velocity Kinematics.md",
     "Robotics/CSC376/Week-7/Robotics Trajectory Generation.md",
     "UofT/STAB57 Intro to Stats/Week-7/STAB57 Week-7.md",
@@ -201,8 +202,6 @@
     "Robotics/CSC376/Week-4/Exponential Coordinates.md",
     "UofT/STAB57 Intro to Stats/Week-6/STAB57 Week-6 Tutorial.md",
     "UofT/C37 Numerical Methods/3. Non-Linear Methods/Methods/Newton's Method.md",
-    "UofT/STAB57 Intro to Stats/Week-5/STAB57 Week-5 Tutorial.md",
-    "Robotics/CSC376/Week-4/Screw Axis.md",
     "UofT/C73 Algorithms Design/7.",
     "Robotics/CSC376/Week-5",
     "Interviews/UTMIST 2026",
