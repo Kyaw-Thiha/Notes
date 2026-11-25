@@ -56,6 +56,13 @@ E\left[S(\theta \mid X)\right]\Big|_{\theta=\theta_0} = 0
 $$
 where the expectation is taken over $X$.
 
+Hence, it follows that
+$$
+E\left[S(\theta \mid X)\right]\Big|_{\theta=\theta_0} = 0
+\implies 
+E\left[S(\theta \mid X_{1}, X_{2}, \dots, X_{n})\right]\Big|_{\theta=\theta_0} = 0
+$$
+
 ---
 ### Example
 Let $X_1, X_2, \ldots, X_n \overset{iid}{\sim} \text{Pois}(\lambda)$ with the true value of $\lambda$ being $\lambda_{0}$.
@@ -68,5 +75,25 @@ E\left[S(\lambda \mid X_1, \ldots, X_n)\right] &= E\left[-n + \frac{\sum_i X_i}{
 \end{aligned}
 $$
 Thus, at $\lambda = \lambda_{0}$, we get that $E\left[S(\theta \mid X)\right]\Big|_{\theta=\theta_0} = 0$.
+
+---
+## Distribution of Score
+Recall that for a single observation $X$, we know that
+- [[Score Function|score]] is a random variable
+- its expectation is zero
+- its variance is $I(\theta_{0})$
+
+> And for multiple observations $X_{1}, \dots,X_{n},$ $S(\theta_{0} \mid X_{1}, \dots, X_{n}) = \sum_{i} S(\theta_{0} \mid X_{i})$ is the sum of $n$ independent random variables with same mean and variance. 
+
+---
+### Central Limit Theorem(Different Version)
+Suppose $X_{1}, \dots ,X_{n}$ are independently and identically distributed $(iid)$ with $E[X_{i}] = \mu$ and $var[X_{i}] = \sigma^{2}$. Then, 
+$$
+\sum^{n}_{i=1} X_{i} \overset{D}{\to} N(n\mu, \sigma^{2})
+$$
+Hence, we get that 
+$$
+S(\theta_{0} \mid X_{1}, X_{2}, \dots, X_{n}) \overset{D}{\to} N(0, nI(\theta_{0}))
+$$
 
 ---

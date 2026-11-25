@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "c2d0c4d551f5f13a",
+        "id": "b719884153722bf7",
         "type": "tabs",
         "children": [
           {
-            "id": "29dfb7c3d1af56b5",
+            "id": "617d3e8182c14808",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UofT/STAB57 Intro to Stats/Week-7/STAB57 Week-7.md",
+                "file": "UofT/PHLB17 Political Philosophy/Marx.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STAB57 Week-7"
+              "title": "Marx"
+            }
+          },
+          {
+            "id": "1d2d820754c6b533",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UofT/STAB57 Intro to Stats/Week-11/STAB57 Week-11.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "STAB57 Week-11"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5
+    "width": 206.5,
+    "collapsed": true
   },
   "right": {
     "id": "9581b2d08254f066",
@@ -172,44 +188,44 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "29dfb7c3d1af56b5",
+  "active": "1d2d820754c6b533",
   "lastOpenFiles": [
-    "UofT/STAB57 Intro to Stats/Week-7/Fisher Information.md",
-    "UofT/STAB57 Intro to Stats/Week-7/Score Function.md",
-    "UofT/STAB57 Intro to Stats/Week-7/Consistent Estimator.md",
-    "UofT/STAB57 Intro to Stats/Week-7/Sufficient Statistics.md",
-    "Robotics/CSC376/Week-7/Inverse Velocity Kinematics.md",
-    "Robotics/CSC376/Week-7/Robotics Trajectory Generation.md",
-    "UofT/STAB57 Intro to Stats/Week-7/STAB57 Week-7.md",
-    "UofT/STAB57 Intro to Stats/Week-7",
-    "Robotics/CSC376/Week-7/Time Scaling Trajectory.md",
-    "Robotics/CSC376/Week-2/(2.3)Config Space/Config Space(C-Space).md",
-    "Robotics/CSC376/Week-6/Analytical Inverse Kinematics.md",
-    "Robotics/CSC376/Week-7",
-    "Robotics/CSC376/Week-6/Arc Tangent.md",
-    "Robotics/CSC376/Week-6/Numerical Inverse Kinematics.md",
-    "Robotics/CSC376/Week-6/Law of Cosine.md",
-    "Robotics/CSC376/Week-6/Inverse Kinematics.md",
-    "Robotics/CSC376/Week-5/Manipulability Ellipsoid.md",
-    "Robotics/CSC376/Week-4/Product of Exponentials.md",
-    "Robotics/CSC376/Week-5/Kinematic Singularity.md",
-    "Robotics/CSC376/Week-5/Robot Jacobian.md",
-    "Robotics/CSC376/Week-5/Velocity Kinematics.md",
-    "Robotics/CSC376/Week-5/Twist.md",
-    "Robotics/CSC376/Week-5/CSC376 Week-5 Tutorial.md",
-    "Robotics/CSC376/Week-4/CSC376 Week-4.md",
-    "Robotics/CSC376/Week-4/CSC376 Week-4 Lab.md",
-    "Robotics/CSC376/Week-4/Exponential Coordinates.md",
-    "UofT/STAB57 Intro to Stats/Week-6/STAB57 Week-6 Tutorial.md",
-    "UofT/C37 Numerical Methods/3. Non-Linear Methods/Methods/Newton's Method.md",
-    "UofT/C73 Algorithms Design/7.",
-    "Robotics/CSC376/Week-5",
-    "Interviews/UTMIST 2026",
-    "Research Papers/World Models",
-    "Research Papers/Computer Vision",
-    "Research Papers/Computer Vision/Foundational Papers",
-    "Research Papers/Computer Vision/3D Object Detection",
-    "Robotics/CSC376/Week-6",
+    "Robotics/CSCC85/7. Path Planning/Intro to Robot Learning C85.md",
+    "UofT/STAB57 Intro to Stats/Week-11/STAB57 Week-11.md",
+    "UofT/STAB57 Intro to Stats/Week-11",
+    "Robotics/CSCC85/7. Path Planning/Path Planning C85.md",
+    "Classical ML/Models/PCA/Example/Finding the Orthogonal Matrix.md",
+    "Robotics/CSCC85/7. Path Planning",
+    "Classical ML/Models/PCA/Example/Eigenstructure of Symmetric Matrices.md",
+    "Classical ML/Models/PCA/Example/Rotating Coordinate System.md",
+    "Classical ML/Models/PCA/Example/Reconstruction Error.md",
+    "Classical ML/Models/PCA/Example/Perturbed Reconstruction Error.md",
+    "Classical ML/Models/PCA/Example/PCA Example.md",
+    "Classical ML/Models/PCA/Explained Variance Ratio.md",
+    "Classical ML/Models/PCA/Lagrange Multipliers.md",
+    "Classical ML/Models/PCA/Math Behind PCA.md",
+    "Classical ML/Models/PCA/PCA Algorithm.md",
+    "UofT/PHLB17 Political Philosophy/Pateman.md",
+    "UofT/STAB57 Intro to Stats/Week-10/STAB57 Week-10.md",
+    "UofT/STAB57 Intro to Stats/Week-9/STAB57 Week-9 Tutorial.md",
+    "UofT/STAB57 Intro to Stats/Week-10",
+    "Robotics/CSCC85/6. Computer Optimization/Code Optimization.md",
+    "UofT/B58 Computer Organization/8.Cache/Cache.md",
+    "UofT/B58 Computer Organization/8.Cache/Direct-Mapped Cache.md",
+    "UofT/B58 Computer Organization/8.Cache/Fully-Associative Cache.md",
+    "UofT/B58 Computer Organization/8.Cache/N-Way Set Associative Cache.md",
+    "UofT/B58 Computer Organization/7.Memory/Dynamic RAM(DRAM).md",
+    "UofT/B58 Computer Organization/7.Memory/Static RAM(SRAM).md",
+    "UofT/C73 Algorithms Design/CSCC73 Course.md",
+    "Robotics/CSCC85/6. Computer Optimization",
+    "UofT/PHLB17 Political Philosophy/Rawls-2.md",
+    "UofT/PHLB17 Political Philosophy/Rawls (Social Contract Theory).md",
+    "UofT/STAB57 Intro to Stats/Week-9",
+    "UofT/STAB57 Intro to Stats/Week-9",
+    "Robotics/CSCC85/5. FSM",
+    "UofT/C73 Algorithms Design/9.",
+    "UofT/STAB57 Intro to Stats/Week-8",
+    "Robotics/CSC376/Week-8",
     "Untitled.canvas",
     "Robotics/CSCC85/1.Fault Tolerance/attachments/Pasted image 20251223165433.png",
     "Robotics/CSCC85/1.Fault Tolerance/attachments/Pasted image 20251223171512.png",
